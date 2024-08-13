@@ -3,7 +3,7 @@
 <link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
 
 # Prerequisites for Using the Transport Requests Overview
-
+ 
 To use the transport requests overview, you must open it and have the appropriate authorizations.
 
 -   The following authorizations are required depending on the action that you want to perform:
