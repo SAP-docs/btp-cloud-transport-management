@@ -1,7 +1,7 @@
 <!-- loioe8d5187d1352430aacbe04d4f3b0eb62 -->
 
 # Background Information: Storage Capacity
-
+ 
 The storage capacity for files uploaded to SAP Cloud Transport Management service is limited for each subscription.
 
 The total capacity as well as the retention time of files that were uploaded to the service depends on the service plan you have for the service. Each individual file that is uploaded to SAP Cloud Transport Management can have a maximum size of 1 GB.
