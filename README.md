@@ -11,9 +11,9 @@ For contributions, it's required that you have a GitHub account. For more inform
 
 ## Contributing
 
-We recommend using the YOUR-DOCUMENTATION documentation on SAP Help Portal as a starting point for contributions:
+We recommend using the [SAP Cloud Transport Management](https://help.sap.com/docs/TRANSPORT_MANAGEMENT_SERVICE/7f7160ec0d8546c6b3eab72fb5ad6fd8/5fef9d6b1cb047b2b18d9eb57aa15352.html?locale=en-US&state=PRODUCTION&version=Cloud) documentation on SAP Help Portal as a starting point for contributions:
 
-1. Open the [SAP Cloud Transport Management Documentation](https://help.sap.com/docs/cloud-transport-management?version=Cloud).
+1. Open the [SAP Cloud Transport Management Documentation](https://help.sap.com/docs/TRANSPORT_MANAGEMENT_SERVICE/7f7160ec0d8546c6b3eab72fb5ad6fd8/5fef9d6b1cb047b2b18d9eb57aa15352.html?locale=en-US&state=PRODUCTION&version=Cloud).
 1. You can either:
     * Choose *Feedback* > *Edit page* to suggest a change for the current page you see in the Help Portal viewer, or
     * Choose *Feedback* > *Create issue* to open a GitHub issue in this repository.
