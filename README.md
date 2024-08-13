@@ -5,7 +5,7 @@
 Found a mistake in our documentation? Always wanted to add a step in one of our procedures that could save many others much time? Then you're at the right place! All contributions made to the Markdown files in the [docs](docs) directory are reviewed, and if deemed valuable be added to our [official documentation on SAP Help Portal](https://help.sap.com/docs/cloud-transport-management?version=Cloud). The easiest way is to start there, and choose _Edit_ to find the right Markdown file to contribute to.
 
 ## Requirements
-
+ 
 For contributions, it's required that you have a GitHub account. For more information, see [Signing up for a new GitHub account](https://docs.github.com/en/github/getting-started-with-github/signing-up-for-a-new-github-account) in the GitHub documentation.
 
 
