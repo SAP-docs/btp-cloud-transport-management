@@ -98,7 +98,7 @@ Regularly check audit log data for unusual or suspicious network and system beha
 <tr>
 <td valign="top">
 
-Use the public APIs of the service to create your own monitoring scripts. The APIs are available at [https://api.sap.com/api/TMS\_v2/overview](https://api.sap.com/api/TMS_v2/overview) 
+Use the public APIs of the service to create your own monitoring scripts, for example by retrieving and processing the transport logs. The APIs are available at [https://api.sap.com/api/TMS\_v2/overview](https://api.sap.com/api/TMS_v2/overview) 
 
 </td>
 <td valign="top">

@@ -2,12 +2,22 @@
 
 # Administration
 
-Learn about administration tasks that you can perform for SAP Cloud Transport Management service.
+Learn about administration tasks that account administrators may need to perform on a regular basis or on demand to configure the service and ensure proper operation.
+
+> ### Note:  
+> The initial setup of the service is already done. For more information, see [Initial Setup](../10-initial-setup/initial-setup-66fd728.md).
+
+> ### Tip:  
+> SAP Cloud Transport Management service is an *additional* service that must be integrated into the existing development processes of the cloud services or applications whose content it transports. Moreover, the service can be integrated into the change management processes of other services or tools. We recommend that you always start reading the documentation of the application whose content you want to transport to learn about the required configuration tasks.
+
+The following table contains an overview of regular or on demand administration and configuration tasks:
+
+**Overview of Administration Tasks**
 
 
 <table>
 <tr>
-<th valign="top">
+<th valign="top" colspan="2">
 
 Task
 
@@ -19,7 +29,48 @@ More Information
 </th>
 </tr>
 <tr>
+<td valign="top" colspan="2">
+
+Configure your transport landscape. Configuration tasks include:
+
+-   If your application supports transporting content archives directly in your application: Configuring the export processes in your development environment. You usually do this by creating a destination to the SAP Cloud Transport Management service. The configuration depends on the content you want to transport. If you want to transport SAP Cloud Integration content, for example, you need to configure an SAP Content Agent service instance and different destinations.
+
+    For more information, see [Create Destinations to SAP Cloud Transport Management Service](../20-configure-landscape/create-destinations-to-sap-cloud-transport-management-service-795f733.md#loio795f7337e5d943df98c961303b02678b).
+
+    Some integrations don't require that you create a destination pointing to SAP Cloud Transport Management service. Instead, you must upload the service key of the SAP Cloud Transport Management service instance directly into the application. For example, this is the case for the SAP Continuous Integration and Delivery service.
+
+-   Creating transport nodes representing your landscape , and creating transport routes between the nodes.
+
+    For more information, see [Create Transport Nodes](../20-configure-landscape/create-transport-nodes-f71a4d5.md) and [Create Transport Routes](../20-configure-landscape/create-transport-routes-dddb749.md).
+
+-   Configuring the import processes. That is, creating transport destinations used to address the target end point of a deployment process.
+
+    For more information, see [Create Transport Destinations](../20-configure-landscape/create-transport-destinations-c9905c1.md).
+
+
+In addition, you can integrate SAP Cloud Transport Management service with change management tools, such as SAP Cloud ALM Feature Management to handle the deployment to the target environments. For more information, see [Integrating SAP Cloud Transport Management service with SAP Cloud ALM](../70-integrations/integrating-the-service-7e966f7.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__calm).
+
+</td>
 <td valign="top">
+
+[Configuring the Landscape](../20-configure-landscape/configuring-the-landscape-3e7b042.md)
+
+</td>
+</tr>
+<tr>
+<td valign="top" colspan="2">
+
+Grant user roles available for SAP Cloud Transport Management according to the tasks users need to perform.
+
+</td>
+<td valign="top">
+
+[Security](../60-security/security-51939a4.md)
+
+</td>
+</tr>
+<tr>
+<td valign="top" colspan="2">
 
 Configure archiving settings for the transport actions that take place in your subaccount.
 
@@ -31,33 +82,9 @@ Configure archiving settings for the transport actions that take place in your s
 </td>
 </tr>
 <tr>
-<td valign="top">
+<td valign="top" colspan="2">
 
-Regularly check the logs of the transport actions.
-
-</td>
-<td valign="top">
-
-[Transport Action Logs](../transport-action-logs-86319ed.md)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Regularly check the landscape action log for unexpected changes to the landscape.
-
-</td>
-<td valign="top">
-
-[Landscape Action Logs](../landscape-action-logs-7b630db.md)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Configure SAP Cloud Transport Management to send e-mail notifications for import actions.
+Configure SAP Cloud Transport Management service to send notifications using SAP Alert Notification Service for actions started in the service, such as the creation of a transport request and the start and completion of an import.
 
 </td>
 <td valign="top">
@@ -67,21 +94,9 @@ Configure SAP Cloud Transport Management to send e-mail notifications for import
 </td>
 </tr>
 <tr>
-<td valign="top">
+<td valign="top" colspan="2">
 
-Regularly check audit log data for unusual or suspicious network and system behavior.
-
-</td>
-<td valign="top">
-
-[Auditing and Logging Information](../60-security/auditing-and-logging-information-9e3ee94.md)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-If required by your company policies, you can export and download specific data in SAP Cloud Transport Management.
+Determine, if the backup functions of SAP Cloud Transport Management are sufficient, or if your company policies require additional manual exports or downloads of specific data.
 
 </td>
 <td valign="top">
@@ -91,7 +106,7 @@ If required by your company policies, you can export and download specific data 
 </td>
 </tr>
 <tr>
-<td valign="top">
+<td valign="top" colspan="2">
 
 Manage the storage space available in your subaccount.
 
@@ -103,26 +118,14 @@ Manage the storage space available in your subaccount.
 </td>
 </tr>
 <tr>
-<td valign="top">
+<td valign="top" colspan="2">
 
-Grant user roles available for SAP Cloud Transport Management according to the tasks the user need to perform.
-
-</td>
-<td valign="top">
-
-[Security](../60-security/security-51939a4.md)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Get support if things start to go wrong.
+To access additional features of the SAP Cloud Transport Management user interface, update the service \(application\) plan.
 
 </td>
 <td valign="top">
 
-[Monitoring and Troubleshooting](../monitoring-and-troubleshooting-c39411d.md)
+[Updating the Service Plan](updating-the-service-plan-1717e87.md)
 
 </td>
 </tr>

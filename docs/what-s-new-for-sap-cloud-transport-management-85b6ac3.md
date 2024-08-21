@@ -92,6 +92,79 @@ Cloud Transport Management
 </td>
 <td valign="top">
 
+Documentation enhancements
+
+</td>
+<td valign="top">
+
+The following topic was enhanced:
+
+-   [Administration](50-administration/administration-1fe3030.md)
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Application Development and Integration
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Cloud Transport Management
+
+</td>
+<td valign="top">
+
+2024-08-21
+
+</td>
+<td valign="top">
+
+2024-08-21
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Cloud Transport Management 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 New auto-forward modes available for transport nodes. In addition, the previous default value *Auto* was renamed to *Pre-Import*.
 
 </td>
@@ -166,7 +239,7 @@ Cloud Transport Management
 </td>
 <td valign="top">
 
-The English version of the SAP Cloud Transport Management documentaion is now open for contributions and feedback using GitHub.
+The English version of the SAP Cloud Transport Management documentation is now open for contributions and feedback using GitHub.
 
 </td>
 <td valign="top">

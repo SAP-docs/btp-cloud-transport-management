@@ -54,5 +54,6 @@ When submitting the incident, we recommend including the following information:
 -   Subaccount technical name
 -   The URL of the page where the incident or error occurs
 -   The steps or clicks used to replicate the error
+-   Relevant sections of the transport logs
 -   Screenshots, or videos
 
