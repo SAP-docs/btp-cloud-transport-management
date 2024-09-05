@@ -185,10 +185,7 @@ To address the target end point of the deployment process of MTA Deployment on C
 
     You can use your corporate \(custom\) identity provider for the transport destination. To do this, the following prerequisites must be fulfilled:
 
-    -   You've registered your custom identity provider with SAP as described in one of the following topics:
-
-        -   Feature Set B: [Establish Trust and Federation of Custom Identity Providers for Platform Users \[Feature Set B\]](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/c36898473d704e07a33268c9f9d29515.html?locale=en-US)
-        -   Feature Set A: [Establish Trust and Federation of Custom Identity Providers for Platform Users in Multi-Environment Subaccounts \[Feature Set A\]](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/8600afb350114462ae8b3475a3ccea54.html?locale=en-US).
+    -   You've registered your custom identity provider with SAP as described under [Establish Trust and Federation of Custom Identity Providers for Platform Users](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/c36898473d704e07a33268c9f9d29515.html?locale=en-US).
 
     -   You've enabled automated logon with your custom identity provider as described under [Log On as a Technical User with a Custom Identity Provider](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/98ec56a6dd4347b6ad466aaab19ded02.html?locale=en-US).
 

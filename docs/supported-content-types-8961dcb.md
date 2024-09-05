@@ -10,6 +10,9 @@ SAP Cloud Transport Management service can be used to transport the following en
 
     MTAs can consist of a cloud application itself, or content created in a cloud application, which you want to transport between two subaccounts. For example, SAP Cloud Integration content is packaged and transported as an MTA.
 
+    > ### Restriction:  
+    > Transporting MTAs without modules is not supported.
+
 -   **BTP ABAP**: references to ABAP objects in a Git repository between different SAP BTP, ABAP environment instances. A reference can consist of the name of the software component, the commit ID, the branch name, and the tag name. When a reference of type *BTP ABAP* is imported, the referenced content of the Git repository is pulled to the target instance.
 -   **Application content** transported in an application-specific format between different cloud subaccounts and tenants
 
