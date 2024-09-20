@@ -7,9 +7,6 @@ To define access of your subaccount to SAP Cloud Transport Management service, a
 > ### Note:  
 > If you are using this service as part of SAP Build Code, follow the [SAP Build Code Initial Setup](https://help.sap.com/docs/build_code/d0d8f5bfc3d640478854e6f4e7c7584a/07698d7c31284e4db370acdf017cfd14.html?version=SHIP) instructions instead.
 
-> ### Note:  
-> If you use SAP Cloud Transport Management integrated in SAP Cloud ALM, proceed as described under [Enabling SAP Cloud ALM API](https://help.sap.com/docs/CloudALM/08879d094f3b4de3ac67832f4a56a6de/704b5dc854f549888a238f94015e1eac.html?locale=en-US). Depending on the provisioning date of your SAP Cloud ALM tenant, different steps are required. It is possible that the entitlements are already configured.
-
 
 <table>
 <tr>

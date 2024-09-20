@@ -140,7 +140,7 @@ Create transport nodes as representations of the source and target end points of
     </td>
     <td valign="top">
     
-    For target nodes used with Change Request Management or Quality Gate Management of SAP Solution Manager, select this checkbox. As a result, there's no option to manually start imports into such a transport node. You can also use it for target nodes used with Cloud ALM.
+    For target nodes used with Change Request Management or Quality Gate Management of SAP Solution Manager, select this checkbox. As a result, there's no option to manually start imports into such a transport node.
 
     > ### Note:  
     > This option isn't available when using the *Transport Landscape Wizard*.

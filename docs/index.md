@@ -35,7 +35,7 @@
     -   [Create Transport Routes](20-configure-landscape/create-transport-routes-dddb749.md)
     -   [Use the Transport Landscape Wizard](20-configure-landscape/use-the-transport-landscape-wizard-f14192e.md)
     -   [Create Destinations to SAP Cloud Transport Management Service](20-configure-landscape/create-destinations-to-sap-cloud-transport-management-service-795f733.md#loio795f7337e5d943df98c961303b02678b)
-        -   [Sample Configurations of Destinations to SAP Cloud Transport Management](20-configure-landscape/create-destinations-to-sap-cloud-transport-management-service-795f733.md#loio75fe5d4b4fa3492c87ef6be32ea0b819)
+        -   [Example: Destination to SAP Cloud Transport Management](20-configure-landscape/create-destinations-to-sap-cloud-transport-management-service-795f733.md#loio75fe5d4b4fa3492c87ef6be32ea0b819)
 -   [Using the Landscape Visualization](using-the-landscape-visualization-9fea4f2.md)
 -   [Using the Import Queue](30-using-import-queue/using-the-import-queue-3c4b6f3.md)
     -   [Prerequisites for Using the Import Queue](30-using-import-queue/prerequisites-for-using-the-import-queue-dd661c7.md)

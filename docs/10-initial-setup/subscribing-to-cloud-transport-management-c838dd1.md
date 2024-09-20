@@ -9,9 +9,6 @@ To enable the usage of the user interface of SAP Cloud Transport Management serv
 > ### Note:  
 > If you are using this service as part of SAP Build Code, follow the [SAP Build Code Initial Setup](https://help.sap.com/docs/build_code/d0d8f5bfc3d640478854e6f4e7c7584a/07698d7c31284e4db370acdf017cfd14.html?version=SHIP) instructions instead.
 
-> ### Note:  
-> This step isn't necessary if you use the integration of SAP Cloud Transport Management in SAP Cloud ALM. The subscription to SAP Cloud Transport Management is already configured in your SAP Cloud ALM subaccount. No extra setup is required. For more information, see [SAP Cloud Transport Management Service](https://help.sap.com/docs/CloudALM/08879d094f3b4de3ac67832f4a56a6de/730ae36cc6ca419aae747012015cc686.html?locale=en-US) in the SAP Cloud ALM documentation.
-
 
 
 <a name="copyc838dd1bb2b34b78b8cf836ad40e6f4a__section_fry_gwd_4yb"/>

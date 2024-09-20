@@ -28,6 +28,7 @@ In SAP Cloud Transport Management, transport routes are used to connect transpor
 You can use the Transport Landscape Wizard to configure the transport nodes and transport routes of simple transport landscapes.
 -   **[Create Destinations to SAP Cloud Transport Management Service](create-destinations-to-sap-cloud-transport-management-service-795f733.md#loio795f7337e5d943df98c961303b02678b "If you use SAP Cloud Transport Management service to
 		start the transport directly in your application, a destination to SAP Cloud Transport Management service is required in the source
-		(development) environment of your application.")**  
-If you use SAP Cloud Transport Management service to start the transport directly in your application, a destination to SAP Cloud Transport Management service is required in the source \(development\) environment of your application.
+		(development) environment of your application. This destination is used to export content
+		from your source environment to SAP Cloud Transport Management.")**  
+If you use SAP Cloud Transport Management service to start the transport directly in your application, a destination to SAP Cloud Transport Management service is required in the source \(development\) environment of your application. This destination is used to export content from your source environment to SAP Cloud Transport Management.
 

@@ -2,7 +2,7 @@
 
 # Create Destinations to SAP Cloud Transport Management Service
 
-If you use SAP Cloud Transport Management service to start the transport directly in your application, a destination to SAP Cloud Transport Management service is required in the source \(development\) environment of your application.
+If you use SAP Cloud Transport Management service to start the transport directly in your application, a destination to SAP Cloud Transport Management service is required in the source \(development\) environment of your application. This destination is used to export content from your source environment to SAP Cloud Transport Management.
 
 
 
@@ -46,45 +46,35 @@ In the source environment of your application, create a destination to SAP Cloud
 
 -   SAP BTP, Cloud Foundry Environment
 
-    The specific details for your application may depend on different criteria, such as the following:
+    The specific details for your application may depend on different criteria, such as whether SAP Content Agent service is used to export the content into `.mtar` files before handing them over to SAP Cloud Transport Management.
 
-    -   Is SAP Content Agent service used to export the content into `.mtar` files before handing them over to SAP Cloud Transport Management?
+    For SAP Cloud Integration content, see [Enabling Content Transport, Cloud Foundry Enviroment](https://help.sap.com/docs/CLOUD_INTEGRATION/368c481cd6954bdfa5d0435479fd4eaf/452c677debfc4fda904310560ab03743.html?locale=en-US).
 
-        For SAP Cloud Integration content, see [Enabling Content Transport, Cloud Foundry Enviroment](https://help.sap.com/docs/CLOUD_INTEGRATION/368c481cd6954bdfa5d0435479fd4eaf/452c677debfc4fda904310560ab03743.html?locale=en-US).
-
-    -   Does your application use the transport capabilities of SAP Cloud Application Lifecycle Management \(SAP Cloud ALM\) in combination with SAP Cloud Transport Management?
-
-        In this case, you retrieve the connection details from the service key of the SAP Cloud ALM API instance instead of the service key of the SAP Cloud Transport Management instance.
-
-
-    For more information, see the examples described in topic [Sample Configurations of Destinations to SAP Cloud Transport Management](create-destinations-to-sap-cloud-transport-management-service-795f733.md#loio75fe5d4b4fa3492c87ef6be32ea0b819).
+    For an example, see [Example: Destination to SAP Cloud Transport Management](create-destinations-to-sap-cloud-transport-management-service-795f733.md#loio75fe5d4b4fa3492c87ef6be32ea0b819).
 
 -   SAP BTP, Neo Environment
 
-    If your application runs in the SAP BTP, Neo environment, you define the destinations in the SAP Solution Lifecycle Management service.
+    If your application runs in the SAP BTP, Neo environment, you define the destinations to SAP Cloud Transport Management in the SAP Solution Lifecycle Management service.
 
     For more information about how to configure destinations in SAP BTP, Neo, see [Set Up Direct Uploads of MTA Archives Using the Transport Management Service](https://help.sap.com/docs/BTP/ea72206b834e4ace9cd834feed6c0e09/af84d67f4be24542ac5e46f613a99435.html?locale=en-US).
 
-    For SAP Cloud Integration content, see also [Content Transport Using Transport Management Service](https://help.sap.com/viewer/368c481cd6954bdfa5d0435479fd4eaf/Cloud/en-US/d458b172b98d4112a08499541fddfc54.html?locale=en-US).
+    For SAP Cloud Integration, see also [Enabling Content Transport, Neo Environment](https://help.sap.com/docs/CLOUD_INTEGRATION/368c481cd6954bdfa5d0435479fd4eaf/425db2bb73e74783801df7a1d81cacfc.html?locale=en-US).
 
+
+**Related Information**  
+
+
+[Integration in Development and Change Management Processes and with Other Services](../70-integrations/integrating-the-service-7e966f7.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb "SAP Cloud Transport Management is used to transport content of other cloud services. For the following integrations, more information is available:")
 
 <a name="loio75fe5d4b4fa3492c87ef6be32ea0b819"/>
 
 <!-- loio75fe5d4b4fa3492c87ef6be32ea0b819 -->
 
-## Sample Configurations of Destinations to SAP Cloud Transport Management
+## Example: Destination to SAP Cloud Transport Management
 
-The following are sample configurations of destinations to SAP Cloud Transport Management to transport SAP Cloud Integration content.
+The following is a sample configuration of a destination to SAP Cloud Transport Management to transport SAP Cloud Integration content in SAP BTP, Cloud Foundry.
 
-
-
-These examples serve as illustrations to help you better understand how to configure destinations to SAP Cloud Transport Management.
-
-The examples cover the following use cases:
-
-
-
-### Use Case 1: Transporting SAP Cloud Integration content in SAP BTP, Cloud Foundry environment using SAP Content Agent service to export integration content to `.mtar` files and handing them over to SAP Cloud Transport Management.
+In this example, SAP Content Agent service is used to export the integration content to `.mtar` files and to hand them over to SAP Cloud Transport Management.
 
 The destination contains the connection details to the SAP Cloud Transport Management instance to which SAP Content Agent service sends the exported SAP Cloud Integration content.
 
@@ -92,14 +82,13 @@ You retrieve the required connection details from the service key of the SAP Clo
 
 
 
-### Use Case 2: Using SAP Cloud ALM to orchestrate the transport of SAP Cloud Integration content in SAP BTP, Cloud Foundry environment using SAP Content Agent service to export integration content to `.mtar` files and handing them over to SAP Cloud Transport Management.
 
-You retrieve the required connection details from the service key of the SAP Cloud Transport Management instance that is used for the transport.
 
-> ### Note:  
-> Previously, when using SAP Cloud ALM, the destination to SAP Cloud Transport Management had to be configured containing the details of the SAP Cloud ALM API instance calling the SAP Cloud Transport Management instance. If you've configured the destination this way, you can continue to use it. However, if you start using SAP Cloud ALM with SAP Cloud Transport Management, configure it as described in the following sample.
+### Destination Details
 
-For other content types, you can use the samples and adapt them to your use case.
+The table contains the details of a destination to SAP Cloud Transport Management for SAP Cloud Integration using SAP Content Agent service for export purposes.
+
+You can use the data in the example to adapt it to your use case.
 
 
 <table>
@@ -111,15 +100,10 @@ Field
 </th>
 <th valign="top">
 
-Use Case 1: Destination to SAP Cloud Transport Management for SAP Cloud Integration using SAP Content Agent service 
+Value
 
 </th>
-<th valign="top">
-
-Use Case 2: Destination to SAP Cloud Transport Management for SAP Cloud Integration using SAP Content Agent service with SAP Cloud ALM
-
-</th>
-<th valign="top">
+<th valign="top" colspan="2">
 
 Description
 
@@ -136,17 +120,7 @@ Description
 `TransportManagementService` 
 
 </td>
-<td valign="top">
-
-`CALM_FTR_CTMS_<meaningful suffix>`
-
-> ### Example:  
-> `CALM_FTR_CTMS_FEATURES` \(This value is case-sensitive.\)
-
-
-
-</td>
-<td valign="top">
+<td valign="top" colspan="2">
 
 Fixed name of the transport destination to SAP Cloud Transport Management.
 
@@ -163,12 +137,7 @@ Fixed name of the transport destination to SAP Cloud Transport Management.
 *HTTP* 
 
 </td>
-<td valign="top">
-
-*HTTP* 
-
-</td>
-<td valign="top">
+<td valign="top" colspan="2">
 
 Destination type
 
@@ -182,15 +151,12 @@ Destination type
 </td>
 <td valign="top">
 
-Description for your reference.
+Destination to SAP Cloud Transport Management Service
 
 </td>
-<td valign="top">
+<td valign="top" colspan="2">
 
 Description for your reference.
-
-</td>
-<td valign="top">
 
 This field is optional.
 
@@ -204,15 +170,12 @@ This field is optional.
 </td>
 <td valign="top">
 
-Value of `uri` from the service key of your SAP Cloud Transport Management service instance.
+`https://transport-service-app-backend.ts.cfapps.eu10.hana.ondemand.com`
 
 </td>
-<td valign="top">
+<td valign="top" colspan="2">
 
 Value of `uri` from the service key of your SAP Cloud Transport Management service instance.
-
-</td>
-<td valign="top">
 
 The URL is used to address the SAP Cloud Transport Management instance in the subaccount where it is required.
 
@@ -229,12 +192,7 @@ The URL is used to address the SAP Cloud Transport Management instance in the su
 *Internet* 
 
 </td>
-<td valign="top">
-
-*Internet*
-
-</td>
-<td valign="top">
+<td valign="top" colspan="2">
 
  
 
@@ -251,12 +209,7 @@ The URL is used to address the SAP Cloud Transport Management instance in the su
 *OAuth2ClientCredentials* 
 
 </td>
-<td valign="top">
-
-*OAuth2ClientCredentials*
-
-</td>
-<td valign="top">
+<td valign="top" colspan="2">
 
  
 
@@ -270,7 +223,7 @@ The URL is used to address the SAP Cloud Transport Management instance in the su
 </td>
 <td valign="top">
 
-Value of `clientid` \(`uaa` section\) from the service key of your SAP Cloud Transport Management service instance.
+`sb-8721drsr-o89j-kl54-bb82-1abc3456u789|alm-ts-backend|i1234`
 
 </td>
 <td valign="top">
@@ -278,13 +231,13 @@ Value of `clientid` \(`uaa` section\) from the service key of your SAP Cloud Tra
 Value of `clientid` \(`uaa` section\) from the service key of your SAP Cloud Transport Management service instance.
 
 </td>
-<td valign="top" rowspan="4">
+<td valign="top" rowspan="6">
 
 The details in these fields are required for user authentication and authorization.
 
 The values of `clientid` and `clientsecret` in the `uaa` section basically represent the user used for the destination and the permissions of this user.
 
-The URL in the `uaa` section addresses the authentication service of SAP BTP in the subaccount where SAP Cloud Transport Management is used.
+The URL in the `uaa` section addresses the authentication service of SAP BTP in the subaccount where you've subscribed to SAP Cloud Transport Management.
 
 The *Token Service URL* value is primarily used for authentication in the user authentication and authorization process. It routes to the authentication service of SAP Business Technology Platform \(SAP BTP\).
 
@@ -302,7 +255,7 @@ Once a token is generated, subsequent requests or API calls can be made without 
 </td>
 <td valign="top">
 
-Value of `clientsecret` \(`uaa` section\) from the service key of your SAP Cloud Transport Management service instance.
+`nYZdDk9QA3HMjcFTV2icbcCV4zwa`
 
 </td>
 <td valign="top">
@@ -324,7 +277,7 @@ Value of `clientsecret` \(`uaa` section\) from the service key of your SAP Cloud
 </td>
 <td valign="top">
 
-*Dedicated* 
+ 
 
 </td>
 </tr>
@@ -336,9 +289,7 @@ Value of `clientsecret` \(`uaa` section\) from the service key of your SAP Cloud
 </td>
 <td valign="top">
 
-Value of `url` \(`uaa` section\) from the service key of your SAP Cloud Transport Management service instance.
-
-Append `oauth/token` to the URL retrieved from the service key.
+<code>https://<i class="varname">&lt;host&gt;</i>.authentication.eu10.hana.ondemand.com/oauth/token</code>
 
 </td>
 <td valign="top">
@@ -353,11 +304,6 @@ Append `oauth/token` to the URL retrieved from the service key.
 <td valign="top">
 
 *Token Service User* 
-
-</td>
-<td valign="top">
-
-No inputs required
 
 </td>
 <td valign="top">
@@ -384,11 +330,6 @@ No inputs required
 </td>
 <td valign="top">
 
-No inputs required
-
-</td>
-<td valign="top">
-
  
 
 </td>
@@ -400,6 +341,11 @@ No inputs required
 
 </td>
 <td valign="top">
+
+`sourceSystemId` = `DEV_NODE`
+
+</td>
+<td valign="top" colspan="2">
 
 1.  Choose *New Property*.
 
@@ -413,48 +359,15 @@ No inputs required
 
 
 </td>
-<td valign="top">
-
-No inputs required
-
-</td>
-<td valign="top">
-
- 
-
-</td>
 </tr>
-<tr>
-<td valign="top">
+</table>
 
-**More information**
 
-</td>
-<td valign="top">
+
+### More Information
 
 Creating a service key for SAP Cloud Transport Management instance and configuring the destination:
 
 -   SAP Cloud Integration documentation on SAP Help Portal: [Enabling Content Transport, Cloud Foundry Enviroment](https://help.sap.com/docs/CLOUD_INTEGRATION/368c481cd6954bdfa5d0435479fd4eaf/452c677debfc4fda904310560ab03743.html?locale=en-US)
 -   SAP Content Agent service documentation on SAP Help Portal: [Create TransportManagementService Destination](https://help.sap.com/docs/CONTENT_AGENT_SERVICE/ae1a4f2d150d468d9ff56e13f9898e07/eed66f35f9d148c8ae5b2d46ff097d8c.html?locale=en-US)
-
-
-
-</td>
-<td valign="top">
-
-Configuring the destination to SAP Cloud Transport Managementin SAP Cloud ALM:
-
--   SAP Cloud ALM documentation on SAP Help Portal: [Enabling Transport Management → SAP Cloud Transport Management Service](https://help.sap.com/docs/CloudALM/08879d094f3b4de3ac67832f4a56a6de/7d4c180c79744eb09c228007304a3a57.html?locale=en-US)
--   Blog Post in SAP Community: [New Integration of SAP Cloud Transport Management](https://community.sap.com/t5/technology-blogs-by-sap/new-integration-of-sap-cloud-transport-management-and-sap-cloud-alm/ba-p/13728049)
-
-
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-</tr>
-</table>
 

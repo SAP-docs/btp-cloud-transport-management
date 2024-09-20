@@ -97,6 +97,84 @@ Documentation enhancements
 </td>
 <td valign="top">
 
+-   A link was added to a new blog post in SAP Community about changes to the integration of the service with SAP BTP, ABAP environment.
+
+    See: [Integration in Development and Change Management Processes and with Other Services](70-integrations/integrating-the-service-7e966f7.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb)
+
+-   The sample configuration for the SAP Cloud ALM use case was removed from the [Example: Destination to SAP Cloud Transport Management](20-configure-landscape/create-destinations-to-sap-cloud-transport-management-service-795f733.md#loio75fe5d4b4fa3492c87ef6be32ea0b819) topic, since integrating the service with SAP Cloud ALM has become easier.
+
+    See the links in the *SAP Cloud ALM* section of: [Integration in Development and Change Management Processes and with Other Services](70-integrations/integrating-the-service-7e966f7.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb)
+
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Application Development and Integration
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Cloud Transport Management
+
+</td>
+<td valign="top">
+
+2024-09-21
+
+</td>
+<td valign="top">
+
+2024-09-21
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Cloud Transport Management 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Documentation enhancements
+
+</td>
+<td valign="top">
+
 The following topic was enhanced:
 
 -   [Administration](50-administration/administration-1fe3030.md)
@@ -928,7 +1006,6 @@ To use the direct connection, you need to reconfigure the destination to SAP Clo
 See:
 
 -   SAP Cloud ALM documentation on SAP Help Portal: [Enabling Transport Management → SAP Cloud Transport Management Service](https://help.sap.com/docs/CloudALM/08879d094f3b4de3ac67832f4a56a6de/8b4af2f9c2df4a1797dd812b814f36a5.html?locale=en-US)
--   Sample description of a destination to SAP Cloud Transport Management for SAP Cloud Integration using SAP Content Agent service with SAP Cloud ALM in the SAP Cloud Transport Management documentation: [Sample Configurations of Destinations to SAP Cloud Transport Management](20-configure-landscape/create-destinations-to-sap-cloud-transport-management-service-795f733.md#loio75fe5d4b4fa3492c87ef6be32ea0b819)
 
 
 
@@ -1235,14 +1312,14 @@ Cloud Transport Management
 </td>
 <td valign="top">
 
-Updated documentation: [Create Destinations to SAP Cloud Transport Management Service](20-configure-landscape/create-destinations-to-sap-cloud-transport-management-service-795f733.md#loio795f7337e5d943df98c961303b02678b)
+The existing documentation was enhanced.
 
 </td>
 <td valign="top">
 
-The existing documentation was enhanced. A table containing sample configurations of destinations to SAP Cloud Transport Management was added to provide illustrative examples.
+A sample configuration of a destination to SAP Cloud Transport Management was added.
 
-See: [Sample Configurations of Destinations to SAP Cloud Transport Management](20-configure-landscape/create-destinations-to-sap-cloud-transport-management-service-795f733.md#loio75fe5d4b4fa3492c87ef6be32ea0b819)
+See: [Example: Destination to SAP Cloud Transport Management](20-configure-landscape/create-destinations-to-sap-cloud-transport-management-service-795f733.md#loio75fe5d4b4fa3492c87ef6be32ea0b819)
 
 </td>
 <td valign="top">

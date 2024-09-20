@@ -8,9 +8,6 @@ Follow these steps to enable the usage of SAP Cloud Transport Management service
 
 Create a service instance in the Cloud Foundry environment. You can then create a service key to communicate directly with the service instance.
 
-> ### Note:  
-> If you use the integration of SAP Cloud Transport Management in SAP Cloud ALM, proceed as described in the [SAP Cloud Transport Management](https://help.sap.com/docs/CloudALM/08879d094f3b4de3ac67832f4a56a6de/730ae36cc6ca419aae747012015cc686.html) topic of the SAP Cloud ALM documentation.
-
 
 <table>
 <tr>

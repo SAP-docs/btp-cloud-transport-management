@@ -125,8 +125,9 @@ Documentation of the integration with SAP Cloud Transport Management:
 -   More information about configuration for import: [Creating Destinations for Deployment of References of SAP BTP, ABAP Environment](../20-configure-landscape/creating-destinations-for-deployment-of-references-of-sap-btp-abap-environment-3014453.md)
 
 
-Blog post:
+Blog posts:
 
+-   [Cloud Transport Management for Steampunk - The Five-System Landscape](https://community.sap.com/t5/technology-blogs-by-sap/cloud-transport-management-for-steampunk-the-five-system-landscape/ba-p/13761985)
 -   [Setting up SAP Cloud Transport Management for SAP BTP ABAP Environment](https://blogs.sap.com/2023/05/08/setting-up-sap-cloud-transport-management-for-sap-btp-abap-environment/)
 
 
@@ -164,11 +165,11 @@ SAP Build Work Zone, advanced edition
 
 Documentation of the service:
 
--   [SAP Work Zone](https://help.sap.com/docs/WZ)
+-   [SAP Build Work Zone, advanced edition](https://help.sap.com/docs/WZ)
 
 Documentation of the integration with SAP Cloud Transport Management:
 
--   [Transporting Content](https://help.sap.com/docs/WZ/b03c84105ff74f809631e494bd612e83/c04d4845579946f7943ab18d8175f1b5.html)
+-   [Transporting Content via SAP Cloud Transport Management Service](https://help.sap.com/docs/WZ/b03c84105ff74f809631e494bd612e83/3d644a1463ba4db7bc7a40b559f3cac1.html?locale=en-US&state=PRODUCTION&version=Cloud)
 
     Transport of SAP Build Work Zone, advanced edition content uses the integration of SAP Build Work Zone, standard edition in SAP Build Work Zone, advanced edition.
 
