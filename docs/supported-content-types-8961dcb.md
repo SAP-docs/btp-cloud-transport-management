@@ -387,6 +387,53 @@ Yes
 <tr>
 <td valign="top">
 
+SAP Build Apps projects
+
+</td>
+<td valign="top">
+
+Cloud Foundry
+
+</td>
+<td valign="top">
+
+MTA
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes \(for export and import\)
+
+</td>
+<td valign="top">
+
+n/a
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+[SAP Build Apps](70-integrations/integrating-the-service-7e966f7.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__build_apps)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 SAP Build Process Automation projects
 
 </td>
@@ -422,7 +469,7 @@ No
 </td>
 <td valign="top">
 
-Transporting is called *promoting*.
+ 
 
 </td>
 <td valign="top">

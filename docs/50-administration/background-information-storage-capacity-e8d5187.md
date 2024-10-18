@@ -4,7 +4,7 @@
 
 The storage capacity for files uploaded to SAP Cloud Transport Management service is limited for each subscription.
 
-The total capacity as well as the retention time of files that were uploaded to the service depends on the service plan you have for the service. Each individual file that is uploaded to SAP Cloud Transport Management can have a maximum size of 1 GB.
+The total capacity as well as the default retention time of files that were uploaded to the service depends on the service plan you have for the service. Each individual file that is uploaded to SAP Cloud Transport Management can have a maximum size of 1 GB. You can change the default file retention time according to your needs.
 
 **Details of Service Plans**
 
@@ -133,7 +133,9 @@ For more information about the service plans for SAP Cloud Transport Management,
 
 You can check how much of the storage capacity is already in use by selecting the dropdown arrow next to your user's email address, and choosing *My File Quota*, or in the *Storage Usage* section on the SAP Cloud Transport Management home screen.
 
-To ensure that the maximum capacity isn't easily reached, the service has an automatic cleanup mechanism in place. The cleanup mechanism runs on a daily basis. All uploaded files in transport requests are automatically deleted after a specific retention time, depending on the service plan you have. Automatic deletion takes place, if the following criteria are met:
+To ensure that the maximum capacity isn't easily reached, the service has an automatic cleanup mechanism in place. The cleanup mechanism runs on a daily basis. All uploaded files in transport requests are automatically deleted after a specific default retention time that depends on the service plan you have. You can configure the file retention time in your subscription. To do this, select the dropdown arrow next to your user's email address, and choose *File Retention Time*.
+
+Automatic deletion takes place, if the following criteria are met:
 
 -   In all import queues in the transport landscape, the transport requests are in one of the following statuses:
 
@@ -146,7 +148,7 @@ To ensure that the maximum capacity isn't easily reached, the service has an aut
     > ### Note:  
     > If a file is still part of a transport request in one of the statuses *Fatal*, *Initial*, *Repeatable*, or *Running*, the physical files aren't deleted.
 
--   The last action for this file was executed 30 days \(*Standard* plan\) / 7 days \(*Free* plan\) before the cleanup run.
+-   The last action for this file was run **before** the configured file retention time **prior to** the cleanup run. That is, if the default retention time was left unchanged, the last action was run 30 days before the cleanup run, if the *Standard* plan is used, and 7 days before the cleanup run, if the *Free* plan is used. You can change the default file retention time by clicking on your logon email address and choosing *File Retention Time*.
 
     > ### Note:  
     > This criterion doesn't apply to files in transport requests that have the status *Deleted* in all import queues. A transport request gets this status using the *Remove* button. This status allows an automatic deletion of files in such transport requests immediately when the cleanup mechanism detects them.
@@ -164,4 +166,9 @@ When you've reached the maximum storage capacity, no files can be uploaded to th
 > -   Configure SAP Alert Notification Service to send notifications when you've reached at least 85% of the storage capacity in your space. For more information, see [Receive Notifications for SAP Cloud Transport Management Actions Using SAP Alert Notification Service](../receive-notifications-for-sap-cloud-transport-management-actions-using-sap-alert-notifica-95d4fc7.md).
 > 
 > -   Regularly track the storage usage in your account. In addition, keep in mind the total storage capacity of your subscription whenever you upload files. To reduce the total file size, regularly clean up the import queues in your transport landscape. You can do this either by importing the transport requests containing the same file in all import queues of your transport landscape, or by removing outdated and obsolete transport requests from all import queues. Especially pay attention to transport requests in status *Fatal*, because the cleanup mechanism doesn't automatically delete them.
+
+**Related Information**  
+
+
+[SAP Cloud Transport Management Home Screen](../sap-cloud-transport-management-home-screen-9ac7880.md "On the home screen, you have an overview of the most commonly used functions of SAP Cloud Transport Management service with direct access. Using the navigation pane on the left side, you have access to all functions.")
 

@@ -37,12 +37,12 @@ More information
 <tr>
 <td valign="top">
 
-Transport destinations to the TEST and PROD enviroments
+Transport destinations to the TEST and PROD environments
 
 </td>
 <td valign="top">
 
-In the SAP BTP Cockpit of your subaccount in which you are subribed to SAP Cloud Transport Management 
+In the SAP BTP Cockpit of your subaccount in which you're subscribed to SAP Cloud Transport Management 
 
 </td>
 <td valign="top">
@@ -90,7 +90,7 @@ In the DEV environment of the application
 </tr>
 </table>
 
-When you select a content archive for transport, a transport request is created and the content archive is attached to the transport request. The transport request is placed into the import queue of the TEST node so that the content archive is available for import in the TEST environment. Depending on the scenario, the transport request is also available in the DEV node. When the import is started in the TEST node, and the default *Pre-Import*forward mode was left unchanged in the TEST node, the transport request is forwarded to the PROD node so that the content archive is available for import in the PROD environment.
+When you select a content archive for transport, a transport request is created and the content archive is attached to the transport request. The transport request is placed into the import queue of the TEST node so that the content archive is available for import in the TEST environment. Depending on the scenario, the transport request is also available in the DEV node. When the import is started in the TEST node, and the default *Pre-Import* forward mode was left unchanged in the TEST node, the transport request is forwarded to the PROD node so that the content archive is available for import in the PROD environment.
 
 > ### Note:  
 > For more information about existing integrations with SAP Cloud Transport Management, see [Integrating the Service](../70-integrations/integrating-the-service-7e966f7.md#loio7e966f73645c42eca1bf19e719b21ceb).

@@ -92,6 +92,229 @@ Cloud Transport Management
 </td>
 <td valign="top">
 
+Configure File Retention Time
+
+</td>
+<td valign="top">
+
+The time that files uploaded to the service are retained in the internal storage of the service depends on the subscribed service plan. After the configured retention time, files that meet specific criteria are deleted by an automatic cleanup mechanism. You can now configure the retention time according to your requirements.
+
+See:
+
+-   [SAP Cloud Transport Management Home Screen](sap-cloud-transport-management-home-screen-9ac7880.md)
+-   [Background Information: Storage Capacity](50-administration/background-information-storage-capacity-e8d5187.md)
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Application Development and Integration
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Cloud Transport Management
+
+</td>
+<td valign="top">
+
+2024-10-18
+
+</td>
+<td valign="top">
+
+2024-10-18
+
+</td>
+<td valign="top">
+
+2410a
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Cloud Transport Management 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+New Tutorial available on SAP Tutorial Navigator: *Get Started with SAP Cloud Transport Management Service* 
+
+</td>
+<td valign="top">
+
+The tutorial illustrates the steps required for the *Initial Setup* of the service.
+
+See: [Get Started with SAP Cloud Transport Management Service](https://developers.sap.com/tutorials/btp-transport-management-getting-started.html)
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Application Development and Integration
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Cloud Transport Management
+
+</td>
+<td valign="top">
+
+2024-10-18
+
+</td>
+<td valign="top">
+
+2024-10-17
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Cloud Transport Management 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Integration of SAP Build Apps with SAP Cloud Transport Management 
+
+</td>
+<td valign="top">
+
+You can now use SAP Cloud Transport Management to transport SAP Build Apps projects.
+
+See:
+
+-   [Supported Content Types](supported-content-types-8961dcb.md#loio8961dcb3edc84a76b84b29565833067b)
+-   [Integration in Development and Change Management Processes and with Other Services](70-integrations/integrating-the-service-7e966f7.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb)
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Application Development and Integration
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Cloud Transport Management
+
+</td>
+<td valign="top">
+
+2024-10-18
+
+</td>
+<td valign="top">
+
+2024-08-19
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Cloud Transport Management 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 Documentation enhancements
 
 </td>

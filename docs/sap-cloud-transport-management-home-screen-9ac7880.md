@@ -142,6 +142,26 @@ See also:
 <tr>
 <td valign="top">
 
+*File Retention Time*
+
+</td>
+<td valign="top">
+
+Find out more about the retention time for files that were uploaded to the service, or change the default retention time according to your requirements.
+
+![](images/File_Retention_Time_in_Menu_2b7d252.png)
+
+The default retention time depends on the subscribed service plan. After the configured retention time, files that meet specific criteria are deleted by an automatic cleanup mechanism. For more information, see [Background Information: Storage Capacity](50-administration/background-information-storage-capacity-e8d5187.md).
+
+Adjust the retention time by clicking in the bar or entering the new value in the input field.
+
+![](images/File_Retention_Time_Dialog_2daeec3.png)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 *About*
 
 </td>

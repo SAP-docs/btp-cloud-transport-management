@@ -137,6 +137,30 @@ Blog posts:
 <tr>
 <td valign="top">
 
+SAP Build Apps
+
+</td>
+<td valign="top">
+
+Documentation of the service:
+
+-   [SAP Build Apps](https://help.sap.com/docs/BUILD_APPS)
+
+Documentation of the integration with SAP Cloud Transport Management:
+
+-   [Transport a Project](https://help.sap.com/docs/SAPBuild/9d385a1842594230993661ca78dce150/92b251dc23894683a26d4e85925f023d.html)
+
+Blog post:
+
+-   [Transporting content in SAP Build Apps \(SAP Cloud Transport Management integration\)](https://community.sap.com/t5/sap-builders-blog-posts/transporting-content-in-sap-build-apps-sap-cloud-transport-management/ba-p/13737478)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 SAP Build Process Automation
 
 </td>
@@ -148,7 +172,7 @@ Documentation of the service:
 
 Documentation of the integration with SAP Cloud Transport Management:
 
--   [Promoting Projects](https://help.sap.com/docs/PROCESS_AUTOMATION/a331c4ef0a9d48a89c779fd449c022e7/f778a164c9ab4723a2b7e1dec67df377.html)
+-   [Transport a Project](https://help.sap.com/docs/PROCESS_AUTOMATION/a331c4ef0a9d48a89c779fd449c022e7/f778a164c9ab4723a2b7e1dec67df377.html)
 
 
 
@@ -188,13 +212,12 @@ SAP Build Work Zone, standard edition
 
 Documentation of the service:
 
--   [SAP Build Work Zone, standard edition](https://help.sap.com/docs/WZ_STD)
+-   [SAP Build Work Zone, standard edition](https://help.sap.com/docs/WZ_STD?locale=en-US)
 
 
 Documentation of the integration with SAP Cloud Transport Management:
 
--   [Integrate SAP Cloud Transport Management Service](https://help.sap.com/docs/WZ_STD/8c8e1958338140699bd4811b37b82ece/37bd3f5c677a49c4a778ada12ee35ef0.html)
-
+-   [Transporting Content via SAP Cloud Transport Management Service](https://help.sap.com/docs/WZ_STD/8c8e1958338140699bd4811b37b82ece/3d644a1463ba4db7bc7a40b559f3cac1.html?locale=en-US&version=Cloud)
 
 Blog posts:
 
