@@ -142,12 +142,12 @@ See also:
 <tr>
 <td valign="top">
 
-*File Retention Time*
+*Cleanup Configuration*
 
 </td>
 <td valign="top">
 
-Find out more about the retention time for files that were uploaded to the service, or change the default retention time according to your requirements.
+Find out more about the retention time for files that were uploaded to the service, or change the default retention time to a supported value \(depending on the service plan\).
 
 ![](images/File_Retention_Time_in_Menu_2b7d252.png)
 

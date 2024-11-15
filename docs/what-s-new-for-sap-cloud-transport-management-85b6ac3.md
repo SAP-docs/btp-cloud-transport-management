@@ -97,7 +97,7 @@ Configure File Retention Time
 </td>
 <td valign="top">
 
-The time that files uploaded to the service are retained in the internal storage of the service depends on the subscribed service plan. After the configured retention time, files that meet specific criteria are deleted by an automatic cleanup mechanism. You can now configure the retention time according to your requirements.
+The time that files uploaded to the service are retained in the internal storage of the service depends on the subscribed service plan. After the configured retention time, files that are in a *final* status in all relevant import queues are deleted by an automatic cleanup mechanism. You can now change the default retention time to a supported value \(depending on the service plan\).
 
 See:
 

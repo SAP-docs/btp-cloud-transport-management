@@ -286,7 +286,7 @@ Documentation of the service:
 
 Documentation of the integration with SAP Cloud Transport Management:
 
--   [Content Transport](https://help.sap.com/viewer/368c481cd6954bdfa5d0435479fd4eaf/Cloud/en-US/e3c79d65aa604b80992e20609881ad7a.html)
+-   [Content Transport Using Cloud Transport Management](https://help.sap.com/docs/CLOUD_INTEGRATION/368c481cd6954bdfa5d0435479fd4eaf/d458b172b98d4112a08499541fddfc54.html)
 
 Blog posts:
 
@@ -489,7 +489,7 @@ Blog posts:
 
 Series of tutorial videos:
 
--   [DevOps with SAP Business Technology Platform \(BTP\)](https://microlearning.opensap.com/playlist/dedicated/207820293/1_lindaizc/)
+-   [DevOps with SAP BTP hands-on videos now on SAP Learning](https://community.sap.com/t5/technology-blogs-by-sap/devops-with-sap-btp-hands-on-videos-now-on-sap-learning/ba-p/13935495)
 
 
 

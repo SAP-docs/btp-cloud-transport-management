@@ -47,7 +47,7 @@ The table contains the following information:
 -   *Solution Export Wizard*: Is the integration with SAP Cloud Transport Management realized using Solution Export Wizard? \(Neo only\)
 -   *Continuous Integration \(CI\) Pipeline Upload*: Is there a CI pipeline template available with the option of uploading content to SAP Cloud Transport Management?
 
-    For more information about integration into CI pipelines, see the links to *More Information* listed in the *Integration Scenario*: [Receiving transports comprising release candidates qualified by automated pipelines in SAP Continuous Integration and Delivery service](70-integrations/integrating-the-service-7e966f7.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__cicd), in particular the series of turial videos.
+    For more information about integration into CI pipelines, see the links to *More Information* listed in the *Integration Scenario*: [Receiving transports comprising release candidates qualified by automated pipelines in SAP Continuous Integration and Delivery service](70-integrations/integrating-the-service-7e966f7.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__cicd), in particular the series of tutorial videos.
 
 -   *More Information about the Integration*: Link to more information about the integration with SAP Cloud Transport Management in the relevant section of:[Integration in Development and Change Management Processes and with Other Services](70-integrations/integrating-the-service-7e966f7.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb), where more information is available.
 
