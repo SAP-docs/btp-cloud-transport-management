@@ -160,7 +160,7 @@ Automatic deletion takes place, if the following criteria are met:
     > ### Note:  
     > If a file is still part of a transport request in an *in-process* status, that is, in one of the statuses *Fatal*, *Initial*, *Repeatable*, or *Running*, the physical files aren't deleted.
 
--   The last action for this file was run **before** the configured file retention time **prior to** the cleanup run. That is, if the default retention time was left unchanged, the last action was run 30 days before the cleanup run, if the *Standard* plan is used, and 7 days before the cleanup run, if the *Free* plan is used. You can change the default file retention time by clicking on your logon email address and choosing *Cleanup Configuration*.
+-   The last action for this file was run **before** the configured file retention time **prior to** the cleanup run. That is, if the default retention time was left unchanged, the last action was run 30 days before the cleanup run, if the *Standard* plan is used, and 7 days before the cleanup run, if the *Free* plan is used. You can change the default file retention time by clicking on your logon email address and choosing *File Retention Time*.
 
     > ### Note:  
     > This criterion doesn't apply to files in transport requests that have the status *Deleted* in all import queues. A transport request gets this status using the *Remove* button. This status allows an automatic deletion of files in such transport requests immediately when the cleanup mechanism detects them.
@@ -188,6 +188,8 @@ When you've reached the maximum storage capacity, no files can be uploaded to th
 > -   To effectively balance the available storage with your operational requirements, set the file retention time based on your transport volume and data retention requirements. Consider the following points:
 >     -   Transport Volume: If your organization handles a high volume of transports, setting a longer retention time can exhaust the available storage. In general, a shorter retention time is usually sufficient.
 >     -   Data Retention Requirements: The retention time setting does not affect logs and *in-progress* transports, which are always retained. Assess whether you need the files of older transports or whether the information stored in the logs is sufficient.
+> 
+> -   To manually mass-delete transport requests from all import queues in your transport landscape, use the *Delete* function in the transport request overview. The attached files are deleted along with the transport requests.
 
 
 
@@ -201,7 +203,7 @@ When you've reached the maximum storage capacity, no files can be uploaded to th
 
 -   **Configuring the File Retention Time**
 
-    You can configure the file retention time in your subscription. To do this, select the dropdown arrow next to your user's email address, and choose *Cleanup Configuration*.
+    You can configure the file retention time in your subscription. To do this, select the dropdown arrow next to your user's email address, and choose *File Retention Time*.
 
     To change the default time, click in the bar, or enter the new value in the input field. The bar indicates the values that are supported by your subscription.
 

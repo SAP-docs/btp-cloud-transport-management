@@ -2,7 +2,7 @@
 
 # Receive Notifications for SAP Cloud Transport Management Actions Using SAP Alert Notification Service
 
-You can configure SAP Cloud Transport Management service to send notifications for actions started in the service using SAP Alert Notification Service.
+You can configure SAP Alert Notification Service to send notifications for actions started in SAP Cloud Transport Management service.
 
 
 
@@ -204,18 +204,27 @@ If there's a service instance of SAP Alert Notification service available in the
         See: [SAP Cloud Transport Storage Quota Usage](https://help.sap.com/docs/ALERT_NOTIFICATION/5967a369d4b74f7a9c2b91f5df8e6ab6/8344c9d0516c4b0fbbe6d71937884667.html)
 
 
+    > ### Example:  
+    > If you select the notation element `eventType` and the operand `Is Equal To`, and you set the expected value to `TmsImportStarted`, you'll get notifications for every import that is started in your landscape.
+    > 
+    > You can set additional conditions by selecting the notation element <code>tags.<i class="varname">&lt;option&gt;</i></code>.
+    > 
+    > For example, select the notation element `tags.` and complete the element by adding `nodeId`. Select the operand `Is Equal To`, and set the expected value to an existing node ID, for example: `123`.
+    > 
+    > If you use this condition in addition to the condition set in the previous example, you'll get notifications for every import that is started in your landscape for the node with the `nodeId` = `123`.
 
 
 
-## Example
 
-If you select the notation element `eventType` and the operand `Is Equal To`, and you set the expected value to `TmsImportStarted`, you'll get notifications for every import that is started in your landscape.
+<a name="loio95d4fc79244f4c93b526a943eef1e274__result_jcf_4sd_ndc"/>
 
-You can set additional conditions by selecting the notation element <code>tags.<i class="varname">&lt;option&gt;</i></code>.
+## Results
 
-For example, select the notation element `tags.` and complete the element by adding `nodeId`. Select the operand `Is Equal To`, and set the expected value to an existing node ID, for example: `123`.
+When an action takes place in SAP Cloud Transport Management for which you've enabled a notification, the notification is sent to the configured channel that contains the details of the action.
 
-If you use this condition in addition to the condition set in the previous example, you'll get notifications for every import that is started in your landscape for the node with the `nodeId` = `123`.
+*TmsImportFinished*: When the *Forward Mode* of a transport node is set to *Manual*, the notification contains links that allow you to display the transport request, or to forward it or all transport requests in the import queue to the target nodes.
+
+*TmsTransportRequestAdded*: The notification contains links that allow you to display the transport request or to start an import in the transport node. When you select a link, the import queue of the transport node opens with a confirmation prompt for the corresponding actions.
 
 **Related Information**  
 

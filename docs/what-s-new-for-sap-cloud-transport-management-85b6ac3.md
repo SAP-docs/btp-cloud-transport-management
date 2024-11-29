@@ -92,6 +92,159 @@ Cloud Transport Management
 </td>
 <td valign="top">
 
+Immediately delete files attached to transport requests when the corresponding request is manually deleted from all import queues.
+
+</td>
+<td valign="top">
+
+Previously, when a transport request was manually deleted from all import queues, the attached files were not erased until the next cleanup run, which caused a delay in freeing up storage space.
+
+See:
+
+-   [Delete Transport Requests](40-using-request-overview/delete-transport-requests-2ef725c.md)
+
+-   [Background Information: Storage Capacity](50-administration/background-information-storage-capacity-e8d5187.md)
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Application Development and Integration
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Cloud Transport Management
+
+</td>
+<td valign="top">
+
+2024-11-29
+
+</td>
+<td valign="top">
+
+2024-11-29
+
+</td>
+<td valign="top">
+
+2411b
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Cloud Transport Management 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Notification-based forward flow for *TmsImportFinished* and *TmsTransportRequestAdded* events.
+
+</td>
+<td valign="top">
+
+When you have configured SAP Alert Notification Service to send notifications for actions started in Cloud Transport Management service, the notifications sent for the *TmsImportFinished* and *TmsTransportRequestAdded* events now contain links to the relevant import queues. This allows you to directly start follow-on actions, such as forward or import transport requests, depending on the event for which the notification was sent.
+
+See:
+
+-   [Receive Notifications for SAP Cloud Transport Management Actions Using SAP Alert Notification Service](receive-notifications-for-sap-cloud-transport-management-actions-using-sap-alert-notifica-95d4fc7.md)
+
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Application Development and Integration
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Cloud Transport Management
+
+</td>
+<td valign="top">
+
+2024-11-29
+
+</td>
+<td valign="top">
+
+2024-11-29
+
+</td>
+<td valign="top">
+
+2411b
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Cloud Transport Management 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 Configure File Retention Time
 
 </td>

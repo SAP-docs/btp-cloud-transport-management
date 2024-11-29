@@ -58,7 +58,7 @@ For more information, see [Use the Transport Landscape Wizard](20-configure-land
 
 In the title bar, you can use the following functions:
 
-![](images/TMS_Title_Bar_597f8e7.jpg)
+![](images/TMS_Title_Bar_597f8e7.png)
 
 
 <table>
@@ -142,7 +142,7 @@ See also:
 <tr>
 <td valign="top">
 
-*Cleanup Configuration*
+*File Retention Time*
 
 </td>
 <td valign="top">
@@ -153,7 +153,7 @@ Find out more about the retention time for files that were uploaded to the servi
 
 The default retention time depends on the subscribed service plan. After the configured retention time, files that meet specific criteria are deleted by an automatic cleanup mechanism. For more information, see [Background Information: Storage Capacity](50-administration/background-information-storage-capacity-e8d5187.md).
 
-Adjust the retention time by clicking in the bar or entering the new value in the input field.
+Adjust the retention time by clicking in the bar or entering the new value in the input field. The bar indicates the supported interval.
 
 ![](images/File_Retention_Time_Dialog_2daeec3.png)
 

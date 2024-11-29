@@ -18,7 +18,7 @@ You can delete transport requests from all import queues in your tenant.
 
 ## Context
 
-This mass deletion function allows you to reduce your storage consumption for files that were uploaded to SAP Cloud Transport Management and that you no longer need. The physical deletion of files from your tenant is delayed and can take up to 24 hours. Marking transport requests for deletion will therefore not immediately reduce your tenant's storage quota consumption. For more information about the automatic cleanup mechanism of SAP Cloud Transport Management, see [Background Information: Storage Capacity](../50-administration/background-information-storage-capacity-e8d5187.md).
+This mass deletion function allows you to reduce your storage consumption for files that were uploaded to SAP Cloud Transport Management and that you no longer need. When you delete a transport request, the corresponding file attached to the request is also immediately deleted from the internal storage. This reduces your tenant's storage quota consumption.
 
 > ### Caution:  
 > You cannot restore deleted transport requests.
@@ -38,5 +38,10 @@ This mass deletion function allows you to reduce your storage consumption for fi
 
 ## Results
 
-The selected transport requests are deleted in all import queues in your subaccount or tenant. The physical file of the transport request will be deleleted wih the next run of the autmatic cleanup mechanism.
+The selected transport requests are deleted in all import queues in your subaccount or tenant. The files attached to the transport requests are also deleleted.
+
+**Related Information**  
+
+
+[Background Information: Storage Capacity](../50-administration/background-information-storage-capacity-e8d5187.md "The storage capacity for files uploaded to SAP Cloud Transport Management service is limited for each subscription.")
 
