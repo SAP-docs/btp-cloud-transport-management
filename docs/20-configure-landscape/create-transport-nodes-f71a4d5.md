@@ -82,6 +82,38 @@ Create transport nodes as representations of the source and target end points of
     <tr>
     <td valign="top">
     
+    *Tags*
+    
+    </td>
+    <td valign="top">
+    
+    Use tags to categorize transport nodes by providing additional information, such as project details, or system characteristics.
+
+    You have the following options:
+
+    -   To add a new tag, enter the tag text in the input field and press [Enter\].
+    -   To assign an existing tag, start typing the tag text in the input field. Tags that correspond to the character string, appear in a dropdown list. Select the relevant tag for the node.
+    -   To remove an assigned tag from the transport node, select the tag's :x: icon.
+
+    Note the following points regarding tags:
+
+    -   In the following situations, a tag is deleted:
+        -   When you remove a tag that's associated exclusively to one node.
+        -   When you delete a transport node that has a tag exclusively assigned to it.
+
+    -   Searching for tags is currently not possible.
+    -   Tags are displayed in the *Tags* column on the *Transport Nodes* screen. They are not visible on other screens, such as the import queue.
+
+    > ### Note:  
+    > This field is optional.
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
     *Allow Upload to Node*
     
     </td>
@@ -245,6 +277,7 @@ You've created a transport node.
 
 -   On the *Transport Nodes* screen, the node is added to the list.
 -   On the *Landscape Visualization* screen, the node is added to the canvas.
+-   When you've added a new tag, it's created and becomes available for selection on other transport nodes.
 
 You have the following options:
 
@@ -253,10 +286,12 @@ You have the following options:
     -   On the *Transport Nodes* screen, select the radio button in front of the transport node name, and choose :pencil2:.
     -   On the *Landscape Visualization* screen, select a transport node and click on the :pencil2: icon in the side menu, or on the :pencil2: icon in the icon bar.
 
+    Use the :pencil2: function also to assign tags to nodes or remove tags from them.
+
 -   Navigate to the import queue of a transport node:
 
     -   On the *Transport Nodes* screen, click anywhere in the transport node row.
-    -   On the *Landscape Visualization* screen, select the node, and choose the <span class="SAP-icons-V5"></span> \(Go to this node´s import queue\) icon.
+    -   On the *Landscape Visualization* screen, select the node, and choose the <span class="SAP-icons-V5"></span> \(Go to this node's import queue\) icon.
 
     The selected configurations are displayed in the header area. Virtual nodes are highlighted using an info label.
 

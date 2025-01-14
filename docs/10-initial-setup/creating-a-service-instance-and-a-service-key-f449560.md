@@ -198,6 +198,12 @@ In the space, create a service instance of SAP Cloud Transport Management.
     ![](images/TMS_Create_Instance_66d6770.png)
 
 5.  Choose *Create*.
+
+    > ### Note:  
+    > If you choose *Next*, the *Parameters* step opens. SAP Cloud Transport Management doesn't support the upload of initial JSON parameters. You can skip this step. To continue creating the instance, choose *Create*.
+    > 
+    > ![](images/Instance_Parameters_step_9377ea3.png)
+
 6.  If you've added entitlements for multiple service instances, repeat the steps for the additional instances.
 
 

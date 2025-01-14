@@ -92,6 +92,77 @@ Cloud Transport Management
 </td>
 <td valign="top">
 
+On-the-fly machine translation is now available for SAP Cloud Transport Management.
+
+</td>
+<td valign="top">
+
+On-the-fly machine translation is now available in multiple languages for SAP Cloud Transport Management documentation on SAP Help Portal. This means that you can generate translation of content instantly by selecting the respective language from the dropdown list.
+
+We’d appreciate your feedback through the link provided on the top of each translation page.
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Application Development and Integration
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Cloud Transport Management
+
+</td>
+<td valign="top">
+
+2024-12-20
+
+</td>
+<td valign="top">
+
+2024-12-20
+
+</td>
+<td valign="top">
+
+2412a
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Cloud Transport Management 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 Immediately delete files attached to transport requests when the corresponding request is manually deleted from all import queues.
 
 </td>
