@@ -290,11 +290,13 @@ Documentation of the integration with SAP Cloud Transport Management:
 
 Blog posts:
 
--   Cloud Foundry with SAP Content Agent service for export and import using the SAP Content Agent service UI:
-    -   [Transport selected artefact to Cloud Transport Management service using Content Agent UI](https://community.sap.com/t5/technology-blogs-by-sap/transport-selected-artefact-to-cloud-transport-management-service-using/ba-p/13921590)
+-   Cloud Foundry with SAP Content Agent service for export and import:
+    -   Using the SAP Content Agent service UI:
+        -   [Transport selected artefact to Cloud Transport Management service using Content Agent UI](https://community.sap.com/t5/technology-blogs-by-sap/transport-selected-artefact-to-cloud-transport-management-service-using/ba-p/13921590)
 
--   Cloud Foundry with SAP Content Agent service for export and import using the SAP Cloud Integration UI:
-    -   [TMS – Transport SAP Cloud Integration \(CI/CPI\) Content with Transport Management Service \(TMS\) and Content Agent Service \(CAS\)](https://blogs.sap.com/2022/03/25/transport-sap-cloud-integration-ci-cpi-content-with-transport-management-service-tms-and-content-agent-service-cas/)
+    -   Using the SAP Cloud Integration UI:
+        -   [TMS – Transport SAP Cloud Integration \(CI/CPI\) Content with Transport Management Service \(TMS\) and Content Agent Service \(CAS\)](https://blogs.sap.com/2022/03/25/transport-sap-cloud-integration-ci-cpi-content-with-transport-management-service-tms-and-content-agent-service-cas/)
+
 
 -   Neo
     -   [Setting up SAP Cloud Platform Transport Management for SAP Cloud Platform Integration](https://blogs.sap.com/2019/11/12/setting-up-sap-cloud-platform-transport-management-for-sap-cloud-platform-integration/)

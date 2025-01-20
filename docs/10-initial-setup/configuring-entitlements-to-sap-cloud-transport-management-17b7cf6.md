@@ -241,7 +241,7 @@ Default plan to access SAP Cloud Transport Management using programmatic access.
 
 This plan provides full access to the Cloud Transport Management API.
 
-Use this service plan for the integration with Change Request Management of SAP Solution Manager.
+Use this service plan for all standard integrations with SAP Cloud Transport Management. This includes integrations from SAP Cloud ALM and Change Request Management/Quality Gate Management of SAP Solution Manager.
 
 </td>
 </tr>
