@@ -28,10 +28,10 @@ Note that SAP Cloud Transport Management only supports HTTPS destinations.
                                 Foundry, you have different options
 		to configure transport destinations to address the target endpoint of the deployment process.")**  
 For MTA deployment on Cloud Foundry, you have different options to configure transport destinations to address the target endpoint of the deployment process.
--   **[Creating Destinations for Deployment of References of SAP BTP, ABAP Environment](creating-destinations-for-deployment-of-references-of-sap-btp-abap-environment-3014453.md "To address the target end point of the deployment process of references of SAP BTP, ABAP
-                                    environment, create a destination to the target instance of SAP BTP, ABAP
+-   **[Creating Destinations for Deployment of References of SAP BTP, ABAP Environment](creating-destinations-for-deployment-of-references-of-sap-btp-abap-environment-3014453.md "To address the target end point of the deployment process of references of SAP BTP ABAP
+                                    environment, create a destination to the target instance of SAP BTP ABAP
                                     environment where you want to deploy your content references.")**  
-To address the target end point of the deployment process of references of SAP BTP, ABAP environment, create a destination to the target instance of SAP BTP, ABAP environment where you want to deploy your content references.
+To address the target end point of the deployment process of references of SAP BTP ABAP environment, create a destination to the target instance of SAP BTP ABAP environment where you want to deploy your content references.
 -   **[Creating Destinations for MTA Deployment on SAP BTP, Neo](creating-destinations-for-mta-deployment-on-sap-btp-neo-61306c6.md "To address the target end point of MTA deployment on SAP BTP, Neo,
 		specify the URL to the SAP Solution Lifecycle Management
                                     service as the deploy end point of the

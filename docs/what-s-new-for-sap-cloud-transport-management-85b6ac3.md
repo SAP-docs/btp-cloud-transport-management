@@ -92,6 +92,156 @@ Cloud Transport Management
 </td>
 <td valign="top">
 
+Introduction of tags in SAP Cloud Transport Management 
+
+</td>
+<td valign="top">
+
+You can now tag transport nodes, allowing you to group them based on the assigned tags. You can use tags to add additional information, such as project details, or system characteristics. The tags appear as labels on the *Transport Nodes* screen, providing more information at a glance beyond just the description field.
+
+See:
+
+-   [Create Transport Nodes](20-configure-landscape/create-transport-nodes-f71a4d5.md)
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Application Development and Integration
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Cloud Transport Management
+
+</td>
+<td valign="top">
+
+2025-01-23
+
+</td>
+<td valign="top">
+
+2025-01-23
+
+</td>
+<td valign="top">
+
+2413b
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Cloud Transport Management 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Option to download MTA operation logs directly from the *Log of Transport Request* 
+
+</td>
+<td valign="top">
+
+For MTA deployment on Cloud Foundry, the log of the transport request now contains additional information about how to download the corresponding MTA operation logs, and includes a link to download the logs of the deploy operation directly from the SAP Cloud Transport Management user interface. Like this, you can obtain the MTA logs without using the Cloud Foundry command- line interface \(`cf cli`\).
+
+See:
+
+-   [Options to Display Information about Transport Requests](30-using-import-queue/options-to-display-information-about-transport-requests-a90d808.md)
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Application Development and Integration
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Cloud Transport Management
+
+</td>
+<td valign="top">
+
+2025-01-23
+
+</td>
+<td valign="top">
+
+2025-01-23
+
+</td>
+<td valign="top">
+
+2413b
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Cloud Transport Management 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 On-the-fly machine translation is now available for SAP Cloud Transport Management.
 
 </td>
@@ -544,7 +694,7 @@ Documentation enhancements
 </td>
 <td valign="top">
 
--   A link was added to a new blog post in SAP Community about changes to the integration of the service with SAP BTP, ABAP environment.
+-   A link was added to a new blog post in SAP Community about changes to the integration of the service with SAP BTP ABAP environment.
 
     See: [Integration in Development and Change Management Processes and with Other Services](70-integrations/integrating-the-service-7e966f7.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb)
 
@@ -1523,9 +1673,9 @@ SAP Cloud Transport Management now supports the import of all and selected trans
 </td>
 <td valign="top">
 
-To enable the import of all transport requests of type *BTP ABAP*, SAP Cloud Transport Management now supports the `MANAGE_SOFTWARE_COMPONENTS` API of SAP BTP, ABAP environment with the communication scenario `SAP_COM_0948`. Previously, the `MANAGE_GIT_REPOSITORIES` API and `SAP_COM_0510` was used. With the new communication scenario, the `SAP_COM_0510` scenario was deprecated.
+To enable the import of all transport requests of type *BTP ABAP*, SAP Cloud Transport Management now supports the `MANAGE_SOFTWARE_COMPONENTS` API of SAP BTP ABAP environment with the communication scenario `SAP_COM_0948`. Previously, the `MANAGE_GIT_REPOSITORIES` API and `SAP_COM_0510` was used. With the new communication scenario, the `SAP_COM_0510` scenario was deprecated.
 
-To leverage the functions of the new API, reconfigure the destination in SAP BTP, ABAP environment pointing to SAP Cloud Transport Management using the new URL, user, and password taken from the new communication scenario.
+To leverage the functions of the new API, reconfigure the destination in SAP BTP ABAP environment pointing to SAP Cloud Transport Management using the new URL, user, and password taken from the new communication scenario.
 
 Already configured destinations continue to work with the current limitations \(import of individual requests\) for the duration of the deprecation phase. However, we recommend that you already plan to transition to the new communication scenario.
 

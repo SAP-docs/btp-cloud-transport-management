@@ -109,7 +109,7 @@ Blog post:
 <tr>
 <td valign="top">
 
-References of SAP BTP, ABAP environment 
+References of SAP BTP ABAP environment 
 
 </td>
 <td valign="top">

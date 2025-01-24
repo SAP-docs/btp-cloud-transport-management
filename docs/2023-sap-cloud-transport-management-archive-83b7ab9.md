@@ -821,7 +821,7 @@ Transport of BTP ABAP References
 </td>
 <td valign="top">
 
-You can now use SAP Cloud Transport Management service to transport references to Git repositories containing ABAP content developed in SAP BTP, ABAP environment.
+You can now use SAP Cloud Transport Management service to transport references to Git repositories containing ABAP content developed in SAP BTP ABAP environment.
 
 See:
 

@@ -57,7 +57,7 @@ You are in one of the following places in SAP Cloud Transport Management:
 
         The checksum is available for files. You can download or copy the checksum to verify that the file is genuine and error-free.
 
-        If an application has added object metadata about the content of the transport request, this object metadata is displayed here. For example, transport requests created for references of SAP BTP, ABAP environment contain metadata, such as the software component, commit ID, tag name, or branch name of the reference.
+        If an application has added object metadata about the content of the transport request, this object metadata is displayed here. For example, transport requests created for references of SAP BTP ABAP environment contain metadata, such as the software component, commit ID, tag name, or branch name of the reference.
 
 
 

@@ -13,7 +13,7 @@ SAP Cloud Transport Management service can be used to transport the following en
     > ### Restriction:  
     > Transporting MTAs without modules is not supported.
 
--   **BTP ABAP**: references to ABAP objects in a Git repository between different SAP BTP, ABAP environment instances. A reference can consist of the name of the software component, the commit ID, the branch name, and the tag name. When a reference of type *BTP ABAP* is imported, the referenced content of the Git repository is pulled to the target instance.
+-   **BTP ABAP**: references to ABAP objects in a Git repository between different SAP BTP ABAP environment instances. A reference can consist of the name of the software component, the commit ID, the branch name, and the tag name. When a reference of type *BTP ABAP* is imported, the referenced content of the Git repository is pulled to the target instance.
 -   **Application content** transported in an application-specific format between different cloud subaccounts and tenants
 
     In general, application content is packed in archive files, for example, `.zip` files, or `.rar` files. The archives can contain any kind of application-specific content. The application that has created such an archive file must provide a method to deploy the application-specific content into the target environment. This means, such an archive file can only be used for transport if the application-specific deployment service in the target environment is able to handle it. For more information, see the documentation of the individual applications.
@@ -40,7 +40,7 @@ The table contains the following information:
 
 -   *Content*: Application-specific content and development artifacts to be transported.
 
--   *Environment*: SAP BTP environment where the content is created, either *SAP BTP, ABAP environment*, *Cloud Foundry*, or *Neo*.
+-   *Environment*: SAP BTP environment where the content is created, either *SAP BTP ABAP environment*, *Cloud Foundry*, or *Neo*.
 -   *Content Type*: Entity to transport that you can select when you create a new node in SAP Cloud Transport Management. See [Supported Content Types](supported-content-types-8961dcb.md#loio8961dcb3edc84a76b84b29565833067b).
 -   *Design Time Integration*: Can the transport be triggered directly in the design time tool of the application where the content is produced?
 -   *Content Agent Service*: Is the integration with SAP Cloud Transport Management realized using SAP Content Agent service? \(Cloud Foundry only\)
@@ -105,12 +105,12 @@ More Information about the Integration
 <tr>
 <td valign="top">
 
-Reference to SAP BTP, ABAP environment content
+Reference to SAP BTP ABAP environment content
 
 </td>
 <td valign="top">
 
-SAP BTP, ABAP environment
+SAP BTP ABAP environment
 
 </td>
 <td valign="top">

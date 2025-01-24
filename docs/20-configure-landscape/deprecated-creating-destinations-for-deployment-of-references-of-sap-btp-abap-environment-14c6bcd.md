@@ -2,7 +2,7 @@
 
 # \(Deprecated\) Creating Destinations for Deployment of References of SAP BTP, ABAP Environment Using `MANAGE_GIT_REPOSITORY` API and `SAP_COM_0510`
 
-To address the target end point of the deployment process of references of SAP BTP, ABAP environment, create a destination to the target instance of SAP BTP, ABAP environment where you want to deploy your content references.
+To address the target end point of the deployment process of references of SAP BTP ABAP environment, create a destination to the target instance of SAP BTP ABAP environment where you want to deploy your content references.
 
 
 
@@ -10,9 +10,9 @@ To address the target end point of the deployment process of references of SAP B
 
 ## Prerequisites
 
-In the target instance of SAP BTP, ABAP environment, you've created an instance of the communication scenario `SAP_COM_0510` using the *Communication Arrangements* app. For this, you've created a communication system with an inbound communication user that uses *User ID and Password* as the *Authentication Method*.
+In the target instance of SAP BTP ABAP environment, you've created an instance of the communication scenario `SAP_COM_0510` using the *Communication Arrangements* app. For this, you've created a communication system with an inbound communication user that uses *User ID and Password* as the *Authentication Method*.
 
-For more information, see the following topics in the documentation of SAP BTP, ABAP environment:
+For more information, see the following topics in the documentation of SAP BTP ABAP environment:
 
 -   [How to Create Communication Users](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/0377adea0401467f939827242c1f4014.html?locale=en-US)
 -   [How to Create Communication Systems](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/c2234acd55774ebcbedb66744199273e.html?locale=en-US)
@@ -29,7 +29,7 @@ For more information, see the following topics in the documentation of SAP BTP, 
 
 ## Context
 
-You can use SAP Cloud Transport Management service to transport references to ABAP coding in Git repositories that was created in SAP BTP, ABAP environment.
+You can use SAP Cloud Transport Management service to transport references to ABAP coding in Git repositories that was created in SAP BTP ABAP environment.
 
 > ### Note:  
 > This topic describes how to create a destination to SAP Cloud Transport Management using the `MANAGE_GIT_REPOSITORIES` API and `SAP_COM_0510`. This is no longer the recommended approach. The communication scenario `SAP_COM_0510` is deprecated. This API supports the import of individual transport requests only. We recommend that you create a destination as described in [Creating Destinations for Deployment of References of SAP BTP, ABAP Environment](creating-destinations-for-deployment-of-references-of-sap-btp-abap-environment-3014453.md).
@@ -46,7 +46,7 @@ You can use SAP Cloud Transport Management service to transport references to AB
 
 2.  Enter the following values:
 
-    **Destination Settings for Deployment of References of SAP BTP, ABAP environment**
+    **Destination Settings for Deployment of References of SAP BTP ABAP environment**
 
 
     <table>

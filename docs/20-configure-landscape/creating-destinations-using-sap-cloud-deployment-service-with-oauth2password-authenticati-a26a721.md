@@ -174,7 +174,7 @@ To address the target end point of the deployment process of MTA Deployment on C
     </td>
     <td valign="top">
     
-    Select *OAuth2Password Authentication*.
+    Select *OAuth2Password*.
 
     This authentication is based on a user credential flow. At first, the Cloud Foundry User Account and Authentication \(UAA\) service is called with the name and the password of this user. The authentication service then returns a JSON Web Token \(JWT\) which is used to call the API of the SAP Cloud Deployment service.
 
