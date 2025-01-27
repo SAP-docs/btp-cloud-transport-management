@@ -92,6 +92,81 @@ Cloud Transport Management
 </td>
 <td valign="top">
 
+Option to download transport action logs in a `.csv` file format.
+
+</td>
+<td valign="top">
+
+You can now download transport action logs as `.csv` files, either individually or all at once. This structured format simplifies data analysis and enhances audit compliance.
+
+See:
+
+-   [Transport Action Logs](transport-action-logs-86319ed.md)
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Application Development and Integration
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Cloud Transport Management
+
+</td>
+<td valign="top">
+
+2025-01-23
+
+</td>
+<td valign="top">
+
+2025-01-23
+
+</td>
+<td valign="top">
+
+2413b
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Cloud Transport Management 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 Introduction of tags in SAP Cloud Transport Management 
 
 </td>

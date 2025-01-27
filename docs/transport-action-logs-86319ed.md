@@ -40,10 +40,12 @@ On the *Transport Actions* tab, you can do the following:
 
 -   Download all transport actions to a `.zip` file by choosing <span class="SAP-icons-V5"></span> \(Download all transport action logs\).
 
-    The `.zip` file contains the logs of all transport actions that have occurred in your current subaccount and that haven't been archived yet, irrespective of the filters. It includes one `.txt` file for each transport action.
+    Select the format of the downloaded logs in the `.zip` file: plain text \(`.txt`\) or `.csv`. The `.zip` file contains logs of all transport actions in your current subaccount that haven't been archived yet, regardless of the filters.
+
+    Depending on the selected format, it includes either one `.txt` file for each transport action or a single `.csv` file for all actions.
 
     > ### Note:  
-    > SAP Cloud Transport Management stores all transport action logs of a subscription until they're archived. As a result, the `.zip` file can contain a large number of individual `.txt` files.
+    > SAP Cloud Transport Management stores all transport action logs of a subscription until they're archived. If you select the plain text format, the `.zip` file can contain many individual `.txt` files.
 
 -   Change the default archiving settings for transport actions by choosing :gear:.
 
@@ -80,7 +82,7 @@ In the *Log of Action: <Transport Action\>*, you can do the following:
 
 -   Filter the messages by entering any character string in the *Messages* field. In addition, you can narrow down the results according to *Transport Request*, *Transport Status*, *Content*, and *Message Severity* by choosing the relevant criteria from the dropdown boxes.
 
--   Download all messages of the transport action as a `.txt` file by choosing <span class="SAP-icons-V5"></span> \(Download transport logs\).
+-   Download all messages of the transport action by choosing <span class="SAP-icons-V5"></span> \(Download transport logs\). Select the format of the downloaded messages: plain text \(`.log`\) or `.csv`.
 
 
 > ### Note:  
