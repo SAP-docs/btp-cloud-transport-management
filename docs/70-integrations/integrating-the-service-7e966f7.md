@@ -483,7 +483,7 @@ Documentation of the service:
 
 Documentation of the integration with SAP Cloud Transport Management:
 
--   [\(Optional\) Integrate SAP Clod Transport Management into Your Pipeline](https://help.sap.com/docs/CONTINUOUS_DELIVERY/99c72101f7ee40d0b2deb4df72ba1ad3/619a864813584bd1a433cafac1fb0c1e.html?locale=en-US&state=PRODUCTION&version=Cloud#(optional)-integrate-sap-cloud-transport-management-into-your-pipeline)
+-   [Integrate Cloud Transport Management into Your Job](https://help.sap.com/docs/CONTINUOUS_DELIVERY/99c72101f7ee40d0b2deb4df72ba1ad3/a0f029b80e054eb0afd0adb0900d4c19.html)
 
 Blog posts:
 

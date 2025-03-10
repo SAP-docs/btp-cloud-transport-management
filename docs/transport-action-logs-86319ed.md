@@ -38,11 +38,28 @@ On the *Transport Actions* tab, you can do the following:
 
     By default, SAP Cloud Transport Management refreshes the status of import actions that remain for too long in the *Running* status at regular intervals when you are in the import queue of the transport node. Here, you can manually trigger a refresh.
 
--   Download all transport actions to a `.zip` file by choosing <span class="SAP-icons-V5"></span> \(Download all transport action logs\).
+-   Download transport actions to a `.zip` file by choosing <span class="SAP-icons-V5"></span> \(Download Transport Action Logs\).
 
-    Select the format of the downloaded logs in the `.zip` file: plain text \(`.txt`\) or `.csv`. The `.zip` file contains logs of all transport actions in your current subaccount that haven't been archived yet, regardless of the filters.
+    The downloaded `.zip` file contains logs of transport actions in your current subaccount that aren't archived yet, in either plain text \(`.txt`\) or `.csv` format. Depending on the selected format, it includes either multiple`.txt` files, one for each downloaded transport action, or a single `.csv` file containing all downloaded transport actions.
 
-    Depending on the selected format, it includes either one `.txt` file for each transport action or a single `.csv` file for all actions.
+    You have the following download options:
+
+    -   *Plain Text \(Selected Actions\)*:
+
+        Download logs that match your current filter settings in plain text \(`.txt`\) format.
+
+    -   *Plain Text \(All Actions\)*
+
+        Download all logs in plain text \(`.txt`\) format, regardless of the filters applied.
+
+    -   *CSV \(Selected Actions\)*
+
+        Download logs that match your current filter settings in `.csv` format.
+
+    -   *CSV \(All Actions\)*
+
+        Download all logs in `.csv` format, regardless of the filters applied.
+
 
     > ### Note:  
     > SAP Cloud Transport Management stores all transport action logs of a subscription until they're archived. If you select the plain text format, the `.zip` file can contain many individual `.txt` files.
