@@ -1,8 +1,0 @@
-Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: btp-cloud-transport-management
-Upstream-Contact: Anke Ravalitera (anke.ravalitera@sap.com)
-Source: https://github.com/sap-docs/btp-cloud-transport-management
-
-Files: *
-Copyright:  2024 SAP SE or an SAP affiliate company and SAP-docs/btp-cloud-transport-management contributors
-License: CC-BY-4.0
