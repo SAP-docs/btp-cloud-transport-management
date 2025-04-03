@@ -92,6 +92,239 @@ Cloud Transport Management
 </td>
 <td valign="top">
 
+SAP Cloud Transport Management service available on new data centers.
+
+</td>
+<td valign="top">
+
+SAP Cloud Transport Management service is now also available in the following regions:
+
+-   Amazon Web Services in the Brazil \(São Paulo\) region
+-   Google Cloud in the Japan \(Osaka\) region
+-   Google Cloud in the Australia Southeast \(Sydney\) region
+-   Google Cloud in the Europe \(Frankfurt\) region
+
+See:
+
+-   [SAP Cloud Transport Management in SAP Discovery Center](https://discovery-center.cloud.sap/serviceCatalog/cloud-transport-management/?region=all&tab=service_plan)
+-   [Regions and API Endpoints Available for the Cloud Foundry Environment](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/f344a57233d34199b2123b9620d0bb41.html)
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Application Development and Integration
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Cloud Transport Management
+
+</td>
+<td valign="top">
+
+2025-04-03
+
+</td>
+<td valign="top">
+
+2025-04-03
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Cloud Transport Management 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+New troubleshooting topic containing information about issues that can arise when transporting Multitarget Applications \(MTAs\) in Cloud Foundry.
+
+</td>
+<td valign="top">
+
+See:
+
+-   [Troubleshooting Issues when Transporting Multitarget Applications \(MTAs\)](troubleshooting-issues-when-transporting-multitarget-applications-mtas-3f7a9bc.md)
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Application Development and Integration
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Cloud Transport Management
+
+</td>
+<td valign="top">
+
+2025-04-03
+
+</td>
+<td valign="top">
+
+2025-04-03
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Cloud Transport Management 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+SAP Cloud Transport Management service available on new data centers.
+
+</td>
+<td valign="top">
+
+SAP Cloud Transport Management service is now also available in the following regions:
+
+-   Google Cloud in the KSA \(Dammam\) region
+-   Google Cloud in the Japan \(Tokyo\) region
+
+See:
+
+-   [SAP Cloud Transport Management in SAP Discovery Center](https://discovery-center.cloud.sap/serviceCatalog/cloud-transport-management/?region=all&tab=service_plan)
+-   [Regions and API Endpoints Available for the Cloud Foundry Environment](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/f344a57233d34199b2123b9620d0bb41.html)
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Application Development and Integration
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Cloud Transport Management
+
+</td>
+<td valign="top">
+
+2025-04-03
+
+</td>
+<td valign="top">
+
+2025-03-07
+
+</td>
+<td valign="top">
+
+2502a
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Cloud Transport Management 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 Option to download only the selected \(filtered\) transport action logs.
 
 </td>
@@ -379,7 +612,7 @@ SAP Cloud Transport Management
 </tr>
 </table>
 
--   **[2023 SAP Cloud Transport Management \(Archive\)](2023-sap-cloud-transport-management-archive-83b7ab9.md)**  
+-   **[2024 SAP Cloud Transport Management \(Archive\)](2024-sap-cloud-transport-management-archive-8af3915.md)**  
 
 
 **Related Information**  

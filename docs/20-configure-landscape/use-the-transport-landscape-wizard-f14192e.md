@@ -22,7 +22,7 @@ You can use the Transport Landscape Wizard to configure the transport nodes and 
 
 1.  Under *Selection of Template*, select the number of transport nodes of which your landscape will consist.
 
-    A transport node represents the source or the target end point of a deployment process - for example, a source \(DEV\) and a target \(PROD\) space in a Cloud Foundry subaccount. If you have DEV and PRD account, you need a two-node landscape. If you have an additional TEST account, you need a three-node landscape. For more examples, see also [SAP Cloud Transport Management Scenarios](sap-cloud-transport-management-scenarios-0cb16e5.md).
+    A transport node represents the source or the target end point of a deployment process - for example, a source \(DEV\) and a target \(PROD\) space in a Cloud Foundry subaccount. If you have DEV and PRD account, you need a two-node landscape. If you have an additional TEST account, you need a three-node landscape. For an example, see [Sample Configuration Scenario](sample-configuration-scenario-22e1ed6.md).
 
 2.  Choose *Next*.
 

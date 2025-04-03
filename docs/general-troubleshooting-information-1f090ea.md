@@ -1,6 +1,6 @@
 <!-- loio1f090ea0d5ac45dab8b889840f566b23 -->
 
-# Troubleshooting
+# General Troubleshooting Information
 
 Learn how you can get support if things start to go wrong.
 

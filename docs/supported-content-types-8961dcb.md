@@ -26,8 +26,6 @@ These content types \(files or references\) can be transported in one of the fol
 -   They are uploaded from a Continuous Integration pipeline.
 -   They are available on local file systems.
 
-For more information, see [SAP Cloud Transport Management Scenarios](20-configure-landscape/sap-cloud-transport-management-scenarios-0cb16e5.md).
-
 <a name="loio0dccbb6ee1714240b9b9bedc1a240a7e"/>
 
 <!-- loio0dccbb6ee1714240b9b9bedc1a240a7e -->

@@ -304,7 +304,11 @@ To address the target end point of the deployment process of MTA Deployment on C
 3.  Choose *Save* to save your changes.
 
     > ### Caution:  
-    > If you use *Check Connection* to check your destination: The check doesn't provide correct results for destinations using OAuth2Password authentication. It's possible that the check displays an error, even though the destination was configured correctly. We recommend that you test the deployment using a test transport after completing all configuration steps.
+    > If you use *Check Connection* to check your destination, the expected result of a successful check is: *Connection to *<destination \>*established.*
+    > 
+    > This only indicates that the URL specified in the destination can be reached. Such a successful check doesn't guarantee a successful deployment. We recommend that you test the deployment using a test transport after completing all configuration steps.
+    > 
+    > For more information about connection checks, see [Check the Availability of a Destination](https://help.sap.com/docs/CP_CONNECTIVITY/cca91383641e40ffbe03bdc78f00f681/71ea3ccf4ebc4c63a3989c0b318e3e9b.html).
 
 
 

@@ -12,9 +12,7 @@ By adding a file to the import queue, you upload it to the import queue and crea
 
 -   You have one of the roles *Administrator* or *ExportOperator* assigned to your role. For more information, see [Security](../60-security/security-51939a4.md).
 
--   You’re using SAP Cloud Transport Management service in the scenario *Transport of Content Archives that are available on Local File Systems*. For this, you’ve selected the *Allow Upload to Node* checkbox for the transport node to which you want to add a file.
-
-    For more information about scenarios, see [SAP Cloud Transport Management Scenarios](../20-configure-landscape/sap-cloud-transport-management-scenarios-0cb16e5.md).
+-   You’ve selected the *Allow Upload to Node* checkbox for the transport node to which you want to add a file.
 
 -   You want to upload one of the content types *Multitarget Application*, *XSC Delivery Unit*, or *Application Content*. The manual upload of content of type *BTP ABAP* to import queues is not supported. The *Add* button is not available.
 
