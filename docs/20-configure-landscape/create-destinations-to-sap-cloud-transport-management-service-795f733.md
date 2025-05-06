@@ -35,7 +35,7 @@ In the source environment of your application, create a destination to SAP Cloud
 > ### Recommendation:  
 > We recommend that you refer to the documentation of your application for details about how to configure the destination to SAP Cloud Transport Management.
 > 
-> -   For links to documentation of known integrations into SAP Cloud Transport Management, see [Integration in Development and Change Management Processes and with Other Services](../70-integrations/integrating-the-service-7e966f7.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb).
+> -   For links to documentation of known integrations into SAP Cloud Transport Management, see [Integrating SAP Cloud Transport Management with Other Services](../10-initial-setup/integrating-sap-cloud-transport-management-with-other-services-ddaa000.md).
 > -   An overview of known content that is supported by SAP Cloud Transport Management is listed under [Overview: Supported Content](../supported-content-types-8961dcb.md#loio0dccbb6ee1714240b9b9bedc1a240a7e).
 
 
@@ -64,7 +64,7 @@ In the source environment of your application, create a destination to SAP Cloud
 **Related Information**  
 
 
-[Integration in Development and Change Management Processes and with Other Services](../70-integrations/integrating-the-service-7e966f7.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb "SAP Cloud Transport Management is used to transport content of other cloud services. For the following integrations, more information is available:")
+[Integrating SAP Cloud Transport Management with Other Services](../10-initial-setup/integrating-sap-cloud-transport-management-with-other-services-ddaa000.md "Configuration steps for integrating SAP Cloud Transport Management with other services are determined by the type of content being transported and how the integration was realized. Get an overview of known integrations and links to further information.")
 
 <a name="loio75fe5d4b4fa3492c87ef6be32ea0b819"/>
 

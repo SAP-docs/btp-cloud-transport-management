@@ -2,13 +2,14 @@
 
 # Set Up the Environment to Transport Content Archives directly in an Application
 
-Before you can transport content archives directly in an application, cloud administrators perform the following initial setup steps.
+Learn the general steps for setting up SAP Cloud Transport Management service to transport content archives directly in an application.
 
-> ### Note:  
-> If you are using this service as part of SAP Build Code, follow the [SAP Build Code Initial Setup](https://help.sap.com/docs/build_code/d0d8f5bfc3d640478854e6f4e7c7584a/07698d7c31284e4db370acdf017cfd14.html?version=SHIP) instructions instead.
+Before you can transport content archives directly in an application, cloud administrators perform initial setup steps.
 
-> ### Recommendation:  
-> Run SAP Cloud Transport Management service as shared service, by setting it up on a central administrative subaccount, to facilitate role management and allow strict access control.
+The steps in the topics linked below outline the general steps for setting up SAP Cloud Transport Management service to transport content archives. We recommend that you always start by reading the documentation of the application or SAP BTP service whose content you want to transport. This documentation contains all configuration tasks required for the specific scenario. For more information about known integrations, see [Integrating SAP Cloud Transport Management with Other Services](integrating-sap-cloud-transport-management-with-other-services-ddaa000.md).
+
+> ### Tip:  
+> For the initial setup steps, see also the tutorial on SAP Tutorial Navigator: [Get Started with SAP Cloud Transport Management Service](https://developers.sap.com/tutorials/btp-transport-management-getting-started.html)
 
 > ### Note:  
 > Most of the steps described in the topics linked below can be done either using SAP BTP Cockpit or Cloud Foundry command line interface.

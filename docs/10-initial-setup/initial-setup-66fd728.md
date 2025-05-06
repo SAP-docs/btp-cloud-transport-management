@@ -30,15 +30,18 @@ You can get started with SAP Cloud Transport Management using the standard proce
 
 SAP Cloud Transport Management is offered using the *Consumption-Based Commercial Model*.
 
+For more information about the consumption-based commercial model, see [Commercial Models](https://help.sap.com/docs/btp/btp-admin-guide/basic-platform-concepts?version=Cloud#loio263d40009a5a4237a62e8f5c05ee641e) in the *SAP BTP Administrator's Guide*.
+
 > ### Tip:  
 > SAP Cloud Transport Management service is an *additional* service that must be integrated into the existing development processes of the cloud services or applications whose content it transports. Moreover, the service can be integrated into the change management processes of other services or tools. We recommend that you always start reading the documentation of the application whose content you want to transport to learn about the required configuration tasks.
 
--   **[Set Up the Environment to Transport Content Archives directly in an Application](set-up-the-environment-to-transport-content-archives-directly-in-an-application-8d94907.md "Before you can transport content archives directly in an application, cloud administrators perform the following initial setup
-		steps.")**  
-Before you can transport content archives directly in an application, cloud administrators perform the following initial setup steps.
+Proceed as described in the following topics to set up SAP Cloud Transport Management for your specific use case.
 
-**Related Information**  
-
-
-['Commercial Models' in the 'Best Practices for SAP BTP' guide](https://help.sap.com/docs/BTP/df50977d8bfa4c9a8a063ddb37113c43/38ecf59cdda64150a102cfaa62d5faab.html#loio263d40009a5a4237a62e8f5c05ee641e)
+-   **[Integrating SAP Cloud Transport Management with Other Services](integrating-sap-cloud-transport-management-with-other-services-ddaa000.md "Configuration steps for integrating SAP Cloud Transport Management with other  services are
+		determined by the type of content being transported and how the integration was realized.
+		Get an overview of known integrations and links to further information.")**  
+Configuration steps for integrating SAP Cloud Transport Management with other services are determined by the type of content being transported and how the integration was realized. Get an overview of known integrations and links to further information.
+-   **[Set Up the Environment to Transport Content Archives directly in an Application](set-up-the-environment-to-transport-content-archives-directly-in-an-application-8d94907.md "Learn the general steps for setting up SAP Cloud Transport Management service to transport content
+		archives directly in an application.")**  
+Learn the general steps for setting up SAP Cloud Transport Management service to transport content archives directly in an application.
 

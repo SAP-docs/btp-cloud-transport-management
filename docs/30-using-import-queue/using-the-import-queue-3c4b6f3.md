@@ -13,9 +13,9 @@ For each transport request displayed in the import queue, you can display additi
 -   **[Add Files to Import Queues](add-files-to-import-queues-c3c87cb.md "By adding a file to the import queue, you upload it to the import queue and create a
 		transport request.")**  
 By adding a file to the import queue, you upload it to the import queue and create a transport request.
--   **[Import Transport Requests](import-transport-requests-d2005d5.md "You can either import all transport requests in an import queue, or selected
-		transport requests only.")**  
-You can either import all transport requests in an import queue, or selected transport requests only.
+-   **[Import Transport Requests](import-transport-requests-d2005d5.md "SAP Cloud Transport Management allows you to flexibly
+		manage the import of transport requests in transport nodes.")**  
+SAP Cloud Transport Management allows you to flexibly manage the import of transport requests in transport nodes.
 -   **[Forward Transport Requests](forward-transport-requests-630fae7.md "If the Forward Mode of a transport node is set to the value Manual, you can manually forward
 		selected transport requests in this node to target transport nodes.")**  
 If the *Forward Mode* of a transport node is set to the value *Manual*, you can manually forward selected transport requests in this node to target transport nodes.
@@ -27,6 +27,9 @@ You can remove selected transport requests from an import queue.
 -   **[Disable the Import](disable-the-import-f810a35.md "To prevent imports from happening in a specific transport node, you can disable the import in the import queue of the transport
 		node.")**  
 To prevent imports from happening in a specific transport node, you can disable the import in the import queue of the transport node.
+-   **[Enable Automatic Import](enable-automatic-import-9171d39.md "To enable immediate imports of transport requests as soon as they enter a new queue, you
+		can enable the automatic import in the import queue of a transport node.")**  
+To enable immediate imports of transport requests as soon as they enter a new queue, you can enable the automatic import in the import queue of a transport node.
 -   **[Schedule Imports](schedule-imports-110a7a4.md "To run imports of all transport requests in a transport node on a regular basis, you can schedule them to run at regular
 		intervals.")**  
 To run imports of all transport requests in a transport node on a regular basis, you can schedule them to run at regular intervals.

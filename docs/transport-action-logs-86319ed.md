@@ -14,7 +14,7 @@ The transport action logs display a history of all actions related to a transpor
 
 All transport actions that occur in your SAP Cloud Transport Management subscription such as *Import to Node*, *File Upload*, *Upload to Node*, *Delete Queue Entry*, *Repeat Queue Entry*, *Export to Node*, *Add Queue Entry*, or *Forward Queue Entry* are logged and displayed in the *Transport Action Logs*.
 
-To display the transport action logs, on the SAP Cloud Transport Management home screen, choose <span class="SAP-icons-V5"></span> Transport Action Logs.
+To display the transport action logs, on the SAP Cloud Transport Management home screen, choose <span class="SAP-icons-V5"></span> Transport Action Logs from the navigation pane.
 
 
 

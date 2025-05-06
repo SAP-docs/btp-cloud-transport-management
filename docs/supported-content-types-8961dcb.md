@@ -45,9 +45,9 @@ The table contains the following information:
 -   *Solution Export Wizard*: Is the integration with SAP Cloud Transport Management realized using Solution Export Wizard? \(Neo only\)
 -   *Continuous Integration \(CI\) Pipeline Upload*: Is there a CI pipeline template available with the option of uploading content to SAP Cloud Transport Management?
 
-    For more information about integration into CI pipelines, see the links to *More Information* listed in the *Integration Scenario*: [Receiving transports comprising release candidates qualified by automated pipelines in SAP Continuous Integration and Delivery service](70-integrations/integrating-the-service-7e966f7.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__cicd), in particular the series of tutorial videos.
+    For more information about integration into CI pipelines, see the links to *More Information* listed in the *Integration Scenario*: [Receiving transports comprising release candidates qualified by automated pipelines in SAP Continuous Integration and Delivery service](70-integrations/integrating-the-service-7e966f7.md#loio1b3c6637adb54d4bbb1828f911bb9547__cicd), in particular the series of tutorial videos.
 
--   *More Information about the Integration*: Link to more information about the integration with SAP Cloud Transport Management in the relevant section of:[Integration in Development and Change Management Processes and with Other Services](70-integrations/integrating-the-service-7e966f7.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb), where more information is available.
+-   *More Information about the Integration*: Link to more information about the integration with SAP Cloud Transport Management in the relevant section of: [Integrating SAP Cloud Transport Management with Other Services](10-initial-setup/integrating-sap-cloud-transport-management-with-other-services-ddaa000.md), where more information is available.
 
 **Table: Content Supported by SAP Cloud Transport Management**
 
@@ -143,7 +143,7 @@ Export to SAP Cloud Transport Management takes place using the *Manage Software 
 </td>
 <td valign="top">
 
-[SAP BTP, ABAP Environment](70-integrations/integrating-the-service-7e966f7.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__btp_abap)
+[SAP BTP, ABAP Environment](10-initial-setup/integrating-sap-cloud-transport-management-with-other-services-ddaa000.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__btp_abap)
 
 </td>
 </tr>
@@ -190,7 +190,7 @@ Using API management UI
 </td>
 <td valign="top">
 
-[SAP API Management](70-integrations/integrating-the-service-7e966f7.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__api)
+[SAP API Management](10-initial-setup/integrating-sap-cloud-transport-management-with-other-services-ddaa000.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__api)
 
 </td>
 </tr>
@@ -237,7 +237,7 @@ Using the integration of SAP Destination Service in SAP Content Agent service. N
 </td>
 <td valign="top">
 
-[SAP Content Agent Service](70-integrations/integrating-the-service-7e966f7.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__cas)
+[SAP Content Agent Service](70-integrations/integrating-the-service-7e966f7.md#loio1b3c6637adb54d4bbb1828f911bb9547__cas)
 
 </td>
 </tr>
@@ -425,7 +425,7 @@ No
 </td>
 <td valign="top">
 
-[SAP Build Apps](70-integrations/integrating-the-service-7e966f7.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__build_apps)
+[SAP Build Apps](10-initial-setup/integrating-sap-cloud-transport-management-with-other-services-ddaa000.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__build_apps)
 
 </td>
 </tr>
@@ -472,7 +472,7 @@ No
 </td>
 <td valign="top">
 
-[SAP Build Process Automation](70-integrations/integrating-the-service-7e966f7.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__build_pa)
+[SAP Build Process Automation](10-initial-setup/integrating-sap-cloud-transport-management-with-other-services-ddaa000.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__build_pa)
 
 </td>
 </tr>
@@ -519,7 +519,7 @@ Using SAP Cloud Integration UI
 </td>
 <td valign="top">
 
-[SAP Cloud Integration](70-integrations/integrating-the-service-7e966f7.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__cloud_integration)
+[SAP Cloud Integration](10-initial-setup/integrating-sap-cloud-transport-management-with-other-services-ddaa000.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__cloud_integration)
 
 </td>
 </tr>
@@ -613,7 +613,7 @@ No
 </td>
 <td valign="top">
 
-[SAP Analytics Cloud](70-integrations/integrating-the-service-7e966f7.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__analytics)
+[SAP Analytics Cloud](10-initial-setup/integrating-sap-cloud-transport-management-with-other-services-ddaa000.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__analytics)
 
 </td>
 </tr>
@@ -660,7 +660,7 @@ Export to SAP Cloud Transport Management takes place using the *Transport Config
 </td>
 <td valign="top">
 
-[SAP Batch Release Hub for Life Sciences](70-integrations/integrating-the-service-7e966f7.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__brh4ls)
+[SAP Batch Release Hub for Life Sciences](10-initial-setup/integrating-sap-cloud-transport-management-with-other-services-ddaa000.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__brh4ls)
 
 </td>
 </tr>
@@ -707,7 +707,7 @@ Using the integration of SAP Build Work Zone, standard edition in SAP Build Work
 </td>
 <td valign="top">
 
-[SAP Build Workzone, advanced edition](70-integrations/integrating-the-service-7e966f7.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__wz)
+[SAP Build Workzone, advanced edition](10-initial-setup/integrating-sap-cloud-transport-management-with-other-services-ddaa000.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__wz)
 
 </td>
 </tr>
@@ -754,7 +754,7 @@ No
 </td>
 <td valign="top">
 
-[SAP Build Workzone, standard edition](70-integrations/integrating-the-service-7e966f7.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__lps)
+[SAP Build Workzone, standard edition](10-initial-setup/integrating-sap-cloud-transport-management-with-other-services-ddaa000.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__lps)
 
 </td>
 </tr>
@@ -801,7 +801,7 @@ No
 </td>
 <td valign="top">
 
-[SAP Datasphere](70-integrations/integrating-the-service-7e966f7.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__datasphere)
+[SAP Datasphere](10-initial-setup/integrating-sap-cloud-transport-management-with-other-services-ddaa000.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__datasphere)
 
 </td>
 </tr>
@@ -848,7 +848,7 @@ No
 </td>
 <td valign="top">
 
-[SAP Entitlement Management](70-integrations/integrating-the-service-7e966f7.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__entitlement)
+[SAP Entitlement Management](10-initial-setup/integrating-sap-cloud-transport-management-with-other-services-ddaa000.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__entitlement)
 
 </td>
 </tr>
@@ -895,7 +895,7 @@ Warehouse address details are not transported with a warehouse. They must be mai
 </td>
 <td valign="top">
 
-[SAP Excise Tax Management](70-integrations/integrating-the-service-7e966f7.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__etm)
+[SAP Excise Tax Management](10-initial-setup/integrating-sap-cloud-transport-management-with-other-services-ddaa000.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__etm)
 
 </td>
 </tr>
@@ -942,7 +942,7 @@ In the *Manage Packages* app, forms and folders can be exported to SAP Cloud Tra
 </td>
 <td valign="top">
 
-[SAP Group Reporting Data Collection for SAP S/4HANA](70-integrations/integrating-the-service-7e966f7.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__grdc)
+[SAP Group Reporting Data Collection for SAP S/4HANA](10-initial-setup/integrating-sap-cloud-transport-management-with-other-services-ddaa000.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__grdc)
 
 </td>
 </tr>
@@ -989,7 +989,7 @@ Export to SAP Cloud Transport Management takes place using the *Transport Config
 </td>
 <td valign="top">
 
-[SAP Intelligent Clinical Supply Management](70-integrations/integrating-the-service-7e966f7.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__icsm)
+[SAP Intelligent Clinical Supply Management](10-initial-setup/integrating-sap-cloud-transport-management-with-other-services-ddaa000.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__icsm)
 
 </td>
 </tr>
@@ -1036,7 +1036,7 @@ No
 </td>
 <td valign="top">
 
-[SAP Mobile Services](70-integrations/integrating-the-service-7e966f7.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__mobile)
+[SAP Mobile Services](10-initial-setup/integrating-sap-cloud-transport-management-with-other-services-ddaa000.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__mobile)
 
 </td>
 </tr>
@@ -1318,7 +1318,7 @@ No
 </td>
 <td valign="top">
 
-[SAP Cloud Integration](70-integrations/integrating-the-service-7e966f7.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__cloud_integration)
+[SAP Cloud Integration](10-initial-setup/integrating-sap-cloud-transport-management-with-other-services-ddaa000.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__cloud_integration)
 
 </td>
 </tr>
@@ -1520,6 +1520,6 @@ On Delivery Unit \(DU\) level
 
 -   [Multitarget Applications in the Cloud Foundry Environment](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/d04fc0e2ad894545aebfd7126384307c.html)
 -   [Multitarget Applications for the Neo Environment](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/e1bb7eb746d34237b8b47035adff5022.html)
--   For more information about the integration of specific content in SAP Cloud Transport Management, see [Integration in Development and Change Management Processes and with Other Services](70-integrations/integrating-the-service-7e966f7.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb).
+-   For more information about the integration of specific content in SAP Cloud Transport Management, see [Integrating SAP Cloud Transport Management with Other Services](10-initial-setup/integrating-sap-cloud-transport-management-with-other-services-ddaa000.md).
 
 

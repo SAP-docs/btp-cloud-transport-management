@@ -361,5 +361,5 @@ Use the Transport Landscape Visualization to perform the following tasks:
 **Related Information**  
 
 
-[Landscape Action Logs](landscape-action-logs-7b630db.md "The landscape action logs display the history of all actions related to landscape configuration.")
+[Landscape Action Logs](landscape-action-logs-7b630db.md "The landscape action logs display the history of all actions related to the landscape configuration in your SAP Cloud Transport Management subscription.")
 

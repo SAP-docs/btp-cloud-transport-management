@@ -209,5 +209,5 @@ To address the target end point of the deployment process of references of SAP B
 
 [More information about exporting references of SAP BTP, ABAP Environment: How to Export Using SAP Cloud Transport Management](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/b837a3b4226843cb86e8c35d2f35e6fa.html)
 
-[Integration in Development and Change Management Processes and with Other Services](../70-integrations/integrating-the-service-7e966f7.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb "SAP Cloud Transport Management is used to transport content of other cloud services. For the following integrations, more information is available:")
+[Integrating SAP Cloud Transport Management with Other Services](../10-initial-setup/integrating-sap-cloud-transport-management-with-other-services-ddaa000.md "Configuration steps for integrating SAP Cloud Transport Management with other services are determined by the type of content being transported and how the integration was realized. Get an overview of known integrations and links to further information.")
 

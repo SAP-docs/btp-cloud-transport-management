@@ -2,7 +2,7 @@
 
 # Import Transport Requests
 
-You can either import all transport requests in an import queue, or selected transport requests only.
+SAP Cloud Transport Management allows you to flexibly manage the import of transport requests in transport nodes.
 
 
 
@@ -10,32 +10,39 @@ You can either import all transport requests in an import queue, or selected tra
 
 ## Prerequisites
 
--   To execute an import of all transport requests in the import queue, you need the *ImportOperator* authorization. To execute an import of selected transport requests in the import queue, you need the *TransportOperator* authorization. For more information, see [Security](../60-security/security-51939a4.md).
+-   To run an import of all transport requests in the import queue, you need the *ImportOperator* authorization. To run an import of selected transport requests in the import queue, you need the *TransportOperator* authorization. For more information, see [Security](../60-security/security-51939a4.md).
 
--   You're in the import queue of the transport node where you want to execute imports. For more information, see [Prerequisites for Using the Import Queue](prerequisites-for-using-the-import-queue-dd661c7.md).
+-   You're in the import queue of the transport node where you want to run an import. For more information, see [Prerequisites for Using the Import Queue](prerequisites-for-using-the-import-queue-dd661c7.md).
 
 
 
 ## Context
 
-In the import queue, you have the following options:
+In an import queue, you have the following options to import transport requests:
 
--   Import all transport requests in the import queue
--   Import one or more selected transport requests of the import queue
--   Import all transport requests up to a selected transport request.
+-   Manually start imports:
+    -   Import all transport requests in an import queue
+    -   Import one or more selected transport requests in an import queue
+    -   Import all transport requests up to a selected transport request
+
+-   Schedule imports of all transport requests in an import queue to run at regular intervals
+-   Enable automatic imports of transport requests as soon as they enter an import queue
 
 > ### Note:  
-> It is possible that an option is not available in an import queue. Possible reasons are that an option is not supported by the content type to be imported or because of missing authorizations of the user.
+> It's possible that an option isn't available. This can happen if the content type you're importing doesn't support the option or if you don't have the necessary user permissions.
 
-All entries with the *Initial*, *Fatal*, and *Repeatable* statuses can be imported.
+All transport requests with an *Initial*, *Fatal*, or *Repeatable* status can be imported.
 
 
 
 ## Procedure
 
-1.  Make sure that the filters in the import queue are set correctly so that all relevant transport requests are displayed.
+-   Manually import transport requests:
 
-2.  To start the import, choose one of the following options:
+    1.  Ensure the filters in the import queue are set correctly to display all relevant transport requests.
+
+    2.  To start the import, choose one of the following options:
+
 
     -   *Import All*
 
@@ -64,11 +71,15 @@ All entries with the *Initial*, *Fatal*, and *Repeatable* statuses can be import
         > If relevant transport requests are hidden because of your filter settings, SAP Cloud Transport Management displays an error message. Adjust your filter settings to display the relevant transport requests, and restart the import.
 
 
-    By default, the import is executed immediately.
+    The import starts immediately.
 
-3.  **Optional:** Schedule imports of all transport requests to be executed at regular intervals.
+-   Schedule imports of all transport requests to run at regular intervals.
 
     For more information, see [Schedule Imports](schedule-imports-110a7a4.md).
+
+-   Enable the automatic import of transport requests as soon as they enter an import queue.
+
+    For more information, see [Enable Automatic Import](enable-automatic-import-9171d39.md).
 
 
 
@@ -86,9 +97,11 @@ If multiple transport requests of content type *BTP ABAP* are imported using *Im
 For more information, see [Statuses of Transport Requests](../40-using-request-overview/statuses-of-transport-requests-3a8259e.md).
 
 > ### Note:  
-> If a transport request with a Multitarget Application archive \(`.mta`\) was imported in a subaccount of the Neo environment, the archive is afterward visible in the *Standard Solutions* category in the *Solutions* page in the SAP BTP cockpit of the subaccount. For more information on solutions, see [Operating Solutions](https://help.sap.com/docs/BTP/ea72206b834e4ace9cd834feed6c0e09/2abf7d47063542208d0d99f7bc05f4f4.html?locale=en-US) in the SAP BTP documentation.
+> If a transport request with a Multitarget Application archive \(`.mta`\) is imported in a subaccount of the Neo environment, the archive is afterward visible in the *Standard Solutions* category in the *Solutions* page in the SAP BTP Cockpit of the subaccount. For more information on solutions, see [Operating Solutions](https://help.sap.com/docs/BTP/ea72206b834e4ace9cd834feed6c0e09/2abf7d47063542208d0d99f7bc05f4f4.html?locale=en-US) in the SAP BTP documentation.
 
 Check the status and the logs to make sure that the import was successful.
+
+For more information, see [Options to Display Information about Transport Requests](options-to-display-information-about-transport-requests-a90d808.md).
 
 
 
@@ -105,4 +118,9 @@ Forwarded transport requests are added to the end of the import queues of the ta
 -   *Repeatable* remains *Repeatable*.
 
 If the *Forward Mode* is *Manual*, manually forward the transport requests as required. For more information, see [Forward Transport Requests](forward-transport-requests-630fae7.md).
+
+**Related Information**  
+
+
+[Troubleshooting Issues when Transporting Multitarget Applications \(MTAs\)](../troubleshooting-issues-when-transporting-multitarget-applications-mtas-3f7a9bc.md "Find information about how to solve issues that can arise when you use SAP Cloud Transport Management to transport Multitarget Applications (MTAs) in Cloud Foundry using SAP Cloud Deployment service for deployment.")
 

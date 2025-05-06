@@ -92,6 +92,306 @@ Cloud Transport Management
 </td>
 <td valign="top">
 
+Enhancements to the *Create Node* dialog.
+
+</td>
+<td valign="top">
+
+When you create or edit a transport node, the destination selection box now displays both the name and description of each destination. The description makes it easier to choose the appropriate destination.
+
+See:
+
+-   [Create Transport Nodes](20-configure-landscape/create-transport-nodes-f71a4d5.md)
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Application Development and Integration
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Cloud Transport Management
+
+</td>
+<td valign="top">
+
+2025-05-06
+
+</td>
+<td valign="top">
+
+2025-05-06
+
+</td>
+<td valign="top">
+
+2504a
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Cloud Transport Management 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Revamp of the Landscape Action Logs
+
+</td>
+<td valign="top">
+
+The landscape action logs are now displayed in a more flexible table layout with extensive filter options, detail display, and links to the affected objects.
+
+See:
+
+-   [Landscape Action Logs](landscape-action-logs-7b630db.md)
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Application Development and Integration
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Cloud Transport Management
+
+</td>
+<td valign="top">
+
+2025-05-06
+
+</td>
+<td valign="top">
+
+2025-05-06
+
+</td>
+<td valign="top">
+
+2504a
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Cloud Transport Management 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+New function in the import queue: Immediately start imports of transport requests as soon as they enter an import queue.
+
+</td>
+<td valign="top">
+
+This function enhances automation, and simplifies the import process.
+
+See:
+
+-   [Enable Automatic Import](30-using-import-queue/enable-automatic-import-9171d39.md)
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Application Development and Integration
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Cloud Transport Management
+
+</td>
+<td valign="top">
+
+2025-05-06
+
+</td>
+<td valign="top">
+
+2025-05-06
+
+</td>
+<td valign="top">
+
+2504a
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Cloud Transport Management 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+New tutorial available on SAP Learning: *Transport SAP Integration Suite Content using SAP Cloud Transport Management service and SAP Content Agent service* 
+
+</td>
+<td valign="top">
+
+If you want to transport SAP Integration Suite content using SAP Cloud Transport Management and use SAP Content Agent both for the export of the content in a source subaccount and for the import of the content in a target subaccount, use this tutorial to learn about the required configuration steps.
+
+See:
+
+-   [Transport SAP Integration Suite Content using SAP Cloud Transport Management service and SAP Content Agent service](https://developers.sap.com/tutorials/btp-transport-management-cpi-01-use-case.html)
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Application Development and Integration
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Cloud Transport Management
+
+</td>
+<td valign="top">
+
+2025-04-17
+
+</td>
+<td valign="top">
+
+2025-04-17
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Cloud Transport Management 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 SAP Cloud Transport Management service available on new data centers.
 
 </td>

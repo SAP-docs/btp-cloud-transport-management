@@ -93,7 +93,7 @@ In the DEV environment of the application
 When you select a content archive for transport, a transport request is created and the content archive is attached to the transport request. The transport request is placed into the import queue of the TEST node so that the content archive is available for import in the TEST environment. Depending on the specific application, the transport request is also available in the DEV node. When the import is started in the TEST node, and the default *Pre-Import* forward mode was left unchanged in the TEST node, the transport request is forwarded to the PROD node so that the content archive is available for import in the PROD environment.
 
 > ### Note:  
-> For more information about existing integrations of SAP Cloud Transport Management in other applications or services, see [Integrating the Service](../70-integrations/integrating-the-service-7e966f7.md#loio7e966f73645c42eca1bf19e719b21ceb).
+> For more information about existing integrations of SAP Cloud Transport Management in other applications or services, see [Integrating SAP Cloud Transport Management with Other Services](../10-initial-setup/integrating-sap-cloud-transport-management-with-other-services-ddaa000.md).
 
 > ### Note:  
 > If there's no export integration of SAP Cloud Transport Management in the source environment, you can also the service to upload content archives from a local file system and import them in a target environment.

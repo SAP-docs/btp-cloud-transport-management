@@ -13,5 +13,5 @@ To use the transport requests overview, you must open it and have the appropriat
 
     For more information, see [Security](../60-security/security-51939a4.md).
 
--   You have opened the transport requests overview by choosing <span class="SAP-icons-V5"></span> Transport Requests on the SAP Cloud Transport Management home screen.
+-   You have opened the transport requests overview by choosing <span class="SAP-icons-V5"></span> Transport Requests from the navigation pane.
 

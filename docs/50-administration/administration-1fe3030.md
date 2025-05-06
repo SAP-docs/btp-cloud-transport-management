@@ -48,7 +48,7 @@ Configure your transport landscape. Configuration tasks include:
     For more information, see [Create Transport Destinations](../20-configure-landscape/create-transport-destinations-c9905c1.md).
 
 
-In addition, you can integrate SAP Cloud Transport Management service with change management tools, such as SAP Cloud ALM Feature Management to handle the deployment to the target environments. For more information, see [Integrating SAP Cloud Transport Management service with SAP Cloud ALM](../70-integrations/integrating-the-service-7e966f7.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__calm).
+In addition, you can integrate SAP Cloud Transport Management service with change management tools, such as SAP Cloud ALM Feature Management to handle the deployment to the target environments. For more information, see [Integrating SAP Cloud Transport Management service with SAP Cloud ALM](../70-integrations/integrating-the-service-7e966f7.md#loio1b3c6637adb54d4bbb1828f911bb9547__calm) in the [Extended Integration Scenarios](../70-integrations/integrating-the-service-7e966f7.md#loio1b3c6637adb54d4bbb1828f911bb9547) topic.
 
 </td>
 <td valign="top">
