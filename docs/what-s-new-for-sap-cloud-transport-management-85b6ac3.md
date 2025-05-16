@@ -92,6 +92,160 @@ Cloud Transport Management
 </td>
 <td valign="top">
 
+New feedback button available in the title bar of SAP Cloud Transport Management 
+
+</td>
+<td valign="top">
+
+Use the feedback button to share anonymous feedback about SAP Cloud Transport Management.
+
+See:
+
+-   [SAP Cloud Transport Management Home Screen](sap-cloud-transport-management-home-screen-9ac7880.md)
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Application Development and Integration
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Cloud Transport Management
+
+</td>
+<td valign="top">
+
+2025-05-16
+
+</td>
+<td valign="top">
+
+2025-05-16
+
+</td>
+<td valign="top">
+
+2504b
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Cloud Transport Management 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+SAP Cloud Transport Management service available on new data centers.
+
+</td>
+<td valign="top">
+
+SAP Cloud Transport Management service is now also available in the following regions:
+
+-   Amazon Web Services in the US West \(Oregon\) region
+-   Azure in the Canada Central \(Toronto\) region
+
+See:
+
+-   [SAP Cloud Transport Management in SAP Discovery Center](https://discovery-center.cloud.sap/serviceCatalog/cloud-transport-management/?region=all&tab=service_plan)
+-   [Regions and API Endpoints Available for the Cloud Foundry Environment](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/f344a57233d34199b2123b9620d0bb41.html)
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Application Development and Integration
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Cloud Transport Management
+
+</td>
+<td valign="top">
+
+2025-05-16
+
+</td>
+<td valign="top">
+
+2025-05-16
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Cloud Transport Management 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 Enhancements to the *Create Node* dialog.
 
 </td>

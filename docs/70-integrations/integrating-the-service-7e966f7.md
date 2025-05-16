@@ -4,6 +4,10 @@
 
 SAP Cloud Transport Management service is integrated in development and change management processes and with other services. You can also integrate the service in your processes using the APIs that are available on SAP Business Accelerator Hub.
 
+For more information about the known integrations with other SAP BTP services, see [Integrating SAP Cloud Transport Management with Other Services](https://help.sap.com/docs/cloud-transport-management/sap-cloud-transport-management/integration-in-development-and-change-management-processes-and-with-other-services?state=DRAFT).
+
+In the following sections, learn more about the extended integration scenarios available and how to use the APIs of the service.
+
 <a name="loio1b3c6637adb54d4bbb1828f911bb9547"/>
 
 <!-- loio1b3c6637adb54d4bbb1828f911bb9547 -->
