@@ -4,6 +4,37 @@
 
 In the import queue of a transport node, you can start the upload of a file or import processes.
 
+
+
+<a name="loio3c4b6f38866b4a70b20e79501db5f7e5__context_cb1_csz_nfc"/>
+
+## Context
+
+The header section displays the name and the description of the transport node, and the information about the assigned *Forward Mode*, *Content Type*, and the *Destination*. Values for content type and destination exist only if the node has these entities assigned. If a destination is assigned, information about *Application Type* and *Region Key* are derived from it and are also displayed in the header section.
+
+When you go to an import queue of a transport node, the *Import Queue* tab opens by default.
+
+The following screenshot shows a sample import queue with one transport request that was successfully imported.
+
+![Screenshot of Import Queue](images/Import_Queue_56f1ee8.png)
+
+
+
+## Procedure
+
+-   *Import Queue* tab
+
+    This tab displays all transport requests that match the selected search and filter criteria. You can adjust the search and filter criteria to your requirements, and run different actions on the transport requests that are described in the subsequent topics.
+
+-   *Node Details* tab
+
+    This tab provides general information about the current transport node and details about import scheduling. Information about the forward mode, content type, and destination, if the node has a destination assigned, are still displayed in the header section.
+
+-   *Transport Routes* tab
+
+    The transport routes that are associated with the current transport node are displayed. When you select a transport node link, the transport routes of the selected node are displayed.
+
+
 -   **[Prerequisites for Using the Import Queue](prerequisites-for-using-the-import-queue-dd661c7.md "To use the import queue, open it and have the appropriate authorizations.")**  
 To use the import queue, open it and have the appropriate authorizations.
 -   **[Search and Filter Options in an Import Queue](search-and-filter-options-in-an-import-queue-3228b4c.md "You have different options to search for transport requests in an import queue and filter for specific criteria.")**  

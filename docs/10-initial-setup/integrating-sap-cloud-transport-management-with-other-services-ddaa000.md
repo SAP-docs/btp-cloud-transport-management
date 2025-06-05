@@ -451,6 +451,10 @@ To set up the integration of SAP Cloud Transport Management for the content type
     -   [Exporting and Importing Application Configurations](https://help.sap.com/doc/f53c64b93e5140918d676b927a3cd65b/Cloud/en-US/docs-en/guides/getting-started/admin/import-export.html)
     -   [SAP Content Agent Service Integration](https://help.sap.com/doc/f53c64b93e5140918d676b927a3cd65b/Cloud/en-US/docs-en/guides/getting-started/admin/content-agent-components.html)
 
+    Tutorial on transporting Mobile Development Kit apps using SAP Cloud Transport Management \(using SAP Content Agent service UI\):
+
+    -   [Transport Mobile Development Kit \(MDK\) apps using SAP Content Agent UI](https://developers.sap.com/tutorials/btp-content-agent-transport-mobile-apps.html)
+
     Blog post:
 
     -   [Transport SAP Mobile apps using SAP Content Agent and SAP Cloud Transport Management](https://community.sap.com/t5/technology-blogs-by-sap/transport-sap-mobile-apps-using-sap-content-agent-and-sap-cloud-transport/ba-p/13771357)

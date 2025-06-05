@@ -86,9 +86,9 @@ In the title bar, you can use the following functions:
 
     When in-app help is enabled, the question mark icon changes to ![](images/Web_Assistant_Enabled_114876c.jpg).
 
--   **Logon Email Address**
+-   :gear:
 
-    Clicking on your logon email address or the dropdown arrow on the top right provides the following options:
+    When you click the :gear: button, you have the following options:
 
 
     <table>
@@ -107,7 +107,7 @@ In the title bar, you can use the following functions:
     <tr>
     <td valign="top">
     
-    *My File Quota*
+    *File Quota*
     
     </td>
     <td valign="top">
@@ -157,6 +157,26 @@ In the title bar, you can use the following functions:
     
     </td>
     </tr>
+    </table>
+    
+-   **User Profile**
+
+    When you click your user profile in the top-right corner, you have the following options:
+
+
+    <table>
+    <tr>
+    <th valign="top">
+
+    Option
+    
+    </th>
+    <th valign="top">
+
+    Description
+    
+    </th>
+    </tr>
     <tr>
     <td valign="top">
     
@@ -181,7 +201,7 @@ In the title bar, you can use the following functions:
     
     Change the default *Horizon* style theme of the UI to *Belize*, *Standard Light*, *Standard Dark*, or *High Contrast Black*.
 
-    ![Logon email dropdown with selected Appearance and UI theme options to choose from](images/About_Transport_Management_Service_b7c2256.png)
+    ![User Profile dropdown with selected Appearance and UI theme options to choose from](images/About_Transport_Management_Service_b7c2256.png)
     
     </td>
     </tr>

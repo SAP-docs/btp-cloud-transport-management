@@ -25,6 +25,8 @@ The following services can be used for deployment:
 
 For more information about the option that is relevant for your use case, also see the application-specific documentation. You can find a list of known integrations and links to application-specific information under [Integrating SAP Cloud Transport Management with Other Services](../10-initial-setup/integrating-sap-cloud-transport-management-with-other-services-ddaa000.md).
 
+For more information about issues that can occur when deploying MTAs in Cloud Foundry, see [Troubleshooting Issues when Transporting Multitarget Applications \(MTAs\)](../troubleshooting-issues-when-transporting-multitarget-applications-mtas-3f7a9bc.md).
+
 -   **[Creating Destinations Using SAP Cloud Deployment Service with OAuth2Password Authentication](creating-destinations-using-sap-cloud-deployment-service-with-oauth2password-authenticati-a26a721.md "To address the target end point of the deployment process of MTA Deployment on Cloud
                                 Foundry, you can create a destination to  SAP Cloud Deployment
                                     service with OAuth2Password authentication.")**  

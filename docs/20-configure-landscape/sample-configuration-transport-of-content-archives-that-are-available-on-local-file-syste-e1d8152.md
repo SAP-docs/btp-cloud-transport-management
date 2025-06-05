@@ -78,5 +78,5 @@ In the SAP Cloud Transport Management service
 In SAP Cloud Transport Management, in the import queue of the TEST node, you upload a content archive to an import queue using the *Add* function. The upload process creates a transport request and attaches the content archive to it so that it is available in the import queue of the TEST node for import in the TEST environment. When the import is started in the TEST node, and the default *Pre-Import* forward mode was left unchanged in the TEST node, the transport request is forwarded to the PROD node so that the content archive is available for import in the PROD environment.
 
 > ### Note:  
-> For more information about the transport of SAP Cloud Integration content using download, see [Content Transport using MTAR Download](https://help.sap.com/viewer/368c481cd6954bdfa5d0435479fd4eaf/Cloud/en-US/c111710329174ab69127eb76b18d7c2c.html) in the *SAP Cloud Integration* documentation.
+> For more information about the transport of SAP Cloud Integration content using download, see [Content Transport using MTAR Download](https://help.sap.com/docs/SAP_INTEGRATION_SUITE/51ab953548be4459bfe8539ecaeee98d/c111710329174ab69127eb76b18d7c2c.html) in the *SAP Integration Suite* documentation.
 

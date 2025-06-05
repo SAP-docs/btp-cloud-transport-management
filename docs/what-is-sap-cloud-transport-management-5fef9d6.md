@@ -1,5 +1,7 @@
 <!-- loio5fef9d6b1cb047b2b18d9eb57aa15352 -->
 
+<link rel="stylesheet" type="text/css" href="css/sap-icons.css"/>
+
 # What Is SAP Cloud Transport Management
 
 Learn more about SAP Cloud Transport Management service for SAP Business Technology Platform \(SAP BTP\).
@@ -30,6 +32,13 @@ SAP Cloud Transport Management service adds transparency to the audit trail of c
 > -   [Introduction Video: Open Documentation Initiative](https://www.youtube.com/watch?v=WJ0oarMlVW4)
 > 
 > -   [Blog Post: Introducing the Open Documentation Initiative](https://blogs.sap.com/2021/05/20/introducing-the-open-documentation-initiative/)
+
+> ### Note:  
+> In-app help is available on the user interface of SAP Cloud Transport Management. To activate this help, from the title bar, choose <span class="SAP-icons-V5"></span> In-App Help. A panel with help topics opens alongside your current screen. The help topics are associated with elements on the screen using green <span class="SAP-icons-V5"></span> icons. Select the icons to learn more about the associated element.
+> 
+> This animated GIF shows how to use the in-app help:
+> 
+> ![This animated GIF shows how to activate the in-app help by choosing the ? icon in the toolbar. ? icons appear next to user interface elements that have associated in-app help. The animated gif shows some examples.](images/In-App_Help_Animated_GIF_e2cb663.gif)
 
 
 

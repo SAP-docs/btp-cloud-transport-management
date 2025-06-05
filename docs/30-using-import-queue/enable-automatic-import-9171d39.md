@@ -23,6 +23,9 @@ To enable immediate imports of transport requests as soon as they enter a new qu
 
 By default, system administration manually imports transport requests into transport nodes. You can configure the transport node to automatically import transport requests as soon as they enter an import queue. Automatic imports simplify the process, ensure timely and consistent processing of transport requests, and eliminate the need for manual intervention.
 
+> ### Caution:  
+> When you enable automatic import, all *importable* transport requests in the import queue are immediately imported. These are transports in one of the following statuses: *Initial*, *Fatal*, or *Repeatable*.
+
 
 
 ## Procedure
@@ -47,7 +50,9 @@ An enabled automatic import has the following effects:
     > 
     > For more information, see [Disable the Import](disable-the-import-f810a35.md).
 
--   The next time a transport request is added to the import queue, it's automatically imported in the background as an *Import All* action. This means that any transport requests that previously failed to import are retried when a new request enters the import queue. To see the status update, refresh the screen.
+-   If *importable* transport requests are already in the import queue, they're imported immediately.
+
+-   The next time a new transport request is added to the import queue, it's automatically imported in the background as an *Import All* action. This means that any transport requests that previously failed to import are retried when a new request enters the import queue. To see the status update, refresh the screen.
 
 -   You can no longer manually import transport requests into this queue.
 

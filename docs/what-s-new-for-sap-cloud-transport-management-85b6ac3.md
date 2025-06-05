@@ -1,5 +1,7 @@
 <!-- loio85b6ac3c2925448c86bcd04f0da6678e -->
 
+<link rel="stylesheet" type="text/css" href="css/sap-icons.css"/>
+
 # What's New for SAP Cloud Transport Management
 
 
@@ -76,6 +78,250 @@ Available as of
 Version
 
 </th>
+</tr>
+<tr>
+<td valign="top">
+
+Cloud Transport Management 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+SAP Cloud Transport Management service available on new data centers.
+
+</td>
+<td valign="top">
+
+SAP Cloud Transport Management service is now also available in the following regions:
+
+-   Amazon Web Services in the US West \(Oregon\) region
+-   Azure in the Canada Central \(Toronto\) region
+
+See:
+
+-   [SAP Cloud Transport Management in SAP Discovery Center](https://discovery-center.cloud.sap/serviceCatalog/cloud-transport-management/?region=all&tab=service_plan)
+-   [Regions and API Endpoints Available for the Cloud Foundry Environment](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/f344a57233d34199b2123b9620d0bb41.html)
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Application Development and Integration
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Cloud Transport Management
+
+</td>
+<td valign="top">
+
+2025-06-06
+
+</td>
+<td valign="top">
+
+2025-06-06
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Cloud Transport Management 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Smaller UI changes
+
+</td>
+<td valign="top">
+
+**Title Bar**
+
+-   Some functions that were previously found under the logon e-mail address are now available under the new :gear: button.
+
+-   The logon e-mail address was replaced by a *User Profile* icon.
+
+
+See:
+
+-   [SAP Cloud Transport Management Home Screen](sap-cloud-transport-management-home-screen-9ac7880.md)
+
+**Import Queue**
+
+-   New *Node Details* tab displaying general information about a node as well as information about import scheduling.
+
+-   The *Disable Import* and *Enable Automatic Import* buttons were moved to the top right of the UI.
+
+
+See:
+
+-   [Using the Import Queue](30-using-import-queue/using-the-import-queue-3c4b6f3.md)
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Application Development and Integration
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Cloud Transport Management
+
+</td>
+<td valign="top">
+
+2025-06-06
+
+</td>
+<td valign="top">
+
+2025-06-06
+
+</td>
+<td valign="top">
+
+2505a
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Cloud Transport Management 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+New tutorial available about transporting Mobile Development Kit apps using SAP Content Agent UI and SAP Cloud Transport Management 
+
+</td>
+<td valign="top">
+
+See:
+
+-   Link to tutorial in [Integrating SAP Cloud Transport Management with Other Services](10-initial-setup/integrating-sap-cloud-transport-management-with-other-services-ddaa000.md)
+-   Tutorial: [Transport Mobile Development Kit \(MDK\) apps using SAP Content Agent UI](https://developers.sap.com/tutorials/btp-content-agent-transport-mobile-apps.html)
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Application Development and Integration
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Cloud Transport Management
+
+</td>
+<td valign="top">
+
+2025-06-06
+
+</td>
+<td valign="top">
+
+2025-06-06
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
