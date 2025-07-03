@@ -35,6 +35,31 @@ More Information
 </td>
 <td valign="top">
 
+Navigate to the subaccount, in which you want to create the service instance and service key for SAP Cloud Transport Management.
+
+> ### Recommendation:  
+> Run SAP Cloud Transport Management service as shared service, by setting it up on a central administrative subaccount, to facilitate role management and allow strict access control.
+
+> ### Note:  
+> If you're integrating SAP Cloud Transport Management with SAP Cloud ALM, don't use the SAP Cloud ALM subaccount.
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+2.
+
+</td>
+<td valign="top">
+
 In the Cloud Foundry organization, create a space and assign the space roles to your user.
 
 1.  On the *Overview* page of your subaccount, in the Cloud Foundry org, you have a *Spaces* table. Choose *Create Space*.
@@ -53,7 +78,7 @@ In the Cloud Foundry organization, create a space and assign the space roles to 
 <tr>
 <td valign="top">
 
-2.
+3.
 
 </td>
 <td valign="top">
@@ -79,7 +104,7 @@ Optional: If you want to limit the resource usage of your space, create a quota 
 <tr>
 <td valign="top">
 
-3.
+4.
 
 </td>
 <td valign="top">
@@ -218,7 +243,7 @@ In the space, create a service instance of SAP Cloud Transport Management.
 <tr>
 <td valign="top">
 
-4.
+5.
 
 </td>
 <td valign="top">

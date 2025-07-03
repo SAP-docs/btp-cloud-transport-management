@@ -66,12 +66,12 @@ Free
 </td>
 <td valign="top">
 
-2 GB
+0.5 GB
 
 </td>
 <td valign="top">
 
-1 GB
+0.5 GB
 
 </td>
 <td valign="top">
@@ -124,12 +124,36 @@ Configurable between 1 and 7 days.
 > </td>
 > <td valign="top">
 > 
-> 0.4 GB
+> 400 MB
 > 
 > </td>
 > <td valign="top">
 > 
 > 30 days \(default\)
+> 
+> Configurable between 1 and 30 days.
+> 
+> </td>
+> </tr>
+> <tr>
+> <td valign="top">
+> 
+> Free
+> 
+> </td>
+> <td valign="top">
+> 
+> 500 MB
+> 
+> </td>
+> <td valign="top">
+> 
+> 400 MB
+> 
+> </td>
+> <td valign="top">
+> 
+> 7 days \(default\)
 > 
 > Configurable between 1 and 7 days.
 > 

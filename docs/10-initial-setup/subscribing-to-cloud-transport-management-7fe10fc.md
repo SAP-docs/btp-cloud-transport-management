@@ -7,11 +7,11 @@
 To enable the usage of the user interface of SAP Cloud Transport Management service, subscribe to the Cloud Transport Management application.
 
 > ### Note:  
-> If you are using this service as part of SAP Build Code, follow the [SAP Build Code Initial Setup](https://help.sap.com/docs/build_code/d0d8f5bfc3d640478854e6f4e7c7584a/07698d7c31284e4db370acdf017cfd14.html?version=SHIP) instructions instead.
+> If you are using this service as part of a service from the SAP Build ecosystem, follow the instructions in the [Initial Setup of SAP Build](https://help.sap.com/docs/SAP_BUILD/411a94a7191243e0a99c9af3a061cee9/43c81b7e3b9749329fa8595b22680b82.html) documentation instead.
 
 
 
-<a name="loio7fe10fc1baae444e9315579786d623b9__section_fry_gwd_4yb"/>
+<a name="loio7fe10fc1baae444e9315579786d623b9__section_prereq"/>
 
 ## Prerequisites
 
@@ -56,6 +56,9 @@ In the subaccount, in which you want to use SAP Cloud Transport Management, choo
 
 > ### Recommendation:  
 > Run SAP Cloud Transport Management service as shared service, by setting it up on a central administrative subaccount, to facilitate role management and allow strict access control.
+
+> ### Note:  
+> If you're integrating SAP Cloud Transport Management with SAP Cloud ALM, don't use the SAP Cloud ALM subaccount.
 
 The entitled subscriptions are shown.
 
@@ -114,7 +117,7 @@ In the subsequent dialog, from the *Plan* dropdown box, select one of the availa
 > 
 > Depending on your entitlement, this can be one of the following:
 > 
-> -   *build-code* \(Use this plan, if you are using SAP Cloud Transport Management as part of SAP Build Code.\)
+> -   *build-runtime* \(Use this plan, if you're using SAP Cloud Transport Management to transport content created using a service from the SAP Build ecosystem.\)
 > -   *free*
 > -   *standard*
 

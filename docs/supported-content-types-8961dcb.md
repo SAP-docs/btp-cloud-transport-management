@@ -39,7 +39,7 @@ The table contains the following information:
 -   *Content*: Application-specific content and development artifacts to be transported.
 
 -   *Environment*: SAP BTP environment where the content is created, either *SAP BTP ABAP environment*, *Cloud Foundry*, or *Neo*.
--   *Content Type*: Entity to transport that you can select when you create a new node in SAP Cloud Transport Management. See [Supported Content Types](supported-content-types-8961dcb.md#loio8961dcb3edc84a76b84b29565833067b).
+-   *Content Type*: Entity to transport that you can select when you create a new node in SAP Cloud Transport Management.
 -   *Design Time Integration*: Can the transport be triggered directly in the design time tool of the application where the content is produced?
 -   *Content Agent Service*: Is the integration with SAP Cloud Transport Management realized using SAP Content Agent service? \(Cloud Foundry only\)
 -   *Solution Export Wizard*: Is the integration with SAP Cloud Transport Management realized using Solution Export Wizard? \(Neo only\)

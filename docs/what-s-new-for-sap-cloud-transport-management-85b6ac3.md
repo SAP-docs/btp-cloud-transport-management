@@ -94,6 +94,82 @@ Cloud Transport Management
 </td>
 <td valign="top">
 
+New *build-runtime* service plan available if you transport content created using a service from the SAP Build ecosystem
+
+</td>
+<td valign="top">
+
+The *build-runtime* service plan replaces the *build-code* plan. Subscribe to it when you use SAP Cloud Transport Management as part of a service from the SAP Build ecosystem.
+
+See:
+
+-   [Subscribing to Cloud Transport Management](10-initial-setup/subscribing-to-cloud-transport-management-7fe10fc.md)
+-   [Updating the Service Plan](50-administration/updating-the-service-plan-1717e87.md)
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Application Development and Integration
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Cloud Transport Management
+
+</td>
+<td valign="top">
+
+2025-07-02
+
+</td>
+<td valign="top">
+
+2025-07-02
+
+</td>
+<td valign="top">
+
+2506a
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Cloud Transport Management 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 SAP Cloud Transport Management service available on new data centers.
 
 </td>

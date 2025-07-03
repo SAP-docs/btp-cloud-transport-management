@@ -5,7 +5,7 @@
 To define access of your subaccount to SAP Cloud Transport Management service, assign entitlements for the subaccount in which you want to use the service.
 
 > ### Note:  
-> If you are using this service as part of SAP Build Code, follow the [SAP Build Code Initial Setup](https://help.sap.com/docs/build_code/d0d8f5bfc3d640478854e6f4e7c7584a/07698d7c31284e4db370acdf017cfd14.html?version=SHIP) instructions instead.
+> If you are using this service as part of a service from the SAP Build ecosystem, follow the instructions in the [Initial Setup of SAP Build](https://help.sap.com/docs/SAP_BUILD/411a94a7191243e0a99c9af3a061cee9/43c81b7e3b9749329fa8595b22680b82.html) documentation instead.
 
 
 <table>
@@ -34,10 +34,13 @@ More Information
 </td>
 <td valign="top">
 
-In your global account, choose an existing multi-environment subaccount, in which you want to use SAP Cloud Transport Management, or create a new one.
+Navigate to the subaccount, in which you want to use SAP Cloud Transport Management, or create a new one.
 
 > ### Recommendation:  
 > Run SAP Cloud Transport Management service as shared service, by setting it up on a central administrative subaccount, to facilitate role management and allow strict access control.
+
+> ### Note:  
+> If you're integrating SAP Cloud Transport Management with SAP Cloud ALM, don't use the SAP Cloud ALM subaccount.
 
 
 
@@ -178,12 +181,12 @@ Use Case
 <tr>
 <td valign="top">
 
-*build-code \(Application\)*
+*build-runtime \(Application\)*
 
 </td>
 <td valign="top">
 
-Plan to be used, if you are using the user interface of SAP Cloud Transport Management as part of SAP Build Code.
+Plan to be used, if you are using the user interface of SAP Cloud Transport Management to transport content created using a service from the SAP Build ecosystem.
 
 </td>
 </tr>

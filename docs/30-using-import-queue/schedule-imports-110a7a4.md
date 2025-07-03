@@ -24,6 +24,17 @@ To run imports of all transport requests in a transport node on a regular basis,
 
 
 
+<a name="loio110a7a4d19a34a6cb9a5422c5c9eb35b__context_zly_2bx_rfc"/>
+
+## Context
+
+By default, system administration manually imports transport requests into transport nodes. You can schedule imports in transport nodes to ensure that all transport requests are imported at defined intervals or specific times.
+
+> ### Note:  
+> If the available intervals for scheduled imports don't meet your requirements, you can instead define that transport requests are immediately imported when they enter an import queue. For more information, see [Enable Automatic Import](enable-automatic-import-9171d39.md).
+
+
+
 ## Procedure
 
 1.  Choose <span class="SAP-icons-V5"></span> \(Import Scheduler\).
@@ -90,7 +101,7 @@ To run imports of all transport requests in a transport node on a regular basis,
 
 If the schedule is active, the imports of all transport requests in the import queue of the transport node are scheduled with the specified options and will be run as specified.
 
-If you start an import queue with scheduled imports, the header area displays an *IMPORT SCHEDULE DETECTED* button. You can click on this button to display more information about the job status and the next time the job is run.
+If you open an import queue with scheduled imports, the header area displays an *IMPORT SCHEDULE DETECTED* button. You can click on this button to display more information about the job status and the next time the job is run.
 
 > ### Note:  
 > If the job scheduler has many jobs to process, it's possible that the start time of the job is delayed.

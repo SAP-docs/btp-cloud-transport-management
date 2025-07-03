@@ -136,7 +136,7 @@ Integrating SAP Cloud Transport Management service with SAP Cloud ALM
 
 Documentation of the integration with SAP Cloud Transport Management:
 
--   [SAP Cloud Transport Management Service](https://help.sap.com/docs/CloudALM/08879d094f3b4de3ac67832f4a56a6de/8b4af2f9c2df4a1797dd812b814f36a5.html)
+-   [SAP Cloud Transport Management Service](https://help.sap.com/docs/cloud-alm/setup-administration/cloud-transport-management-service)
 
 Blog posts:
 

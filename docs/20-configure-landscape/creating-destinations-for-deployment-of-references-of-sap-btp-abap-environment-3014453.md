@@ -114,7 +114,7 @@ This topic describes how to create a destination to SAP Cloud Transport Manageme
     Enter the service URL of the inbound service from the communication arrangement created for the `SAP_COM_0948` communication scenario. For more information, see the *Prerequisites* section.
 
     > ### Example:  
-    > <code>https://<i class="varname">&lt;service-instance&gt;</i>.abap.eu10.hana.ondemand.com/sap/opu/odata4/sap/a4c_mswc_api/srvd_a2x/sap/manage_software_components/</code>
+    > <code>https://<i class="varname">&lt;service-instance&gt;</i>.abap.eu10.hana.ondemand.com/sap/opu/odata4/sap/a4c_mswc_api/srvd_a2x/sap/manage_software_components/0001/</code>
 
 
     
