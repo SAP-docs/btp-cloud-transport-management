@@ -42,6 +42,9 @@ Navigate to the subaccount, in which you want to use SAP Cloud Transport Managem
 > ### Note:  
 > If you're integrating SAP Cloud Transport Management with SAP Cloud ALM, don't use the SAP Cloud ALM subaccount.
 
+> ### Note:  
+> If you're configuring entitlements in a subaccount that resides in the path of a directory that is configured to manage entitlements, you must add the service plan first to the managed directory.
+
 
 
 </td>

@@ -94,12 +94,12 @@ Cloud Transport Management
 </td>
 <td valign="top">
 
-New *build-runtime* service plan available if you transport content created using a service from the SAP Build ecosystem
+New *build-runtime* application service plan available.
 
 </td>
 <td valign="top">
 
-The *build-runtime* service plan replaces the *build-code* plan. Subscribe to it when you use SAP Cloud Transport Management as part of a service from the SAP Build ecosystem.
+You can use the *build-runtime* service plan when you use SAP Cloud Transport Management as part of a service from the SAP Build ecosystem.
 
 See:
 

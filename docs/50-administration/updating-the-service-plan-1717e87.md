@@ -60,7 +60,7 @@ To update from the *free* to the *standard* plan, follow the steps of the *Proce
 <tr>
 <td valign="top">
 
-*free* / *standard*
+*build-code* / *free* / *standard* 
 
 </td>
 <td valign="top">
@@ -70,17 +70,11 @@ To update from the *free* to the *standard* plan, follow the steps of the *Proce
 </td>
 <td valign="top">
 
-If you've used SAP Cloud Transport Management service before and now want to transport content created using a service from the SAP Build ecosystem, update the service plan to the *build-runtime* plan as described in the *Procedure* below.
+To update from the *build-code*, *free*, or *standard* plans to the *build-runtime* plan, follow the steps of the *Procedure* below.
 
--   **Prerequisites**:
+**Prerequisite**:
 
-    -   You've configured an entitlement to the respective service from the SAP Build ecosystem and you've subscribed to it.
-
-    -   In the subaccount in which you're using SAP Cloud Transport Management, you've configured an entitlement to the *build-runtime \(Application\)* service plan of SAP Cloud Transport Management as described in [Configuring Entitlements to SAP Cloud Transport Management](../10-initial-setup/configuring-entitlements-to-sap-cloud-transport-management-13894be.md).
-
-        > ### Note:  
-        > If you're assigning the plan to a subaccount which is under a directory that's configured to manage entitlements you must add the service plan first to the managed directory.
-
+-   In the subaccount in which you're using SAP Cloud Transport Management, you've configured an entitlement to the *build-runtime \(Application\)* service plan of SAP Cloud Transport Management as described in [Configuring Entitlements to SAP Cloud Transport Management](../10-initial-setup/configuring-entitlements-to-sap-cloud-transport-management-13894be.md).
 
 
 
