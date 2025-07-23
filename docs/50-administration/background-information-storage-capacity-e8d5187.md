@@ -66,12 +66,12 @@ Free
 </td>
 <td valign="top">
 
-0.5 GB
+500 MB
 
 </td>
 <td valign="top">
 
-0.5 GB
+500 MB
 
 </td>
 <td valign="top">

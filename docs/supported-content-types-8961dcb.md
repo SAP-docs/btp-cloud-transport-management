@@ -338,6 +338,53 @@ Yes
 <tr>
 <td valign="top">
 
+Joule Studio projects \(including Joule skills\)
+
+</td>
+<td valign="top">
+
+Cloud Foundry
+
+</td>
+<td valign="top">
+
+MTA
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes \(for import and export\)
+
+</td>
+<td valign="top">
+
+n/a
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+[Joule Studio](10-initial-setup/integrating-sap-cloud-transport-management-with-other-services-ddaa000.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__joule)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 NodeJs app
 
 </td>

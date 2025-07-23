@@ -34,6 +34,26 @@ To set up the integration of SAP Cloud Transport Management for the content type
     <tr>
     <td valign="top">
     
+    Joule Studio
+    
+    </td>
+    <td valign="top">
+    
+    Documentation of the service:
+
+    -   [Joule Studio](https://help.sap.com/docs/Joule_Studio)
+
+    Documentation of the integration with SAP Cloud Transport Management:
+
+    -   [Transfer Projects Across Tenants](https://help.sap.com/docs/Joule_Studio/45f9d2b8914b4f0ba731570ff9a85313/3cf6b29cc88845eab9e126f3a35e5548.html)
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
     SAP Analytics Cloud
     
     </td>

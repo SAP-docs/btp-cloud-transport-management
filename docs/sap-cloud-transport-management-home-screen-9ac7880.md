@@ -161,6 +161,8 @@ In the title bar, you can use the following functions:
     
 -   **User Profile**
 
+    ![](images/User_Profile_3ab4dad.png)
+
     When you click your user profile in the top-right corner, you have the following options:
 
 
@@ -205,6 +207,30 @@ In the title bar, you can use the following functions:
     
     </td>
     </tr>
+    <tr>
+    <td valign="top">
+    
+    *Data Protection & Privacy*
+    
+    </td>
+    <td valign="top">
+    
+    Open the [Data Protection and Privacy](60-security/data-protection-and-privacy-a2749d5.md) topic.
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *Logout*
+    
+    </td>
+    <td valign="top">
+    
+    Log out off the service.
+    
+    </td>
+    </tr>
     </table>
     
 
@@ -234,7 +260,17 @@ This section contains the following tiles:
 
 -   *Import Schedules*
 
-    If a scheduled import has failed with a fatal error at least three times in a row over a period of at least three weeks, the corresponding schedule is automatically deactivated, and the affected transport node is displayed. To reactivate the import scheduler, choose the import queue link.
+    Overview of import queues where a scheduled import has failed with a fatal error three or more times consecutively over a period of at least three weeks. When this happens, the corresponding schedule is automatically deactivated.
+
+    To reactivate the import scheduler in the affected transport nodes, proceed as follows:
+
+    1.  1.  Select a link to open the import queue of a transport node.
+2.  Choose <span class="SAP-icons-V5"></span> \(Import Scheduler\).
+3.  Enable the *Active* checkbox.
+4.  Save your changes.
+
+
+    , select the respective links. The links open the import queues of the transport nodes w.
 
     For more information, see [Schedule Imports](30-using-import-queue/schedule-imports-110a7a4.md).
 

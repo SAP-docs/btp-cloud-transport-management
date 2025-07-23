@@ -94,6 +94,241 @@ Cloud Transport Management
 </td>
 <td valign="top">
 
+UI changes
+
+</td>
+<td valign="top">
+
+Landscape Visualization:
+
+-   Introduction of an overview graph for navigation in large transport landscapes, as well as options to adjust the orientation and placement of nodes.
+
+-   Highlighting of transport nodes using icons and color to indicate the overall import status of a node and quick overview of important configuration settings.
+
+-   Selecting a transport node or route now allows you to open a details popover.
+
+-   Editing a node or route was moved from the icon bar to the popover.
+
+
+See:
+
+-   [Using the Landscape Visualization](using-the-landscape-visualization-9fea4f2.md)
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Application Development and Integration
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Cloud Transport Management
+
+</td>
+<td valign="top">
+
+2025-07-23
+
+</td>
+<td valign="top">
+
+2025-07-23
+
+</td>
+<td valign="top">
+
+2507a
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Cloud Transport Management 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Data protection and privacy information of the service can now be accessed directly from the UI of the service.
+
+</td>
+<td valign="top">
+
+From the user profile dropdown menu, you can now directly open the data protection and privacy information in the SAP Cloud Transport Management documentation on SAP Help Portal.
+
+See:
+
+-   [SAP Cloud Transport Management Home Screen](sap-cloud-transport-management-home-screen-9ac7880.md). In the topic, select the Title Bar, and then scroll down to the *User Profile* section.
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Application Development and Integration
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Cloud Transport Management
+
+</td>
+<td valign="top">
+
+2025-07-23
+
+</td>
+<td valign="top">
+
+2025-07-23
+
+</td>
+<td valign="top">
+
+2507a
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Cloud Transport Management 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Integration of Joule Studio with SAP Cloud Transport Management 
+
+</td>
+<td valign="top">
+
+You can now use SAP Cloud Transport Management to transport Joule Studio projects.
+
+See:
+
+-   [Supported Content Types](supported-content-types-8961dcb.md#loio8961dcb3edc84a76b84b29565833067b)
+-   [Integrating SAP Cloud Transport Management with Other Services](10-initial-setup/integrating-sap-cloud-transport-management-with-other-services-ddaa000.md)
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Application Development and Integration
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Cloud Transport Management
+
+</td>
+<td valign="top">
+
+2025-07-23
+
+</td>
+<td valign="top">
+
+2025-07-02
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Cloud Transport Management 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 New *build-runtime* application service plan available.
 
 </td>
