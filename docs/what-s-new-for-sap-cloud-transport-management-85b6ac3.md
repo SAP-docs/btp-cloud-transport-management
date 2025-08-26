@@ -94,6 +94,307 @@ Cloud Transport Management
 </td>
 <td valign="top">
 
+Modifiable transport requests
+
+</td>
+<td valign="top">
+
+You can create transport requests that are initially empty. You can use them to add multiple files and test the deployment of the files. After successful testing, you can release the transport requests. As a result, they become available for import.
+
+See:
+
+-   [Processing Modifiable Transport Requests](40-using-request-overview/processing-modifiable-transport-requests-b541b09.md)
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Application Development and Integration
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Cloud Transport Management
+
+</td>
+<td valign="top">
+
+2025-08-26
+
+</td>
+<td valign="top">
+
+2025-08-26
+
+</td>
+<td valign="top">
+
+2508a
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Cloud Transport Management 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+New *ImportSelectedOperator* role
+
+</td>
+<td valign="top">
+
+Use this role if you want to enable users to import selected transport requests in an import queue, but not all requests.
+
+See:
+
+-   [Security](60-security/security-51939a4.md)
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Application Development and Integration
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Cloud Transport Management
+
+</td>
+<td valign="top">
+
+2025-08-26
+
+</td>
+<td valign="top">
+
+2025-08-26
+
+</td>
+<td valign="top">
+
+2508a
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Cloud Transport Management 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Integration of SAP Asset Performance Management with SAP Cloud Transport Management 
+
+</td>
+<td valign="top">
+
+You can now use SAP Cloud Transport Management to transport SAP Asset Performance management content.
+
+See:
+
+-   [Supported Content Types](supported-content-types-8961dcb.md#loio8961dcb3edc84a76b84b29565833067b)
+-   [Integrating SAP Cloud Transport Management with Other SAP Cloud Solutions](10-initial-setup/integrating-sap-cloud-transport-management-with-other-sap-cloud-solutions-ddaa000.md)
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Application Development and Integration
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Cloud Transport Management
+
+</td>
+<td valign="top">
+
+2025-08-26
+
+</td>
+<td valign="top">
+
+2025-08-26
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Cloud Transport Management 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+SAP Cloud Transport Management service catalog \(`ctms-sapcp`\) available in SAP Automation Pilot 
+
+</td>
+<td valign="top">
+
+You can now use SAP Automation Pilot to manage transport nodes, routes, and transport requests of SAP Cloud Transport Management.
+
+See:
+
+-   [Extended Integration Scenarios](70-integrations/integrating-the-service-7e966f7.md#loio1b3c6637adb54d4bbb1828f911bb9547)
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Application Development and Integration
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Cloud Transport Management
+
+</td>
+<td valign="top">
+
+2025-08-26
+
+</td>
+<td valign="top">
+
+2025-07-10
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Cloud Transport Management 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 UI changes
 
 </td>
@@ -263,7 +564,7 @@ You can now use SAP Cloud Transport Management to transport Joule Studio project
 See:
 
 -   [Supported Content Types](supported-content-types-8961dcb.md#loio8961dcb3edc84a76b84b29565833067b)
--   [Integrating SAP Cloud Transport Management with Other Services](10-initial-setup/integrating-sap-cloud-transport-management-with-other-services-ddaa000.md)
+-   [Integrating SAP Cloud Transport Management with Other SAP Cloud Solutions](10-initial-setup/integrating-sap-cloud-transport-management-with-other-sap-cloud-solutions-ddaa000.md)
 
 
 
@@ -582,7 +883,7 @@ New tutorial available about transporting Mobile Development Kit apps using SAP 
 
 See:
 
--   Link to tutorial in [Integrating SAP Cloud Transport Management with Other Services](10-initial-setup/integrating-sap-cloud-transport-management-with-other-services-ddaa000.md)
+-   Link to tutorial in [Integrating SAP Cloud Transport Management with Other SAP Cloud Solutions](10-initial-setup/integrating-sap-cloud-transport-management-with-other-sap-cloud-solutions-ddaa000.md)
 -   Tutorial: [Transport Mobile Development Kit \(MDK\) apps using SAP Content Agent UI](https://developers.sap.com/tutorials/btp-content-agent-transport-mobile-apps.html)
 
 

@@ -11,7 +11,7 @@ You can delete transport requests from all import queues in your tenant.
 ## Prerequisites
 
 -   You have at least the authorization of the *TransportOperator* role for all the nodes that exist in your tenant. For more information, see [Security](../60-security/security-51939a4.md).
--   You are in the transport requests overview. For more information, see [Prerequisites for Using the Transport Requests Overview](prerequisites-for-using-the-transport-requests-overview-55f162d.md).
+-   You are in the transport requests overview. For more information, see [Managing Transport Requests](managing-transport-requests-d088caa.md).
 -   There are transport requests that you want to delete centrally from all import queues in your tenant.
 
 

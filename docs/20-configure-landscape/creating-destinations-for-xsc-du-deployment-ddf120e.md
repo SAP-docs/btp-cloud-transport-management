@@ -8,9 +8,11 @@ Specify <code>https://<i class="varname">&lt;host&gt;</i>/sap/hana/xs/lm/slp/slp
 
 ## Procedure
 
-1.  In SAP BTP Cockpit of your subaccount, choose *Connectivity* \> *Destinations* \> *New Destination*.
+1.  In SAP BTP Cockpit of your subaccount, choose *Connectivity* \> *Destinations*.
 
-2.  Enter the following values:
+2.  In the *Destinations* editor, choose *Create* \> *From Scratch* \> *Create*.
+
+3.  Enter or select the following values:
 
     **Destination Settings for XSC DU Deployment**
 
@@ -81,6 +83,18 @@ Specify <code>https://<i class="varname">&lt;host&gt;</i>/sap/hana/xs/lm/slp/slp
     <tr>
     <td valign="top">
     
+    *Proxy Type*
+    
+    </td>
+    <td valign="top">
+    
+    *Internet*
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
     *URL*
     
     </td>
@@ -91,18 +105,6 @@ Specify <code>https://<i class="varname">&lt;host&gt;</i>/sap/hana/xs/lm/slp/slp
     Example: `https://demoabcd12345.hana.ondemand.com/sap/hana/xs/lm/slp/slp.xsjs`
 
     You can find the host of the SAP HANA database in the URL, if you choose *Administration Tools: SAP HANA Cockpit*, or in the SAP HANA Web-based Development Workbench.
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-    *Proxy Type*
-    
-    </td>
-    <td valign="top">
-    
-    *Internet*
     
     </td>
     </tr>
@@ -154,9 +156,18 @@ Specify <code>https://<i class="varname">&lt;host&gt;</i>/sap/hana/xs/lm/slp/slp
     </tr>
     </table>
     
-3.  Choose *Save* to save your changes.
+4.  Choose *Create* to create the destination.
 
-4.  Use *Check Connection* to check your destination.
+5.  **Optional:** After creating the destination, click anywhere in the row to display its details.
+
+6.  **Optional:** Choose *Check Connection* to check your destination.
+
+    The result should display *HTTP request \(without authentication\) to *<Name of the destination\>* destination succeeded*.
+
+    > ### Note:  
+    > This result means that the URL specified in the destination can be reached. However, such a successful check doesn’t guarantee successful deployment. We recommend that you test the deployment using a test transport after completing all configuration steps required for your transport scenario.
+    > 
+    > For more information about connection checks, see [Check the Availability of a Destination](https://help.sap.com/docs/CP_CONNECTIVITY/cca91383641e40ffbe03bdc78f00f681/71ea3ccf4ebc4c63a3989c0b318e3e9b.html).
 
 
 

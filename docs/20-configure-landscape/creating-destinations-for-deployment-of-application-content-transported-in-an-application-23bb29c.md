@@ -8,9 +8,11 @@ To address the target end point of application-specific content deployment, spec
 
 ## Procedure
 
-1.  In SAP BTP Cockpit of your subaccount, choose *Connectivity* \> *Destinations* \> *New Destination*.
+1.  In SAP BTP Cockpit of your subaccount, choose *Connectivity* \> *Destinations*.
 
-2.  Enter the following values:
+2.  In the *Destinations* editor, choose *Create* \> *From Scratch* \> *Create*.
+
+3.  Enter or select the following values:
 
     **Destination Settings for Application Content Transported in an Application-Specific Format**
 
@@ -103,12 +105,18 @@ To address the target end point of application-specific content deployment, spec
     </tr>
     </table>
     
-3.  Choose *Save* to save your changes.
+4.  Choose *Create* to create the destination.
 
-    > ### Caution:  
-    > If you use *Check Connection* to check your destination: The check doesn't provide correct results for destinations using any authentication other than Basic authentication, for example OAuth2ClientCredentials authentication. It's possible that the check displays an error, even though the destination was configured correctly. It only gives the correct results for Basic authentication.
+5.  **Optional:** After creating the destination, click anywhere in the row to display its details.
+
+6.  **Optional:** Choose *Check Connection* to check your destination.
+
+    The result should display *HTTP request \(without authentication\) to *<Name of the destination\>* destination succeeded*.
+
+    > ### Note:  
+    > This result means that the URL specified in the destination can be reached. However, such a successful check doesn’t guarantee successful deployment. We recommend that you test the deployment using a test transport after completing all configuration steps required for your transport scenario.
     > 
-    > We recommend that you test the deployment using a test transport after completing all configuration steps.
+    > For more information about connection checks, see [Check the Availability of a Destination](https://help.sap.com/docs/CP_CONNECTIVITY/cca91383641e40ffbe03bdc78f00f681/71ea3ccf4ebc4c63a3989c0b318e3e9b.html).
 
 
 

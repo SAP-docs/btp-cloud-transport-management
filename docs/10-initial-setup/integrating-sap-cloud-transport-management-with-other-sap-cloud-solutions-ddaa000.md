@@ -1,19 +1,19 @@
 <!-- loioddaa000bc92c43d8bd09f4e2c8ca05eb -->
 
-# Integrating SAP Cloud Transport Management with Other Services
+# Integrating SAP Cloud Transport Management with Other SAP Cloud Solutions
 
-Configuration steps for integrating SAP Cloud Transport Management with other services are determined by the type of content being transported and how the integration was realized. Get an overview of known integrations and links to further information.
+Configuration steps for integrating SAP Cloud Transport Management with other SAP cloud solutions are determined by the type of content being transported and how the integration was realized. Get an overview of known integrations and links to further information.
 
 The configuration steps for integrating with SAP Cloud Transport Management depend on the following factors:
 
 -   The type of content you're transporting
--   How the SAP BTP service, whose content you're transporting, has realized the integration with SAP Cloud Transport Management
+-   How the SAP cloud solution, whose content you're transporting, has realized the integration with SAP Cloud Transport Management
 
 To set up the integration of SAP Cloud Transport Management for the content types you want to transport, proceed as follows:
 
 1.  Check the table in the [Overview: Supported Content](../supported-content-types-8961dcb.md#loio0dccbb6ee1714240b9b9bedc1a240a7e) topic to see how your content integrates with SAP Cloud Transport Management.
 
-2.  Read the documentation of the SAP BTP service whose content you want to transport to learn about the specific configuration tasks.
+2.  Read the documentation of the SAP cloud solution whose content you want to transport to learn about the specific configuration tasks.
 
     For the following integrations, more information is available:
 
@@ -22,7 +22,7 @@ To set up the integration of SAP Cloud Transport Management for the content type
     <tr>
     <th valign="top">
 
-    Service
+    SAP Cloud Solution
     
     </th>
     <th valign="top">
@@ -34,12 +34,12 @@ To set up the integration of SAP Cloud Transport Management for the content type
     <tr>
     <td valign="top">
     
-    Joule Studio
+    Joule Studio in SAP Build
     
     </td>
     <td valign="top">
     
-    Documentation of the service:
+    Documentation of the SAP cloud solution:
 
     -   [Joule Studio](https://help.sap.com/docs/Joule_Studio)
 
@@ -59,7 +59,7 @@ To set up the integration of SAP Cloud Transport Management for the content type
     </td>
     <td valign="top">
     
-    Documentation of the service:
+    Documentation of the SAP cloud solution:
 
     -   [SAP Analytics Cloud](https://help.sap.com/docs/SAP_ANALYTICS_CLOUD?locale=en-US)
 
@@ -86,7 +86,7 @@ To set up the integration of SAP Cloud Transport Management for the content type
     </td>
     <td valign="top">
     
-    Documentation of the service:
+    Documentation of the SAP cloud solution:
 
     -   [SAP API Management](https://help.sap.com/docs/SAP_CLOUD_PLATFORM_API_MANAGEMENT?locale=en-US)
 
@@ -108,12 +108,38 @@ To set up the integration of SAP Cloud Transport Management for the content type
     <tr>
     <td valign="top">
     
-    Configuration settings of SAP Batch Release Hub for Life Sciences
+    SAP Asset Performance Management
     
     </td>
     <td valign="top">
     
-    Documentation of the service:
+    Documentation of the SAP cloud solution:
+
+    -   [SAP Asset Performance Management](https://help.sap.com/docs/SAP_APM)
+
+    Documentation of the integration with SAP Cloud Transport Management:
+
+    -   [Integration with SAP Cloud Transport Management Service](https://help.sap.com/docs/SAP_APM/e260612a886a4e0f8d2e6bed2a648c5d/a500ffe5bd944ed58366dc813456b89b.html)
+
+    -   [Transport Management](https://help.sap.com/docs/SAP_APM/1bb12075258a41e1a024d28a6ddfe246/3195393b6f4a4f178169b92ed2e90028.html)
+
+    Blog post:
+
+    -   *Introducing APM Transport Management with SAP BTP Cloud Transport Management Service \(CTMS\)* in [What's New in SAP Asset Performance Management 2506](https://community.sap.com/t5/supply-chain-management-blog-posts-by-sap/what-s-new-in-sap-asset-performance-management-2506/ba-p/14136528)
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    SAP Batch Release Hub for Life Sciences
+    
+    </td>
+    <td valign="top">
+    
+    Documentation of the SAP cloud solution:
 
     -   [SAP Batch Release Hub for Life Sciences](https://help.sap.com/docs/BATCH_RELEASE_HUB_LS_CLOUD)
 
@@ -134,12 +160,12 @@ To set up the integration of SAP Cloud Transport Management for the content type
     <tr>
     <td valign="top">
     
-    References of SAP BTP ABAP environment 
+    SAP BTP ABAP environment 
     
     </td>
     <td valign="top">
     
-    Documentation of the service:
+    Documentation of the SAP cloud solution:
 
     -   [ABAP Environment](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/11d62652aa2b4600a0fa136de0789648.html?locale=en-US)
 
@@ -152,7 +178,7 @@ To set up the integration of SAP Cloud Transport Management for the content type
 
     Blog posts:
 
-    -   [Cloud Transport Management for Steampunk - The Five-System Landscape](https://community.sap.com/t5/technology-blogs-by-sap/cloud-transport-management-for-steampunk-the-five-system-landscape/ba-p/13761985)
+    -   [Cloud Transport Management for SAP BTP ABAP Environment – The Five-System Landscape](https://community.sap.com/t5/technology-blog-posts-by-sap/cloud-transport-management-for-sap-btp-abap-environment-the-five-system/ba-p/13761985)
     -   [Setting up SAP Cloud Transport Management for SAP BTP ABAP Environment](https://blogs.sap.com/2023/05/08/setting-up-sap-cloud-transport-management-for-sap-btp-abap-environment/)
 
 
@@ -167,7 +193,7 @@ To set up the integration of SAP Cloud Transport Management for the content type
     </td>
     <td valign="top">
     
-    Documentation of the service:
+    Documentation of the SAP cloud solution:
 
     -   [SAP Build Apps](https://help.sap.com/docs/BUILD_APPS)
 
@@ -191,7 +217,7 @@ To set up the integration of SAP Cloud Transport Management for the content type
     </td>
     <td valign="top">
     
-    Documentation of the service:
+    Documentation of the SAP cloud solution:
 
     -   [SAP Build Process Automation](https://help.sap.com/docs/PROCESS_AUTOMATION)
 
@@ -212,7 +238,7 @@ To set up the integration of SAP Cloud Transport Management for the content type
     </td>
     <td valign="top">
     
-    Documentation of the service:
+    Documentation of the SAP cloud solution:
 
     -   [SAP Build Work Zone, advanced edition](https://help.sap.com/docs/WZ)
 
@@ -235,7 +261,7 @@ To set up the integration of SAP Cloud Transport Management for the content type
     </td>
     <td valign="top">
     
-    Documentation of the service:
+    Documentation of the SAP cloud solution:
 
     -   [SAP Build Work Zone, standard edition](https://help.sap.com/docs/WZ_STD?locale=en-US)
 
@@ -261,7 +287,7 @@ To set up the integration of SAP Cloud Transport Management for the content type
     </td>
     <td valign="top">
     
-    Documentation of the service:
+    Documentation of the SAP cloud solution:
 
     -   [SAP Cell and Gene Therapy Orchestration](https://help.sap.com/docs/SAP_CGT_ORCH)
 
@@ -282,7 +308,7 @@ To set up the integration of SAP Cloud Transport Management for the content type
     </td>
     <td valign="top">
     
-    Documentation of the service:
+    Documentation of the SAP cloud solution:
 
     -   [SAP Cloud for Real Estate](https://help.sap.com/docs/SAP_CLOUD_FOR_REAL_ESTATE)
 
@@ -302,7 +328,7 @@ To set up the integration of SAP Cloud Transport Management for the content type
     </td>
     <td valign="top">
     
-    Documentation of the service:
+    Documentation of the SAP cloud solution:
 
     -   [SAP Datasphere](https://help.sap.com/docs/SAP_DATASPHERE?locale=en-US)
 
@@ -323,12 +349,32 @@ To set up the integration of SAP Cloud Transport Management for the content type
     <tr>
     <td valign="top">
     
+    SAP Digital Manufacturing
+    
+    </td>
+    <td valign="top">
+    
+    Documentation of the SAP cloud solution:
+
+    -   [SAP Digital Manufacturing](https://help.sap.com/docs/sap-digital-manufacturing)
+
+    Documentation of the integration with SAP Cloud Transport Management:
+
+    -   [Transport Production Process Designs Through SAP Cloud Transport Management](https://help.sap.com/docs/SAP_DIGITAL_MANUFACTURING/f1949e1d1fd24d7e998e5f70fecc1835/cf7f6afbac084d97b427de17d70ac01e.html)
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
     SAP Entitlement Management
     
     </td>
     <td valign="top">
     
-    Documentation of the service:
+    Documentation of the SAP cloud solution:
 
     -   [SAP Entitlement Management](https://help.sap.com/docs/SAP_ENTITLEMENT_MANAGEMENT)
 
@@ -350,7 +396,7 @@ To set up the integration of SAP Cloud Transport Management for the content type
     </td>
     <td valign="top">
     
-    Documentation of the service:
+    Documentation of the SAP cloud solution:
 
     -   [SAP Excise Tax Management](https://help.sap.com/docs/EXCISE_TAX)
 
@@ -373,7 +419,7 @@ To set up the integration of SAP Cloud Transport Management for the content type
     </td>
     <td valign="top">
     
-    Documentation of SAP Group Reporting Data Collection for SAP S/4HANA:
+    Documentation of the SAP cloud solution:
 
     -   [SAP Group Reporting Data Collection](https://help.sap.com/docs/SAP_Group_Reporting_Data_Collection)
 
@@ -401,7 +447,7 @@ To set up the integration of SAP Cloud Transport Management for the content type
     
     In Neo, SAP Solution Lifecycle Management service for SAP BTP is used for the integration using Solution Export Wizard. In Cloud Foundry, SAP Content Agent service is used for export, and both SAP Cloud Deployment service and SAP Content Agent service can be used for import.
 
-    Documentation of the service:
+    Documentation of the SAP cloud solution:
 
     -   [SAP Integration Suite](https://help.sap.com/docs/SAP_INTEGRATION_SUITE)
 
@@ -441,7 +487,7 @@ To set up the integration of SAP Cloud Transport Management for the content type
     </td>
     <td valign="top">
     
-    Documentation of the service:
+    Documentation of the SAP cloud solution:
 
     -   [SAP Intelligent Clinical Supply Management](https://help.sap.com/docs/S4_INTELLCLINICSUPPLYMGMT)
 
@@ -461,7 +507,7 @@ To set up the integration of SAP Cloud Transport Management for the content type
     </td>
     <td valign="top">
     
-    Documentation of the service:
+    Documentation of the SAP cloud solution:
 
     -   [SAP Mobile Services](https://help.sap.com/docs/SAP_MOBILE_SERVICES?locale=en-US)
 

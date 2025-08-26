@@ -37,9 +37,11 @@ This topic describes how to create a destination to SAP Cloud Transport Manageme
 
 ## Procedure
 
-1.  In SAP BTP Cockpit of your subaccount in which you are subscribed to SAP Cloud Transport Management, choose *Connectivity* \> *Destinations* \> *New Destination*.
+1.  In SAP BTP Cockpit of your subaccount in which you are subscribed to SAP Cloud Transport Management, choose *Connectivity* \> *Destinations*.
 
-2.  Enter the following values:
+2.  In the *Destinations* editor, choose *Create* \> *From Scratch* \> *Create*.
+
+3.  Enter or select the following values:
 
     **Destination Settings for Deployment of References of SAP BTP ABAP environment**
 
@@ -106,6 +108,18 @@ This topic describes how to create a destination to SAP Cloud Transport Manageme
     <tr>
     <td valign="top">
     
+    *Proxy Type*
+    
+    </td>
+    <td valign="top">
+    
+    *Internet*
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
     *URL*
     
     </td>
@@ -117,18 +131,6 @@ This topic describes how to create a destination to SAP Cloud Transport Manageme
     > <code>https://<i class="varname">&lt;service-instance&gt;</i>.abap.eu10.hana.ondemand.com/sap/opu/odata4/sap/a4c_mswc_api/srvd_a2x/sap/manage_software_components/0001/</code>
 
 
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-    *Proxy Type*
-    
-    </td>
-    <td valign="top">
-    
-    *Internet*
     
     </td>
     </tr>
@@ -171,14 +173,14 @@ This topic describes how to create a destination to SAP Cloud Transport Manageme
     <tr>
     <td valign="top">
     
-    *Use default JDK truststore*
+    *Use default client truststore*
     
     </td>
     <td valign="top">
     
     This checkbox is selected by default.
 
-    If you leave the checkbox selected, the default JDK truststore with certificates provided by SAP are used.
+    If you leave the checkbox selected, the default client truststore with certificates provided by SAP are used.
 
     If you want to change this, see [Use Destination Certificates \(Cockpit\)](https://help.sap.com/docs/CP_CONNECTIVITY/b865ed651e414196b39f8922db2122c7/d3dfd5052fb14a15aad87ebcdb2f23e2.html).
     
@@ -186,9 +188,18 @@ This topic describes how to create a destination to SAP Cloud Transport Manageme
     </tr>
     </table>
     
-3.  Choose *Save* to save your changes.
+4.  Choose *Create* to create the destination.
 
-4.  Use *Check Connection* to check your destination.
+5.  **Optional:** After creating the destination, click anywhere in the row to display its details.
+
+6.  **Optional:** Choose *Check Connection* to check your destination.
+
+    The result should display *HTTP request \(without authentication\) to *<Name of the destination\>* destination succeeded*.
+
+    > ### Note:  
+    > This result means that the URL specified in the destination can be reached. However, such a successful check doesn’t guarantee successful deployment. We recommend that you test the deployment using a test transport after completing all configuration steps required for your transport scenario.
+    > 
+    > For more information about connection checks, see [Check the Availability of a Destination](https://help.sap.com/docs/CP_CONNECTIVITY/cca91383641e40ffbe03bdc78f00f681/71ea3ccf4ebc4c63a3989c0b318e3e9b.html).
 
 
 
@@ -209,5 +220,5 @@ To address the target end point of the deployment process of references of SAP B
 
 [More information about exporting references of SAP BTP, ABAP Environment: How to Export Using SAP Cloud Transport Management](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/b837a3b4226843cb86e8c35d2f35e6fa.html)
 
-[Integrating SAP Cloud Transport Management with Other Services](../10-initial-setup/integrating-sap-cloud-transport-management-with-other-services-ddaa000.md "Configuration steps for integrating SAP Cloud Transport Management with other services are determined by the type of content being transported and how the integration was realized. Get an overview of known integrations and links to further information.")
+[Integrating SAP Cloud Transport Management with Other SAP Cloud Solutions](../10-initial-setup/integrating-sap-cloud-transport-management-with-other-sap-cloud-solutions-ddaa000.md "Configuration steps for integrating SAP Cloud Transport Management with other SAP cloud solutions are determined by the type of content being transported and how the integration was realized. Get an overview of known integrations and links to further information.")
 

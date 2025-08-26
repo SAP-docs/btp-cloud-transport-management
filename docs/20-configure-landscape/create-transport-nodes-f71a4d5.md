@@ -177,7 +177,7 @@ Create transport nodes as representations of the source and target end points of
     > ### Note:  
     > This option isn't available when using the *Transport Landscape Wizard*.
 
-    For more information about the integration of SAP Cloud Transport Management in SAP Solution Manager processes, see [Integrating SAP Cloud Transport Management with Other Services](../10-initial-setup/integrating-sap-cloud-transport-management-with-other-services-ddaa000.md).
+    For more information about the integration of SAP Cloud Transport Management in SAP Solution Manager processes, see [Integrating SAP Cloud Transport Management with Other SAP Cloud Solutions](../10-initial-setup/integrating-sap-cloud-transport-management-with-other-sap-cloud-solutions-ddaa000.md).
     
     </td>
     </tr>

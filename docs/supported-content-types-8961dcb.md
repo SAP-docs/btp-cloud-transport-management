@@ -36,8 +36,8 @@ The table contains a list of development artifacts and application-specific cont
 
 The table contains the following information:
 
+-   **SAP BTP***Service / SAP Cloud Solution*: SAP BTP Service or SAP Cloud Solution in which content is developed.
 -   *Content*: Application-specific content and development artifacts to be transported.
-
 -   *Environment*: SAP BTP environment where the content is created, either *SAP BTP ABAP environment*, *Cloud Foundry*, or *Neo*.
 -   *Content Type*: Entity to transport that you can select when you create a new node in SAP Cloud Transport Management.
 -   *Design Time Integration*: Can the transport be triggered directly in the design time tool of the application where the content is produced?
@@ -47,7 +47,7 @@ The table contains the following information:
 
     For more information about integration into CI pipelines, see the links to *More Information* listed in the *Integration Scenario*: [Receiving transports comprising release candidates qualified by automated pipelines in SAP Continuous Integration and Delivery service](70-integrations/integrating-the-service-7e966f7.md#loio1b3c6637adb54d4bbb1828f911bb9547__cicd), in particular the series of tutorial videos.
 
--   *More Information about the Integration*: Link to more information about the integration with SAP Cloud Transport Management in the relevant section of: [Integrating SAP Cloud Transport Management with Other Services](10-initial-setup/integrating-sap-cloud-transport-management-with-other-services-ddaa000.md), where more information is available.
+-   *More Information about the Integration*: Link to more information about the integration with SAP Cloud Transport Management in the relevant section of: [Integrating SAP Cloud Transport Management with Other SAP Cloud Solutions](10-initial-setup/integrating-sap-cloud-transport-management-with-other-sap-cloud-solutions-ddaa000.md), where more information is available.
 
 **Table: Content Supported by SAP Cloud Transport Management**
 
@@ -56,17 +56,22 @@ The table contains the following information:
 <tr>
 <th valign="top">
 
+SAP BTP Service / SAP Cloud Solution
+
+</th>
+<th valign="top">
+
 Content
 
 </th>
 <th valign="top">
 
-Environment
+Content Type
 
 </th>
 <th valign="top">
 
-Content Type
+Environment
 
 </th>
 <th valign="top">
@@ -103,17 +108,37 @@ More Information about the Integration
 <tr>
 <td valign="top">
 
-Reference to SAP BTP ABAP environment content
+SAP BTP, Cloud Foundry Runtime
 
 </td>
 <td valign="top">
 
-SAP BTP ABAP environment
+HTML5 app
 
 </td>
 <td valign="top">
 
-BTP ABAP
+MTA
+
+</td>
+<td valign="top">
+
+Cloud Foundry
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+n/a
 
 </td>
 <td valign="top">
@@ -123,7 +148,44 @@ Yes
 </td>
 <td valign="top">
 
-n/a
+Content is developed and transported as part of another application.
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Joule Studio in SAP Build
+
+</td>
+<td valign="top">
+
+Joule Studio project \(including Joule skills\)
+
+</td>
+<td valign="top">
+
+MTA
+
+</td>
+<td valign="top">
+
+Cloud Foundry
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes \(for import and export\)
 
 </td>
 <td valign="top">
@@ -138,29 +200,86 @@ No
 </td>
 <td valign="top">
 
-Export to SAP Cloud Transport Management takes place using the *Manage Software Components* app.
+ 
 
 </td>
 <td valign="top">
 
-[SAP BTP, ABAP Environment](10-initial-setup/integrating-sap-cloud-transport-management-with-other-services-ddaa000.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__btp_abap)
+[Joule Studio](10-initial-setup/integrating-sap-cloud-transport-management-with-other-sap-cloud-solutions-ddaa000.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__joule)
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-API Management content
+SAP Analytics Cloud
 
 </td>
 <td valign="top">
 
-Cloud Foundry
+Content network package
+
+</td>
+<td valign="top">
+
+Application Content
+
+</td>
+<td valign="top">
+
+Cloud Foundry / Neo
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+n/a
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+[SAP Analytics Cloud](10-initial-setup/integrating-sap-cloud-transport-management-with-other-sap-cloud-solutions-ddaa000.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__analytics)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP API Management
+
+</td>
+<td valign="top">
+
+API artifact
 
 </td>
 <td valign="top">
 
 MTA
+
+</td>
+<td valign="top">
+
+Cloud Foundry
 
 </td>
 <td valign="top">
@@ -190,14 +309,29 @@ Using API management UI
 </td>
 <td valign="top">
 
-[SAP API Management](10-initial-setup/integrating-sap-cloud-transport-management-with-other-services-ddaa000.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__api)
+[SAP API Management](10-initial-setup/integrating-sap-cloud-transport-management-with-other-sap-cloud-solutions-ddaa000.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__api)
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-Destination
+SAP Asset Performance Management
+
+</td>
+<td valign="top">
+
+-   Communication system configuration
+-   Coding mask
+-   Risk and criticality assessment template
+-   Strategy assessment template for classes, including associated recommendations
+
+
+
+</td>
+<td valign="top">
+
+Application Content
 
 </td>
 <td valign="top">
@@ -207,7 +341,522 @@ Cloud Foundry
 </td>
 <td valign="top">
 
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+n/a
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+[SAP Asset Performance Management](10-initial-setup/integrating-sap-cloud-transport-management-with-other-sap-cloud-solutions-ddaa000.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__apm)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Batch Release Hub for Life Sciences
+
+</td>
+<td valign="top">
+
+Configuration setting
+
+</td>
+<td valign="top">
+
+Application Content
+
+</td>
+<td valign="top">
+
+Cloud Foundry
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+n/a
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+Export to SAP Cloud Transport Management takes place using the *Transport Configuration Settings* app.
+
+</td>
+<td valign="top">
+
+[SAP Batch Release Hub for Life Sciences](10-initial-setup/integrating-sap-cloud-transport-management-with-other-sap-cloud-solutions-ddaa000.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__brh4ls)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Build Apps \(part of SAP Build\)
+
+</td>
+<td valign="top">
+
+Project
+
+</td>
+<td valign="top">
+
 MTA
+
+</td>
+<td valign="top">
+
+Cloud Foundry
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes \(for export and import\)
+
+</td>
+<td valign="top">
+
+n/a
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+[SAP Build Apps](10-initial-setup/integrating-sap-cloud-transport-management-with-other-sap-cloud-solutions-ddaa000.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__build_apps)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Build Process Automation
+
+</td>
+<td valign="top">
+
+Project
+
+</td>
+<td valign="top">
+
+MTA
+
+</td>
+<td valign="top">
+
+Cloud Foundry
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes \(for export and import\)
+
+</td>
+<td valign="top">
+
+n/a
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+[SAP Build Process Automation](10-initial-setup/integrating-sap-cloud-transport-management-with-other-sap-cloud-solutions-ddaa000.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__build_pa)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Build Work Zone, advanced edition
+
+</td>
+<td valign="top">
+
+Content
+
+</td>
+<td valign="top">
+
+Application Content
+
+</td>
+<td valign="top">
+
+Cloud Foundry
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+n/a
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+Using the integration of SAP Build Work Zone, standard edition in SAP Build Work Zone, advanced edition
+
+</td>
+<td valign="top">
+
+[SAP Build Workzone, advanced edition](10-initial-setup/integrating-sap-cloud-transport-management-with-other-sap-cloud-solutions-ddaa000.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__wz)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Build Work Zone, standard edition
+
+</td>
+<td valign="top">
+
+Content
+
+</td>
+<td valign="top">
+
+Application Content
+
+</td>
+<td valign="top">
+
+Cloud Foundry
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+n/a
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+[SAP Build Workzone, standard edition](10-initial-setup/integrating-sap-cloud-transport-management-with-other-sap-cloud-solutions-ddaa000.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__lps)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP BTP ABAP environment
+
+</td>
+<td valign="top">
+
+Reference to SAP BTP ABAP environment content
+
+</td>
+<td valign="top">
+
+BTP ABAP
+
+</td>
+<td valign="top">
+
+SAP BTP ABAP environment
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+n/a
+
+</td>
+<td valign="top">
+
+n/a
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+Export to SAP Cloud Transport Management takes place using the *Manage Software Components* app.
+
+</td>
+<td valign="top">
+
+[SAP BTP, ABAP Environment](10-initial-setup/integrating-sap-cloud-transport-management-with-other-sap-cloud-solutions-ddaa000.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__btp_abap)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP BTP, Cloud Foundry Runtime
+
+</td>
+<td valign="top">
+
+Java app
+
+</td>
+<td valign="top">
+
+MTA
+
+</td>
+<td valign="top">
+
+Cloud Foundry
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+n/a
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Content is developed and transported as part of another application.
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP BTP, Cloud Foundry Runtime
+
+</td>
+<td valign="top">
+
+NodeJs app
+
+</td>
+<td valign="top">
+
+MTA
+
+</td>
+<td valign="top">
+
+Cloud Foundry
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+n/a
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Content is developed and transported as part of another application.
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Datasphere
+
+</td>
+<td valign="top">
+
+Content package
+
+</td>
+<td valign="top">
+
+Application Content
+
+</td>
+<td valign="top">
+
+Cloud Foundry
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+n/a
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+[SAP Datasphere](10-initial-setup/integrating-sap-cloud-transport-management-with-other-sap-cloud-solutions-ddaa000.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__datasphere)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Destination Service
+
+</td>
+<td valign="top">
+
+Destination
+
+</td>
+<td valign="top">
+
+MTA
+
+</td>
+<td valign="top">
+
+Cloud Foundry
 
 </td>
 <td valign="top">
@@ -244,388 +893,12 @@ Using the integration of SAP Destination Service in SAP Content Agent service. N
 <tr>
 <td valign="top">
 
-HTML5 app
+SAP Digital Manufacturing
 
 </td>
 <td valign="top">
 
-Cloud Foundry
-
-</td>
-<td valign="top">
-
-MTA
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-<td valign="top">
-
-n/a
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Java app
-
-</td>
-<td valign="top">
-
-Cloud Foundry
-
-</td>
-<td valign="top">
-
-MTA
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-<td valign="top">
-
-n/a
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Joule Studio projects \(including Joule skills\)
-
-</td>
-<td valign="top">
-
-Cloud Foundry
-
-</td>
-<td valign="top">
-
-MTA
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-Yes \(for import and export\)
-
-</td>
-<td valign="top">
-
-n/a
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
-[Joule Studio](10-initial-setup/integrating-sap-cloud-transport-management-with-other-services-ddaa000.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__joule)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-NodeJs app
-
-</td>
-<td valign="top">
-
-Cloud Foundry
-
-</td>
-<td valign="top">
-
-MTA
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-<td valign="top">
-
-n/a
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-SAP Build Apps projects
-
-</td>
-<td valign="top">
-
-Cloud Foundry
-
-</td>
-<td valign="top">
-
-MTA
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-Yes \(for export and import\)
-
-</td>
-<td valign="top">
-
-n/a
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
-[SAP Build Apps](10-initial-setup/integrating-sap-cloud-transport-management-with-other-services-ddaa000.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__build_apps)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-SAP Build Process Automation projects
-
-</td>
-<td valign="top">
-
-Cloud Foundry
-
-</td>
-<td valign="top">
-
-MTA
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-Yes \(for export and import\)
-
-</td>
-<td valign="top">
-
-n/a
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
-[SAP Build Process Automation](10-initial-setup/integrating-sap-cloud-transport-management-with-other-services-ddaa000.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__build_pa)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-SAP Cloud Integration content
-
-</td>
-<td valign="top">
-
-Cloud Foundry
-
-</td>
-<td valign="top">
-
-MTA
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-Yes \(for content selection and deployment\)
-
-</td>
-<td valign="top">
-
-n/a
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-<td valign="top">
-
-Using SAP Cloud Integration UI
-
-</td>
-<td valign="top">
-
-[SAP Cloud Integration](10-initial-setup/integrating-sap-cloud-transport-management-with-other-services-ddaa000.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__cloud_integration)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-SAP HANA Deployment Infrastructure \(HDI\) content
-
-</td>
-<td valign="top">
-
-Cloud Foundry
-
-</td>
-<td valign="top">
-
-MTA
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-<td valign="top">
-
-n/a
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-SAP Analytics Cloud \(content network packages\)
-
-</td>
-<td valign="top">
-
-Cloud Foundry / Neo
+Production process design
 
 </td>
 <td valign="top">
@@ -635,143 +908,7 @@ Application Content
 </td>
 <td valign="top">
 
-Yes
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-<td valign="top">
-
-n/a
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
-[SAP Analytics Cloud](10-initial-setup/integrating-sap-cloud-transport-management-with-other-services-ddaa000.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__analytics)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-SAP Batch Release Hub for Life Sciences \(configuration settings\)
-
-</td>
-<td valign="top">
-
 Cloud Foundry
-
-</td>
-<td valign="top">
-
-Application Content
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-<td valign="top">
-
-n/a
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-<td valign="top">
-
-Export to SAP Cloud Transport Management takes place using the *Transport Configuration Settings* app.
-
-</td>
-<td valign="top">
-
-[SAP Batch Release Hub for Life Sciences](10-initial-setup/integrating-sap-cloud-transport-management-with-other-services-ddaa000.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__brh4ls)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-SAP Build Work Zone, advanced edition content
-
-</td>
-<td valign="top">
-
-Cloud Foundry
-
-</td>
-<td valign="top">
-
-Application Content
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-<td valign="top">
-
-n/a
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-<td valign="top">
-
-Using the integration of SAP Build Work Zone, standard edition in SAP Build Work Zone, advanced edition
-
-</td>
-<td valign="top">
-
-[SAP Build Workzone, advanced edition](10-initial-setup/integrating-sap-cloud-transport-management-with-other-services-ddaa000.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__wz)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-SAP Build Work Zone, standard edition content
-
-</td>
-<td valign="top">
-
-Cloud Foundry
-
-</td>
-<td valign="top">
-
-Application Content
 
 </td>
 <td valign="top">
@@ -801,24 +938,29 @@ No
 </td>
 <td valign="top">
 
-[SAP Build Workzone, standard edition](10-initial-setup/integrating-sap-cloud-transport-management-with-other-services-ddaa000.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__lps)
+[SAP Digital Manufacturing](10-initial-setup/integrating-sap-cloud-transport-management-with-other-sap-cloud-solutions-ddaa000.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__dmc)
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-SAP Datasphere \(content packages\)
+SAP Entitlement Management
 
 </td>
 <td valign="top">
 
-Cloud Foundry
+Configuration content
 
 </td>
 <td valign="top">
 
 Application Content
+
+</td>
+<td valign="top">
+
+Cloud Foundry
 
 </td>
 <td valign="top">
@@ -848,19 +990,19 @@ No
 </td>
 <td valign="top">
 
-[SAP Datasphere](10-initial-setup/integrating-sap-cloud-transport-management-with-other-services-ddaa000.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__datasphere)
+[SAP Entitlement Management](10-initial-setup/integrating-sap-cloud-transport-management-with-other-sap-cloud-solutions-ddaa000.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__entitlement)
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-SAP Entitlement Management \(configuration content\)
+SAP Excise Tax Management
 
 </td>
 <td valign="top">
 
-Cloud Foundry
+Warehouse
 
 </td>
 <td valign="top">
@@ -870,49 +1012,7 @@ Application Content
 </td>
 <td valign="top">
 
-Yes
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-<td valign="top">
-
-n/a
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
-[SAP Entitlement Management](10-initial-setup/integrating-sap-cloud-transport-management-with-other-services-ddaa000.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__entitlement)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-SAP Excise Tax Management \(warehouses\)
-
-</td>
-<td valign="top">
-
 Cloud Foundry
-
-</td>
-<td valign="top">
-
-Application Content
 
 </td>
 <td valign="top">
@@ -942,24 +1042,29 @@ Warehouse address details are not transported with a warehouse. They must be mai
 </td>
 <td valign="top">
 
-[SAP Excise Tax Management](10-initial-setup/integrating-sap-cloud-transport-management-with-other-services-ddaa000.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__etm)
+[SAP Excise Tax Management](10-initial-setup/integrating-sap-cloud-transport-management-with-other-sap-cloud-solutions-ddaa000.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__etm)
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-SAP Group Reporting Data Collection \(forms and folders\)
+SAP Group Reporting Data Collection
 
 </td>
 <td valign="top">
 
-Cloud Foundry
+Form and folder
 
 </td>
 <td valign="top">
 
 Application Content
+
+</td>
+<td valign="top">
+
+Cloud Foundry
 
 </td>
 <td valign="top">
@@ -989,14 +1094,24 @@ In the *Manage Packages* app, forms and folders can be exported to SAP Cloud Tra
 </td>
 <td valign="top">
 
-[SAP Group Reporting Data Collection for SAP S/4HANA](10-initial-setup/integrating-sap-cloud-transport-management-with-other-services-ddaa000.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__grdc)
+[SAP Group Reporting Data Collection for SAP S/4HANA](10-initial-setup/integrating-sap-cloud-transport-management-with-other-sap-cloud-solutions-ddaa000.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__grdc)
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-SAP Intelligent Clinical Supply Management \(configuration settings\)
+SAP HANA Deployment Infrastructure \(HDI\)
+
+</td>
+<td valign="top">
+
+HDI content
+
+</td>
+<td valign="top">
+
+MTA
 
 </td>
 <td valign="top">
@@ -1006,7 +1121,106 @@ Cloud Foundry
 </td>
 <td valign="top">
 
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+n/a
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Integration Suite
+
+</td>
+<td valign="top">
+
+Integration packages \(integration flows, value mappings, APIs\)
+
+</td>
+<td valign="top">
+
+MTA
+
+</td>
+<td valign="top">
+
+Cloud Foundry
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes \(for content selection and deployment\)
+
+</td>
+<td valign="top">
+
+n/a
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+Using the [SAP Integration Suite](10-initial-setup/integrating-sap-cloud-transport-management-with-other-sap-cloud-solutions-ddaa000.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__cloud_integration) UI
+
+</td>
+<td valign="top">
+
+[SAP Integration Suite](10-initial-setup/integrating-sap-cloud-transport-management-with-other-sap-cloud-solutions-ddaa000.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__cloud_integration)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Intelligent Clinical Supply Management
+
+</td>
+<td valign="top">
+
+Configuration setting
+
+</td>
+<td valign="top">
+
 Application Content
+
+</td>
+<td valign="top">
+
+Cloud Foundry
 
 </td>
 <td valign="top">
@@ -1036,14 +1250,24 @@ Export to SAP Cloud Transport Management takes place using the *Transport Config
 </td>
 <td valign="top">
 
-[SAP Intelligent Clinical Supply Management](10-initial-setup/integrating-sap-cloud-transport-management-with-other-services-ddaa000.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__icsm)
+[SAP Intelligent Clinical Supply Management](10-initial-setup/integrating-sap-cloud-transport-management-with-other-sap-cloud-solutions-ddaa000.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__icsm)
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-SAP Mobile Services application configurations
+SAP Mobile Services
+
+</td>
+<td valign="top">
+
+Application configuration
+
+</td>
+<td valign="top">
+
+MTA
 
 </td>
 <td valign="top">
@@ -1053,11 +1277,6 @@ Cloud Foundry
 </td>
 <td valign="top">
 
-MTA
-
-</td>
-<td valign="top">
-
 No
 
 </td>
@@ -1083,11 +1302,16 @@ No
 </td>
 <td valign="top">
 
-[SAP Mobile Services](10-initial-setup/integrating-sap-cloud-transport-management-with-other-services-ddaa000.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__mobile)
+[SAP Mobile Services](10-initial-setup/integrating-sap-cloud-transport-management-with-other-sap-cloud-solutions-ddaa000.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__mobile)
 
 </td>
 </tr>
 <tr>
+<td valign="top">
+
+SAP BTP, Neo application runtime
+
+</td>
 <td valign="top">
 
 Authorization group
@@ -1095,12 +1319,12 @@ Authorization group
 </td>
 <td valign="top">
 
-Neo
+MTA
 
 </td>
 <td valign="top">
 
-MTA
+Neo
 
 </td>
 <td valign="top">
@@ -1125,7 +1349,7 @@ No
 </td>
 <td valign="top">
 
- 
+Content is developed and transported as part of another application.
 
 </td>
 <td valign="top">
@@ -1135,6 +1359,11 @@ No
 </td>
 </tr>
 <tr>
+<td valign="top">
+
+SAP BTP, Neo application runtime
+
+</td>
 <td valign="top">
 
 Destination
@@ -1142,12 +1371,12 @@ Destination
 </td>
 <td valign="top">
 
-Neo
+MTA
 
 </td>
 <td valign="top">
 
-MTA
+Neo
 
 </td>
 <td valign="top">
@@ -1172,7 +1401,7 @@ No
 </td>
 <td valign="top">
 
- 
+Content is developed and transported as part of another application.
 
 </td>
 <td valign="top">
@@ -1182,6 +1411,11 @@ No
 </td>
 </tr>
 <tr>
+<td valign="top">
+
+SAP BTP, Neo application runtime
+
+</td>
 <td valign="top">
 
 HTML5 app
@@ -1189,12 +1423,12 @@ HTML5 app
 </td>
 <td valign="top">
 
-Neo
+MTA
 
 </td>
 <td valign="top">
 
-MTA
+Neo
 
 </td>
 <td valign="top">
@@ -1219,7 +1453,7 @@ Yes
 </td>
 <td valign="top">
 
- 
+Content is developed and transported as part of another application.
 
 </td>
 <td valign="top">
@@ -1229,6 +1463,11 @@ Yes
 </td>
 </tr>
 <tr>
+<td valign="top">
+
+SAP BTP, Neo application runtime
+
+</td>
 <td valign="top">
 
 HTML 5 role
@@ -1236,12 +1475,12 @@ HTML 5 role
 </td>
 <td valign="top">
 
-Neo
+MTA
 
 </td>
 <td valign="top">
 
-MTA
+Neo
 
 </td>
 <td valign="top">
@@ -1266,7 +1505,7 @@ No
 </td>
 <td valign="top">
 
- 
+Content is developed and transported as part of another application.
 
 </td>
 <td valign="top">
@@ -1276,6 +1515,11 @@ No
 </td>
 </tr>
 <tr>
+<td valign="top">
+
+SAP BTP, Neo application runtime
+
+</td>
 <td valign="top">
 
 Java app
@@ -1283,12 +1527,12 @@ Java app
 </td>
 <td valign="top">
 
-Neo
+MTA
 
 </td>
 <td valign="top">
 
-MTA
+Neo
 
 </td>
 <td valign="top">
@@ -1313,7 +1557,7 @@ No
 </td>
 <td valign="top">
 
- 
+Content is developed and transported as part of another application.
 
 </td>
 <td valign="top">
@@ -1325,17 +1569,22 @@ No
 <tr>
 <td valign="top">
 
-SAP Cloud Integration content
+SAP Integration Suite
 
 </td>
 <td valign="top">
 
-Neo
+Content
 
 </td>
 <td valign="top">
 
 MTA
+
+</td>
+<td valign="top">
+
+Neo
 
 </td>
 <td valign="top">
@@ -1365,11 +1614,16 @@ No
 </td>
 <td valign="top">
 
-[SAP Cloud Integration](10-initial-setup/integrating-sap-cloud-transport-management-with-other-services-ddaa000.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__cloud_integration)
+[SAP Integration Suite](10-initial-setup/integrating-sap-cloud-transport-management-with-other-sap-cloud-solutions-ddaa000.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__cloud_integration)
 
 </td>
 </tr>
 <tr>
+<td valign="top">
+
+SAP BTP, Neo application runtime
+
+</td>
 <td valign="top">
 
 SAP Fiori app
@@ -1377,12 +1631,12 @@ SAP Fiori app
 </td>
 <td valign="top">
 
-Neo
+MTA
 
 </td>
 <td valign="top">
 
-MTA
+Neo
 
 </td>
 <td valign="top">
@@ -1407,7 +1661,7 @@ Yes
 </td>
 <td valign="top">
 
- 
+Content is developed and transported as part of another application.
 
 </td>
 <td valign="top">
@@ -1419,17 +1673,22 @@ Yes
 <tr>
 <td valign="top">
 
+SAP BTP, Neo application runtime
+
+</td>
+<td valign="top">
+
 SAP Fiori Portal
 
 </td>
 <td valign="top">
 
-Neo
+MTA
 
 </td>
 <td valign="top">
 
-MTA
+Neo
 
 </td>
 <td valign="top">
@@ -1456,6 +1715,8 @@ No
 
 Only complete Portal sites
 
+Content is developed and transported as part of another application.
+
 </td>
 <td valign="top">
 
@@ -1466,17 +1727,22 @@ Only complete Portal sites
 <tr>
 <td valign="top">
 
+SAP BTP, Neo application runtime
+
+</td>
+<td valign="top">
+
 SAP Fiori role
 
 </td>
 <td valign="top">
 
-Neo
+MTA
 
 </td>
 <td valign="top">
 
-MTA
+Neo
 
 </td>
 <td valign="top">
@@ -1501,7 +1767,7 @@ No
 </td>
 <td valign="top">
 
- 
+Content is developed and transported as part of another application.
 
 </td>
 <td valign="top">
@@ -1513,17 +1779,22 @@ No
 <tr>
 <td valign="top">
 
-Delivery unit \(DU\) of SAP HANA XS classic model
+SAP HANA XS classic model
 
 </td>
 <td valign="top">
 
-Neo
+Delivery unit \(DU\)
 
 </td>
 <td valign="top">
 
 XSC DU
+
+</td>
+<td valign="top">
+
+Neo
 
 </td>
 <td valign="top">
@@ -1567,6 +1838,6 @@ On Delivery Unit \(DU\) level
 
 -   [Multitarget Applications in the Cloud Foundry Environment](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/d04fc0e2ad894545aebfd7126384307c.html)
 -   [Multitarget Applications for the Neo Environment](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/e1bb7eb746d34237b8b47035adff5022.html)
--   For more information about the integration of specific content in SAP Cloud Transport Management, see [Integrating SAP Cloud Transport Management with Other Services](10-initial-setup/integrating-sap-cloud-transport-management-with-other-services-ddaa000.md).
+-   For more information about the integration of specific content in SAP Cloud Transport Management, see [Integrating SAP Cloud Transport Management with Other SAP Cloud Solutions](10-initial-setup/integrating-sap-cloud-transport-management-with-other-sap-cloud-solutions-ddaa000.md).
 
 

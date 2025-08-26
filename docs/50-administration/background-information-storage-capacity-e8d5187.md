@@ -194,7 +194,7 @@ The metadata of the transport request isn't deleted, only the file. The file is 
 
 When you've reached at least 85% of the storage capacity in your space, and you're trying to upload a new file to SAP Cloud Transport Management, a warning message is displayed.
 
-When you've reached the maximum storage capacity, no files can be uploaded to the service, and no quick solution is possible for the issue, because you can't manually delete files.
+When you've reached the maximum storage capacity, no files can be uploaded to the service. To free up storage space, you can delete transport requests manually. For more information, see [Delete Transport Requests](../40-using-request-overview/delete-transport-requests-2ef725c.md).
 
 
 

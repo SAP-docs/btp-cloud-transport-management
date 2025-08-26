@@ -2,16 +2,16 @@
 
 # Statuses of Transport Requests
 
-Transport requests can have different statuses in the import queue that are in turn aggregated into lifecycle statuses displayed in the transport requests overview.
+A transport request can have an import status in an import queue and a lifecycle status in the transport requests overview.
 
-In an import queue of a transport node, a transport request can have one of the following import statuses:
+Import statuses of transport requests in import queues:
 
 
 <table>
 <tr>
 <th valign="top">
 
-Status in Import Queue
+Import Status in Import Queue
 
 </th>
 <th valign="top">
@@ -66,7 +66,7 @@ The import of the transport request failed due to a fatal error.
 </td>
 <td valign="top">
 
-The transport request was added to the transport node, but an import wasn´t yet started.
+The transport request was added to the transport node, but an import hasn't yet started.
 
 </td>
 </tr>
@@ -126,6 +126,18 @@ The import of the transport request in the transport node was intentionally skip
 <tr>
 <td valign="top">
 
+*Transient*
+
+</td>
+<td valign="top">
+
+A modifiable transport request was previously tested in the transport node and then released. Releasing the request changes its status to *Transient* in the import queues of follow-on transport nodes. This ensures the traceability of these requests.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 *Warning*
 
 </td>
@@ -137,14 +149,14 @@ Warnings occurred during the import of the transport request in the transport no
 </tr>
 </table>
 
-In the transport requests overview, the import statuses of a transport request in the related import queues are aggregated into the following lifecycle statuses:
+Lifecycle statuses of transport requests:
 
 
 <table>
 <tr>
 <th valign="top">
 
-Status in Transport Requests Overview
+Lifecycle Status in Transport Requests Overview
 
 </th>
 <th valign="top">
@@ -152,18 +164,6 @@ Status in Transport Requests Overview
 Description
 
 </th>
-</tr>
-<tr>
-<td valign="top">
-
-*Active*
-
-</td>
-<td valign="top">
-
-In at least one import queue the import status of the transport request isn't *Archived* or *Deleted*.
-
-</td>
 </tr>
 <tr>
 <td valign="top">
@@ -186,6 +186,30 @@ In all import queues that the transport request was part of, it was deleted by t
 <td valign="top">
 
 In all import queues that the transport request was part of, it has the status *Deleted*.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Modifiable*
+
+</td>
+<td valign="top">
+
+The transport request is modifiable. For more information, see [Processing Modifiable Transport Requests](processing-modifiable-transport-requests-b541b09.md).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Released*
+
+</td>
+<td valign="top">
+
+In at least one import queue the import status of the transport request isn't *Archived* or *Deleted*.
 
 </td>
 </tr>

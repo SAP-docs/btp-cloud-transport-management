@@ -108,6 +108,22 @@ Blog post:
 <tr>
 <td valign="top">
 
+Using SAP Automation Pilot commands to manage transport nodes, routes, and transport requests with SAP Cloud Transport Management 
+
+</td>
+<td valign="top">
+
+Documentation of the available commands:
+
+-   [Cloud Transport Management Service \(ctms-sapcp\) Catalog](https://help.sap.com/docs/automation-pilot/automation-pilot/cloud-transport-management-service-ctms-sapcp-catalog?version=Cloud)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Integrating SAP Cloud Transport Management service with Change Request Management and Quality Gate Management of SAP Solution Manager
 
 </td>

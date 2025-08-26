@@ -6,7 +6,7 @@ Learn the general steps for setting up SAP Cloud Transport Management service to
 
 Before you can transport content archives directly in an application, cloud administrators perform initial setup steps.
 
-The steps in the topics linked below outline the general steps for setting up SAP Cloud Transport Management service to transport content archives. We recommend that you always start by reading the documentation of the application or SAP BTP service whose content you want to transport. This documentation contains all configuration tasks required for the specific scenario. For more information about known integrations, see [Integrating SAP Cloud Transport Management with Other Services](integrating-sap-cloud-transport-management-with-other-services-ddaa000.md).
+The steps in the topics linked below outline the general steps for setting up SAP Cloud Transport Management service to transport content archives. We recommend that you always start by reading the documentation of the application or SAP BTP service whose content you want to transport. This documentation contains all configuration tasks required for the specific scenario. For more information about known integrations, see [Integrating SAP Cloud Transport Management with Other SAP Cloud Solutions](integrating-sap-cloud-transport-management-with-other-sap-cloud-solutions-ddaa000.md).
 
 > ### Tip:  
 > For the initial setup steps, see also the tutorial on SAP Tutorial Navigator: [Get Started with SAP Cloud Transport Management Service](https://developers.sap.com/tutorials/btp-transport-management-getting-started.html)

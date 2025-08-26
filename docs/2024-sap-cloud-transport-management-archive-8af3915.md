@@ -473,7 +473,7 @@ You can now use SAP Cloud Transport Management to transport SAP Build Apps proje
 See:
 
 -   [Supported Content Types](supported-content-types-8961dcb.md#loio8961dcb3edc84a76b84b29565833067b)
--   [Integrating SAP Cloud Transport Management with Other Services](10-initial-setup/integrating-sap-cloud-transport-management-with-other-services-ddaa000.md)
+-   [Integrating SAP Cloud Transport Management with Other SAP Cloud Solutions](10-initial-setup/integrating-sap-cloud-transport-management-with-other-sap-cloud-solutions-ddaa000.md)
 
 
 
@@ -546,11 +546,11 @@ Documentation enhancements
 
 -   A link was added to a new blog post in SAP Community about changes to the integration of the service with SAP BTP ABAP environment.
 
-    See: [Integrating SAP Cloud Transport Management with Other Services](10-initial-setup/integrating-sap-cloud-transport-management-with-other-services-ddaa000.md)
+    See: [Integrating SAP Cloud Transport Management with Other SAP Cloud Solutions](10-initial-setup/integrating-sap-cloud-transport-management-with-other-sap-cloud-solutions-ddaa000.md)
 
 -   The sample configuration for the SAP Cloud ALM use case was removed from the [Example: Destination to SAP Cloud Transport Management](20-configure-landscape/create-destinations-to-sap-cloud-transport-management-service-795f733.md#loio75fe5d4b4fa3492c87ef6be32ea0b819) topic, since integrating the service with SAP Cloud ALM has become easier.
 
-    See the links in the *SAP Cloud ALM* section of: [Integrating SAP Cloud Transport Management with Other Services](10-initial-setup/integrating-sap-cloud-transport-management-with-other-services-ddaa000.md)
+    See the links in the *SAP Cloud ALM* section of: [Integrating SAP Cloud Transport Management with Other SAP Cloud Solutions](10-initial-setup/integrating-sap-cloud-transport-management-with-other-sap-cloud-solutions-ddaa000.md)
 
 
 
@@ -1221,7 +1221,7 @@ You can now use SAP Cloud Transport Management to transport SAP Datasphere conte
 See:
 
 -   [Supported Content Types](supported-content-types-8961dcb.md#loio8961dcb3edc84a76b84b29565833067b)
--   [Integrating SAP Cloud Transport Management with Other Services](10-initial-setup/integrating-sap-cloud-transport-management-with-other-services-ddaa000.md)
+-   [Integrating SAP Cloud Transport Management with Other SAP Cloud Solutions](10-initial-setup/integrating-sap-cloud-transport-management-with-other-sap-cloud-solutions-ddaa000.md)
 
 
 

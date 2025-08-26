@@ -37,10 +37,11 @@ For more information about the consumption-based commercial model, see [Commerci
 
 Proceed as described in the following topics to set up SAP Cloud Transport Management for your specific use case.
 
--   **[Integrating SAP Cloud Transport Management with Other Services](integrating-sap-cloud-transport-management-with-other-services-ddaa000.md "Configuration steps for integrating SAP Cloud Transport Management with other  services are
-		determined by the type of content being transported and how the integration was realized.
-		Get an overview of known integrations and links to further information.")**  
-Configuration steps for integrating SAP Cloud Transport Management with other services are determined by the type of content being transported and how the integration was realized. Get an overview of known integrations and links to further information.
+-   **[Integrating SAP Cloud Transport Management with Other SAP Cloud Solutions](integrating-sap-cloud-transport-management-with-other-sap-cloud-solutions-ddaa000.md "Configuration steps for integrating SAP Cloud Transport Management with other SAP cloud solutions
+		are determined by the type of content being transported and how the integration was
+		realized. Get an overview of known integrations and links to further
+		information.")**  
+Configuration steps for integrating SAP Cloud Transport Management with other SAP cloud solutions are determined by the type of content being transported and how the integration was realized. Get an overview of known integrations and links to further information.
 -   **[Set Up the Environment to Transport Content Archives directly in an Application](set-up-the-environment-to-transport-content-archives-directly-in-an-application-8d94907.md "Learn the general steps for setting up SAP Cloud Transport Management service to transport content
 		archives directly in an application.")**  
 Learn the general steps for setting up SAP Cloud Transport Management service to transport content archives directly in an application.

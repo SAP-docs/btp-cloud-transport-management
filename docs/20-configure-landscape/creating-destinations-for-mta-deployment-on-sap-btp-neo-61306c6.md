@@ -8,9 +8,11 @@ To address the target end point of MTA deployment on SAP BTP, Neo, specify the U
 
 ## Procedure
 
-1.  In SAP BTP Cockpit of your subaccount, choose *Connectivity* \> *Destinations* \> *New Destination*.
+1.  In SAP BTP Cockpit of your subaccount, choose *Connectivity* \> *Destinations*.
 
-2.  Enter the following values:
+2.  In the *Destinations* editor, choose *Create* \> *From Scratch* \> *Create*.
+
+3.  Enter or select the following values:
 
     **Destination Settings for MTA Deployment on Neo**
 
@@ -44,7 +46,7 @@ To address the target end point of MTA deployment on SAP BTP, Neo, specify the U
     Name of the destination
     
     </td>
-    <td valign="top" rowspan="3">
+    <td valign="top" rowspan="4">
     
     -   SAP BTP, Neo: [Configure Destinations from the Cockpit](https://help.sap.com/docs/CP_CONNECTIVITY/b865ed651e414196b39f8922db2122c7/60735ad11d8a488c83537cdcfb257135.html)
 
@@ -81,6 +83,18 @@ To address the target end point of MTA deployment on SAP BTP, Neo, specify the U
     <tr>
     <td valign="top">
     
+    *Proxy Type*
+    
+    </td>
+    <td valign="top">
+    
+    *Internet*
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
     *URL*
     
     </td>
@@ -96,27 +110,6 @@ To address the target end point of MTA deployment on SAP BTP, Neo, specify the U
     <td valign="top">
     
     [Configuring the Access to the Solution Lifecycle Management Service](https://help.sap.com/docs/BTP/ea72206b834e4ace9cd834feed6c0e09/b15a6c5c6c97475f8297f83f83dd4e31.html) 
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-    *Proxy Type*
-    
-    </td>
-    <td valign="top">
-    
-    *Internet*
-    
-    </td>
-    <td valign="top">
-    
-    -   SAP BTP, Neo: [Configure Destinations from the Cockpit](https://help.sap.com/docs/CP_CONNECTIVITY/b865ed651e414196b39f8922db2122c7/60735ad11d8a488c83537cdcfb257135.html)
-
-    -   [Create HTTP Destinations](https://help.sap.com/docs/CP_CONNECTIVITY/b865ed651e414196b39f8922db2122c7/1e110da0ddd8453aaf5aed2485d84f25.html)
-
-
     
     </td>
     </tr>
@@ -170,12 +163,18 @@ To address the target end point of MTA deployment on SAP BTP, Neo, specify the U
     </tr>
     </table>
     
-3.  Choose *Save* to save your changes.
+4.  Choose *Create* to create the destination.
+
+5.  **Optional:** After creating the destination, click anywhere in the row to display its details.
+
+6.  **Optional:** Choose *Check Connection* to check your destination.
+
+    The result should display *HTTP request \(without authentication\) to *<Name of the destination\>* destination succeeded*.
 
     > ### Note:  
-    > If you use *Check Connection* to check your destination, the connection test may give the wrong response \(*Connection not ok*\) even though the destination was correctly configured.
+    > This result means that the URL specified in the destination can be reached. However, such a successful check doesn’t guarantee successful deployment. We recommend that you test the deployment using a test transport after completing all configuration steps required for your transport scenario.
     > 
-    > It only gives the correct results for *Basic Authentication*.
+    > For more information about connection checks, see [Check the Availability of a Destination](https://help.sap.com/docs/CP_CONNECTIVITY/cca91383641e40ffbe03bdc78f00f681/71ea3ccf4ebc4c63a3989c0b318e3e9b.html).
 
 
 

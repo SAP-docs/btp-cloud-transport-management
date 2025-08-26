@@ -23,7 +23,7 @@ The following services can be used for deployment:
     To transport content of API Management and SAP Cloud Integration together, use this option.
 
 
-For more information about the option that is relevant for your use case, also see the application-specific documentation. You can find a list of known integrations and links to application-specific information under [Integrating SAP Cloud Transport Management with Other Services](../10-initial-setup/integrating-sap-cloud-transport-management-with-other-services-ddaa000.md).
+For more information about the option that is relevant for your use case, also see the application-specific documentation. You can find a list of known integrations and links to application-specific information under [Integrating SAP Cloud Transport Management with Other SAP Cloud Solutions](../10-initial-setup/integrating-sap-cloud-transport-management-with-other-sap-cloud-solutions-ddaa000.md).
 
 For more information about issues that can occur when deploying MTAs in Cloud Foundry, see [Troubleshooting Issues when Transporting Multitarget Applications \(MTAs\)](../troubleshooting-issues-when-transporting-multitarget-applications-mtas-3f7a9bc.md).
 

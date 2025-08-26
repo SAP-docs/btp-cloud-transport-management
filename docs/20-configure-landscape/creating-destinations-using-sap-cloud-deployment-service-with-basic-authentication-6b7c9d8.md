@@ -10,9 +10,11 @@ To address the target end point of the deployment process of MTA Deployment on C
 
 ## Procedure
 
-1.  In SAP BTP Cockpit of your subaccount, choose *Connectivity* \> *Destinations* \> *New Destination*.
+1.  In SAP BTP Cockpit of your subaccount, choose *Connectivity* \> *Destinations*.
 
-2.  Enter the following values:
+2.  In the *Destinations* editor, choose *Create* \> *From Scratch* \> *Create*.
+
+3.  Enter or select the following values:
 
     **MTA Deployment on Cloud Foundry with Classic Basic Authentication**
 
@@ -46,7 +48,7 @@ To address the target end point of the deployment process of MTA Deployment on C
     Name of the destination
     
     </td>
-    <td valign="top" rowspan="3">
+    <td valign="top" rowspan="4">
     
     SAP BTP, Cloud Foundry: [Using the Destinations Editor in the Cockpit](https://help.sap.com/docs/CP_CONNECTIVITY/cca91383641e40ffbe03bdc78f00f681/565fdb3dd19d4cda80864341dc5a0451.html)
     
@@ -73,6 +75,18 @@ To address the target end point of the deployment process of MTA Deployment on C
     <td valign="top">
     
     The description of the destination is optional.
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *Proxy Type*
+    
+    </td>
+    <td valign="top">
+    
+    *Internet*
     
     </td>
     </tr>
@@ -152,23 +166,6 @@ To address the target end point of the deployment process of MTA Deployment on C
     <tr>
     <td valign="top">
     
-    *Proxy Type*
-    
-    </td>
-    <td valign="top">
-    
-    Internet
-    
-    </td>
-    <td valign="top">
-    
-     
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
     *Authentication*
     
     </td>
@@ -223,14 +220,18 @@ To address the target end point of the deployment process of MTA Deployment on C
     </tr>
     </table>
     
-3.  Choose *Save* to save your changes.
+4.  Choose *Create* to create the destination.
 
-4.  **Optional:** Use *Check Connection* to check your destination.
+5.  **Optional:** After creating the destination, click anywhere in the row to display its details.
 
-    The expected result of a successful check is *Response: 200*.
+6.  **Optional:** Choose *Check Connection* to check your destination.
+
+    The result should display *HTTP request \(without authentication\) to *<Name of the destination\>* destination succeeded*.
 
     > ### Note:  
-    > A successful response indicates that the destination is reachable. It does not guarantee successful deployment. For more information, see [Check the Availability of a Destination](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/check-availability-of-destination).
+    > This result means that the URL specified in the destination can be reached. However, such a successful check doesn’t guarantee successful deployment. We recommend that you test the deployment using a test transport after completing all configuration steps required for your transport scenario.
+    > 
+    > For more information about connection checks, see [Check the Availability of a Destination](https://help.sap.com/docs/CP_CONNECTIVITY/cca91383641e40ffbe03bdc78f00f681/71ea3ccf4ebc4c63a3989c0b318e3e9b.html).
 
 
 

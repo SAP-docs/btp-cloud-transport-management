@@ -34,7 +34,7 @@ Description
 </td>
 <td valign="top">
 
-Contains the overall administration authorization for all SAP Cloud Transport Management tasks. The *Administrator* has all authorizations of the other roles, as well as additional authorizations. In the import queue, the *Administrator* can add files to the import queue, remove files from the import queue, and reset the status of queue entries. If the *Forward Mode* of a transport node is set to the value *Manual*, the *Administrator* can forward all or selected transport requests to the target import queue.
+Contains the overall administration authorization for all SAP Cloud Transport Management tasks. The *Administrator* has all authorizations of the other roles, as well as additional authorizations. In the import queue, the *Administrator* can add files to the import queue, remove files from the import queue, and reset the status of transport requests. If the *Forward Mode* of a transport node is set to the value *Manual*, the *Administrator* can forward all or selected transport requests to the target import queue.
 
 </td>
 </tr>
@@ -46,7 +46,13 @@ Contains the overall administration authorization for all SAP Cloud Transport Ma
 </td>
 <td valign="top">
 
-Grants authorizations for transport landscape configuration tasks. This includes creating transport nodes and transport routes, as well as editing, and deleting them. It also includes displaying the landscape action logs.
+Grants authorizations for transport landscape configuration tasks. This includes the following actions:
+
+-   Creating transport nodes and transport routes.
+-   Editing, and deleting transport nodes and transport routes.
+-   Displaying the landscape action logs.
+
+
 
 </td>
 </tr>
@@ -58,9 +64,31 @@ Grants authorizations for transport landscape configuration tasks. This includes
 </td>
 <td valign="top">
 
-Grants authorizations for removing files from the import queue, resetting the status of queue entries, forwarding queue entries, uploading and deleting MTA extension descriptors, scheduling imports, and disabling/re-enabling the import in an import queue.
+Grants authorizations for tasks in import queues. This includes the following actions:
+
+-   Removing files from the import queue.
+-   Forwarding transport requests.
+-   Resetting the status of transport requests.
+-   Uploading and deleting MTA extension descriptors.
+-   Scheduling imports.
+-   Disabling/re-enabling the import.
+-   Releasing and deleting modifiable transport requests.
 
 This role also includes authorizations for import tasks \(*ImportOperator*\), plus starting the import of selected transport requests. However, it doesn't include authorizations for export tasks, such as adding files to import queues.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*ImportSelectedOperator* 
+
+</td>
+<td valign="top">
+
+Grants authorizations to start the import of selected requests in the import queue.
+
+Use this role to restrict import authorization so that users can import individual requests only, not all requests.
 
 </td>
 </tr>
@@ -72,7 +100,10 @@ This role also includes authorizations for import tasks \(*ImportOperator*\), pl
 </td>
 <td valign="top">
 
-Grants authorizations for import tasks. This includes starting the import of all transport requests in the import queue.
+Grants authorizations for import tasks. This includes the following actions:
+
+-   Starting the import of all transport requests in the import queue.
+-   Testing modifiable transport requests.
 
 This role doesn’t include authorizations for importing selected transport requests, adding files to the import queue, removing files from the import queue, resetting the status of queue entries, and forwarding queue entries.
 
@@ -86,7 +117,12 @@ This role doesn’t include authorizations for importing selected transport requ
 </td>
 <td valign="top">
 
-Grants authorizations for export tasks. This includes adding files to import queues, and, if files are transported directly in the application, adding them to a transport request in the application.
+Grants authorizations for export tasks. This includes the following actions:
+
+-   Adding files to import queues, and, if files are transported directly in the application, adding them to a transport request in the application.
+-   Creating modifiable transport requests, and adding files to modifiable transport requests.
+
+
 
 </td>
 </tr>

@@ -10,7 +10,7 @@ SAP Cloud Transport Management allows you to flexibly manage the import of trans
 
 ## Prerequisites
 
--   To run an import of all transport requests in the import queue, you need the *ImportOperator* authorization. To run an import of selected transport requests in the import queue, you need the *TransportOperator* authorization. For more information, see [Security](../60-security/security-51939a4.md).
+-   To run an import of all transport requests in the import queue, you need the authorization from the *ImportOperator* role. To run an import of selected transport requests in the import queue, you need the authorization of the *TransportOperator* or the *ImportSelectedOperator* role. For more information, see [Security](../60-security/security-51939a4.md).
 
 -   You're in the import queue of the transport node where you want to run an import. For more information, see [Prerequisites for Using the Import Queue](prerequisites-for-using-the-import-queue-dd661c7.md).
 
