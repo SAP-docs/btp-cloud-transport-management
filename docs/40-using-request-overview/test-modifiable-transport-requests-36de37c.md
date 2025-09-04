@@ -42,7 +42,7 @@ Test modifiable transport requests to ensure successful deployment.
 
     A dialog box opens that displays all test nodes.
 
-4.  **Optional:** To start the import immediately when the transport request enters an import queue, select the *Auto Trigger Import* checkbox.
+4.  **Optional:** To start the import immediately when the transport request enters an import queue, select the *Import Automatically* checkbox.
 
     This setting applies to all nodes of the test scope and is realized according to the forward mode of the nodes. If you don't select this checkbox, the transport request is added to the import queue, but the import isn't started. You must manually start the import.
 
@@ -57,15 +57,15 @@ Test modifiable transport requests to ensure successful deployment.
 
 ## Results
 
-The transport request is added to the import queues of the first-level nodes. It's in an *Initial* status and *Test* mode. If you've selected the *Auto Trigger Import* checkbox, SAP Cloud Transport Management immediately imports the request. If not, you can manually start the import. Forwarding the request to subsequent nodes occurs according to the specified forward mode for the node.
+The transport request is added to the import queues of the first-level nodes. It's in an *Initial* status and *Test* mode. If you've selected the *Import Automatically* checkbox, SAP Cloud Transport Management immediately imports the request. If not, you can manually start the import. Forwarding the request to subsequent nodes occurs according to the specified forward mode for the node.
 
-If the test finishes with an error in a node, the header section displays an *Imports Failed* status. Select this link to view the nodes where errors occurred.
+If the test finishes with an error in a node, the header section displays an *Imports Failed* status as a link. Select this link to view the nodes where errors occurred.
 
 > ### Example:  
 > Examples of forward mode settings and the impact on testing modifiable transport requests:
 > 
 > -   The forward mode of the first transport node is *On Success*. If the import into that node fails, the transport request isn't forwarded to the follow-on node.
-> -   The forward mode of the first transport node is *Pre-Import* \(*AUTO*\). If the import into that node fails, the transport request is still forwarded to the follow-on node. If the *Auto Trigger Import* checkbox is selected, the transport request is also imported in the follow-on node.
+> -   The forward mode of the first transport node is *Pre-Import* \(*AUTO*\). If the import into that node fails, the transport request is still forwarded to the follow-on node. If the *Import Automatically* checkbox is selected, the transport request is also imported in the follow-on node.
 
 Based on the test results, you can change the transport request at any time during testing as needed.
 

@@ -25,7 +25,7 @@ When creating a modifiable transport request, you select a source node for the t
 
 1.  Choose *Create*.
 
-2.  On the *Create Open Transport Request* dialog, select or enter the following information:
+2.  On the *Create Modifiable Transport Request* dialog, select or enter the following information:
 
 
     <table>

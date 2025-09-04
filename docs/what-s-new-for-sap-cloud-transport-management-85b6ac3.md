@@ -99,6 +99,84 @@ Modifiable transport requests
 </td>
 <td valign="top">
 
+UI enhancements to the modifiable transport requests function.
+
+New blog post announcing modifiable transport requests.
+
+See:
+
+-   [Processing Modifiable Transport Requests](40-using-request-overview/processing-modifiable-transport-requests-b541b09.md)
+-   Blog post: [Modifiable Transport Requests now also for your SAP cloud changes](https://community.sap.com/t5/technology-blog-posts-by-sap/modifiable-transport-requests-now-also-for-your-sap-cloud-changes/ba-p/14194823)
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Changed
+
+</td>
+<td valign="top">
+
+Application Development and Integration
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Cloud Transport Management
+
+</td>
+<td valign="top">
+
+2025-09-04
+
+</td>
+<td valign="top">
+
+2025-09-04
+
+</td>
+<td valign="top">
+
+2508b
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Cloud Transport Management 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Modifiable transport requests
+
+</td>
+<td valign="top">
+
 You can create transport requests that are initially empty. You can use them to add multiple files and test the deployment of the files. After successful testing, you can release the transport requests. As a result, they become available for import.
 
 See:
@@ -484,7 +562,7 @@ Data protection and privacy information of the service can now be accessed direc
 </td>
 <td valign="top">
 
-From the user profile dropdown menu, you can now directly open the data protection and privacy information in the SAP Cloud Transport Management documentation on SAP Help Portal.
+From the User Profile dropdown menu, you can now directly open the data protection and privacy information in the SAP Cloud Transport Management documentation on SAP Help Portal.
 
 See:
 
@@ -950,7 +1028,7 @@ Cloud Transport Management
 </td>
 <td valign="top">
 
-New feedback button available in the title bar of SAP Cloud Transport Management 
+New feedback button is available in the title bar of SAP Cloud Transport Management 
 
 </td>
 <td valign="top">

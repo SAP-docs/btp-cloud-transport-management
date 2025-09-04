@@ -16,7 +16,7 @@ Transport requests serve as containers for transporting content. Transport reque
 
 To manage transport requests, choose <span class="SAP-icons-V5"></span> Transport Requests from the navigation pane in the SAP Cloud Transport Management user interface.
 
-All transport requests in a tenant are displayed in a list. For each transport request, the list displays the ID, description, creation date, owner, the size of the files attached to the transport request, and a lifecycle status. By default, all transport requests in status *Released* and *Open* are displayed. For more information, see [Statuses of Transport Requests](statuses-of-transport-requests-3a8259e.md).
+All transport requests in a tenant are displayed in a list. For each transport request, the list displays the ID, description, creation date, owner, the size of the files attached to the transport request, and a lifecycle status. By default, all transport requests in status *Released* and *Modifiable* are displayed. For more information, see [Statuses of Transport Requests](statuses-of-transport-requests-3a8259e.md).
 
 Managing transport requests includes performing different actions that are described in the following topics.
 
