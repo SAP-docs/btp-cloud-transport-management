@@ -1309,6 +1309,58 @@ No
 <tr>
 <td valign="top">
 
+SAP Risk and Assurance Management
+
+</td>
+<td valign="top">
+
+In-house business content \(controls, automated procedures, manual procedures and regulations\)
+
+</td>
+<td valign="top">
+
+Application Content
+
+</td>
+<td valign="top">
+
+Cloud Foundry
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+n/a
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+The *Manage Business Content Packages* app is used to activate and transport in-house business content packages.
+
+</td>
+<td valign="top">
+
+[SAP Risk and Assurance Management](10-initial-setup/integrating-sap-cloud-transport-management-with-other-sap-cloud-solutions-ddaa000.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__GRCFC)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 SAP BTP, Neo application runtime
 
 </td>

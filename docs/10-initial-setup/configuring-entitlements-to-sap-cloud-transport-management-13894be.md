@@ -295,6 +295,8 @@ Select the following plans:
 
         > ### Note:  
         > If you plan to create several service instances with different access rights, you can also assign more than one instance plan.
+        > 
+        > Instance plans are never standalone and require an active application plan.
 
 
 

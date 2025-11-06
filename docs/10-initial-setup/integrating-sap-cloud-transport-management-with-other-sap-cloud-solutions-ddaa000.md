@@ -529,6 +529,27 @@ To set up the integration of SAP Cloud Transport Management for the content type
     
     </td>
     </tr>
+    <tr>
+    <td valign="top">
+    
+    SAP Risk and Assurance Management
+    
+    </td>
+    <td valign="top">
+    
+    Documentation of the SAP cloud solution:
+
+    -   [SAP Risk and Assurance Management](https://help.sap.com/docs/risk-and-assurance-management)
+
+    Documentation of the integration with SAP Cloud Transport Management:
+
+    -   [SAP Cloud Transport Management Service](https://help.sap.com/docs/risk-and-assurance-management/admin-guide-risk-and-assurance-management/sap-cloud-transport-management-service)
+    -   [Transporting and Installing an In-House Content Package](https://help.sap.com/docs/risk-and-assurance-management/guide-for-in-house-content-distrubution-f9a12f143b4c4e8192ed1e1f3e4efdbd/transporting-and-installing-in-house-content-package)
+
+
+    
+    </td>
+    </tr>
     </table>
     
 
