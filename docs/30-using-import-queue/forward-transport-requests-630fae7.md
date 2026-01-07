@@ -2,7 +2,7 @@
 
 # Forward Transport Requests
 
-If the *Forward Mode* of a transport node is set to the value *Manual*, you can manually forward selected transport requests in this node to target transport nodes.
+If the *Forward Mode* of a transport node is set to the value *Manual*, you can manually forward transport requests in this node to target transport nodes.
 
 
 
@@ -24,7 +24,9 @@ If the *Forward Mode* of a transport node is set to the value *Manual*, you can 
 
 ## Context
 
-If the forward mode of a transport node is *Manual*, no automatic forwarding takes place. You can manually select individual transport requests in the current import queue that you want to forward. Forwarding takes place into all target transport nodes according to the transport routes defined for the node where the import is started.
+If the forward mode of a transport node is *Manual*, no automatic forwarding takes place. Forwarding takes place into all target transport nodes according to the transport routes defined for the node where the import is started. You can manually select individual transport requests in the current import queue that you want to forward.
+
+For transport nodes of content type *BTP ABAP*: You can forward transport requests only according to the *Import upto* logic. This means the selected transport request is forwared along with all previous requests.
 
 
 
@@ -34,6 +36,9 @@ If the forward mode of a transport node is *Manual*, no automatic forwarding tak
 
     The transport requests are forwarded in the same order in which you selected them. This allows you to influence the order in which the transport requests are placed in the target import queue.
 
+    > ### Note:  
+    > For content type *BTP ABAP*: Forwarding individual transport requests isn't supported. When you select a request, its previous requests are also selected and forwarded.
+
 2.  Choose *Forward*.
 
 
@@ -42,8 +47,6 @@ If the forward mode of a transport node is *Manual*, no automatic forwarding tak
 <a name="loio630fae7f8308464ea4cb38b10d7d59a4__result_ybb_w41_fxb"/>
 
 ## Results
-
-The selected transport requests are added to the import queue of the target nodes.
 
 The forwarded transport requests are added to the end of the import queues of the target transport nodes. If the forwarded transport requests are already part of the import queue of the target node, they’re moved to the end of this import queue. The status of a moved transport request changes as follows:
 

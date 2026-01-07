@@ -6,6 +6,11 @@ Modifiable transport requests provide an efficient and flexible way for managing
 
 Modifiable transport requests allow repeated changes throughout their lifecycle. You can add or remove files to refine the content, instead of creating new requests for each iteration. You can test file deployment as often as needed. After successful testing, you can release modifiable requests.
 
+> ### Caution:  
+> Modifiable transport requests aren't currently supported when you use SAP Cloud Transport Management service integrated in SAP Cloud ALM. You must release modifiable transport requests before you can add them to a feature in SAP Cloud ALM.
+> 
+> Modifiable transport requests aren't supported in landscapes that are controlled by SAP Solution Manager. These are target systems that are flagged as *Controlled By SAP Solution Manager* in SAP Cloud Transport Management. \(See also: [Create Transport Nodes](../20-configure-landscape/create-transport-nodes-f71a4d5.md)\)
+
 Processing a modifiable transport request involves the following steps:
 
 1.  **Creation**

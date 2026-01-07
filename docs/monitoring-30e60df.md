@@ -103,7 +103,7 @@ Use the public APIs of the service to create your own monitoring scripts, for ex
 </td>
 <td valign="top">
 
-[Integration of SAP Cloud Transport Management Using APIs](70-integrations/integrating-the-service-7e966f7.md#loiob608919f90c546d59876b8b765c01511)
+[Integration of SAP Cloud Transport Management Using APIs](70-integrations/extended-integration-scenarios-7e966f7.md#loiob608919f90c546d59876b8b765c01511)
 
 </td>
 </tr>

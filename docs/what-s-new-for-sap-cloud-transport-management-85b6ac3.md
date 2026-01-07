@@ -78,6 +78,11 @@ Available as of
 Version
 
 </th>
+<th valign="top">
+
+Scope
+
+</th>
 </tr>
 <tr>
 <td valign="top">
@@ -156,6 +161,11 @@ SAP Cloud Transport Management
 2508b
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -231,6 +241,11 @@ SAP Cloud Transport Management
 2508a
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -304,6 +319,11 @@ SAP Cloud Transport Management
 <td valign="top">
 
 2508a
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 </tr>
@@ -382,6 +402,11 @@ SAP Cloud Transport Management
  
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -407,7 +432,7 @@ You can now use SAP Automation Pilot to manage transport nodes, routes, and tran
 
 See:
 
--   [Extended Integration Scenarios](70-integrations/integrating-the-service-7e966f7.md#loio1b3c6637adb54d4bbb1828f911bb9547)
+-   [Integrations Into Other Cloud Services, Development, and Change Management Processes](70-integrations/extended-integration-scenarios-7e966f7.md#loio1b3c6637adb54d4bbb1828f911bb9547)
 
 
 
@@ -450,6 +475,11 @@ SAP Cloud Transport Management
 <td valign="top">
 
 2025-07-10
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -541,6 +571,11 @@ SAP Cloud Transport Management
 2507a
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -616,6 +651,11 @@ SAP Cloud Transport Management
 2507a
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -685,6 +725,11 @@ SAP Cloud Transport Management
 <td valign="top">
 
 2025-07-02
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -768,6 +813,11 @@ SAP Cloud Transport Management
 2506a
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -840,6 +890,11 @@ SAP Cloud Transport Management
 <td valign="top">
 
 2025-06-06
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -938,6 +993,11 @@ SAP Cloud Transport Management
 2505a
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1005,6 +1065,11 @@ SAP Cloud Transport Management
 <td valign="top">
 
 2025-06-06
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -1087,6 +1152,11 @@ SAP Cloud Transport Management
 2504b
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1159,6 +1229,11 @@ SAP Cloud Transport Management
 <td valign="top">
 
 2025-05-16
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -1241,6 +1316,11 @@ SAP Cloud Transport Management
 2504a
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1314,6 +1394,11 @@ SAP Cloud Transport Management
 <td valign="top">
 
 2504a
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 </tr>
@@ -1391,6 +1476,11 @@ SAP Cloud Transport Management
 2504a
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1459,6 +1549,11 @@ SAP Cloud Transport Management
 <td valign="top">
 
 2025-04-17
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -1547,6 +1642,11 @@ SAP Cloud Transport Management
  
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1613,6 +1713,11 @@ SAP Cloud Transport Management
 <td valign="top">
 
 2025-04-03
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -1699,6 +1804,11 @@ SAP Cloud Transport Management
 2502a
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1772,6 +1882,11 @@ SAP Cloud Transport Management
 <td valign="top">
 
 2502a
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 </tr>
@@ -1849,6 +1964,11 @@ SAP Cloud Transport Management
 2413b
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1924,6 +2044,11 @@ SAP Cloud Transport Management
 2413b
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1997,6 +2122,11 @@ SAP Cloud Transport Management
 <td valign="top">
 
 2413b
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 </tr>

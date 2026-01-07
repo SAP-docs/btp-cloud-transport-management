@@ -42,7 +42,9 @@ For more information, see [Remove Transport Requests](../30-using-import-queue/r
 </td>
 <td valign="top">
 
-The import of the transport request failed due to an error.
+The import of the transport request took place, but errors occurred for one or more objects. This means that the content of the transport request was only partially imported or imported with errors. Since the content causes the error, re-importing it won't resolve the issue.
+
+You can only re-import transport requests with an *Error* status after you've manually reset them. Requests with an *Error* status aren't included in an *Import All* action.
 
 </td>
 </tr>
@@ -54,7 +56,9 @@ The import of the transport request failed due to an error.
 </td>
 <td valign="top">
 
-The import of the transport request failed due to a fatal error.
+No objects from the transport request were imported. This can happen if the deployment process doesn't start due to issues like an incorrect destination or insufficient authentication. If the application issues a rollback during an import, this also results in a *Fatal* status.
+
+You can re-import transport requests with a *Fatal* status. They're also included in an *Import All* action.
 
 </td>
 </tr>

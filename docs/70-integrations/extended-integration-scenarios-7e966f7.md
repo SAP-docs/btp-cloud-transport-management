@@ -1,6 +1,6 @@
 <!-- loio7e966f73645c42eca1bf19e719b21ceb -->
 
-# Integrating the Service
+# Extended Integration Scenarios
 
 SAP Cloud Transport Management service is integrated in development and change management processes and with other services. You can also integrate the service in your processes using the APIs that are available on SAP Business Accelerator Hub.
 
@@ -12,7 +12,7 @@ In the following sections, learn more about the extended integration scenarios a
 
 <!-- loio1b3c6637adb54d4bbb1828f911bb9547 -->
 
-## Extended Integration Scenarios
+## Integrations Into Other Cloud Services, Development, and Change Management Processes
 
 Get familiar with extended integrations of SAP Cloud Transport Management in other cloud services and in development and change management processes.
 
@@ -252,7 +252,7 @@ Documentation of the integration with SAP Cloud Transport Management using Solut
 > 
 > [How-To CTS+ Guides for SAP BTP on SAP Support Portal](https://support.sap.com/en/tools/software-logistics-tools/enhanced-change-and-transport-system.html?cq_ck=1525719806068#section_1627828871)
 > 
-> -   [How To... Configure SAP Business Technology Platform, Neo Environment for CTS](https://www.sap.com/documents/2016/07/bc3e9124-7d7c-0010-82c7-eda71af511fa.html)
+> -   [How To... Configure SAP Business Technology Platform, Neo Environment for CTS](https://help.sap.com/doc/how-to-configure-sap-business-technology-platform-neo-environment-for-cts/Cloud/en-US/How%20To...%20Configure%20SAP%20Business%20Technology%20Platform%2C%20Neo%20Environment%20for%20CTS.pdf)
 > 
 > -   [How To... Configure SAP Business Technology Platform, Cloud Foundry Environment for CTS](https://help.sap.com/doc/9aad207e90fa4da793d34114113e9254/Cloud/en-US/HowToCTS%2B_Guide_SCP_CF.pdf)
 

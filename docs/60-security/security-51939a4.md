@@ -74,7 +74,7 @@ Grants authorizations for tasks in import queues. This includes the following ac
 -   Disabling/re-enabling the import.
 -   Releasing and deleting modifiable transport requests.
 
-This role also includes authorizations for import tasks \(*ImportOperator*\), plus starting the import of selected transport requests. However, it doesn't include authorizations for export tasks, such as adding files to import queues.
+This role also includes authorizations for import tasks \(*ImportOperator*\), plus starting the import of selected transport requests \(*ImportSelectedOperator*\). However, it doesn't include authorizations for export tasks, such as adding files to import queues.
 
 </td>
 </tr>
@@ -196,7 +196,7 @@ Role collection based on the *Viewer* role.
 
 ## Transport Node-Specific Attributes
 
-For the role templates *TransportOperator*, *ExportOperator*, and *ImportOperator*, attributes exist that allow you to restrict the corresponding authorizations to specific transport nodes only.
+For the role templates *TransportOperator*, *ExportOperator*, *ImportOperator*, and *ImportSelectedOperator* attributes exist that allow you to restrict the corresponding authorizations to specific transport nodes only.
 
 The following attributes exist for SAP Cloud Transport Management:
 
@@ -222,7 +222,7 @@ Attribute Name
 </td>
 <td valign="top">
 
-TmsNodesTransportOperator
+`TmsNodesTransportOperator`
 
 </td>
 </tr>
@@ -234,7 +234,7 @@ TmsNodesTransportOperator
 </td>
 <td valign="top">
 
-TmsNodesImport
+`TmsNodesImport`
 
 </td>
 </tr>
@@ -246,7 +246,19 @@ TmsNodesImport
 </td>
 <td valign="top">
 
-TmsNodesExport
+`TmsNodesExport`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*ImportSelectedOperator*
+
+</td>
+<td valign="top">
+
+`TmsNodesImportSelected`
 
 </td>
 </tr>
@@ -255,7 +267,9 @@ TmsNodesExport
 To do this, you create node-specific roles based on the role templates, and add the corresponding attributes to the roles. You enter the transport node names as values of the attributes. For each attribute, you can enter one or multiple transport node names. For these restricted roles with attributes, the corresponding tasks can be performed only in the transport nodes that were entered as attribute values.
 
 > ### Note:  
-> The *TmsNodesTransportOperator* attribute restricts the authorizations for the *TransportOperator* tasks only, but not for the *ImportOperator* tasks that also belong to this role. If you want to restrict the authorizations for the *ImportOperator* tasks as well, create another custom role using the *ImportOperator* template, and use the *TmsNodesImport* attribute to restrict the authorizations to specific transport nodes.
+> The *TmsNodesTransportOperator* attribute restricts the authorizations for the *TransportOperator* tasks only, but not for the *ImportOperator* and *ImportSelectedOperator* tasks that also belong to this role.
+> 
+> To restrict authorizations for *ImportOperator* and *ImportSelectedOperator* tasks as well, create separate custom roles based on the respective templates. For *ImportOperator* tasks, set the `TmsNodesImport` attribute to limit access to specific transport nodes. For *ImportSelectedOperator* tasks, set the `TmsNodesImportSelected` attribute.
 > 
 > This allows you to have a user that is allowed to perform imports in all transport nodes, but perform *TransportOperator* tasks only in specific transport nodes.
 

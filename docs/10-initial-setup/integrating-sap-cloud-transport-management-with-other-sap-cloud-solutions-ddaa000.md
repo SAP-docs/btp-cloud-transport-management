@@ -532,6 +532,30 @@ To set up the integration of SAP Cloud Transport Management for the content type
     <tr>
     <td valign="top">
     
+    SAP Profitability and Performance Management Cloud Standard Model
+    
+    </td>
+    <td valign="top">
+    
+    Documentation of the SAP cloud solution:
+
+    -   [SAP Profitability and Performance Management Cloud](https://help.sap.com/docs/SAP_PROFITABILITY_PERFORMANCE_MANAGEMENT_CLOUD)
+
+    Documentation of the integration with SAP Cloud Transport Management:
+
+    -   [SAP Cloud Transport Management Setup](https://help.sap.com/docs/SAP_PROFITABILITY_PERFORMANCE_MANAGEMENT_CLOUD/a8068ea2f9ba403aa6d8bda3abcdbecd/cc34b48248294069a035c418829acd59.html)
+
+    Blog post:
+
+    -   [SAP PAPM Cloud SM integration with SAP cTMS](https://community.sap.com/t5/financial-management-blog-posts-by-sap/sap-papm-cloud-sm-integration-with-sap-ctms/ba-p/13997846)
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
     SAP Risk and Assurance Management
     
     </td>
@@ -556,5 +580,5 @@ To set up the integration of SAP Cloud Transport Management for the content type
 **Related Information**  
 
 
-[Integrating the Service](../70-integrations/integrating-the-service-7e966f7.md#loio7e966f73645c42eca1bf19e719b21ceb "SAP Cloud Transport Management service is integrated in development and change management processes and with other services. You can also integrate the service in your processes using the APIs that are available on SAP Business Accelerator Hub.")
+[Extended Integration Scenarios](../70-integrations/extended-integration-scenarios-7e966f7.md#loio7e966f73645c42eca1bf19e719b21ceb "SAP Cloud Transport Management service is integrated in development and change management processes and with other services. You can also integrate the service in your processes using the APIs that are available on SAP Business Accelerator Hub.")
 

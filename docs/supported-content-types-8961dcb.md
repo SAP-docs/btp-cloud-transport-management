@@ -45,7 +45,7 @@ The table contains the following information:
 -   *Solution Export Wizard*: Is the integration with SAP Cloud Transport Management realized using Solution Export Wizard? \(Neo only\)
 -   *Continuous Integration \(CI\) Pipeline Upload*: Is there a CI pipeline template available with the option of uploading content to SAP Cloud Transport Management?
 
-    For more information about integration into CI pipelines, see the links to *More Information* listed in the *Integration Scenario*: [Receiving transports comprising release candidates qualified by automated pipelines in SAP Continuous Integration and Delivery service](70-integrations/integrating-the-service-7e966f7.md#loio1b3c6637adb54d4bbb1828f911bb9547__cicd), in particular the series of tutorial videos.
+    For more information about integration into CI pipelines, see the links to *More Information* listed in the *Integration Scenario*: [Receiving transports comprising release candidates qualified by automated pipelines in SAP Continuous Integration and Delivery service](70-integrations/extended-integration-scenarios-7e966f7.md#loio1b3c6637adb54d4bbb1828f911bb9547__cicd), in particular the series of tutorial videos.
 
 -   *More Information about the Integration*: Link to more information about the integration with SAP Cloud Transport Management in the relevant section of: [Integrating SAP Cloud Transport Management with Other SAP Cloud Solutions](10-initial-setup/integrating-sap-cloud-transport-management-with-other-sap-cloud-solutions-ddaa000.md), where more information is available.
 
@@ -113,7 +113,7 @@ SAP BTP, Cloud Foundry Runtime
 </td>
 <td valign="top">
 
-HTML5 app
+HTML5 apps
 
 </td>
 <td valign="top">
@@ -153,7 +153,9 @@ Content is developed and transported as part of another application.
 </td>
 <td valign="top">
 
- 
+Specific information: See the documentation of the application.
+
+General information: [Integration with Transport Management Tools](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/c8bee32a24a7430c8d1803fbc95f855c.html) in the SAP BTP, Cloud Foundry documentation
 
 </td>
 </tr>
@@ -165,7 +167,7 @@ Joule Studio in SAP Build
 </td>
 <td valign="top">
 
-Joule Studio project \(including Joule skills\)
+Joule Studio projects \(including Joule skills\)
 
 </td>
 <td valign="top">
@@ -217,7 +219,7 @@ SAP Analytics Cloud
 </td>
 <td valign="top">
 
-Content network package
+Content network packages
 
 </td>
 <td valign="top">
@@ -269,7 +271,7 @@ SAP API Management
 </td>
 <td valign="top">
 
-API artifact
+API artifacts
 
 </td>
 <td valign="top">
@@ -321,10 +323,10 @@ SAP Asset Performance Management
 </td>
 <td valign="top">
 
--   Communication system configuration
--   Coding mask
--   Risk and criticality assessment template
--   Strategy assessment template for classes, including associated recommendations
+-   Communication system configurations
+-   Coding masks
+-   Risk and criticality assessment templates
+-   Strategy assessment templates for classes, including associated recommendations
 
 
 
@@ -378,7 +380,7 @@ SAP Batch Release Hub for Life Sciences
 </td>
 <td valign="top">
 
-Configuration setting
+Configuration settings
 
 </td>
 <td valign="top">
@@ -430,7 +432,7 @@ SAP Build Apps \(part of SAP Build\)
 </td>
 <td valign="top">
 
-Project
+Projects
 
 </td>
 <td valign="top">
@@ -482,7 +484,7 @@ SAP Build Process Automation
 </td>
 <td valign="top">
 
-Project
+Projects
 
 </td>
 <td valign="top">
@@ -638,7 +640,7 @@ SAP BTP ABAP environment
 </td>
 <td valign="top">
 
-Reference to SAP BTP ABAP environment content
+References to SAP BTP ABAP environment content
 
 </td>
 <td valign="top">
@@ -690,7 +692,7 @@ SAP BTP, Cloud Foundry Runtime
 </td>
 <td valign="top">
 
-Java app
+Java apps
 
 </td>
 <td valign="top">
@@ -730,7 +732,9 @@ Content is developed and transported as part of another application.
 </td>
 <td valign="top">
 
- 
+Specific information: See the documentation of the application.
+
+General information: [Integration with Transport Management Tools](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/c8bee32a24a7430c8d1803fbc95f855c.html) in the SAP BTP, Cloud Foundry documentation
 
 </td>
 </tr>
@@ -742,7 +746,7 @@ SAP BTP, Cloud Foundry Runtime
 </td>
 <td valign="top">
 
-NodeJs app
+NodeJs apps
 
 </td>
 <td valign="top">
@@ -782,7 +786,9 @@ Content is developed and transported as part of another application.
 </td>
 <td valign="top">
 
- 
+Specific information: See the documentation of the application.
+
+General information: [Integration with Transport Management Tools](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/c8bee32a24a7430c8d1803fbc95f855c.html) in the SAP BTP, Cloud Foundry documentation
 
 </td>
 </tr>
@@ -794,7 +800,7 @@ SAP Datasphere
 </td>
 <td valign="top">
 
-Content package
+Content packages
 
 </td>
 <td valign="top">
@@ -846,7 +852,7 @@ SAP Destination Service
 </td>
 <td valign="top">
 
-Destination
+Destinations
 
 </td>
 <td valign="top">
@@ -886,7 +892,7 @@ Using the integration of SAP Destination Service in SAP Content Agent service. N
 </td>
 <td valign="top">
 
-[SAP Content Agent Service](70-integrations/integrating-the-service-7e966f7.md#loio1b3c6637adb54d4bbb1828f911bb9547__cas)
+[SAP Content Agent Service](70-integrations/extended-integration-scenarios-7e966f7.md#loio1b3c6637adb54d4bbb1828f911bb9547__cas)
 
 </td>
 </tr>
@@ -898,7 +904,7 @@ SAP Digital Manufacturing
 </td>
 <td valign="top">
 
-Production process design
+Production process designs
 
 </td>
 <td valign="top">
@@ -1002,7 +1008,7 @@ SAP Excise Tax Management
 </td>
 <td valign="top">
 
-Warehouse
+Warehouses
 
 </td>
 <td valign="top">
@@ -1054,7 +1060,7 @@ SAP Group Reporting Data Collection
 </td>
 <td valign="top">
 
-Form and folder
+Forms and folders
 
 </td>
 <td valign="top">
@@ -1210,7 +1216,7 @@ SAP Intelligent Clinical Supply Management
 </td>
 <td valign="top">
 
-Configuration setting
+Configuration settings
 
 </td>
 <td valign="top">
@@ -1262,7 +1268,7 @@ SAP Mobile Services
 </td>
 <td valign="top">
 
-Application configuration
+Application configurations
 
 </td>
 <td valign="top">
@@ -1272,7 +1278,7 @@ MTA
 </td>
 <td valign="top">
 
-Cloud Foundry
+ 
 
 </td>
 <td valign="top">
@@ -1303,6 +1309,58 @@ No
 <td valign="top">
 
 [SAP Mobile Services](10-initial-setup/integrating-sap-cloud-transport-management-with-other-sap-cloud-solutions-ddaa000.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__mobile)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Profitability and Performance Management Cloud Standard Model
+
+</td>
+<td valign="top">
+
+Environments
+
+</td>
+<td valign="top">
+
+Application Content
+
+</td>
+<td valign="top">
+
+Cloud Foundry
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+n/a
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+[SAP Profitability and Performance Management Cloud](10-initial-setup/integrating-sap-cloud-transport-management-with-other-sap-cloud-solutions-ddaa000.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__papm)
 
 </td>
 </tr>
@@ -1366,7 +1424,7 @@ SAP BTP, Neo application runtime
 </td>
 <td valign="top">
 
-Authorization group
+Authorization groups
 
 </td>
 <td valign="top">
@@ -1406,7 +1464,9 @@ Content is developed and transported as part of another application.
 </td>
 <td valign="top">
 
- 
+Specific information: See the documentation of the application.
+
+General information: [Integration with Transport Management Tools](https://help.sap.com/docs/BTP/ea72206b834e4ace9cd834feed6c0e09/905baea4d6c7404290bff6c042184b4e.html) in the SAP BTP, Neo documentation.
 
 </td>
 </tr>
@@ -1418,7 +1478,7 @@ SAP BTP, Neo application runtime
 </td>
 <td valign="top">
 
-Destination
+Destinations
 
 </td>
 <td valign="top">
@@ -1458,7 +1518,9 @@ Content is developed and transported as part of another application.
 </td>
 <td valign="top">
 
- 
+Specific information: See the documentation of the application.
+
+General information: [Integration with Transport Management Tools](https://help.sap.com/docs/BTP/ea72206b834e4ace9cd834feed6c0e09/905baea4d6c7404290bff6c042184b4e.html) in the SAP BTP, Neo documentation.
 
 </td>
 </tr>
@@ -1470,7 +1532,7 @@ SAP BTP, Neo application runtime
 </td>
 <td valign="top">
 
-HTML5 app
+HTML5 apps
 
 </td>
 <td valign="top">
@@ -1510,7 +1572,9 @@ Content is developed and transported as part of another application.
 </td>
 <td valign="top">
 
- 
+Specific information: See the documentation of the application.
+
+General information: [Integration with Transport Management Tools](https://help.sap.com/docs/BTP/ea72206b834e4ace9cd834feed6c0e09/905baea4d6c7404290bff6c042184b4e.html) in the SAP BTP, Neo documentation.
 
 </td>
 </tr>
@@ -1522,7 +1586,7 @@ SAP BTP, Neo application runtime
 </td>
 <td valign="top">
 
-HTML 5 role
+HTML 5 roles
 
 </td>
 <td valign="top">
@@ -1562,7 +1626,9 @@ Content is developed and transported as part of another application.
 </td>
 <td valign="top">
 
- 
+Specific information: See the documentation of the application.
+
+General information: [Integration with Transport Management Tools](https://help.sap.com/docs/BTP/ea72206b834e4ace9cd834feed6c0e09/905baea4d6c7404290bff6c042184b4e.html) in the SAP BTP, Neo documentation.
 
 </td>
 </tr>
@@ -1574,7 +1640,7 @@ SAP BTP, Neo application runtime
 </td>
 <td valign="top">
 
-Java app
+Java apps
 
 </td>
 <td valign="top">
@@ -1614,7 +1680,9 @@ Content is developed and transported as part of another application.
 </td>
 <td valign="top">
 
- 
+Specific information: See the documentation of the application.
+
+General information: [Integration with Transport Management Tools](https://help.sap.com/docs/BTP/ea72206b834e4ace9cd834feed6c0e09/905baea4d6c7404290bff6c042184b4e.html) in the SAP BTP, Neo documentation.
 
 </td>
 </tr>
@@ -1678,7 +1746,7 @@ SAP BTP, Neo application runtime
 </td>
 <td valign="top">
 
-SAP Fiori app
+SAP Fiori apps
 
 </td>
 <td valign="top">
@@ -1718,7 +1786,9 @@ Content is developed and transported as part of another application.
 </td>
 <td valign="top">
 
- 
+Specific information: See the documentation of the application.
+
+General information: [Integration with Transport Management Tools](https://help.sap.com/docs/BTP/ea72206b834e4ace9cd834feed6c0e09/905baea4d6c7404290bff6c042184b4e.html) in the SAP BTP, Neo documentation.
 
 </td>
 </tr>
@@ -1772,7 +1842,9 @@ Content is developed and transported as part of another application.
 </td>
 <td valign="top">
 
- 
+Specific information: See the documentation of the application.
+
+General information: [Integration with Transport Management Tools](https://help.sap.com/docs/BTP/ea72206b834e4ace9cd834feed6c0e09/905baea4d6c7404290bff6c042184b4e.html) in the SAP BTP, Neo documentation.
 
 </td>
 </tr>
@@ -1784,7 +1856,7 @@ SAP BTP, Neo application runtime
 </td>
 <td valign="top">
 
-SAP Fiori role
+SAP Fiori roles
 
 </td>
 <td valign="top">
@@ -1824,7 +1896,9 @@ Content is developed and transported as part of another application.
 </td>
 <td valign="top">
 
- 
+Specific information: See the documentation of the application.
+
+General information: [Integration with Transport Management Tools](https://help.sap.com/docs/BTP/ea72206b834e4ace9cd834feed6c0e09/905baea4d6c7404290bff6c042184b4e.html) in the SAP BTP, Neo documentation.
 
 </td>
 </tr>
@@ -1836,7 +1910,7 @@ SAP HANA XS classic model
 </td>
 <td valign="top">
 
-Delivery unit \(DU\)
+Delivery units \(DU\)
 
 </td>
 <td valign="top">

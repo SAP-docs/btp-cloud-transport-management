@@ -47,9 +47,10 @@ By adding a file to the import queue, you upload it to the import queue and crea
 -   **[Import Transport Requests](import-transport-requests-d2005d5.md "SAP Cloud Transport Management allows you to flexibly
 		manage the import of transport requests in transport nodes.")**  
 SAP Cloud Transport Management allows you to flexibly manage the import of transport requests in transport nodes.
--   **[Forward Transport Requests](forward-transport-requests-630fae7.md "If the Forward Mode of a transport node is set to the value Manual, you can manually forward
-		selected transport requests in this node to target transport nodes.")**  
-If the *Forward Mode* of a transport node is set to the value *Manual*, you can manually forward selected transport requests in this node to target transport nodes.
+-   **[Forward Transport Requests](forward-transport-requests-630fae7.md "If the Forward Mode of a transport node is set to the value
+			Manual, you can manually forward transport requests in this node
+		to target transport nodes.")**  
+If the *Forward Mode* of a transport node is set to the value *Manual*, you can manually forward transport requests in this node to target transport nodes.
 -   **[Reset Transport Requests](reset-transport-requests-e56b4a2.md "To repeat the import of transport requests in status Error or Succeeded, you can reset the
 		status of these transport requests.")**  
 To repeat the import of transport requests in status *Error* or *Succeeded*, you can reset the status of these transport requests.

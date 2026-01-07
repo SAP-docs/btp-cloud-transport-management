@@ -84,7 +84,7 @@ For more information on the SAP Cloud Transport Management roles, see [Security]
 Create different role collections for the required SAP Cloud Transport Management roles.
 
 1.  To create a new role collection, in your subaccount, choose *Security* \> *Role Collections*.
-2.  Choose :heavy_plus_sign:.
+2.  Choose *Create*.
 
     ![](images/Create_Role_Collection_1_cf119d0.png)
 
