@@ -108,7 +108,7 @@ Blog post:
 <tr>
 <td valign="top">
 
-Using SAP Automation Pilot commands to manage transport nodes, routes, and transport requests with SAP Cloud Transport Management 
+Using Automation Pilot commands to manage transport nodes, routes, and transport requests with SAP Cloud Transport Management 
 
 </td>
 <td valign="top">
@@ -116,6 +116,11 @@ Using SAP Automation Pilot commands to manage transport nodes, routes, and trans
 Documentation of the available commands:
 
 -   [Cloud Transport Management Service \(ctms-sapcp\) Catalog](https://help.sap.com/docs/automation-pilot/automation-pilot/cloud-transport-management-service-ctms-sapcp-catalog?version=Cloud)
+
+Blog post:
+
+-   [Getting Started with the cTMS Catalog in SAP Automation Pilot](https://community.sap.com/t5/technology-blog-posts-by-sap/getting-started-with-the-ctms-catalog-in-sap-automation-pilot/ba-p/14325320)
+
 
 
 

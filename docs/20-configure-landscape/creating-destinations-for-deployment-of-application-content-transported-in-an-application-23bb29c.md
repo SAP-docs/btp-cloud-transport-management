@@ -99,7 +99,11 @@ To address the target end point of application-specific content deployment, spec
     </td>
     <td valign="top">
     
-    Please use the authentication type required by the deploying application, for example, *OAuth2ClientCredentials* authentication with a client credential flow. Here, you have to configure a destination with authentication *OAuth2ClientCredentials* where the *Client ID* and the *Client Secret* are needed that you get from the application or service instance created in the target tenant. In addition, you have to specify the *Token Service URL*, pointing to the authentication service used, for example `https://ts.authentication.sap.hana.ondemand.com`, which is also provided by the application or service instance created in the target tenant.
+    Use the authentication type required by the deploying application, for example, *OAuth2ClientCredentials* authentication with a client credential flow. Here, you have to configure a destination with authentication *OAuth2ClientCredentials* where the *Client ID* and the *Client Secret* are needed that you get from the service key of the application or service instance created in the target tenant.
+
+    In addition, specify the *Token Service URL* , pointing to the authentication service used, for example `https://ts.authentication.sap.hana.ondemand.com`, which is also provided by the service key of the application or service instance created in the target tenant. If the URL in the service key is a base URL, append `/oauth/token`.
+
+    You can use Mutual Transport Layer Security \(mTLS\) for authentication. If you want to do this, see [Destination for Deployment of Application Content Transported in an Application-Specific Format Using mTLS Authentication](destination-for-deployment-of-application-content-transported-in-an-application-specific-72bfde3.md).
     
     </td>
     </tr>
@@ -126,4 +130,10 @@ To address the target end point of application-specific content deployment, spec
 ## Next Steps
 
 [Create Transport Nodes](create-transport-nodes-f71a4d5.md)
+
+-   **[Destination for Deployment of Application Content Transported in an Application-Specific Format Using mTLS Authentication](destination-for-deployment-of-application-content-transported-in-an-application-specific-72bfde3.md "Configuration of destinations using mTLS authentication enables secure deployment of
+		application-specific content by using X.509 client
+		certificates instead of client secrets. This approach enhances security and can be used when
+		deploying application content.")**  
+Configuration of destinations using mTLS authentication enables secure deployment of application-specific content by using `X.509` client certificates instead of client secrets. This approach enhances security and can be used when deploying application content.
 

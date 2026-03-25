@@ -6,7 +6,7 @@ In SAP Cloud Transport Management service, transport nodes represent source or t
 
 You create transport nodes as part of the configuration of your transport landscape.
 
-For specific purposes, you can configure transport nodes as *virtual nodes* that don't refer to a physical source or target end point. Virtual nodes can serve specific purposes, for example they can be used as placeholders to support uneven landscapes in hybrid change management scenarios, or to collect transport requests and forward them to a set of connected nodes. Transport requests that are imported into virtual nodes result in a *Skipped* status.
+For specific purposes, you can configure transport nodes as *virtual nodes* that don't refer to a physical source or target end point. Virtual nodes can serve specific purposes, for example they can be used as placeholders to support uneven landscapes in hybrid change management scenarios, or to collect transport requests and forward them to a set of connected nodes. Transport requests that are imported into virtual nodes get the import status *Skipped* in this node.
 
 A typical configuration of a source node includes allowing file uploads.
 

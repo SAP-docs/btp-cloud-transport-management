@@ -33,6 +33,10 @@ The log shows a list of landscape actions sorted by the time they were performed
 
     E-mail address or name of the user who has run the landscape action.
 
+-   *Changed On*
+
+    Date and time of the action.
+
 
 You can do the following:
 

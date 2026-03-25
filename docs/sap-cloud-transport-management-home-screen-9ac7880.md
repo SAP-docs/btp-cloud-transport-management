@@ -74,13 +74,13 @@ In the title bar, you can use the following functions:
 
     You can display all messages that SAP Cloud Transport Management issues during your logon session.
 
--   <span class="SAP-icons-V5"></span> Feedback
+-   <span class="SAP-icons-V5"></span> \(Feedback\)
 
-    You can use the <span class="SAP-icons-V5"></span> Feedback button to anonymously share feedback about SAP Cloud Transport Management.
+    You can use the <span class="SAP-icons-V5"></span> \(Feedback\) button to anonymously share feedback about SAP Cloud Transport Management.
 
--   <span class="SAP-icons-V5"></span> In-App Help
+-   <span class="SAP-icons-V5"></span> \(In-App Help\)
 
-    You can display in-app help by clicking on <span class="SAP-icons-V5"></span> In-App Help. A help panel appears on the right-hand side of the screen, and text elements in the panel are linked with elements on the screen. To get help on a screen element, click on the question mark icon or the text element in the panel.
+    You can display in-app help by clicking on <span class="SAP-icons-V5"></span> \(In-App Help\). A help panel appears on the right-hand side of the screen, and text elements in the panel are linked with elements on the screen. To get help on a screen element, click on the question mark icon or the text element in the panel.
 
     ![Homescreen displaying in-app help](images/WebAssistant_270bedf.png)
 
@@ -89,6 +89,8 @@ In the title bar, you can use the following functions:
 -   :gear:
 
     When you click the :gear: button, you have the following options:
+
+    ![Application Settings Dropdown](images/File_Retention_Time_in_Menu_2b7d252.png)
 
 
     <table>
@@ -119,7 +121,7 @@ In the title bar, you can use the following functions:
     See also:
 
     -   [Receive Notifications for SAP Cloud Transport Management Actions Using SAP Alert Notification Service](receive-notifications-for-sap-cloud-transport-management-actions-using-sap-alert-notifica-95d4fc7.md)
-    -   [Background Information: Storage Capacity](50-administration/background-information-storage-capacity-e8d5187.md)
+    -   [Storage in SAP Cloud Transport Management: What To Know](50-administration/storage-in-sap-cloud-transport-management-what-to-know-e8d5187.md)
 
 
     
@@ -135,13 +137,35 @@ In the title bar, you can use the following functions:
     
     Find out more about the retention time for files that were uploaded to the service, or change the default retention time to a supported value \(depending on the service plan\).
 
-    ![Logon email dropdown with selected File Retention Time](images/File_Retention_Time_in_Menu_2b7d252.png)
+    For more information, see [Configuring File Retention Time](50-administration/configuring-file-retention-time-9969d8d.md).
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *Configure Archiving*
+    
+    </td>
+    <td valign="top">
+    
+    Configure archiving settings for the transport action logs according to your requirements.
 
-    The default retention time depends on the subscribed service plan. After the configured retention time, files that meet specific criteria are deleted by an automatic cleanup mechanism. For more information, see [Background Information: Storage Capacity](50-administration/background-information-storage-capacity-e8d5187.md).
+    For more information, see [Configuring Archiving Settings of Transport Actions](50-administration/configuring-archiving-settings-of-transport-actions-0507a06.md).
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *User Data Anonymization*
+    
+    </td>
+    <td valign="top">
+    
+    Configure user data retention periods and anonymization schedules for landscape actions, transport requests, and transport actions.
 
-    Adjust the retention time by clicking in the bar or entering the new value in the input field. The bar indicates the supported interval.
-
-    ![Configure File Retention Time dialog](images/File_Retention_Time_Dialog_2daeec3.png)
+    For more information, see [Configure User Data Anonymization Settings](50-administration/configure-user-data-anonymization-settings-f3c0a3b.md).
     
     </td>
     </tr>
@@ -161,7 +185,7 @@ In the title bar, you can use the following functions:
     
 -   **User Profile**
 
-    ![](images/User_Profile_3ab4dad.png)
+    ![User profile dropdown](images/User_Profile_3ab4dad.png)
 
     When you click your user profile in the top-right corner, you have the following options:
 
@@ -227,7 +251,7 @@ In the title bar, you can use the following functions:
     </td>
     <td valign="top">
     
-    Log out off the service.
+    Log out of the service.
     
     </td>
     </tr>
@@ -252,7 +276,7 @@ This section contains the following tiles:
 
     Information about the maximum storage capacity and the current storage usage.
 
-    For more information, see [Background Information: Storage Capacity](50-administration/background-information-storage-capacity-e8d5187.md).
+    For more information, see [Storage in SAP Cloud Transport Management: What To Know](50-administration/storage-in-sap-cloud-transport-management-what-to-know-e8d5187.md).
 
 -   *Learning*
 

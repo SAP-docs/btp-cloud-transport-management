@@ -1,18 +1,10 @@
 <!-- loio0507a065271e4aabab4dce1babc2a317 -->
 
-<link rel="stylesheet" type="text/css" href="css/sap-icons.css"/>
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
 
-# Configure Archiving Settings of Transport Actions
+# Configuring Archiving Settings of Transport Actions
 
 SAP Cloud Transport Management regularly archives transport actions. You can change the default archiving settings for the transport action logs according to your requirements.
-
-
-
-<a name="loio0507a065271e4aabab4dce1babc2a317__prereq_vgz_sy1_4bc"/>
-
-## Prerequisites
-
-You are in the *Transport Action Logs* in SAP Cloud Transport Management.
 
 
 
@@ -26,7 +18,7 @@ To change the archiving settings according to your needs, proceed as follows:
 
 ## Procedure
 
-1.  In the *Transport Action Logs*, choose :gear:.
+1.  In the SAP Cloud Transport Management title bar, choose :gear: → :gear:.
 
 2.  On the *Configure Archiving Settings* dialog box, adjust the following settings:
 
@@ -47,7 +39,7 @@ To change the archiving settings according to your needs, proceed as follows:
     <tr>
     <td valign="top">
     
-    *Archive*/ *Delete*
+    *Archive*/ *Delete* checkboxes
     
     </td>
     <td valign="top">
@@ -124,12 +116,32 @@ To change the archiving settings according to your needs, proceed as follows:
 
 ## Results
 
-The archiving job runs as a background job based on the criteria you specified. An archiving run is logged in the *Landscape Action Logs*.
+The changes to the archiving settings of transport actions are saved.
+
+The configuration change appears in the *Landscape Action Logs* under the following dataset:
+
+-   *Entity Type* = *Configuration*
+-   *Action Type* = *Edit*
+-   *Affected Object* = *Configure Archiving*
+
+    > ### Note:  
+    > Clicking the *Configure Archiving* link opens the configuration dialog.
+
+
+The archiving job runs as a background job based on the criteria you specified. An archiving run is logged in the *Landscape Action Logs* under the following dataset:
+
+-   *Entity Type* = *Archive*
+-   *Action Type* = *Create*
+-   *Affected Object* = *Transport Action Logs*
+
+Select the arrow at the end of the row, or click anywhere in the row to display the details of the log entry.
 
 You can access archive files in the transport action logs on the *Archived Logs* tab.
 
 **Related Information**  
 
 
-[Transport Action Logs](transport-action-logs-86319ed.md "The transport action logs display a history of all actions related to a transport.")
+[Transport Action Logs](../transport-action-logs-86319ed.md "The transport action logs display a history of all actions related to a transport.")
+
+[SAP Cloud Transport Management Home Screen](../sap-cloud-transport-management-home-screen-9ac7880.md "On the home screen, you have an overview of the most commonly used functions of SAP Cloud Transport Management service with direct access. Using the navigation pane on the left side, you have access to all functions.")
 

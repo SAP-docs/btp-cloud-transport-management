@@ -52,7 +52,7 @@ You can also configure SAP Cloud Transport Management service to send warning no
 </td>
 <td valign="top">
 
--   [Background Information: Storage Capacity](50-administration/background-information-storage-capacity-e8d5187.md)
+-   [Storage in SAP Cloud Transport Management: What To Know](50-administration/storage-in-sap-cloud-transport-management-what-to-know-e8d5187.md)
 -   [Receive Notifications for SAP Cloud Transport Management Actions Using SAP Alert Notification Service](receive-notifications-for-sap-cloud-transport-management-actions-using-sap-alert-notifica-95d4fc7.md)
 
 

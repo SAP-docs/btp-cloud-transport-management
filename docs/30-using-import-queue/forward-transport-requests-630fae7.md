@@ -16,7 +16,7 @@ If the *Forward Mode* of a transport node is set to the value *Manual*, you can 
 -   The *Forward Mode* of the transport node is set to the value *Manual*. For more information, see [Create Transport Nodes](../20-configure-landscape/create-transport-nodes-f71a4d5.md).
 -   The archive that is attached to the transport request isn’t deleted.
 
-    Forwarding transport requests is only possible as long as the archive exists. The default retention period of archives depends on the service plan that you use for SAP Cloud Transport Management. For more information, see [Background Information: Storage Capacity](../50-administration/background-information-storage-capacity-e8d5187.md).
+    Forwarding transport requests is only possible as long as the archive exists. The default retention period of archives depends on the service plan that you use for SAP Cloud Transport Management. For more information, see [Storage in SAP Cloud Transport Management: What To Know](../50-administration/storage-in-sap-cloud-transport-management-what-to-know-e8d5187.md).
 
 -   The transport requests that you want to forward are in one of the statuses *Error*, *Skipped*, *Succeeded*, or *Warning*.
 

@@ -1,5 +1,7 @@
 <!-- loio95d4fc79244f4c93b526a943eef1e274 -->
 
+<link rel="stylesheet" type="text/css" href="css/sap-icons.css"/>
+
 # Receive Notifications for SAP Cloud Transport Management Actions Using SAP Alert Notification Service
 
 You can configure SAP Alert Notification Service to send notifications for actions started in SAP Cloud Transport Management service.
@@ -177,7 +179,7 @@ If there's a service instance of SAP Alert Notification service available in the
     > ### Note:  
     > This step is not necessary when you only want to receive warning notifications about the storage quota in your subscription \(*TmsStorageQuotaUsage*\) event.
 
-4.  To enable storage quota notifications, in SAP Cloud Transport Management, select the *Enable Notification* checkbox under *<Your e-mail address\>* \> *My File Quota*.
+4.  To enable storage quota notifications, in SAP Cloud Transport Management, select the *Enable Notification* checkbox under :gear: → <span class="SAP-icons-V5"></span> File Quota.
 
 5.  In SAP Alert Notification service, set up the way in which you want to receive notifications. For more information, see [Managing Subscriptions](https://help.sap.com/docs/ALERT_NOTIFICATION/5967a369d4b74f7a9c2b91f5df8e6ab6/07fd21e170c7452482c3532c5521bb90.html) in the SAP Alert Notification service documentation.
 

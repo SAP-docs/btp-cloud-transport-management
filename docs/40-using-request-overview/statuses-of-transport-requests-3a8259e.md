@@ -177,7 +177,7 @@ Description
 </td>
 <td valign="top">
 
-In all import queues that the transport request was part of, it was deleted by the automatic cleanup run of SAP Cloud Transport Management. For more information, see [Background Information: Storage Capacity](../50-administration/background-information-storage-capacity-e8d5187.md).
+The transport request has a *final* status in all import queues and was set to *Archived* by the automatic cleanup run of SAP Cloud Transport Management. For more information, see [Storage in SAP Cloud Transport Management: What To Know](../50-administration/storage-in-sap-cloud-transport-management-what-to-know-e8d5187.md).
 
 </td>
 </tr>

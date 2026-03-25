@@ -66,7 +66,7 @@ On the *Transport Actions* tab, you can do the following:
 
 -   Change the default archiving settings for transport actions by choosing :gear:.
 
-    By default, SAP Cloud Transport Management archives transport actions older than 7 years every 13 weeks. You can change the default settings. For more information, see [Configure Archiving Settings of Transport Actions](configure-archiving-settings-of-transport-actions-0507a06.md).
+    By default, SAP Cloud Transport Management archives transport actions older than 7 years every 13 weeks. You can change the default settings. For more information, see [Configuring Archiving Settings of Transport Actions](50-administration/configuring-archiving-settings-of-transport-actions-0507a06.md).
 
 
 
@@ -109,9 +109,4 @@ In the *Log of Action: <Transport Action\>*, you can do the following:
 
 > ### Note:  
 > The log of a transport request, which is displayed when you choose the <span class="SAP-icons-V5"></span> \(Display the logs for this queue entry.\) icon in the import queue, contains all transport actions for this transport request. You can't download the transport log for a transport request.
-
--   **[Configure Archiving Settings of Transport Actions](configure-archiving-settings-of-transport-actions-0507a06.md "SAP Cloud Transport Management regularly archives
-		transport actions. You can change the default archiving settings for the transport action
-		logs according to your requirements.")**  
-SAP Cloud Transport Management regularly archives transport actions. You can change the default archiving settings for the transport action logs according to your requirements.
 

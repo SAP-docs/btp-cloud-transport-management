@@ -26,8 +26,8 @@ Display detailed information about individual transport requests and navigate to
 -   **[Processing Modifiable Transport Requests](processing-modifiable-transport-requests-b541b09.md "Modifiable transport requests provide an efficient and flexible way for managing
 		multiple files in one transport request.")**  
 Modifiable transport requests provide an efficient and flexible way for managing multiple files in one transport request.
--   **[Delete Transport Requests](delete-transport-requests-2ef725c.md "You can delete transport requests from all import queues in your tenant. ")**  
-You can delete transport requests from all import queues in your tenant.
+-   **[Delete Transport Requests](delete-transport-requests-2ef725c.md "You can delete transport requests from all import queues in your SAP Cloud Transport Management subscription. ")**  
+You can delete transport requests from all import queues in your SAP Cloud Transport Management subscription.
 -   **[Statuses of Transport Requests](statuses-of-transport-requests-3a8259e.md "A transport request can have an import status in an import queue and a lifecycle
 		status in the transport requests overview.")**  
 A transport request can have an import status in an import queue and a lifecycle status in the transport requests overview.

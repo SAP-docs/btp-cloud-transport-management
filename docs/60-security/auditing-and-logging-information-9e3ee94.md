@@ -54,7 +54,7 @@ SAP Cloud Transport Management runs a cleanup service at regular intervals to de
 </td>
 <td valign="top">
 
-For more information about the cleanup mechanism, see [Background Information: Storage Capacity](../50-administration/background-information-storage-capacity-e8d5187.md).
+For more information about the cleanup mechanism, see [Storage in SAP Cloud Transport Management: What To Know](../50-administration/storage-in-sap-cloud-transport-management-what-to-know-e8d5187.md).
 
 </td>
 </tr>
