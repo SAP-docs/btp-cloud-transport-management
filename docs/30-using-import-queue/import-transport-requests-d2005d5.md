@@ -35,14 +35,6 @@ All transport requests with an *Initial*, *Fatal*, or *Repeatable* status can be
 
 
 
-### Restriction
-
-For Cloud Foundry runtime-dependent multi-target applications \(MTAs\), the following restriction applies: You can import a maximum of 100 MTAs at a time. This restriction applies even if only one of the 100 entries in the queue contains a Cloud Foundry runtime-dependent MTA. If you try to import more than 100, the process fails with a "*too many content references to import*" error. This restriction doesn't apply to other types of MTAs, such as CPI MTAs.
-
-For more information about MTAs in Cloud Foundry, see [Multitarget Applications in the Cloud Foundry Environment](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/d04fc0e2ad894545aebfd7126384307c.html).
-
-
-
 ## Procedure
 
 -   Manually import transport requests:

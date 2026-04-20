@@ -1,8 +1,9 @@
 # SAP Cloud Transport Management
 
 -   [What Is SAP Cloud Transport Management](what-is-sap-cloud-transport-management-5fef9d6.md)
+-   [Service Plans and Metering](service-plans-and-metering-17c102d.md)
 -   [What's New for SAP Cloud Transport Management](what-s-new-for-sap-cloud-transport-management-85b6ac3.md)
-    -   [2025 SAP Cloud Transport Management \(Archive\)](2025-sap-cloud-transport-management-archive-5de81f9.md)
+    -   [2024 SAP Cloud Transport Management \(Archive\)](2024-sap-cloud-transport-management-archive-8af3915.md)
 -   [Supported Content Types](supported-content-types-8961dcb.md#loio8961dcb3edc84a76b84b29565833067b)
     -   [Overview: Supported Content](supported-content-types-8961dcb.md#loio0dccbb6ee1714240b9b9bedc1a240a7e)
 -   [Initial Setup](10-initial-setup/initial-setup-66fd728.md)
@@ -73,6 +74,8 @@
     -   [Integrations Into Other Cloud Services, Development, and Change Management Processes](70-integrations/extended-integration-scenarios-7e966f7.md#loio1b3c6637adb54d4bbb1828f911bb9547)
     -   [Integration of SAP Cloud Transport Management Using APIs](70-integrations/extended-integration-scenarios-7e966f7.md#loiob608919f90c546d59876b8b765c01511)
 -   [Receive Notifications for SAP Cloud Transport Management Actions Using SAP Alert Notification Service](receive-notifications-for-sap-cloud-transport-management-actions-using-sap-alert-notifica-95d4fc7.md)
+    -   [Migrating to SAP Alert Notification Service As a Trusted Internal Service](migrating-to-sap-alert-notification-service-as-a-trusted-internal-service-0914d2c.md)
+    -   [Obsolete: Receive SAP Cloud Transport Management Actions Using SAP Alert Notification Service](obsolete-receive-sap-cloud-transport-management-actions-using-sap-alert-notification-serv-a638704.md)
 -   [Monitoring and Troubleshooting](monitoring-and-troubleshooting-c39411d.md)
     -   [Monitoring](monitoring-30e60df.md)
     -   [General Troubleshooting Information](general-troubleshooting-information-1f090ea.md)

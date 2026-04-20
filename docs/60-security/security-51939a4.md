@@ -286,19 +286,31 @@ For more information about how to use SAP BTP Cockpit to create roles with attri
 
 ## Service Plans with Specific Authorizations
 
-SAP Cloud Transport Management offers different service plans with specific authorizations when calling the Cloud Transport Management API. The service plans are available for a service instance of Cloud Transport Management and can be used for the *Transport of Content Archives directly in another Application* scenario.
+SAP Cloud Transport Management offers different instance plans with specific authorizations for programmatic access \(API call\) to the service. These service plans can be used when transporting content archives directly in another application.
+
+**Instance Plans**
 
 
 <table>
 <tr>
 <th valign="top">
 
-Instance Plan
+Name in SAP BTP Cockpit
+
+</th>
+<th valign="top">
+
+Service Plan in SAP Discovery Center
 
 </th>
 <th valign="top">
 
 Description
+
+</th>
+<th valign="top">
+
+More Information
 
 </th>
 </tr>
@@ -310,11 +322,19 @@ Description
 </td>
 <td valign="top">
 
+n/a
+
+</td>
+<td valign="top">
+
+Provides programmatic access to Cloud Transport Management.
+
+</td>
+<td valign="top">
+
 Default plan to access SAP Cloud Transport Management using programmatic access.
 
-This plan provides full access to the Cloud Transport Management API.
-
-Use this service plan for all standard integrations with SAP Cloud Transport Management. This includes integrations from SAP Cloud ALM and Change Request Management/Quality Gate Management of SAP Solution Manager.
+This plan provides full access to the Cloud Transport Management API. Use it for all standard integrations with SAP Cloud Transport Management. This includes integrations from SAP Cloud ALM and Change Request Management/Quality Gate Management of SAP Solution Manager.
 
 </td>
 </tr>
@@ -322,6 +342,16 @@ Use this service plan for all standard integrations with SAP Cloud Transport Man
 <td valign="top">
 
 *export*
+
+</td>
+<td valign="top">
+
+n/a
+
+</td>
+<td valign="top">
+
+Provides programmatic access to Cloud Transport Management as Export Operator.
 
 </td>
 <td valign="top">
@@ -336,6 +366,16 @@ Use this service plan to restrict access to SAP Cloud Transport Management, if e
 <td valign="top">
 
 *transport\_operator*
+
+</td>
+<td valign="top">
+
+n/a
+
+</td>
+<td valign="top">
+
+Provides programmatic access to Cloud Transport Management as Transport Operator.
 
 </td>
 <td valign="top">

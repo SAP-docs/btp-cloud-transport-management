@@ -116,7 +116,7 @@ In the title bar, you can use the following functions:
     
     Get more information about your file quota.
 
-    If you've configured SAP Alert Notification Service to send notifications for a transport node and you want to receive warning notifications when you've reached at least 85% of the storage capacity in your space, you can select the *Enable Notifications* checkbox.
+    Obsolete: If you've configured SAP Alert Notification Service to send notifications for a transport node and you want to receive warning notifications when you've reached at least 85% of the storage capacity in your space, you can select the *Enable Notifications* checkbox.
 
     See also:
 

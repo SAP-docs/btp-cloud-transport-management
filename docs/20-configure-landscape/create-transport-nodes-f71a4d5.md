@@ -16,7 +16,6 @@ Create transport nodes as representations of the source and target end points of
 
 -   You've configured transport destinations. For more information, see [Create Transport Destinations](create-transport-destinations-c9905c1.md).
 
--   If you want to use SAP Alert Notification service to send notifications about import actions: You've configured the `ALERT_NOTIFICATION_SERVICE` destination in the subaccounts where you want to use the service.
 -   You are on one of the following screens in the SAP Cloud Transport Management UI:
     -   On the *Landscape Visualization* screen, you've chosen :heavy_plus_sign:.
     -   On the *Transport Landscape Wizard* screen, you create a transport node as part of the wizard.
@@ -135,9 +134,11 @@ Create transport nodes as representations of the source and target end points of
     </td>
     <td valign="top">
     
-    If the `ALERT_NOTIFICATION_SERVICE` destination is configured in the subaccount, this checkbox is available.
+    This checkbox is available only if you're subscribed to SAP Alert Notification service in the subaccount.
 
-    You can configure the SAP Alert Notification service to issue notifications for specific events, for example, when an import on this node is started and when it's finished. For more information, see [Receive Notifications for SAP Cloud Transport Management Actions Using SAP Alert Notification Service](../receive-notifications-for-sap-cloud-transport-management-actions-using-sap-alert-notifica-95d4fc7.md).
+    If you select the checkbox and have configured SAP Alert Notification to send notifications for events of SAP Cloud Transport Management, the notifications are enabled.
+
+    For more information, see [Receive Notifications for SAP Cloud Transport Management Actions Using SAP Alert Notification Service](../receive-notifications-for-sap-cloud-transport-management-actions-using-sap-alert-notifica-95d4fc7.md).
     
     </td>
     </tr>

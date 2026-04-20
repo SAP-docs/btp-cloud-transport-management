@@ -163,149 +163,17 @@ In the *Service Details*, the available service plans are displayed.
 
 The displayed plans depend on what was previously assigned to your global account.
 
-SAP Cloud Transport Management service offers the following plans:
+Select an application plan for access to the user interface of SAP Cloud Transport Management. For programmatic access to SAP Cloud Transport Management, select an instance plan.
 
-**Application Plans**
-
-
-<table>
-<tr>
-<th valign="top">
-
-Application Plan Name
-
-</th>
-<th valign="top">
-
-Use Case
-
-</th>
-</tr>
-<tr>
-<td valign="top">
-
-*build-runtime \(Application\)*
-
-</td>
-<td valign="top">
-
-Plan to be used, if you are using the user interface of SAP Cloud Transport Management to transport content created using a service from the SAP Build ecosystem.
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-*free \(Application\)*
-
-</td>
-<td valign="top">
-
-Plan to access the user interface of SAP Cloud Transport Management with a reduced scope for testing purposes.
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-*standard \(Application\)*
-
-</td>
-<td valign="top">
-
-Default plan to access the user interface of SAP Cloud Transport Management.
-
-</td>
-</tr>
-</table>
-
-For more information, see [SAP Discovery Center - SAP Cloud Transport Management](https://discovery-center.cloud.sap/serviceCatalog/cloud-transport-management/?region=all&tab=service_plan).
-
-
-<table>
-<tr>
-<th valign="top">
-
-Instance Plan
-
-</th>
-<th valign="top">
-
-Description
-
-</th>
-</tr>
-<tr>
-<td valign="top">
-
-*standard*
-
-</td>
-<td valign="top">
-
-Default plan to access SAP Cloud Transport Management using programmatic access.
-
-This plan provides full access to the Cloud Transport Management API.
-
-Use this service plan for all standard integrations with SAP Cloud Transport Management. This includes integrations from SAP Cloud ALM and Change Request Management/Quality Gate Management of SAP Solution Manager.
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-*export*
-
-</td>
-<td valign="top">
-
-Plan to access SAP Cloud Transport Management using programmatic access with reduced authorizations for export actions only. This plan allows file upload and node upload/export actions.
-
-Use this service plan to restrict access to SAP Cloud Transport Management, if enhanced security requirements are required. Use it, for example for the integration with SAP Solution Lifecycle Management service or CI/CD pipelines.
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-*transport\_operator*
-
-</td>
-<td valign="top">
-
-Plan to access SAP Cloud Transport Management using programmatic access with reduced authorizations for transport operator actions only. This plan allows import, reset, forward, and delete actions.
-
-Use this service plan to restrict access to SAP Cloud Transport Management, if enhanced security requirements are required.
-
-</td>
-</tr>
-</table>
-
-Select the following plans:
-
--   *Transport of Content Archives that are available on Local File Systems* scenario:
-
-    For access to the user interface of SAP Cloud Transport Management, select an application plan, for example, *standard \(Application\)*.
-
--   *Transport of Content Archives directly in another Application* scenario:
-
-    1.  For access to the user interface of SAP Cloud Transport Management, select an application plan, for example, *standard \(Application\)*.
-
-    2.  For programmatic access to SAP Cloud Transport Management, select one of the instance plans, for example, *standard*.
-
-        > ### Note:  
-        > If you plan to create several service instances with different access rights, you can also assign more than one instance plan.
-        > 
-        > Instance plans are never standalone and require an active application plan.
-
-
+> ### Note:  
+> If you plan to create several service instances with different access rights, you can also assign more than one instance plan.
 
 
 
 </td>
 <td valign="top">
 
-For more information about the instance plans with reduced authorizations available for SAP Cloud Transport Management, see the section *Service Plans with Specific Authorizations* in the topic [Security](../60-security/security-51939a4.md).
+For more information about the service plans available for SAP Cloud Transport Management, see [Service Plans and Metering](../service-plans-and-metering-17c102d.md).
 
 </td>
 </tr>

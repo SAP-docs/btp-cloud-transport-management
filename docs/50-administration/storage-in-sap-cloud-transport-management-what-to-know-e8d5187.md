@@ -43,7 +43,7 @@ Retention Time
 <tr>
 <td valign="top">
 
-Standard
+Standard / build-code / build-runtime
 
 </td>
 <td valign="top">
@@ -120,7 +120,7 @@ You can set 1 - 7 days.
 > <tr>
 > <td valign="top">
 > 
-> Standard
+> Standard / build-code / build-runtime
 > 
 > </td>
 > <td valign="top">
@@ -167,7 +167,7 @@ You can set 1 - 7 days.
 > </tr>
 > </table>
 
-For more information about the service plans for SAP Cloud Transport Management, see [SAP Discovery Center](https://discovery-center.cloud.sap/serviceCatalog/cloud-transport-management?tab=service_plan&region=all).
+For more information about the service plans for SAP Cloud Transport Management, see [Service Plans and Metering](../service-plans-and-metering-17c102d.md) and [SAP Discovery Center](https://discovery-center.cloud.sap/serviceCatalog/cloud-transport-management?tab=service_plan&region=all).
 
 
 

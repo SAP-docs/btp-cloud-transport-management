@@ -31,7 +31,7 @@ The general process is as follows:
 
     On the target tenant, start creating a service key for the deploying application or service as described in [Service Keys](https://help.sap.com/docs/SERVICEMANAGEMENT/09cc82baadc542a688176dce601398de/6fcac08409db4b0f9ad55a6acd4d31c5.html).
 
-    To obtain an `X.509` credential type, add the following parameters in JSON format:
+    To obtain an `X.509` credential type, add the required parameters in JSON format. The following is a sample JSON:
 
     > ### Sample Code:  
     > ```
