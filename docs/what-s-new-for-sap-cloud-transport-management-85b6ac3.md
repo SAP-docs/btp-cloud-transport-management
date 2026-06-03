@@ -99,6 +99,247 @@ Cloud Transport Management
 </td>
 <td valign="top">
 
+Integration of SAP Document AI with SAP Cloud Transport Management 
+
+</td>
+<td valign="top">
+
+You can now use SAP Cloud Transport Management to transport SAP Document AI content.
+
+See:
+
+-   [Supported Content Types](supported-content-types-8961dcb.md#loio8961dcb3edc84a76b84b29565833067b)
+-   [Integrating SAP Cloud Transport Management with Other SAP Cloud Solutions](10-initial-setup/integrating-sap-cloud-transport-management-with-other-sap-cloud-solutions-ddaa000.md)
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Application Development and Integration
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Cloud Transport Management
+
+</td>
+<td valign="top">
+
+2026-06-03
+
+</td>
+<td valign="top">
+
+2026-01-01
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Cloud Transport Management 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Upload Deployment Configuration for Application Content
+
+</td>
+<td valign="top">
+
+If the deploying application supports deployment configurations, you can now upload a JSON file to customize the deployment behavior for transport nodes for content type *Application Content*. The configuration is stored per node and passed to the deployment tool at every subsequent import. You can also replace or delete an existing configuration at any time.
+
+See also:
+
+-   [Upload Deployment Configuration for Application Content](30-using-import-queue/upload-deployment-configuration-for-application-content-6dd1466.md)
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Application Development and Integration
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Cloud Transport Management
+
+</td>
+<td valign="top">
+
+2026-06-03
+
+</td>
+<td valign="top">
+
+2026-06-03
+
+</td>
+<td valign="top">
+
+2605a
+
+</td>
+<td valign="top">
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Cloud Transport Management 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Group Transport Nodes by Tags
+
+</td>
+<td valign="top">
+
+Visual grouping of transport nodes based on assigned tags makes it easier to identify related nodes. Use this feature to quickly navigate large landscapes by organizing nodes according to different criteria that the tags represent.
+
+See also:
+
+-   [Grouping Transport Nodes by Tags](grouping-transport-nodes-by-tags-b5aadd7.md)
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Application Development and Integration
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Cloud Transport Management
+
+</td>
+<td valign="top">
+
+2026-06-03
+
+</td>
+<td valign="top">
+
+2026-06-03
+
+</td>
+<td valign="top">
+
+2605a
+
+</td>
+<td valign="top">
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Cloud Transport Management 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 Removal of the 100 MTA import limit for queues containing Cloud Foundry–dependent MTAs
 
 </td>

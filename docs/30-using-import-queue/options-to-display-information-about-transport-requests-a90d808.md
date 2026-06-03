@@ -61,7 +61,7 @@ For `.mtar` files, you can display additional information about the content of t
 </td>
 <td valign="top">
 
-You can display the *Log of Transport Request <Request ID\>*. It displays the actions for the transport request in the current transport node.
+You can display the *Log of Transport Request *<Transport Description\>**. It displays the actions for the transport request in the current transport node.
 
 > ### Note:  
 > For MTA deployment on Cloud Foundry, the log of the transport request contains a link to the MTA operation logs for the deploy operation. Like this, you can obtain these logs without using the Cloud Foundry command-line interface \(`cf cli`\).

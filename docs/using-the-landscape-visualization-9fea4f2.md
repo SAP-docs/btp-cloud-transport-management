@@ -21,7 +21,7 @@ Use the Transport Landscape Visualization to configure the transport nodes and t
 
 ## Context
 
-Use the Transport Landscape Visualization to perform the following tasks:
+Use the Transport Landscape Visualization for the following tasks:
 
 -   Configure the transport nodes and transport routes of your transport landscape.
 -   Display and edit the existing transport landscape.
@@ -48,9 +48,61 @@ Use the Transport Landscape Visualization to perform the following tasks:
 
     The graph overview on the right provides a thumbnail view of the entire landscape. You can use it to navigate more easily in larger landscapes.
 
-    The dropdown menus offer options to adjust the orientation and placement of nodes on the canvas.
+2.  Use the dropdown menus on the *View* toolbar to adjust the orientation and placement of nodes on the canvas.
 
-2.  Using the icons in the icon bar, you can do the following:
+
+    <table>
+    <tr>
+    <th valign="top">
+
+    Option
+    
+    </th>
+    <th valign="top">
+
+    Description
+    
+    </th>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *Left-Right* 
+    
+    </td>
+    <td valign="top">
+    
+    Controls the layout direction of the transport nodes on the canvas. Other options are *Right-Left* and *Top-Bottom*.
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *Simple* 
+    
+    </td>
+    <td valign="top">
+    
+    Controls the rendering mode of the transport nodes on the canvas. Other options are *Balanced* and *Linear*.
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *Group by Tags*
+    
+    </td>
+    <td valign="top">
+    
+    Group transport nodes visually on the canvas according to their assigned tags. Select one or more tags from the dropdown menu to draw a group frame around matching nodes. For more information, see [Grouping Transport Nodes by Tags](grouping-transport-nodes-by-tags-b5aadd7.md).
+    
+    </td>
+    </tr>
+    </table>
+    
+3.  Use the icons on the icon bar for the following tasks:
 
 
     <table>
@@ -174,7 +226,7 @@ Use the Transport Landscape Visualization to perform the following tasks:
     </tr>
     </table>
     
-3.  When you select a node, a context menu opens next to it. It provides the following options:
+4.  When you select a node, a context menu opens next to it. You have the following options:
 
 
     <table>
@@ -257,7 +309,7 @@ Use the Transport Landscape Visualization to perform the following tasks:
     </tr>
     </table>
     
-4.  When you select a route, a context menu opens next to it. It provides the following options:
+5.  When you select a route, a context menu opens next to it. It provides the following options:
 
 
     <table>
@@ -299,6 +351,11 @@ Use the Transport Landscape Visualization to perform the following tasks:
     </tr>
     </table>
     
+
+-   **[Grouping Transport Nodes by Tags](grouping-transport-nodes-by-tags-b5aadd7.md "Group transport nodes visually based on their assigned tags enabling you to organize
+        and identify related nodes at a glance using your own custom categories, such as regions,
+        environments, projects, or other meaningful classifications.")**  
+Group transport nodes visually based on their assigned tags enabling you to organize and identify related nodes at a glance using your own custom categories, such as regions, environments, projects, or other meaningful classifications.
 
 **Related Information**  
 

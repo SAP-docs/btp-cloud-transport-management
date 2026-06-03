@@ -86,7 +86,10 @@ Create transport nodes as representations of the source and target end points of
     </td>
     <td valign="top">
     
-    Use tags to categorize transport nodes by providing additional information, such as project details, or system characteristics.
+    Use tags in the following situations:
+
+    -   To categorize transport nodes by providing additional information, such as project details or system characteristics.
+    -   To group transport nodes visually in the Transport Landscape Visualization.
 
     You have the following options:
 

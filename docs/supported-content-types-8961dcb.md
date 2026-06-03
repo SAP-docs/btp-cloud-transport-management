@@ -951,6 +951,58 @@ No
 <tr>
 <td valign="top">
 
+SAP Document AI
+
+</td>
+<td valign="top">
+
+Multiple objects, such as channels, schemas, and workflows. For the full list, see [Supported Objects](https://help.sap.com/docs/SAP_DOCUMENT_AI/5fa7265b9ff64d73bac7cec61ee55ae6/f605fd01abb548c380f4cf54db579d56.html).
+
+</td>
+<td valign="top">
+
+Application Content
+
+</td>
+<td valign="top">
+
+Cloud Foundry
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+n/a
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+The integration covers the SAP Document AI workspace. You can select the objects that you want to transport in the workspace UI.
+
+</td>
+<td valign="top">
+
+[SAP Document AI](10-initial-setup/integrating-sap-cloud-transport-management-with-other-sap-cloud-solutions-ddaa000.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__dai)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 SAP Entitlement Management
 
 </td>

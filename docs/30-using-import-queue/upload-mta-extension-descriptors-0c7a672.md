@@ -116,7 +116,7 @@ For more information about how to define MTA extension descriptors, see [Definin
 
     The MTA extension descriptor that you uploaded is now available in the import queue. It is used when the transport request with the matching MTA version is imported.
 
-3.  In addition, in the *MTA Extension Descriptors* dialog window, you have the following options:
+3.  In the *MTA Extension Descriptors* dialog, you have the following additional options:
 
 
     <table>

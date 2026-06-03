@@ -70,4 +70,7 @@ To run imports of all transport requests in a transport node on a regular basis,
 			Cloud Foundry
                                 environment.")**  
 If an extension descriptor file exists for a Multitarget Application \(MTA\) that you want to import, you can upload it in the import queue of the corresponding transport node of Cloud Foundry environment.
+-   **[Upload Deployment Configuration for Application Content](upload-deployment-configuration-for-application-content-6dd1466.md "If the deploying application supports a deployment configuration, you can upload it
+        for transport nodes of content type Application Content.")**  
+If the deploying application supports a deployment configuration, you can upload it for transport nodes of content type *Application Content*.
 

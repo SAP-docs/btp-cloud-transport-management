@@ -369,6 +369,26 @@ To set up the integration of SAP Cloud Transport Management for the content type
     <tr>
     <td valign="top">
     
+    SAP Document AI
+    
+    </td>
+    <td valign="top">
+    
+    Documentation of the SAP cloud solution:
+
+    -   [SAP Document AI](https://help.sap.com/docs/document-ai)
+
+    Documentation of the integration with SAP Cloud Transport Management:
+
+    -   [Transports](https://help.sap.com/docs/SAP_DOCUMENT_AI/5fa7265b9ff64d73bac7cec61ee55ae6/5ffeda1162ae4c53941aa31723973036.html)
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
     SAP Entitlement Management
     
     </td>
