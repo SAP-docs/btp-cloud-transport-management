@@ -18,13 +18,17 @@ on:
   pull_request_target:
     types: [closed]
 
+permissions:
+  contents: read
+  pull-requests: write
+
 jobs:
 
   assign-label-on-merge:
     if: contains(github.repositoryUrl, 'github.com') && github.event.pull_request.merged
     env:
       LABEL: "contribution"
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
 
     steps:
 
