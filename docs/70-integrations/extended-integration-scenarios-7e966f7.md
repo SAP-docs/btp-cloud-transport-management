@@ -49,6 +49,10 @@ Documentation of the integration with SAP Cloud Transport Management:
 
 -   [Integrate Cloud Transport Management into Your Job](https://help.sap.com/docs/CONTINUOUS_DELIVERY/99c72101f7ee40d0b2deb4df72ba1ad3/a0f029b80e054eb0afd0adb0900d4c19.html)
 
+Tutorial:
+
+-   [Transport an SAP Fiori Application using SAP Continuous Integration and Delivery and SAP Cloud Transport Management](https://developers.sap.com/tutorials/btp-transport-management-cap.html)
+
 Blog posts:
 
 -   [TMS – SAP CI/CD Integration with Transport Management Service \(TMS\)](https://blogs.sap.com/2022/03/02/sap-ci-cd-integration-with-transport-management-service-tms/)
@@ -185,7 +189,7 @@ Documentation of the service:
 
 Documentation of the integration with SAP Cloud Transport Management:
 
--   [Receive Notifications for SAP Cloud Transport Management Actions Using SAP Alert Notification Service](../receive-notifications-for-sap-cloud-transport-management-actions-using-sap-alert-notifica-95d4fc7.md)
+-   [Receive Notifications for SAP Cloud Transport Management Actions Using SAP Alert Notification Service](../80-ans-integration/receive-notifications-for-sap-cloud-transport-management-actions-using-sap-alert-notifica-95d4fc7.md)
 
 
 Blog post:

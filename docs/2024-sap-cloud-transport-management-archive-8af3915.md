@@ -249,7 +249,7 @@ When you have configured SAP Alert Notification Service to send notifications fo
 
 See:
 
--   [Receive Notifications for SAP Cloud Transport Management Actions Using SAP Alert Notification Service](receive-notifications-for-sap-cloud-transport-management-actions-using-sap-alert-notifica-95d4fc7.md)
+-   [Receive Notifications for SAP Cloud Transport Management Actions Using SAP Alert Notification Service](80-ans-integration/receive-notifications-for-sap-cloud-transport-management-actions-using-sap-alert-notifica-95d4fc7.md)
 
 
 
@@ -548,7 +548,7 @@ Documentation enhancements
 
     See: [Integrating SAP Cloud Transport Management with Other SAP Cloud Solutions](10-initial-setup/integrating-sap-cloud-transport-management-with-other-sap-cloud-solutions-ddaa000.md)
 
--   The sample configuration for the SAP Cloud ALM use case was removed from the [Example: Destination to SAP Cloud Transport Management](20-configure-landscape/create-destinations-to-sap-cloud-transport-management-service-795f733.md#loio75fe5d4b4fa3492c87ef6be32ea0b819) topic, since integrating the service with SAP Cloud ALM has become easier.
+-   The sample configuration for the SAP Cloud ALM use case was removed from the [Example: Destination to SAP Cloud Transport Management Using Client Credentials](20-configure-landscape/create-destinations-to-sap-cloud-transport-management-service-795f733.md#loio75fe5d4b4fa3492c87ef6be32ea0b819) topic, since integrating the service with SAP Cloud ALM has become easier.
 
     See the links in the *SAP Cloud ALM* section of: [Integrating SAP Cloud Transport Management with Other SAP Cloud Solutions](10-initial-setup/integrating-sap-cloud-transport-management-with-other-sap-cloud-solutions-ddaa000.md)
 
@@ -841,9 +841,9 @@ Documentation enhancements
 The following topics in the documentation were enhanced or are new:
 
 -   [Updating the Service Plan](50-administration/updating-the-service-plan-1717e87.md) \(new\)
--   [Monitoring and Troubleshooting](monitoring-and-troubleshooting-c39411d.md) \(changed\)
--   [Monitoring](monitoring-30e60df.md) \(new\)
--   [General Troubleshooting Information](general-troubleshooting-information-1f090ea.md) \(new\)
+-   [Monitoring and Troubleshooting](90-monitoring-and-troubleshooting/monitoring-and-troubleshooting-c39411d.md) \(changed\)
+-   [Monitoring](90-monitoring-and-troubleshooting/monitoring-30e60df.md) \(new\)
+-   [General Troubleshooting Information](90-monitoring-and-troubleshooting/general-troubleshooting-information-1f090ea.md) \(new\)
 
 
 
@@ -1621,7 +1621,7 @@ You can configure SAP Alert Notification Service to send notifications for actio
 
 See:
 
--   Documentation: [Receive Notifications for SAP Cloud Transport Management Actions Using SAP Alert Notification Service](receive-notifications-for-sap-cloud-transport-management-actions-using-sap-alert-notifica-95d4fc7.md)
+-   Documentation: [Receive Notifications for SAP Cloud Transport Management Actions Using SAP Alert Notification Service](80-ans-integration/receive-notifications-for-sap-cloud-transport-management-actions-using-sap-alert-notifica-95d4fc7.md)
 -   Blog post: [Receive a notification when your storage quota of SAP Cloud Transport Management passes 85%](https://community.sap.com/t5/technology-blogs-by-sap/receive-a-notification-when-your-storage-quota-of-sap-cloud-transport/ba-p/13674963)
 
 
@@ -1766,7 +1766,7 @@ The existing documentation was enhanced.
 
 A sample configuration of a destination to SAP Cloud Transport Management was added.
 
-See: [Example: Destination to SAP Cloud Transport Management](20-configure-landscape/create-destinations-to-sap-cloud-transport-management-service-795f733.md#loio75fe5d4b4fa3492c87ef6be32ea0b819)
+See: [Example: Destination to SAP Cloud Transport Management Using Client Credentials](20-configure-landscape/create-destinations-to-sap-cloud-transport-management-service-795f733.md#loio75fe5d4b4fa3492c87ef6be32ea0b819)
 
 </td>
 <td valign="top">

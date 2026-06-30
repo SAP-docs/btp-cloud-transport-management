@@ -189,44 +189,9 @@ To address the target end point of the deployment process of MTA Deployment on C
     To use your custom identity provider for the transport destination, under *Additional Properties*, add the `origin` property. As the value of the property, enter the value of *origin* of your custom identity provider.
     
     </td>
-    <td valign="top" rowspan="5">
+    <td valign="top" rowspan="3">
     
     [OAuth Password Authentication](https://help.sap.com/docs/CP_CONNECTIVITY/cca91383641e40ffbe03bdc78f00f681/452357cdd82a4c0ba6095b36c0057526.html?locale=en-US)
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-    *User*
-    
-    </td>
-    <td valign="top">
-    
-    Specify the user name \(usually, an email address\) of the user that is used for the deployment.
-
-    > ### Note:  
-    > -   The user used for the destination must be a valid user on Cloud Foundry environment and it must have the role `SpaceDeveloper` in the target space.
-    > 
-    > -   The user must be a platform user so that the deployment works for all content types. For more information, see [Platform Users](https://help.sap.com/docs/btp/sap-business-technology-platform/platform-users).
-    > 
-    > -   The user used for the destination isn’t subject to any Data Protection and Privacy requirements.
-    > 
-    > -   We recommend that you use a technical user to avoid constraints typically associated with personal users, such as password rotation.
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-    *Password*
-    
-    </td>
-    <td valign="top">
-    
-    Specify the password of the user.
     
     </td>
     </tr>
@@ -277,6 +242,51 @@ To address the target end point of the deployment process of MTA Deployment on C
     <td valign="top">
     
     [Regions and API Endpoints Available for the Cloud Foundry Environment](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/f344a57233d34199b2123b9620d0bb41.html?locale=en-US).
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *User*
+    
+    </td>
+    <td valign="top">
+    
+    Specify the user name \(usually, an email address\) of the user that is used for the deployment.
+
+    > ### Note:  
+    > -   The user used for the destination must be a valid user on Cloud Foundry environment and it must have the role `SpaceDeveloper` in the target space.
+    > 
+    > -   The user must be a platform user so that the deployment works for all content types. For more information, see [Platform Users](https://help.sap.com/docs/btp/sap-business-technology-platform/platform-users).
+    > 
+    > -   The user used for the destination isn’t subject to any Data Protection and Privacy requirements.
+    > 
+    > -   We recommend that you use a technical user to avoid constraints typically associated with personal users, such as password rotation.
+
+
+    
+    </td>
+    <td valign="top">
+    
+     
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *Password*
+    
+    </td>
+    <td valign="top">
+    
+    Specify the password of the user.
+    
+    </td>
+    <td valign="top">
+    
+     
     
     </td>
     </tr>

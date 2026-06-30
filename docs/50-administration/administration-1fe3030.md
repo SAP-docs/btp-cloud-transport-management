@@ -101,7 +101,7 @@ Configure SAP Cloud Transport Management service to send notifications using SAP
 </td>
 <td valign="top">
 
-[Receive Notifications for SAP Cloud Transport Management Actions Using SAP Alert Notification Service](../receive-notifications-for-sap-cloud-transport-management-actions-using-sap-alert-notifica-95d4fc7.md)
+[Receive Notifications for SAP Cloud Transport Management Actions Using SAP Alert Notification Service](../80-ans-integration/receive-notifications-for-sap-cloud-transport-management-actions-using-sap-alert-notifica-95d4fc7.md)
 
 </td>
 </tr>

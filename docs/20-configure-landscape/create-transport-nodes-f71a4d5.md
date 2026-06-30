@@ -141,7 +141,7 @@ Create transport nodes as representations of the source and target end points of
 
     If you select the checkbox and have configured SAP Alert Notification to send notifications for events of SAP Cloud Transport Management, the notifications are enabled.
 
-    For more information, see [Receive Notifications for SAP Cloud Transport Management Actions Using SAP Alert Notification Service](../receive-notifications-for-sap-cloud-transport-management-actions-using-sap-alert-notifica-95d4fc7.md).
+    For more information, see [Receive Notifications for SAP Cloud Transport Management Actions Using SAP Alert Notification Service](../80-ans-integration/receive-notifications-for-sap-cloud-transport-management-actions-using-sap-alert-notifica-95d4fc7.md).
     
     </td>
     </tr>

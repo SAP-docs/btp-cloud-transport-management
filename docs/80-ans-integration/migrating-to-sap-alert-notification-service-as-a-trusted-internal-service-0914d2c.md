@@ -1,6 +1,6 @@
 <!-- loio0914d2c78d3a49fe9d7c95a021c4ff45 -->
 
-<link rel="stylesheet" type="text/css" href="css/sap-icons.css"/>
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
 
 # Migrating to SAP Alert Notification Service As a Trusted Internal Service
 

@@ -120,7 +120,7 @@ In the title bar, you can use the following functions:
 
     See also:
 
-    -   [Receive Notifications for SAP Cloud Transport Management Actions Using SAP Alert Notification Service](receive-notifications-for-sap-cloud-transport-management-actions-using-sap-alert-notifica-95d4fc7.md)
+    -   [Receive Notifications for SAP Cloud Transport Management Actions Using SAP Alert Notification Service](80-ans-integration/receive-notifications-for-sap-cloud-transport-management-actions-using-sap-alert-notifica-95d4fc7.md)
     -   [Storage in SAP Cloud Transport Management: What To Know](50-administration/storage-in-sap-cloud-transport-management-what-to-know-e8d5187.md)
 
 
@@ -166,18 +166,6 @@ In the title bar, you can use the following functions:
     Configure user data retention periods and anonymization schedules for landscape actions, transport requests, and transport actions.
 
     For more information, see [Configure User Data Anonymization Settings](50-administration/configure-user-data-anonymization-settings-f3c0a3b.md).
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-    *About*
-    
-    </td>
-    <td valign="top">
-    
-    Find out the current version of SAP Cloud Transport Management.
     
     </td>
     </tr>
@@ -240,6 +228,18 @@ In the title bar, you can use the following functions:
     <td valign="top">
     
     Open the [Data Protection and Privacy](60-security/data-protection-and-privacy-a2749d5.md) topic.
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *About*
+    
+    </td>
+    <td valign="top">
+    
+    Find out the current version of SAP Cloud Transport Management.
     
     </td>
     </tr>

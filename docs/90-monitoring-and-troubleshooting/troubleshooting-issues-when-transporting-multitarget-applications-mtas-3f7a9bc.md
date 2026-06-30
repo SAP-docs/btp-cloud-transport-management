@@ -6,7 +6,7 @@ Find information about how to solve issues that can arise when you use SAP Cloud
 
 
 
-The configuration of the transport landscape for MTAs on Cloud Foundry involves creating transport destinations to address the target API endpoints of the deployment process. Problems can arise, if a transport destination isn't correctly configured, or if the user used for the deployment doesn't have sufficient privileges on the target Cloud Foundry subaccount. For information about how to configure destinations, see [Creating Destinations for MTA Deployment on Cloud Foundry](20-configure-landscape/creating-destinations-for-mta-deployment-on-cloud-foundry-881d752.md).
+The configuration of the transport landscape for MTAs on Cloud Foundry involves creating transport destinations to address the target API endpoints of the deployment process. Problems can arise, if a transport destination isn't correctly configured, or if the user used for the deployment doesn't have sufficient privileges on the target Cloud Foundry subaccount. For information about how to configure destinations, see [Creating Destinations for MTA Deployment on Cloud Foundry](../20-configure-landscape/creating-destinations-for-mta-deployment-on-cloud-foundry-881d752.md).
 
 The following sections describe errors that come up in the transport action logs, and proposed solutions:
 
@@ -241,7 +241,7 @@ The problem appears even if *Check Connection* of the destination was successful
 
 Sometimes, one user name might exist in multiple identity providers. In these cases, you must ensure that the user name specified in the destination from that exact identity provider has the `SpaceDeveloper` role assigned.
 
-For users from custom identity providers, use [destinations using SAP Cloud Deployment service with OAuth2Password authentication](20-configure-landscape/creating-destinations-using-sap-cloud-deployment-service-with-oauth2password-authenticati-a26a721.md).
+For users from custom identity providers, use [destinations using SAP Cloud Deployment service with OAuth2Password authentication](../20-configure-landscape/creating-destinations-using-sap-cloud-deployment-service-with-oauth2password-authenticati-a26a721.md).
 
 **Related Information**  
 

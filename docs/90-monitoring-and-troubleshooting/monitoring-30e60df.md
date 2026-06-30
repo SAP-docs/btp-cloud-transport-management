@@ -26,7 +26,7 @@ On the home screen of SAP Cloud Transport Management service, you can find an ov
 </td>
 <td valign="top">
 
-[SAP Cloud Transport Management Home Screen](sap-cloud-transport-management-home-screen-9ac7880.md)
+[SAP Cloud Transport Management Home Screen](../sap-cloud-transport-management-home-screen-9ac7880.md)
 
 </td>
 </tr>
@@ -38,7 +38,7 @@ If you've configured SAP Cloud Transport Management service to send notification
 </td>
 <td valign="top">
 
-[Receive Notifications for SAP Cloud Transport Management Actions Using SAP Alert Notification Service](receive-notifications-for-sap-cloud-transport-management-actions-using-sap-alert-notifica-95d4fc7.md)
+[Receive Notifications for SAP Cloud Transport Management Actions Using SAP Alert Notification Service](../80-ans-integration/receive-notifications-for-sap-cloud-transport-management-actions-using-sap-alert-notifica-95d4fc7.md)
 
 </td>
 </tr>
@@ -52,8 +52,8 @@ You can also configure SAP Cloud Transport Management service to send warning no
 </td>
 <td valign="top">
 
--   [Storage in SAP Cloud Transport Management: What To Know](50-administration/storage-in-sap-cloud-transport-management-what-to-know-e8d5187.md)
--   [Receive Notifications for SAP Cloud Transport Management Actions Using SAP Alert Notification Service](receive-notifications-for-sap-cloud-transport-management-actions-using-sap-alert-notifica-95d4fc7.md)
+-   [Storage in SAP Cloud Transport Management: What To Know](../50-administration/storage-in-sap-cloud-transport-management-what-to-know-e8d5187.md)
+-   [Receive Notifications for SAP Cloud Transport Management Actions Using SAP Alert Notification Service](../80-ans-integration/receive-notifications-for-sap-cloud-transport-management-actions-using-sap-alert-notifica-95d4fc7.md)
 
 
 
@@ -67,7 +67,7 @@ Regularly check the logs of all transport actions.
 </td>
 <td valign="top">
 
-[Transport Action Logs](transport-action-logs-86319ed.md)
+[Transport Action Logs](../transport-action-logs-86319ed.md)
 
 </td>
 </tr>
@@ -79,7 +79,7 @@ Regularly check the landscape action log for unexpected changes to the landscape
 </td>
 <td valign="top">
 
-[Landscape Action Logs](landscape-action-logs-7b630db.md)
+[Landscape Action Logs](../landscape-action-logs-7b630db.md)
 
 </td>
 </tr>
@@ -91,7 +91,7 @@ Regularly check audit log data for unusual or suspicious network and system beha
 </td>
 <td valign="top">
 
-[Auditing and Logging Information](60-security/auditing-and-logging-information-9e3ee94.md)
+[Auditing and Logging Information](../60-security/auditing-and-logging-information-9e3ee94.md)
 
 </td>
 </tr>
@@ -103,7 +103,7 @@ Use the public APIs of the service to create your own monitoring scripts, for ex
 </td>
 <td valign="top">
 
-[Integration of SAP Cloud Transport Management Using APIs](70-integrations/extended-integration-scenarios-7e966f7.md#loiob608919f90c546d59876b8b765c01511)
+[Integration of SAP Cloud Transport Management Using APIs](../70-integrations/extended-integration-scenarios-7e966f7.md#loiob608919f90c546d59876b8b765c01511)
 
 </td>
 </tr>

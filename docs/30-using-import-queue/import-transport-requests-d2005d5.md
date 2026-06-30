@@ -65,10 +65,13 @@ All transport requests with an *Initial*, *Fatal*, or *Repeatable* status can be
 
         To import all requests in the import queue up to a specific transport request, select a transport request, and choose *Import Upto*.
 
-        The selected transport request and all previous requests are imported in the sequence in which they are in the import queue.
+        A dialog opens that groups all transport requests up to and including the selected one by software component. It allows you to perform an *Import Upto* for transports related to a specific software component, while previous transports of another software component can be imported later.
 
-        > ### Note:  
-        > If relevant transport requests are hidden because of your filter settings, SAP Cloud Transport Management displays an error message. Adjust your filter settings to display the relevant transport requests, and restart the import.
+        In the dialog, you can deselect transport requests of specific software components that you don't want to import. Note the following:
+
+        -   The software component that the transport request you selected belongs to is always preselected and can't be deselected.
+        -   Transport requests can reference multiple software components. When this happens, earlier transport requests affecting the same software components must also be included, because they cannot be deselected individually. In the dialog, such a transport request appears under each of its software components. For every component, the latest request in the queue is shown as the parent entry, and earlier requests for that component appear as children. Selecting or deselecting the parent also selects or deselects all of its children. You can't deselect a child entry independently.
+        -   The list of transport requests passed to the import is deduplicated. Each transport request is only imported once, even if it appears under multiple software components.
 
 
     The import starts immediately.
@@ -92,7 +95,7 @@ If the transport node has a content type and a valid destination assigned, the t
 
 If transport requests are imported in virtual nodes, they are forwarded to the import queues of the target nodes. In the virtual node itself, they get a *Skipped* status.
 
-If multiple transport requests of content type *BTP ABAP* are imported using *Import Upto*, and all requests contain references of the same software component, only the content of the selected request is imported. All previous requests get a *Skipped* status.
+If multiple transport requests of content type *BTP ABAP* are imported using *Import Upto*, the selected transport request and all previous requests are imported in the sequence in which they are in the import queue. For each selected software component, only the latest transport request is imported based on the queue sequence. All previous requests get a *Skipped* status. Transport requests for deselected software components remain in the import queue with an unchanged status.
 
 For more information, see [Statuses of Transport Requests](../40-using-request-overview/statuses-of-transport-requests-3a8259e.md).
 
@@ -122,5 +125,5 @@ If the *Forward Mode* is *Manual*, manually forward the transport requests as re
 **Related Information**  
 
 
-[Troubleshooting Issues when Transporting Multitarget Applications \(MTAs\)](../troubleshooting-issues-when-transporting-multitarget-applications-mtas-3f7a9bc.md "Find information about how to solve issues that can arise when you use SAP Cloud Transport Management to transport Multitarget Applications (MTAs) in Cloud Foundry using SAP Cloud Deployment service for deployment.")
+[Troubleshooting Issues when Transporting Multitarget Applications \(MTAs\)](../90-monitoring-and-troubleshooting/troubleshooting-issues-when-transporting-multitarget-applications-mtas-3f7a9bc.md "Find information about how to solve issues that can arise when you use SAP Cloud Transport Management to transport Multitarget Applications (MTAs) in Cloud Foundry using SAP Cloud Deployment service for deployment.")
 

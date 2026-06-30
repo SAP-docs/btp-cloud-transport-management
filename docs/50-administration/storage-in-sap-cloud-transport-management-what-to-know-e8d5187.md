@@ -222,7 +222,7 @@ Automatic deletion takes place, if a transport request meets the following crite
 
     Use SAP Alert Notification Service to notify you when your space reaches 85% of its quota.
 
-    For more information, see [Receive Notifications for SAP Cloud Transport Management Actions Using SAP Alert Notification Service](../receive-notifications-for-sap-cloud-transport-management-actions-using-sap-alert-notifica-95d4fc7.md).
+    For more information, see [Receive Notifications for SAP Cloud Transport Management Actions Using SAP Alert Notification Service](../80-ans-integration/receive-notifications-for-sap-cloud-transport-management-actions-using-sap-alert-notifica-95d4fc7.md).
 
 -   **Monitor and Reduce Usage**
 

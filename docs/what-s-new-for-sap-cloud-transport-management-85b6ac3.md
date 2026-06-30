@@ -99,6 +99,248 @@ Cloud Transport Management
 </td>
 <td valign="top">
 
+New tutorial available on SAP Learning: *Transport an SAP Fiori Application using SAP Continuous Integration and Delivery and SAP Cloud Transport Management* 
+
+</td>
+<td valign="top">
+
+Learn how to configure *SAP Continuous Integration and Delivery* and SAP Cloud Transport Managementto build and deploy changes to an SAP Fiori application across a staged development and test landscape.
+
+See:
+
+-   [Transport an SAP Fiori Application using SAP Continuous Integration and Delivery and SAP Cloud Transport Management](https://developers.sap.com/tutorials/btp-transport-management-cap.html)
+
+
+
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Cloud Transport Management
+
+</td>
+<td valign="top">
+
+2026-06-29
+
+</td>
+<td valign="top">
+
+2026-06-29
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Cloud Transport Management 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+UI Enhancements
+
+</td>
+<td valign="top">
+
+The user interface has been improved in the following areas:
+
+-   **Filtering**: You can now filter transport nodes by name, content type, destination, and tags, and transport routes by name, description, source node, and target node.
+
+-   **Import Queue**: Header buttons are now grouped by context, separating content management actions \(*Add*, *Remove*\) from import actions \(*Import All*, *Import Selected*, *Import Upto* \) and general actions *Reset*.
+
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Changed
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Cloud Transport Management
+
+</td>
+<td valign="top">
+
+2026-06-29
+
+</td>
+<td valign="top">
+
+2026-06-29
+
+</td>
+<td valign="top">
+
+2606a
+
+</td>
+<td valign="top">
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Cloud Transport Management 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Selective *Import Upto* for BTP ABAP transports
+
+</td>
+<td valign="top">
+
+When importing transports of content type *BTP ABAP*, you can now exclude individual software components from *Import Upto*. This allows you to import transports for one component immediately and defer transports for other components to a later time.
+
+See:
+
+-   [Import Transport Requests](30-using-import-queue/import-transport-requests-d2005d5.md)
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Changed
+
+</td>
+<td valign="top">
+
+Application Development and Integration
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Cloud Transport Management
+
+</td>
+<td valign="top">
+
+2026-06-29
+
+</td>
+<td valign="top">
+
+2026-06-29
+
+</td>
+<td valign="top">
+
+2606a
+
+</td>
+<td valign="top">
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Cloud Transport Management 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 Integration of SAP Document AI with SAP Cloud Transport Management 
 
 </td>
@@ -508,12 +750,12 @@ SAP Cloud Transport Management now uses SAP Alert Notification Service as a trus
 
 You can continue to use any existing destination-based configuration. However, that integration is deprecated and will be removed from SAP Cloud Transport Management in Q4 2026.
 
-**Existing users**: If you previously enabled the *Perform Notification* checkbox for specific transport nodes and haven't restricted notifications using `tags.nodeName` or `tags.nodeId` conditions in SAP Alert Notification service, you will receive more notifications than expected. For more information about how to restrict notifications, see [Migrating to SAP Alert Notification Service As a Trusted Internal Service](migrating-to-sap-alert-notification-service-as-a-trusted-internal-service-0914d2c.md).
+**Existing users**: If you previously enabled the *Perform Notification* checkbox for specific transport nodes and haven't restricted notifications using `tags.nodeName` or `tags.nodeId` conditions in SAP Alert Notification service, you will receive more notifications than expected. For more information about how to restrict notifications, see [Migrating to SAP Alert Notification Service As a Trusted Internal Service](80-ans-integration/migrating-to-sap-alert-notification-service-as-a-trusted-internal-service-0914d2c.md).
 
 See:
 
--   [Migrating to SAP Alert Notification Service As a Trusted Internal Service](migrating-to-sap-alert-notification-service-as-a-trusted-internal-service-0914d2c.md)
--   [Receive Notifications for SAP Cloud Transport Management Actions Using SAP Alert Notification Service](receive-notifications-for-sap-cloud-transport-management-actions-using-sap-alert-notifica-95d4fc7.md)
+-   [Migrating to SAP Alert Notification Service As a Trusted Internal Service](80-ans-integration/migrating-to-sap-alert-notification-service-as-a-trusted-internal-service-0914d2c.md)
+-   [Receive Notifications for SAP Cloud Transport Management Actions Using SAP Alert Notification Service](80-ans-integration/receive-notifications-for-sap-cloud-transport-management-actions-using-sap-alert-notifica-95d4fc7.md)
 
 
 
@@ -2481,7 +2723,7 @@ New troubleshooting topic containing information about issues that can arise whe
 
 See:
 
--   [Troubleshooting Issues when Transporting Multitarget Applications \(MTAs\)](troubleshooting-issues-when-transporting-multitarget-applications-mtas-3f7a9bc.md)
+-   [Troubleshooting Issues when Transporting Multitarget Applications \(MTAs\)](90-monitoring-and-troubleshooting/troubleshooting-issues-when-transporting-multitarget-applications-mtas-3f7a9bc.md)
 
 
 

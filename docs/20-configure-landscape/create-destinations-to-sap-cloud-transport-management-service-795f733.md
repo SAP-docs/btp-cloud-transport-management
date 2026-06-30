@@ -50,7 +50,7 @@ In the source environment of your application, create a destination to SAP Cloud
 
     For SAP Cloud Integration content, see [Enabling Content Transport, Cloud Foundry Enviroment](https://help.sap.com/docs/CLOUD_INTEGRATION/368c481cd6954bdfa5d0435479fd4eaf/452c677debfc4fda904310560ab03743.html?locale=en-US).
 
-    For an example, see [Example: Destination to SAP Cloud Transport Management](create-destinations-to-sap-cloud-transport-management-service-795f733.md#loio75fe5d4b4fa3492c87ef6be32ea0b819).
+    For an example, see [Example: Destination to SAP Cloud Transport Management Using Client Credentials](create-destinations-to-sap-cloud-transport-management-service-795f733.md#loio75fe5d4b4fa3492c87ef6be32ea0b819).
 
 -   SAP BTP, Neo Environment
 
@@ -70,7 +70,7 @@ In the source environment of your application, create a destination to SAP Cloud
 
 <!-- loio75fe5d4b4fa3492c87ef6be32ea0b819 -->
 
-## Example: Destination to SAP Cloud Transport Management
+## Example: Destination to SAP Cloud Transport Management Using Client Credentials
 
 The following is a sample configuration of a destination to SAP Cloud Transport Management to transport SAP Cloud Integration content in SAP BTP, Cloud Foundry.
 
@@ -165,6 +165,23 @@ This field is optional.
 <tr>
 <td valign="top">
 
+*Proxy Type*
+
+</td>
+<td valign="top">
+
+*Internet* 
+
+</td>
+<td valign="top" colspan="2">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 *URL*
 
 </td>
@@ -178,23 +195,6 @@ This field is optional.
 Value of `uri` from the service key of your SAP Cloud Transport Management service instance.
 
 The URL is used to address the SAP Cloud Transport Management instance in the subaccount where it is required.
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-*Proxy Type*
-
-</td>
-<td valign="top">
-
-*Internet* 
-
-</td>
-<td valign="top" colspan="2">
-
- 
 
 </td>
 </tr>
@@ -231,7 +231,7 @@ The URL is used to address the SAP Cloud Transport Management instance in the su
 Value of `clientid` \(`uaa` section\) from the service key of your SAP Cloud Transport Management service instance.
 
 </td>
-<td valign="top" rowspan="6">
+<td valign="top" rowspan="7">
 
 The details in these fields are required for user authentication and authorization.
 
@@ -244,6 +244,23 @@ The *Token Service URL* value is primarily used for authentication in the user a
 When the SAP BTP authentication service receives a request, it verifies the user and the subaccount information. If the verification succeeds, the service generates a token. This token is like a secret identifier that's used to authenticate subsequent requests from the client.
 
 Once a token is generated, subsequent requests or API calls can be made without the need for re-authentication. Overall, the *Token Service URL* value enables secure communication, ensuring that only authenticated requests are processed.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Use mTLS for token retrievel* checkbox
+
+</td>
+<td valign="top">
+
+Select the checkbox, if you want to use mutual TLS \(mTLS\) authentication.
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 </tr>

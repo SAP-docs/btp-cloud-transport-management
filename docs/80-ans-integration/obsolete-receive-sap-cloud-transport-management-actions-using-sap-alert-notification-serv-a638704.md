@@ -1,6 +1,6 @@
 <!-- loioa6387045a4824f578db003977462317b -->
 
-<link rel="stylesheet" type="text/css" href="css/sap-icons.css"/>
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
 
 # Obsolete: Receive SAP Cloud Transport Management Actions Using SAP Alert Notification Service
 
@@ -179,7 +179,7 @@ If there's a service instance of SAP Alert Notification service available in the
     > ### Note:  
     > The checkbox is displayed only, if the destination to SAP Alert Notification service is configured.
 
-    See also: [Create Transport Nodes](20-configure-landscape/create-transport-nodes-f71a4d5.md)
+    See also: [Create Transport Nodes](../20-configure-landscape/create-transport-nodes-f71a4d5.md)
 
     > ### Note:  
     > This step isn't necessary when you only want to receive warning notifications about the storage quota in your subscription \(*TmsStorageQuotaUsage*\) event.
