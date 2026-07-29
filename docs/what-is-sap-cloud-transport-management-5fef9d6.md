@@ -8,7 +8,7 @@ Learn more about SAP Cloud Transport Management service for SAP Business Technol
 
 Manage transports of development artifacts and application-specific content.
 
-SAP Cloud Transport Management service lets you manage software deliverables between accounts of different environments \(such as Cloud Foundry, ABAP, and Neo\), by transporting them across various runtimes. This includes application artifacts as well as their respective application-specific content.
+SAP Cloud Transport Management service lets you manage software deliverables between accounts of different environments \(such as Cloud Foundry and ABAP\), by transporting them across various runtimes. This includes application artifacts as well as their respective application-specific content.
 
 SAP Cloud Transport Management service adds transparency to the audit trail of changes so that you get information about who performed which changes in your production environment, and when they did it. At the same time, the service enables a separation of concerns: For example, a developer of an application or of SAP Cloud content artifacts can trigger the transport of changes from within the development environment, while the resulting import into the test, and production environment is handled by a central operations team.
 
@@ -77,7 +77,7 @@ Integrated experience
 </b></dt>
 <dd>
 
-Trigger transports directly from enabled app-specific content creation tools \(such as SAP Cloud Integration Web UI\)
+Initiate transports directly from enabled app-specific content creation tools \(such as SAP Cloud Integration Web UI\)
 
 
 
@@ -99,7 +99,7 @@ Transport to different environments
 </b></dt>
 <dd>
 
-Source and targets of transports can reside in different global accounts. SAP Cloud Transport Management can handle transports in the Cloud Foundry, ABAP, and Neo environments.
+Support cross-global-account transports in the Cloud Foundry environment and transports within the same global account in the ABAP environment.
 
 
 
@@ -220,7 +220,7 @@ SAP BTP Cockpit is the central point for managing all activities associated with
 
 [Information about Regions Availability and Pricing of Cloud Transport Management in SAP Discovery Center](https://discovery-center.cloud.sap/serviceCatalog/cloud-transport-management/?region=all)
 
-[Best Practices for SAP BTP: Delivering Applications](https://help.sap.com/docs/btp/best-practices/delivering-applications)
+[SAP BTP Administrator's Guide: Delivering Applications](https://help.sap.com/docs/btp/best-practices/delivering-applications)
 
 [SAP Cloud Transport Management FAQs in SAP Community](https://community.sap.com/topics/devops/cloud-transport-management-faq)
 

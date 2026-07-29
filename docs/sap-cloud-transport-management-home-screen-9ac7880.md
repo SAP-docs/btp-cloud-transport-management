@@ -194,40 +194,25 @@ In the title bar, you can use the following functions:
     <tr>
     <td valign="top">
     
-    *Language*
+    *Settings*
     
     </td>
     <td valign="top">
     
-    Switch the display language of the SAP Cloud Transport Management UI.
+    On the *Settings* dialog, you can change the appearance and language.
 
-    The SAP Cloud Transport Management UI is available in Chinese and English. By default, it's displayed in the default language of the web browser.
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-    *Appearance*
-    
-    </td>
-    <td valign="top">
-    
-    Change the default *Horizon* style theme of the UI to *Belize*, *Standard Light*, *Standard Dark*, or *High Contrast Black*.
+    -   *Appearance*:
 
-    ![User Profile dropdown with selected Appearance and UI theme options to choose from](images/About_Transport_Management_Service_b7c2256.png)
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-    *Data Protection & Privacy*
-    
-    </td>
-    <td valign="top">
-    
-    Open the [Data Protection and Privacy](60-security/data-protection-and-privacy-a2749d5.md) topic.
+        Change the default *Horizon* style theme of the UI to *Horizon Dark*, *Standard Light*, *Standard Dark*, or *High Contrast Black*.
+
+    -   *Language*:
+
+        Switch the display language of the SAP Cloud Transport Management UI.
+
+        The SAP Cloud Transport Management UI is available in Chinese and English. By default, it's displayed in the default language of the web browser.
+
+
+    ![Settings dialog with selected Appearance and UI theme options to choose from](images/About_Transport_Management_Service_b7c2256.png)
     
     </td>
     </tr>
@@ -246,12 +231,24 @@ In the title bar, you can use the following functions:
     <tr>
     <td valign="top">
     
-    *Logout*
+    *Data Protection & Privacy*
     
     </td>
     <td valign="top">
     
-    Log out of the service.
+    Open the [Data Protection and Privacy](60-security/data-protection-and-privacy-a2749d5.md) information.
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *Sign Out*
+    
+    </td>
+    <td valign="top">
+    
+    Sign out of the service.
     
     </td>
     </tr>
@@ -293,8 +290,6 @@ This section contains the following tiles:
 3.  Enable the *Active* checkbox.
 4.  Save your changes.
 
-
-    , select the respective links. The links open the import queues of the transport nodes w.
 
     For more information, see [Schedule Imports](30-using-import-queue/schedule-imports-110a7a4.md).
 

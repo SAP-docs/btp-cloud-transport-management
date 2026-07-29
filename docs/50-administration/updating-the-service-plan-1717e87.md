@@ -2,29 +2,29 @@
 
 # Updating the Service Plan
 
-To access additional features of the SAP Cloud Transport Management user interface, update the service \(application\) plan.
+To access additional features of the SAP Cloud Transport Management user interface, update the service \(application\) plan of type *Subscription*.
 
 
 
 ## Prerequisites
 
-You can find the service plans available for the SAP Cloud Transport Management user interface \(application plans\) in SAP Discovery Center at [SAP Discovery Center Service - Cloud Transport Management](https://discovery-center.cloud.sap/serviceCatalog/cloud-transport-management/?tab=service_plan&region=all).
+You can find the subscription service plans available for the SAP Cloud Transport Management user interface \(application plans\) in SAP Discovery Center at [SAP Discovery Center Service - Cloud Transport Management](https://discovery-center.cloud.sap/serviceCatalog/cloud-transport-management/?tab=service_plan&region=all).
 
 The following update scenarios are supported:
 
-**Overview: Update Options of SAP Cloud Transport Management Service Plans**
+**Overview: Update Options of SAP Cloud Transport Management Subscription Service Plans**
 
 
 <table>
 <tr>
 <th valign="top">
 
-Current Application Plan
+Current Plan
 
 </th>
 <th valign="top">
 
-Target Application Plan
+Target Plan
 
 </th>
 <th valign="top">
@@ -50,7 +50,7 @@ To update from the *free* to the *standard* plan, follow the steps of the *Proce
 
 **Prerequisite**:
 
--   In the subaccount in which you're using SAP Cloud Transport Management, you've configured an entitlement to the *standard \(Application\)* service plan of SAP Cloud Transport Management as described in [Configuring Entitlements to SAP Cloud Transport Management](../10-initial-setup/configuring-entitlements-to-sap-cloud-transport-management-13894be.md).
+-   In the subaccount in which you're using SAP Cloud Transport Management, you've configured an entitlement to the *standard \(Application\)* subscription service plan of SAP Cloud Transport Management as described in [Configuring Entitlements to SAP Cloud Transport Management](../10-initial-setup/configuring-entitlements-to-sap-cloud-transport-management-13894be.md).
 
 
 
@@ -74,7 +74,7 @@ To update from the *build-code*, *free*, or *standard* plans to the *build-runti
 
 **Prerequisite**:
 
--   In the subaccount in which you're using SAP Cloud Transport Management, you've configured an entitlement to the *build-runtime \(Application\)* service plan of SAP Cloud Transport Management as described in [Configuring Entitlements to SAP Cloud Transport Management](../10-initial-setup/configuring-entitlements-to-sap-cloud-transport-management-13894be.md).
+-   In the subaccount in which you're using SAP Cloud Transport Management, you've configured an entitlement to the *build-runtime \(Application\)* subscription service plan of SAP Cloud Transport Management as described in [Configuring Entitlements to SAP Cloud Transport Management](../10-initial-setup/configuring-entitlements-to-sap-cloud-transport-management-13894be.md).
 
 
 
@@ -83,7 +83,10 @@ To update from the *build-code*, *free*, or *standard* plans to the *build-runti
 </tr>
 </table>
 
-To update your SAP Cloud Transport Management service plan, proceed as follows:
+> ### Note:  
+> Updating the SAP Cloud Transport Management subscription service plan doesn't impact any existing transport configuration or data persisted in the service, such as transport nodes, routes, and actions. All existing transport configuration and data is preserved.
+
+To update your SAP Cloud Transport Management subscription service plan, proceed as follows:
 
 
 

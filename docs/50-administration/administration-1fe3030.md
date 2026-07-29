@@ -169,6 +169,6 @@ Storage management in SAP Cloud Transport Management involves fixed quotas, file
 -   **[Configuring Backup](configuring-backup-8d15541.md "Learn about your options to back up your data in SAP Cloud Transport Management. ")**  
 Learn about your options to back up your data in SAP Cloud Transport Management.
 -   **[Updating the Service Plan](updating-the-service-plan-1717e87.md "To access additional features of the SAP Cloud Transport Management user interface, update the
-		service (application) plan.")**  
-To access additional features of the SAP Cloud Transport Management user interface, update the service \(application\) plan.
+		service (application) plan of type Subscription.")**  
+To access additional features of the SAP Cloud Transport Management user interface, update the service \(application\) plan of type *Subscription*.
 
