@@ -1,10 +1,8 @@
 <!-- loio110a7a4d19a34a6cb9a5422c5c9eb35b -->
 
-<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
-
 # Schedule Imports
 
-To run imports of all transport requests in a transport node on a regular basis, you can schedule them to run at regular intervals.
+To run imports of all transport requests in a transport node regularly, you can schedule them to run at regular intervals.
 
 
 
@@ -16,10 +14,7 @@ To run imports of all transport requests in a transport node on a regular basis,
 
 -   A regular import of all transport requests is allowed in the import queue in which you want to schedule imports.
 
--   You are in one of the following places in SAP Cloud Transport Management:
-
-    -   In the import queue of a transport node. For more information, see [Prerequisites for Using the Import Queue](prerequisites-for-using-the-import-queue-dd661c7.md).
-    -   In the *Properties* panel of a transport node in the *Landscape Visualization*. For more information, see [Using the Landscape Visualization](../using-the-landscape-visualization-9fea4f2.md).
+-   You're in a transport node. You can open the transport node from the *Transport Nodes* screen or from the *Landscape Visualization*. For more information, see [Prerequisites for Using the Import Queue](prerequisites-for-using-the-import-queue-dd661c7.md) and [Using the Landscape Visualization](../using-the-landscape-visualization-9fea4f2.md).
 
 
 
@@ -37,9 +32,9 @@ By default, system administration manually imports transport requests into trans
 
 ## Procedure
 
-1.  Choose <span class="SAP-icons-V5"></span> \(Import Scheduler\).
+1.  In the transport node, choose *Import Settings* \> *Schedule Imports*.
 
-2.  In the dialog box, you can choose one of the import patterns *Daily* or *Weekly*:
+2.  Define the schedule by choosing one of the import patterns *Daily* or *Weekly*:
 
 
     <table>
@@ -63,7 +58,7 @@ By default, system administration manually imports transport requests into trans
     </td>
     <td valign="top">
     
-    Choose a time interval for the scheduled daily imports from the dropdown box \(for example, *Every hour*, *Four times per day*\).
+    Choose a time interval for the scheduled daily imports from the dropdown box, for example, *Every hour* or *Four times per day*.
     
     </td>
     </tr>
@@ -75,14 +70,7 @@ By default, system administration manually imports transport requests into trans
     </td>
     <td valign="top">
     
-    You have the following options:
-
-    -   Select a time interval for the scheduled weekly import from the dropdown box \(for example, *Every week*, *Every second week*.
-
-    -   Select an *Execution Time*, that is the starting time, for the scheduled imports.
-    -   Select the days of the week on which the scheduled imports take place.
-
-
+    Select a time interval for the scheduled weekly import from the dropdown box, for example, *Every week* or *Every second week*. Select an *Execution Time*, that is the starting time for the scheduled imports, and select the days of the week on which the scheduled imports take place.
     
     </td>
     </tr>
@@ -101,7 +89,7 @@ By default, system administration manually imports transport requests into trans
 
 If the schedule is active, the imports of all transport requests in the import queue of the transport node are scheduled with the specified options and will be run as specified.
 
-If you open an import queue with scheduled imports, the header area displays an *IMPORT SCHEDULE DETECTED* button. You can click on this button to display more information about the job status and the next time the job is run.
+If imports are scheduled for a transport node, the header area displays the import schedule status. You can use *Import Settings* to display or change the schedule.
 
 > ### Note:  
 > If the job scheduler has many jobs to process, it's possible that the start time of the job is delayed.

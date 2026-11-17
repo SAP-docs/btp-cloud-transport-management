@@ -544,7 +544,7 @@ Documentation enhancements
 </td>
 <td valign="top">
 
--   A link was added to a new blog post in SAP Community about changes to the integration of the service with SAP BTP ABAP environment.
+-   A link was added to a new blog post in SAP Community about changes to the integration of the service with SAP Business AI Platform, ABAP environment.
 
     See: [Integrating SAP Cloud Transport Management with Other SAP Cloud Solutions](10-initial-setup/integrating-sap-cloud-transport-management-with-other-sap-cloud-solutions-ddaa000.md)
 
@@ -1523,15 +1523,15 @@ SAP Cloud Transport Management now supports the import of all and selected trans
 </td>
 <td valign="top">
 
-To enable the import of all transport requests of type *BTP ABAP*, SAP Cloud Transport Management now supports the `MANAGE_SOFTWARE_COMPONENTS` API of SAP BTP ABAP environment with the communication scenario `SAP_COM_0948`. Previously, the `MANAGE_GIT_REPOSITORIES` API and `SAP_COM_0510` was used. With the new communication scenario, the `SAP_COM_0510` scenario was deprecated.
+To enable the import of all transport requests of type *BTP ABAP*, SAP Cloud Transport Management now supports the `MANAGE_SOFTWARE_COMPONENTS` API of SAP Business AI Platform, ABAP environment with the communication scenario `SAP_COM_0948`. Previously, the `MANAGE_GIT_REPOSITORIES` API and `SAP_COM_0510` was used. With the new communication scenario, the `SAP_COM_0510` scenario was deprecated.
 
-To leverage the functions of the new API, reconfigure the destination in SAP BTP ABAP environment pointing to SAP Cloud Transport Management using the new URL, user, and password taken from the new communication scenario.
+To leverage the functions of the new API, reconfigure the destination in SAP Business AI Platform, ABAP environment pointing to SAP Cloud Transport Management using the new URL, user, and password taken from the new communication scenario.
 
 Already configured destinations continue to work with the current limitations \(import of individual requests\) for the duration of the deprecation phase. However, we recommend that you already plan to transition to the new communication scenario.
 
 See:
 
--   [Creating Destinations for Deployment of References of SAP BTP, ABAP Environment](20-configure-landscape/creating-destinations-for-deployment-of-references-of-sap-btp-abap-environment-3014453.md)
+-   [Creating Destinations for Deployment of References of SAP Business AI Platform, ABAP environment](20-configure-landscape/creating-destinations-for-deployment-of-references-of-sap-business-ai-platform-abap-envir-3014453.md)
 -   [Import Transport Requests](30-using-import-queue/import-transport-requests-d2005d5.md)
 
 

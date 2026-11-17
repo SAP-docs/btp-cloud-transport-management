@@ -70,7 +70,7 @@ All transport requests with an *Initial*, *Fatal*, or *Repeatable* status can be
         In the dialog, you can deselect transport requests of specific software components that you don't want to import. Note the following:
 
         -   The software component that the transport request you selected belongs to is always preselected and can't be deselected.
-        -   Transport requests can reference multiple software components. When this happens, earlier transport requests affecting the same software components must also be included, because they cannot be deselected individually. In the dialog, such a transport request appears under each of its software components. For every component, the latest request in the queue is shown as the parent entry, and earlier requests for that component appear as children. Selecting or deselecting the parent also selects or deselects all of its children. You can't deselect a child entry independently.
+        -   Transport requests can reference multiple software components. When this happens, earlier transport requests affecting the same software components must also be included, because they can't be deselected individually. In the dialog, such a transport request appears under each of its software components. For every component, the latest request in the queue is shown as the parent entry, and earlier requests for that component appear as children. Selecting or deselecting the parent also selects or deselects all of its children. You can't deselect a child entry independently.
         -   The list of transport requests passed to the import is deduplicated. Each transport request is only imported once, even if it appears under multiple software components.
 
 
@@ -93,14 +93,14 @@ All transport requests with an *Initial*, *Fatal*, or *Repeatable* status can be
 
 If the transport node has a content type and a valid destination assigned, the transport requests are imported into the runtime of the transport node and get a *Succeeded* status.
 
-If transport requests are imported in virtual nodes, they are forwarded to the import queues of the target nodes. In the virtual node itself, they get a *Skipped* status.
+If transport requests are imported in virtual nodes, they're forwarded to the import queues of the target nodes. In the virtual node itself, they get a *Skipped* status.
 
 If multiple transport requests of content type *BTP ABAP* are imported using *Import Upto*, the selected transport request and all previous requests are imported in the sequence in which they are in the import queue. For each selected software component, only the latest transport request is imported based on the queue sequence. All previous requests get a *Skipped* status. Transport requests for deselected software components remain in the import queue with an unchanged status.
 
 For more information, see [Statuses of Transport Requests](../40-using-request-overview/statuses-of-transport-requests-3a8259e.md).
 
 > ### Note:  
-> If a transport request with a Multitarget Application archive \(`.mta`\) is imported in a subaccount of the Neo environment, the archive is afterward visible in the *Standard Solutions* category in the *Solutions* page in the SAP BTP Cockpit of the subaccount. For more information on solutions, see [Operating Solutions](https://help.sap.com/docs/BTP/ea72206b834e4ace9cd834feed6c0e09/2abf7d47063542208d0d99f7bc05f4f4.html?locale=en-US) in the SAP BTP documentation.
+> If a transport request with a Multitarget Application archive \(`.mta`\) is imported in a subaccount of the Neo environment, the archive is afterward visible in the *Standard Solutions* category in the *Solutions* page in the cockpit of the subaccount. For more information on solutions, see [Operating Solutions](https://help.sap.com/docs/BTP/ea72206b834e4ace9cd834feed6c0e09/2abf7d47063542208d0d99f7bc05f4f4.html?locale=en-US) in the SAP BTP documentation.
 
 Check the status and the logs to make sure that the import was successful.
 
@@ -110,7 +110,7 @@ For more information, see [Options to Display Information about Transport Reques
 
 ### Transport Request Forwarding
 
-Depending on the *Forward Mode* defined for the transport node, transport requests are automatically forwarded to the target nodes or not. For more information, see [Create Transport Nodes](../20-configure-landscape/create-transport-nodes-f71a4d5.md).
+Depending on the *Forwarding Mode* defined for the transport node, transport requests are automatically forwarded to the target nodes or not. For more information, see [Create Transport Nodes](../20-configure-landscape/create-transport-nodes-f71a4d5.md).
 
 If automatic forwarding takes place, the transport requests are forwarded into all target transport nodes according to the transport routes defined for the node where the import was started.
 
@@ -120,7 +120,7 @@ Forwarded transport requests are added to the end of the import queues of the ta
 -   *Deleted*, *Error*, *Fatal*, *Skipped*, *Succeeded*, and *Warning* change to *Repeatable*.
 -   *Repeatable* remains *Repeatable*.
 
-If the *Forward Mode* is *Manual*, manually forward the transport requests as required. For more information, see [Forward Transport Requests](forward-transport-requests-630fae7.md).
+If the *Forwarding Mode* is *Manual*, manually forward the transport requests as required. For more information, see [Forward Transport Requests](forward-transport-requests-630fae7.md).
 
 **Related Information**  
 

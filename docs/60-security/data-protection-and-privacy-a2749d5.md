@@ -2,6 +2,8 @@
 
 # Data Protection and Privacy
 
+Find out what personal data SAP Cloud Transport Management processes, how tenant data is encapsulated, and what options exist for viewing or deleting personal data.
+
 
 
 For general information about data protection and privacy on SAP BTP, see the SAP BTP documentation under [Data Protection and Privacy](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/7e513d31704a4a87831191e504ca850a.html).
@@ -17,9 +19,9 @@ Some basic requirements that support data protection are often referred to as te
 
 ### Personal Data processed by SAP Cloud Transport Management Service
 
-SAP Cloud Transport Management service records all tenant changing processes, like landscape transports and landscape configurations. They’re recorded together with the user who performs the action and the time when it was done. Doing so, the user is identified by its user ID, maintained in the configured identity provider, and used during login. Sensitive personal data isn’t processed by the service.
+SAP Cloud Transport Management service records all tenant-changing processes, like landscape transports and landscape configurations. They’re recorded together with the user who performs the action and the time when it was done. Doing so, the user is identified by its user ID, maintained in the configured identity provider, and used during login. Sensitive personal data isn’t processed by the service.
 
-SAP Cloud Transport Management stores file names, and displays them in the logs. In addition, the service transfers files to the connected deployment services. Do not use any personal data in names of files that are uploaded to the service. This is also true for MTA extension descriptors.
+SAP Cloud Transport Management stores file names, and displays them in the logs. In addition, the service transfers files to the connected deployment services. Don't use any personal data in the names of files that are uploaded to the service. This is also true for MTA extension descriptors.
 
 
 
@@ -41,6 +43,11 @@ The tenant-specific and user-specific persistency as done by SAP Cloud Transport
 
 > ### Note:  
 > In order to keep the data for the legally required retention period, the corresponding tenant-based subscription to the SAP Cloud Transport Management SaaS application must be in place.
+
+> ### Note:  
+> If you need to delete user-specific data without unsubscribing, configure the anonymization settings as needed. For more information, see [Configure User Data Anonymization Settings](../50-administration/configure-user-data-anonymization-settings-f3c0a3b.md).
+> 
+> If you need to delete data of individual users, open an incident using component `BC-CP-LCM-TMS`. Please use the following prefix in the incident subject: `Customer Data Deletion Request`.
 
 
 

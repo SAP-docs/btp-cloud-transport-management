@@ -1,14 +1,14 @@
 <!-- loio61306c6ebcb046c2b45ed37bce1afc5a -->
 
-# Creating Destinations for MTA Deployment on SAP BTP, Neo
+# Creating Destinations for MTA Deployment on Neo
 
-To address the target end point of MTA deployment on SAP BTP, Neo, specify the URL to the SAP Solution Lifecycle Management service as the deploy end point of the destination.
+To address the target end point of MTA deployment on Neo, specify the URL to the SAP Solution Lifecycle Management service as the deploy end point of the destination.
 
 
 
 ## Procedure
 
-1.  In SAP BTP Cockpit of your subaccount, choose *Connectivity* \> *Destinations*.
+1.  In cockpit of your subaccount, choose *Connectivity* \> *Destinations*.
 
 2.  In the *Destinations* editor, choose *Create* \> *From Scratch* \> *Create*.
 
@@ -48,7 +48,7 @@ To address the target end point of MTA deployment on SAP BTP, Neo, specify the U
     </td>
     <td valign="top" rowspan="4">
     
-    -   SAP BTP, Neo: [Configure Destinations from the Cockpit](https://help.sap.com/docs/CP_CONNECTIVITY/b865ed651e414196b39f8922db2122c7/60735ad11d8a488c83537cdcfb257135.html)
+    -   Neo: [Configure Destinations from the Cockpit](https://help.sap.com/docs/CP_CONNECTIVITY/b865ed651e414196b39f8922db2122c7/60735ad11d8a488c83537cdcfb257135.html)
 
     -   [Create HTTP Destinations](https://help.sap.com/docs/CP_CONNECTIVITY/b865ed651e414196b39f8922db2122c7/1e110da0ddd8453aaf5aed2485d84f25.html)
 

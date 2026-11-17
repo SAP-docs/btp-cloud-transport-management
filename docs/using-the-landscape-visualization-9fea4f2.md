@@ -126,7 +126,7 @@ Use the Transport Landscape Visualization for the following tasks:
     </td>
     <td valign="top">
     
-    Create a new transport node. A dialog box opens where you can enter all relevant information for the node.
+    Create a new transport node. Enter the relevant information for the node.
 
     See [Create Transport Nodes](20-configure-landscape/create-transport-nodes-f71a4d5.md).
     
@@ -140,7 +140,7 @@ Use the Transport Landscape Visualization for the following tasks:
     </td>
     <td valign="top">
     
-    Create a new transport route to connect transport nodes. A dialog box opens where you can enter all relevant information for the route.
+    Create a new transport route to connect transport nodes. Enter the relevant information for the route.
 
     See [Create Transport Routes](20-configure-landscape/create-transport-routes-dddb749.md).
     
@@ -194,7 +194,7 @@ Use the Transport Landscape Visualization for the following tasks:
     In the *Landscape Action Logs*, the number of imported transport nodes and routes are logged for the import action.
 
     > ### Restriction:  
-    > You must export and import destinations separately. You must manually maintain credentials after importing a landscape.
+    > Export and import destinations separately. Manually maintain credentials after importing a landscape.
 
 
     
@@ -287,7 +287,7 @@ Use the Transport Landscape Visualization for the following tasks:
     </td>
     <td valign="top">
     
-    Create a new transport route to connect the selected transport node with a target node. A dialog box opens where you can enter all relevant information for the route. The selected node is preconfigured as source node.
+    Create a new transport route to connect the selected transport node with a target node. Enter the relevant information for the route. The selected node is preconfigured as source node.
 
     See [Create Transport Routes](20-configure-landscape/create-transport-routes-dddb749.md).
     

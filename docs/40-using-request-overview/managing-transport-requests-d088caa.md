@@ -20,9 +20,9 @@ All transport requests in a tenant are displayed in a list. For each transport r
 
 Managing transport requests includes performing different actions that are described in the following topics.
 
--   **[Displaying Details of Transport Requests](displaying-details-of-transport-requests-0415f2f.md "Display detailed information about individual transport requests and navigate to the
-		related import queues.")**  
-Display detailed information about individual transport requests and navigate to the related import queues.
+-   **[Displaying Details of Transport Requests](displaying-details-of-transport-requests-0415f2f.md "Display details about individual transport requests and open the related import
+		queues.")**  
+Display details about individual transport requests and open the related import queues.
 -   **[Processing Modifiable Transport Requests](processing-modifiable-transport-requests-b541b09.md "Modifiable transport requests provide an efficient and flexible way for managing
 		multiple files in one transport request.")**  
 Modifiable transport requests provide an efficient and flexible way for managing multiple files in one transport request.

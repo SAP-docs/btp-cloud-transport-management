@@ -39,11 +39,11 @@ If there's a service instance of SAP Alert Notification service available in the
 
 ## Procedure
 
-1.  In the Cloud Foundry space of the subaccount in which you’re using SAP Cloud Transport Management service, in SAP BTP Cockpit, navigate to the *Service Instances* page, and create a service instance for SAP Alert Notification service as described under [Initial Setup](https://help.sap.com/docs/ALERT_NOTIFICATION/5967a369d4b74f7a9c2b91f5df8e6ab6/812b6e3ed8934648ad15780cd51721ef.html) in the SAP Alert Notification service documentation.
+1.  In the Cloud Foundry space of the subaccount in which you’re using SAP Cloud Transport Management service, in cockpit, navigate to the *Service Instances* page, and create a service instance for SAP Alert Notification service as described under [Initial Setup](https://help.sap.com/docs/ALERT_NOTIFICATION/5967a369d4b74f7a9c2b91f5df8e6ab6/812b6e3ed8934648ad15780cd51721ef.html) in the SAP Alert Notification service documentation.
 
     Under step *8. Obtain the credentials for the Alert Notification service*, choose option *b. Create a Service Key from the Service Key tab* to make the service instance URL and credentials available to you for accessing the service using the SAP Cloud Transport Management service.
 
-2.  In SAP BTP Cockpit of the subaccount in which you’re using SAP Cloud Transport Management, use the SAP Destination service to create a destination with the fixed name `ALERT_NOTIFICATION_SERVICE`.
+2.  In cockpit of the subaccount in which you’re using SAP Cloud Transport Management, use the SAP Destination service to create a destination with the fixed name `ALERT_NOTIFICATION_SERVICE`.
 
     1.  Choose *Connectivity* \> *Destinations* \> *New Destination*.
 
@@ -174,7 +174,7 @@ If there's a service instance of SAP Alert Notification service available in the
         </table>
         
 
-3.  To enable notifications for actions started in SAP Cloud Transport Management, select the *Perform Notification* checkbox when creating a transport node.
+3.  To enable notifications for actions started in SAP Cloud Transport Management, select the *Send Notifications* checkbox when creating a transport node.
 
     > ### Note:  
     > The checkbox is displayed only, if the destination to SAP Alert Notification service is configured.
@@ -223,14 +223,14 @@ When an action takes place in SAP Cloud Transport Management for which you've en
 Notifications sent using the destination-based configuration contain a *resource name: SAP CP Transport Management Service* entry in the *Resource Details* section.
 
 > ### Note:  
-> After migrating to the new method, the *resource name* entry changes to *SAP Cloud Transport Management Service*, and an additional *ans:eventScope: SUBACCOUNT* entry appears in the *Event Tags* section. You can use this to confirm which implementation is active.
+> After migrating to the new method, the *resource name* entry changes to *SAP Cloud Transport Management*, and an additional *ans:eventScope: SUBACCOUNT* entry appears in the *Event Tags* section. You can use this to confirm which implementation is active.
 
-*TmsImportFinished*: When the *Forward Mode* of a transport node is set to *Manual*, the notification contains links that allow you to display the transport request, or to forward it or all transport requests in the import queue to the target nodes.
+*TmsImportFinished*: When the *Forwarding Mode* of a transport node is set to *Manual*, the notification contains links that allow you to display the transport request, or to forward it or all transport requests in the import queue to the target nodes.
 
 *TmsTransportRequestAdded*: The notification contains links that allow you to display the transport request or to start an import in the transport node. When you select a link, the import queue of the transport node opens with a confirmation prompt for the corresponding actions.
 
 > ### Example:  
-> 1.  In SAP Alert Notification Service, create a subscription with the name `TmsImport`. \(You can use any name.\)
+> 1.  In SAP Alert Notification service, create a subscription with the name `TmsImport`. \(You can use any name.\)
 > 
 > 2.  In the *Select Conditions* step, create the following conditions:
 >     -   Create a condition with the name `TmsImportStarted`. \(You can use any name.\) For the *Condition* fields, select `eventType` and the operand `Is Equal To`. Set the expected value to `TmsImportStarted`.

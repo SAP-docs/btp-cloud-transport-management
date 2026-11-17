@@ -56,7 +56,7 @@ Tutorial:
 Blog posts:
 
 -   [TMS – SAP CI/CD Integration with Transport Management Service \(TMS\)](https://blogs.sap.com/2022/03/02/sap-ci-cd-integration-with-transport-management-service-tms/)
--   [How to integrate SAP Cloud Platform Transport Management into your CI/CD pipeline](https://blogs.sap.com/2019/08/20/how-to-integrate-sap-cloud-platform-transport-management-into-your-cicd-pipeline/)
+-   [How to integrate SAP Cloud Transport Management into your CI/CD pipeline](https://blogs.sap.com/2019/08/20/how-to-integrate-sap-cloud-platform-transport-management-into-your-cicd-pipeline/)
 
 -   Integrating SAP Business Application Studio, SAP Continuous Integration and Delivery service, and SAP Cloud Transport Management:
 
@@ -165,7 +165,7 @@ Documentation of the integration with SAP Cloud Transport Management:
 
 Blog posts:
 
--   [New Integration of SAP Cloud Transport Management](https://community.sap.com/t5/technology-blogs-by-sap/new-integration-of-sap-cloud-transport-management-and-sap-cloud-alm/ba-p/13728049)
+-   [New Integration of SAP Cloud Transport Management and SAP Cloud ALM](https://community.sap.com/t5/technology-blogs-by-sap/new-integration-of-sap-cloud-transport-management-and-sap-cloud-alm/ba-p/13728049)
 -   [Interplay of SAP Cloud ALM and SAP Cloud Transport Management Service](https://blogs.sap.com/2022/05/04/interplay-of-sap-cloud-alm-and-sap-cloud-transport-management-service/)
 -   [Enabling Change & Deployment Management in SAP Cloud ALM for SAP Integration Suite – Cloud Integration](https://blogs.sap.com/2022/05/04/enabling-change-deployment-management-in-sap-cloud-alm-for-sap-integration-suite-cloud-integration/)
 -   [Transport MTAs from Solution Export Wizard on Neo with SAP Cloud ALM and Cloud Transport Management](https://blogs.sap.com/2022/06/14/transport-mtas-from-solution-export-wizard-on-neo-with-sap-cloud-alm-and-cloud-transport-management/) 
@@ -177,14 +177,14 @@ Blog posts:
 <tr>
 <td valign="top">
 
-Sending alerts and notifications for SAP Cloud Transport Management actions using the SAP Alert Notification service for SAP BTP 
+Sending alerts and notifications for SAP Cloud Transport Management actions using the SAP Alert Notification service 
 
 </td>
 <td valign="top">
 
 Documentation of the service:
 
--   [SAP Alert Notification for SAP BTP](https://help.sap.com/viewer/product/ALERT_NOTIFICATION)
+-   [SAP Alert Notification Service](https://help.sap.com/viewer/product/ALERT_NOTIFICATION)
 
 
 Documentation of the integration with SAP Cloud Transport Management:

@@ -10,7 +10,7 @@ Adjust the retention time for files uploaded to the service, depending on your s
 
 ## Context
 
-The default retention time for uploaded files depends on your subscribed service plan is 30 days for *Standard* and 7 days for *Free*. After the configured retention time, an automatic cleanup mechanism deletes files that meet specific criteria. You can adjust the retention time to a supported value based on your service plan: 1 to 30 days for Standard, or 1 to 7 days for Free.
+The default retention time for uploaded files depends on your subscribed service plan. It is 30 days for *Standard* and 7 days for *Free*. After the configured retention time, an automatic cleanup mechanism deletes files that meet specific criteria. You can adjust the retention time to a supported value based on your service plan: 1 to 90 days for *Standard*, or 1 to 7 days for *Free*.
 
 
 

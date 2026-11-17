@@ -8,7 +8,7 @@ To address the target end point of application-specific content deployment, spec
 
 ## Procedure
 
-1.  In SAP BTP Cockpit of your subaccount, choose *Connectivity* \> *Destinations*.
+1.  In cockpit of your subaccount, choose *Connectivity* \> *Destinations*.
 
 2.  In the *Destinations* editor, choose *Create* \> *From Scratch* \> *Create*.
 
@@ -48,8 +48,8 @@ To address the target end point of application-specific content deployment, spec
     </td>
     <td valign="top" rowspan="5">
     
-    -   SAP BTP, Cloud Foundry: [Using the Destinations Editor in the Cockpit](https://help.sap.com/docs/CP_CONNECTIVITY/cca91383641e40ffbe03bdc78f00f681/565fdb3dd19d4cda80864341dc5a0451.html) 
-    -   SAP BTP, Neo: [Configure Destinations from the Cockpit](https://help.sap.com/docs/CP_CONNECTIVITY/b865ed651e414196b39f8922db2122c7/60735ad11d8a488c83537cdcfb257135.html)
+    -   Cloud Foundry: [Using the Destinations Editor in the Cockpit](https://help.sap.com/docs/CP_CONNECTIVITY/cca91383641e40ffbe03bdc78f00f681/565fdb3dd19d4cda80864341dc5a0451.html) 
+    -   Neo: [Configure Destinations from the Cockpit](https://help.sap.com/docs/CP_CONNECTIVITY/b865ed651e414196b39f8922db2122c7/60735ad11d8a488c83537cdcfb257135.html)
 
 
     

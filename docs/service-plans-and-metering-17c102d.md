@@ -2,7 +2,7 @@
 
 # Service Plans and Metering
 
-This page explains the relationship between the service plans in the SAP Discovery Center and those in the SAP BTP cockpit, and provides information to help you understand how the service is billed.
+This page explains the relationship between the service plans in the SAP Discovery Center and those in the cockpit, and provides information to help you understand how the service is billed.
 
 
 
@@ -18,7 +18,7 @@ This page explains the relationship between the service plans in the SAP Discove
 
 SAP Cloud Transport Management is accessible through the consumption-based commercial model.
 
-![The service plans of SAP Cloud Transport Management service as displayed in the SAP Discovery Center and in the SAP BTP cockpit, with their respective SKUs.](images/Cost_Usage_Transparency_Graph_cTMS_320074b.png)
+![The service plans of SAP Cloud Transport Management service as displayed in the SAP Discovery Center and in the cockpit, with their respective SKUs.](images/Cost_Usage_Transparency_Graph_cTMS_320074b.png)
 
 
 
@@ -41,7 +41,7 @@ The following application plans are available for SAP Cloud Transport Management
 <tr>
 <th valign="top">
 
-Name in SAP BTP Cockpit
+Name in Cockpit 
 
 </th>
 <th valign="top">
@@ -80,7 +80,7 @@ Manage transports of development artifacts and application-specific content
 
 Default plan to use SAP Cloud Transport Management.
 
-**Features:** Unlimited size of transport landscape. 50 GB of total storage capacity of uploaded files. 1GB maximum individual file size. 30 days retention time of uploaded and transported files.
+**Features:** Unlimited size of transport landscape. 50 GB of total storage capacity of uploaded files. 1GB maximum individual file size. 30 days default retention time for uploaded and transported files. You can configure the file retention time up to 90 days.
 
 </td>
 </tr>
@@ -104,7 +104,7 @@ Manage transports of development artifacts and application-specific content
 
 Plan to be used, if you use SAP Cloud Transport Management to transport content created using a service from the SAP Build ecosystem.
 
-**Features:** Unlimited size of transport landscape. 50 GB of total storage capacity of uploaded files. 1GB maximum individual file size. 30 days retention time of uploaded and transported files.
+**Features:** Unlimited size of transport landscape. 50 GB of total storage capacity of uploaded files. 1GB maximum individual file size. 30 days default retention time for uploaded and transported files. You can configure the file retention time up to 90 days.
 
 </td>
 </tr>
@@ -143,7 +143,7 @@ The instance plans offered by the service are optional free plans to access the 
 <tr>
 <th valign="top">
 
-Name in SAP BTP Cockpit
+Name in Cockpit 
 
 </th>
 <th valign="top">

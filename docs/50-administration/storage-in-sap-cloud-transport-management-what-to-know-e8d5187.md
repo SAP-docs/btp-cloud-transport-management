@@ -60,7 +60,7 @@ Standard / build-code / build-runtime
 
 30 days \(default\)
 
-You can set 1 - 30 days.
+You can set 1 - 90 days.
 
 </td>
 </tr>
@@ -137,7 +137,7 @@ You can set 1 - 7 days.
 > 
 > 30 days \(default\)
 > 
-> You can set 1 - 30 days.
+> You can set 1 - 90 days.
 > 
 > </td>
 > </tr>

@@ -19,14 +19,14 @@ Create transport nodes as representations of the source and target end points of
 -   You are on one of the following screens in the SAP Cloud Transport Management UI:
     -   On the *Landscape Visualization* screen, you've chosen :heavy_plus_sign:.
     -   On the *Transport Landscape Wizard* screen, you create a transport node as part of the wizard.
-    -   On the *Transport Nodes* screen, you've chosen :heavy_plus_sign:.
+    -   On the *Transport Nodes* screen, you've chosen *Create*.
 
 
 
 
 ## Procedure
 
-1.  On the dialog, enter the necessary information or select the required options in the following fields:
+1.  In the *General Information* section, enter the necessary information or select the required options in the following fields:
 
 
     <table>
@@ -69,7 +69,7 @@ Create transport nodes as representations of the source and target end points of
     </td>
     <td valign="top">
     
-    Enter a description.
+    Enter a description to add additional information.
 
     > ### Note:  
     > This field is optional.
@@ -104,10 +104,33 @@ Create transport nodes as representations of the source and target end points of
         -   When you delete a transport node that has a tag exclusively assigned to it.
 
     -   Searching for tags is currently not possible.
-    -   Tags are displayed in the *Tags* column on the *Transport Nodes* screen. They are not visible on other screens, such as the import queue.
+    -   Tags are displayed in the *Tags* column on the *Transport Nodes* screen. They aren't visible on other screens, such as the import queue.
 
     > ### Note:  
     > This field is optional.
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *Forwarding Mode*
+    
+    </td>
+    <td valign="top">
+    
+    The following forwarding modes are available:
+
+    -   *Pre-Import* \(default\): When imports of transport requests are started in this node, as a first step, the requests are automatically forwarded to all target transport nodes, before being imported in the current node.
+    -   *Post-Import*: Transport requests are automatically forwarded, after they've been imported in the current node, regardless of the import results and the request statuses after the imports. If the import fails, the transport requests are still forwarded to the import queues of the target nodes.
+    -   *On Success*: Transport requests are only automatically forwarded, after they've been successfully imported in the current node. An import is successful, if the status of the request after the import is either *Skipped*, *Succeeded*, or *Warning*.
+    -   *Manual*: No automatic forwarding of transport requests. A *Forward* button appears in the import queue of this node. You can choose which transports to forward at a later point in time.
+
+        > ### Note:  
+        > The manual *Forwarding* function is only available in an import queue, if some prerequisites are fulfilled as described in [Forward Transport Requests](../30-using-import-queue/forward-transport-requests-630fae7.md).
+
 
 
     
@@ -132,7 +155,7 @@ Create transport nodes as representations of the source and target end points of
     <tr>
     <td valign="top">
     
-    *Perform Notification*
+    *Send Notifications*
     
     </td>
     <td valign="top">
@@ -142,29 +165,6 @@ Create transport nodes as representations of the source and target end points of
     If you select the checkbox and have configured SAP Alert Notification to send notifications for events of SAP Cloud Transport Management, the notifications are enabled.
 
     For more information, see [Receive Notifications for SAP Cloud Transport Management Actions Using SAP Alert Notification Service](../80-ans-integration/receive-notifications-for-sap-cloud-transport-management-actions-using-sap-alert-notifica-95d4fc7.md).
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-    *Forward Mode*
-    
-    </td>
-    <td valign="top">
-    
-    The following forward modes are available:
-
-    -   *Pre-Import* \(default\): When imports of transport requests are started in this node, as a first step, the requests are automatically forwarded to all target transport nodes, before being imported in the current node.
-    -   *Post-Import*: Transport requests are automatically forwarded, after they've been imported in the current node, regardless of the import results and the request statuses after the imports. If the import fails, the transport requests are still forwarded to the import queues of the target nodes.
-    -   *On Success*: Transport requests are only automatically forwarded, after they've been successfully imported in the current node. An import is successful, if the status of the request after the import is either *Skipped*, *Succeeded*, or *Warning*.
-    -   *Manual*: No automatic forwarding of transport requests. A *Forward* button appears in the import queue of this node. You can choose which transports to forward at a later point in time.
-
-        > ### Note:  
-        > The manual *Forwarding* function is only available in an import queue, if some prerequisites are fulfilled as described in [Forward Transport Requests](../30-using-import-queue/forward-transport-requests-630fae7.md).
-
-
-
     
     </td>
     </tr>
@@ -204,6 +204,24 @@ Create transport nodes as representations of the source and target end points of
     
     </td>
     </tr>
+    </table>
+    
+2.  When you create a **target node**, in the *Deployment Configuration* section, enter the necessary information or select the required options in the following fields:
+
+
+    <table>
+    <tr>
+    <th valign="top">
+
+    Field
+    
+    </th>
+    <th valign="top">
+
+    Description
+    
+    </th>
+    </tr>
     <tr>
     <td valign="top">
     
@@ -238,7 +256,7 @@ Create transport nodes as representations of the source and target end points of
     
     If you create a transport node pointing to a **target** end point of a deployment process, select the *Destination* that you want to use for the import from the dropdown box.
 
-    If you need to create a new destination, use the *Go to Destination View* link to open the *Destinations* editor of your subaccount in SAP BTP Cockpit.
+    If you need to create a new destination, use the *Go to Destination View* link to open the *Destinations* editor of your subaccount in cockpit.
     
     </td>
     </tr>
@@ -268,7 +286,7 @@ Create transport nodes as representations of the source and target end points of
     </tr>
     </table>
     
-2.  Choose *OK*.
+3.  Choose *Save*.
 
 
 
@@ -287,24 +305,24 @@ You have the following options:
 
 -   Edit a transport node.
 
-    -   On the *Transport Nodes* screen, select the radio button in front of the transport node name, and choose :pencil2:.
-    -   On the *Landscape Visualization* screen, select a transport node and click on the :pencil2: icon in the side menu, or on the :pencil2: icon in the icon bar.
+    -   On the *Transport Nodes* screen, select the radio button in front of the transport node name, and choose *Edit*.
+    -   On the *Landscape Visualization* screen, select a transport node and choose the <span class="SAP-icons-V5"></span> \(Node Details\) icon from the side menu. On the popover, choose *Edit*.
 
-    Use the :pencil2: function also to assign tags to nodes or remove tags from them.
+    Use the *Edit* function also to assign tags to nodes or remove tags from them.
 
 -   Navigate to the import queue of a transport node:
 
     -   On the *Transport Nodes* screen, click anywhere in the transport node row.
-    -   On the *Landscape Visualization* screen, select the node, and choose the <span class="SAP-icons-V5"></span> \(Go to this node's import queue\) icon.
+    -   On the *Landscape Visualization* screen, select the node, and choose the <span class="SAP-icons-V5"></span> \(Go to Node´s Import Queue\) icon from the side menu.
 
     The selected configurations are displayed in the header area. Virtual nodes are highlighted using an info label.
 
--   If the transport node is assigned to transport routes, you can display the assign transport routes:
-    -   On the *Transport Nodes* screen, click anywhere in the transport node row, and choose the *Transport Routes* tab.
-    -   On the *Landscape Visualization* screen, select the node, choose the <span class="SAP-icons-V5"></span> \(Go to this node´s import queue\) icon, and choose the *Transport Routes* tab.
+-   If the transport node is assigned to transport routes, you can display the assigned transport routes:
+    -   On the *Transport Nodes* detail screen, click anywhere in the transport node row to open the import queue, and choose the *Transport Routes* tab.
+    -   On the *Landscape Visualization* screen, select the node, choose the <span class="SAP-icons-V5"></span> \(Go to Node´s Import Queue\) icon, and choose the *Transport Routes* tab.
 
 
-You can check the details of all actions performed on nodes in the [Landscape Action Logs](../landscape-action-logs-7b630db.md).
+You can check the details of all actions run on nodes in the [Landscape Action Logs](../landscape-action-logs-7b630db.md).
 
 
 
@@ -319,4 +337,6 @@ You can check the details of all actions performed on nodes in the [Landscape Ac
                             Foundry
 		subaccount. Transports take place between transport nodes. ")**  
 In SAP Cloud Transport Management service, transport nodes represent source or target end points of a deployment process - for example, a Cloud Foundry subaccount. Transports take place between transport nodes.
+-   **[Deleting Transport Nodes](deleting-transport-nodes-7096e74.md "Delete a transport node that is no longer needed in your transport landscape.")**  
+Delete a transport node that is no longer needed in your transport landscape.
 

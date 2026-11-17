@@ -44,7 +44,7 @@ You can display all details about the transport request, such as all transport n
 
 You can display the name of the attached file in a popover.
 
-For `.mtar` files, you can display additional information about the content of the file.
+For `.mtar` files, you can display additional information about the content of the file. If metadata is available from both the content provider and the MTA descriptor, the metadata is shown in separate sections *Transport Request* and *MTA Descriptor*.
 
 > ### Note:  
 > You can display the same information on the *Content* tab when displaying the details of the transport request.
@@ -64,7 +64,7 @@ For `.mtar` files, you can display additional information about the content of t
 You can display the *Log of Transport Request *<Transport Description\>**. It displays the actions for the transport request in the current transport node.
 
 > ### Note:  
-> For MTA deployment on Cloud Foundry, the log of the transport request contains a link to the MTA operation logs for the deploy operation. Like this, you can obtain these logs without using the Cloud Foundry command-line interface \(`cf cli`\).
+> For MTA deployment on Cloud Foundry, the log of the transport request contains a link to the MTA operation logs for the deploy operation. This way, you can obtain these logs without using the Cloud Foundry command-line interface \(`cf cli`\).
 > 
 > Note that the MTA operation logs expire within three days after the operation.
 > 

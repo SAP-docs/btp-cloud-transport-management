@@ -158,7 +158,7 @@ SAP Cloud Transport Management is a multi-tenant aware application and provides 
 
 ## Overview Graphic
 
-![](images/Overview_TMS_a1a2064.png)
+![Diagram showing a typical transport landscape for the scenario Transport of Content Archives directly in another application, with transport nodes and connecting routes with their respective subaccounts and the required destinations.](images/Overview_TMS_a1a2064.png)
 
 
 
@@ -170,7 +170,7 @@ SAP Cloud Transport Management service can be accessed using a graphical user in
 
 -   Using a graphical user interface
 
-    To use this, you need a subscription to SAP Cloud Transport Management in your subaccount.
+    To use this, you need to subscribe to SAP Cloud Transport Management in your subaccount.
 
 -   Using programmatic access \(API remote call\)
 
@@ -202,12 +202,12 @@ Description
 <tr>
 <td valign="top">
 
-[SAP BTP Cockpit](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/abcae5b568c94e5391a74d15f5db9213.html)
+[SAP BTP Cockpit](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/8061ecc529d74465b2b9566a634943ec.html)
 
 </td>
 <td valign="top">
 
-SAP BTP Cockpit is the central point for managing all activities associated with your subaccount.
+SAP BTP cockpit is the central point for managing all activities associated with your subaccount.
 
 </td>
 </tr>
@@ -218,7 +218,7 @@ SAP BTP Cockpit is the central point for managing all activities associated with
 
 [SAP Cloud Transport Management: Feature Scope Description](https://help.sap.com/doc/b5430836c20d4bd8a975cb4d48b4e7a5/Cloud/en-US/Transport_Management_FSD.pdf)
 
-[Information about Regions Availability and Pricing of Cloud Transport Management in SAP Discovery Center](https://discovery-center.cloud.sap/serviceCatalog/cloud-transport-management/?region=all)
+[Information about Regions Availability and Pricing of SAP Cloud Transport Management in SAP Discovery Center](https://discovery-center.cloud.sap/serviceCatalog/cloud-transport-management/?region=all)
 
 [SAP BTP Administrator's Guide: Delivering Applications](https://help.sap.com/docs/btp/best-practices/delivering-applications)
 
@@ -226,5 +226,5 @@ SAP BTP Cockpit is the central point for managing all activities associated with
 
 [Release Navigator for SAP BTP: SAP Cloud Transport Management Service](https://readiness-at-scale.enable-now.cloud.sap/pub/20230621_ras/index.html?show=book!BO_EC8330B09B97CDBE#slide!SL_389720104C687893)
 
-[SAP Business Technology Platform documentation: About Services](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/d1d0fc8e78474494a59caad02259ec7e.html)
+[SAP Business Technology Platformdocumentation: About Services](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/d1d0fc8e78474494a59caad02259ec7e.html)
 

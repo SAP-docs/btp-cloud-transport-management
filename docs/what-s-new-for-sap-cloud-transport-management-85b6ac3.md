@@ -87,6 +87,428 @@ Scope
 <tr>
 <td valign="top">
 
+Cloud Transport Management
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Object Page Layout for Transport Nodes and Routes
+
+</td>
+<td valign="top">
+
+The layout for creating and editing transport nodes and transport routes now follows an object page-based structure instead of dialog boxes. The new layout gives you more space and a clearer structure for entering configuration details.
+
+The transport node details were also restructured. Actions and information that were previously available through separate buttons or icons are now grouped more semantically. Import-related actions are available from the *Import Settings* menu. Content type-specific information is shown in dedicated tabs, such as *MTA Extension Descriptors* for multi-target application content and *Deployment Configuration* for application content.
+
+In the *Landscape Visualization*, creating and editing nodes and routes now open in a separate area on the right.
+
+> ### Note:  
+> If you don't see the changes, clear your browser cache and reload the page.
+
+See:
+
+-   [Create Transport Nodes](20-configure-landscape/create-transport-nodes-f71a4d5.md)
+-   [Create Transport Routes](20-configure-landscape/create-transport-routes-dddb749.md)
+-   [Using the Landscape Visualization](using-the-landscape-visualization-9fea4f2.md)
+-   [Upload MTA Extension Descriptors](30-using-import-queue/upload-mta-extension-descriptors-0c7a672.md)
+-   [Upload Deployment Configuration for Application Content](30-using-import-queue/upload-deployment-configuration-for-application-content-6dd1466.md)
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Changed
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Cloud Transport Management
+
+</td>
+<td valign="top">
+
+2026-11-12
+
+</td>
+<td valign="top">
+
+2026-11-16
+
+</td>
+<td valign="top">
+
+2611a
+
+</td>
+<td valign="top">
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Cloud Transport Management
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Grouped Import Settings for Transport Nodes
+
+</td>
+<td valign="top">
+
+Import-related settings are now grouped under one *Import Settings* menu in the transport node details \(import queue\). From this menu, you can schedule imports, enable or disable automatic imports, and disable or enable imports for a selected transport node. This makes the available import settings easier to find and keeps the import-related options in one place.
+
+See:
+
+-   [Import Settings](30-using-import-queue/import-settings-baef742.md)
+-   [Schedule Imports](30-using-import-queue/schedule-imports-110a7a4.md)
+-   [Enable Automatic Import](30-using-import-queue/enable-automatic-import-9171d39.md)
+-   [Disable the Import](30-using-import-queue/disable-the-import-f810a35.md)
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Changed
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Cloud Transport Management
+
+</td>
+<td valign="top">
+
+2026-11-12
+
+</td>
+<td valign="top">
+
+2026-11-16
+
+</td>
+<td valign="top">
+
+2611a
+
+</td>
+<td valign="top">
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Cloud Transport Management
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Increased Maximum File Retention Time
+
+</td>
+<td valign="top">
+
+You can now configure the file retention time for uploaded files to a maximum of 90 days for supported paid application plans. The default retention time remains 30 days.
+
+See:
+
+-   [Configuring File Retention Time](50-administration/configuring-file-retention-time-9969d8d.md)
+-   [Storage in SAP Cloud Transport Management: What To Know](50-administration/storage-in-sap-cloud-transport-management-what-to-know-e8d5187.md)
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Changed
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Cloud Transport Management
+
+</td>
+<td valign="top">
+
+2026-11-12
+
+</td>
+<td valign="top">
+
+2026-11-16
+
+</td>
+<td valign="top">
+
+2611a
+
+</td>
+<td valign="top">
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Cloud Transport Management
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Terminology Updates in SAP Cloud Transport Management User Interface
+
+</td>
+<td valign="top">
+
+The following labels in the user interface were updated for clarity and consistency:
+
+-   The *Perform Notification* checkbox was renamed to *Send Notifications*.
+-   *Forward Mode* was renamed to *Forwarding Mode*.
+-   The *Source* and *Target* column headers in the *Transport Routes* screen were renamed to *Source Node* and *Target Node*.
+
+See:
+
+-   [Create Transport Nodes](20-configure-landscape/create-transport-nodes-f71a4d5.md)
+
+-   [Create Transport Routes](20-configure-landscape/create-transport-routes-dddb749.md)
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Changed
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Cloud Transport Management
+
+</td>
+<td valign="top">
+
+2026-11-12
+
+</td>
+<td valign="top">
+
+2026-11-16
+
+</td>
+<td valign="top">
+
+2611a
+
+</td>
+<td valign="top">
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Cloud Transport Management
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Improved Display of Object Metadata for Transport Requests
+
+</td>
+<td valign="top">
+
+Object metadata for transport requests is now displayed more clearly. If metadata is available from both the content provider and the MTA descriptor, the metadata is shown in separate sections for transport request information and MTA descriptor information. This makes it easier to identify the source and meaning of the displayed metadata.
+
+See:
+
+-   [Displaying Details of Transport Requests](40-using-request-overview/displaying-details-of-transport-requests-0415f2f.md)
+-   [Options to Display Information about Transport Requests](30-using-import-queue/options-to-display-information-about-transport-requests-a90d808.md)
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Changed
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Cloud Transport Management
+
+</td>
+<td valign="top">
+
+2026-11-12
+
+</td>
+<td valign="top">
+
+2026-11-12
+
+</td>
+<td valign="top">
+
+2609b
+
+</td>
+<td valign="top">
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Cloud Transport Management 
 
 </td>
@@ -393,7 +815,7 @@ SAP Cloud Transport Management
 </td>
 <td valign="top">
 
-2026-01-01
+2026-01-05
 
 </td>
 <td valign="top">
@@ -831,7 +1253,7 @@ New *Service Plans and Metering* topic
 </td>
 <td valign="top">
 
-The topic contains information about the service plans needed to understand the relationship between the content of the Discovery Center and the content in SAP BTP Cockpit.
+The topic contains information about the service plans needed to understand the relationship between the content of the Discovery Center and the content in cockpit.
 
 See:
 
@@ -1071,7 +1493,7 @@ Deprecation of route used in Cloud Foundry destinations using SAP Cloud Deployme
 
 The legacy route <code>https://deploy-service.cfapps.<i class="varname">&lt;domain&gt;</i></code> is deprecated and will be removed in Q4/2026.
 
-<code><i class="varname">&lt;domain&gt;</i></code> is derived from the Cloud Foundry API endpoint, which can be found in the SAP BTP cockpit of your subaccount under *Overview*.
+<code><i class="varname">&lt;domain&gt;</i></code> is derived from the Cloud Foundry API endpoint, which can be found in the cockpit of your subaccount under *Overview*.
 
 **Action**: If you have destinations pointing to the legacy route, update all Cloud Foundry destinations using SAP Cloud Deployment service to <code>https://deploy-service.cf.<i class="varname">&lt;domain&gt;</i></code> by replacing `cfapps` with `cf`.
 
@@ -1650,7 +2072,7 @@ Data protection and privacy information of the service can now be accessed direc
 </td>
 <td valign="top">
 
-From the User Profile dropdown menu, you can now directly open the data protection and privacy information in the SAP Cloud Transport Management documentation on SAP Help Portal.
+From the *User Profile* dropdown menu, you can now directly open the data protection and privacy information in the SAP Cloud Transport Management documentation on SAP Help Portal.
 
 See:
 
@@ -2559,7 +2981,7 @@ If you want to transport SAP Integration Suite content using SAP Cloud Transport
 
 See:
 
--   [Transport SAP Integration Suite Content using SAP Cloud Transport Management service and SAP Content Agent service](https://developers.sap.com/tutorials/btp-transport-management-cpi-01-use-case.html)
+-   [Transport SAP Integration Suite Content using SAP Cloud Transport Management service and SAP Content Agent service](https://developers.sap.com/tutorials/group-transport-sap-integration-suite-content-using-sap-cloud-transport-management-service-and-sap-content-agent-service)
 
 
 

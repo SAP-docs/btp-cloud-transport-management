@@ -19,7 +19,7 @@ The destination-based configuration continues to work until its removal in Q4 20
 
 This has the following immediate effects:
 
--   If you have existing SAP Alert Notification service subscriptions for SAP Cloud Transport Management events and haven't set `tags.nodeName` or `tags.nodeId` conditions in SAP Alert Notification service: Notifications are sent for **all** transport nodes in that subaccount, not only for the nodes where you previously enabled the *Perform Notification* checkbox.
+-   If you have existing SAP Alert Notification service subscriptions for SAP Cloud Transport Management events and haven't set `tags.nodeName` or `tags.nodeId` conditions in SAP Alert Notification service: Notifications are sent for **all** transport nodes in that subaccount, not only for the nodes where you previously enabled the *Send Notifications* checkbox.
 
 -   If you've used the configuration in SAP Alert Notification service also to receive notifications from subaccounts other than the one with the SAP Alert Notification service instance: These other subaccounts don't receive additional notifications.
 
@@ -32,7 +32,7 @@ Upon removal in Q4 2026, the following changes are in place:
 
     If you have multiple subaccounts and used the previous configuration of SAP Cloud Transport Management events in SAP Alert Notification service for multiple subaccounts, this is no longer supported. You must create an instance of in SAP Alert Notification service in each subaccount where you want to receive events and configure the SAP Cloud Transport Management events separately in each SAP Alert Notification service instance.
 
--   The *Perform Notification* checkbox is removed from the transport node creation dialog.
+-   The *Send Notifications* checkbox is removed from the transport node creation dialog.
 
     Use node-level conditions in SAP Alert Notification service to restrict notifications to specific transport nodes.
 
@@ -58,13 +58,13 @@ Upon removal in Q4 2026, the following changes are in place:
 
     For more information, see [Managing Conditions](https://help.sap.com/docs/ALERT_NOTIFICATION/5967a369d4b74f7a9c2b91f5df8e6ab6/35ca5de101fc4d5791cdbb2df15e9d9b.html) in the SAP Alert Notification documentation.
 
-2.  **Optional:** Only possible before removal of destination-based integration: Clear the *Perform Notification* checkbox on the relevant transport nodes.
+2.  **Optional:** Only possible before removal of destination-based integration: Clear the *Send Notifications* checkbox on the relevant transport nodes.
 
     Once cleared, the trusted internal service integration is used for that node, and the destination is no longer required.
 
 3.  **Optional:** Only possible before removal of destination-based integration: Clear the *Enable Notification* checkbox under :gear: → *File Quota*.
 
-4.  **Optional:** Delete the `ALERT_NOTIFICATION_SERVICE` destination from SAP BTP Cockpit to clean up your subaccounts.
+4.  **Optional:** Delete the `ALERT_NOTIFICATION_SERVICE` destination from cockpit to clean up your subaccounts.
 
 5.  If you have multiple subaccounts where you want to receive notifications, create new service instances of SAP Alert Notification service in these subaccounts and follow the steps described in [Receive Notifications for SAP Cloud Transport Management Actions Using SAP Alert Notification Service](receive-notifications-for-sap-cloud-transport-management-actions-using-sap-alert-notifica-95d4fc7.md).
 
@@ -80,5 +80,5 @@ When SAP Cloud Transport Management uses the destination-based integration, the 
 **Related Information**  
 
 
-[Receive Notifications for SAP Cloud Transport Management Actions Using SAP Alert Notification Service](receive-notifications-for-sap-cloud-transport-management-actions-using-sap-alert-notifica-95d4fc7.md "You can configure SAP Alert Notification Service to send notifications for actions started in SAP Cloud Transport Management service.")
+[Receive Notifications for SAP Cloud Transport Management Actions Using SAP Alert Notification Service](receive-notifications-for-sap-cloud-transport-management-actions-using-sap-alert-notifica-95d4fc7.md "You can configure SAP Alert Notification service to send notifications for actions started in SAP Cloud Transport Management service.")
 

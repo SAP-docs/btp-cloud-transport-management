@@ -71,7 +71,7 @@ To set up the integration of SAP Cloud Transport Management for the content type
 
     Blog post:
 
-    -   [SAP Analytic Cloud Content Network Package Transport via BTP Transport Management service](https://blogs.sap.com/2023/08/20/sap-analytic-cloud-content-network-package-transport-via-btp-transport-management-service./)
+    -   [SAP Analytic Cloud Content Network Package Transport via SAP BTP Transport Management service](https://blogs.sap.com/2023/08/20/sap-analytic-cloud-content-network-package-transport-via-btp-transport-management-service./)
 
 
 
@@ -160,7 +160,7 @@ To set up the integration of SAP Cloud Transport Management for the content type
     <tr>
     <td valign="top">
     
-    SAP BTP ABAP environment 
+    SAP Business AI Platform, ABAP environment 
     
     </td>
     <td valign="top">
@@ -171,9 +171,9 @@ To set up the integration of SAP Cloud Transport Management for the content type
 
     Documentation of the integration with SAP Cloud Transport Management:
 
-    -   More information about configuration for export: [How to Export Using SAP Cloud Transport Management Service](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/b837a3b4226843cb86e8c35d2f35e6fa.html?locale=en-US)
+    -   More information about configuration for export: [Export Commits using SAP Cloud Transport Management](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/b837a3b4226843cb86e8c35d2f35e6fa.html?locale=en-US)
 
-    -   More information about configuration for import: [Creating Destinations for Deployment of References of SAP BTP, ABAP Environment](../20-configure-landscape/creating-destinations-for-deployment-of-references-of-sap-btp-abap-environment-3014453.md)
+    -   More information about configuration for import: [Creating Destinations for Deployment of References of SAP Business AI Platform, ABAP environment](../20-configure-landscape/creating-destinations-for-deployment-of-references-of-sap-business-ai-platform-abap-envir-3014453.md)
 
 
     Blog posts:
@@ -340,7 +340,7 @@ To set up the integration of SAP Cloud Transport Management for the content type
 
     Blog post:
 
-    -   [SAP Datasphere Content Network Package Transport via BTP Transport Management service](https://community.sap.com/t5/technology-blogs-by-sap/sap-datasphere-content-networkpackage-transport-via-btp-transport/ba-p/13759735)
+    -   [SAP Datasphere Content Network Package Transport via SAP BTP Transport Management service](https://community.sap.com/t5/technology-blogs-by-sap/sap-datasphere-content-networkpackage-transport-via-btp-transport/ba-p/13759735)
 
 
     
@@ -465,7 +465,7 @@ To set up the integration of SAP Cloud Transport Management for the content type
     </td>
     <td valign="top">
     
-    In Neo, SAP Solution Lifecycle Management service for SAP BTP is used for the integration using Solution Export Wizard. In Cloud Foundry, SAP Content Agent service is used for export, and both SAP Cloud Deployment service and SAP Content Agent service can be used for import.
+    In Neo, SAP Solution Lifecycle Management service on SAP platform is used for the integration using Solution Export Wizard. In Cloud Foundry, SAP Content Agent service is used for export, and both SAP Cloud Deployment service and SAP Content Agent service can be used for import.
 
     Documentation of the SAP cloud solution:
 
@@ -478,7 +478,7 @@ To set up the integration of SAP Cloud Transport Management for the content type
 
     Tutorial on transporting SAP Integration Suite content in Cloud Foundry using SAP Content Agent service for export and import:
 
-    -   [Transport SAP Integration Suite Content using SAP Cloud Transport Management service and SAP Content Agent service](https://developers.sap.com/tutorials/btp-transport-management-cpi-01-use-case.html)
+    -   [Transport SAP Integration Suite Content using SAP Cloud Transport Management service and SAP Content Agent service](https://developers.sap.com/tutorials/group-transport-sap-integration-suite-content-using-sap-cloud-transport-management-service-and-sap-content-agent-service)
 
     Blog posts:
 

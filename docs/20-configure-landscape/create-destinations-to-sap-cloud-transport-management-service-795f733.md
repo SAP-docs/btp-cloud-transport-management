@@ -44,19 +44,19 @@ In the source environment of your application, create a destination to SAP Cloud
 
 ## Procedure
 
--   SAP BTP, Cloud Foundry Environment
+-   Cloud Foundry Environment
 
     The specific details for your application may depend on different criteria, such as whether SAP Content Agent service is used to export the content into `.mtar` files before handing them over to SAP Cloud Transport Management.
 
-    For SAP Cloud Integration content, see [Enabling Content Transport, Cloud Foundry Enviroment](https://help.sap.com/docs/CLOUD_INTEGRATION/368c481cd6954bdfa5d0435479fd4eaf/452c677debfc4fda904310560ab03743.html?locale=en-US).
+    For SAP Cloud Integration content, see [Enabling Content Transport, Cloud Foundry Environment](https://help.sap.com/docs/CLOUD_INTEGRATION/368c481cd6954bdfa5d0435479fd4eaf/452c677debfc4fda904310560ab03743.html?locale=en-US).
 
     For an example, see [Example: Destination to SAP Cloud Transport Management Using Client Credentials](create-destinations-to-sap-cloud-transport-management-service-795f733.md#loio75fe5d4b4fa3492c87ef6be32ea0b819).
 
--   SAP BTP, Neo Environment
+-   Neo Environment
 
-    If your application runs in the SAP BTP, Neo environment, you define the destinations to SAP Cloud Transport Management in the SAP Solution Lifecycle Management service.
+    If your application runs in the Neo environment, you define the destinations to SAP Cloud Transport Management in the SAP Solution Lifecycle Management service.
 
-    For more information about how to configure destinations in SAP BTP, Neo, see [Set Up Direct Uploads of MTA Archives Using the Transport Management Service](https://help.sap.com/docs/BTP/ea72206b834e4ace9cd834feed6c0e09/af84d67f4be24542ac5e46f613a99435.html?locale=en-US).
+    For more information about how to configure destinations in Neo, see [Set Up Direct Uploads of MTA Archives Using the Transport Management Service](https://help.sap.com/docs/BTP/ea72206b834e4ace9cd834feed6c0e09/af84d67f4be24542ac5e46f613a99435.html?locale=en-US).
 
     For SAP Cloud Integration, see also [Enabling Content Transport, Neo Environment](https://help.sap.com/docs/CLOUD_INTEGRATION/368c481cd6954bdfa5d0435479fd4eaf/425db2bb73e74783801df7a1d81cacfc.html?locale=en-US).
 
@@ -72,7 +72,7 @@ In the source environment of your application, create a destination to SAP Cloud
 
 ## Example: Destination to SAP Cloud Transport Management Using Client Credentials
 
-The following is a sample configuration of a destination to SAP Cloud Transport Management to transport SAP Cloud Integration content in SAP BTP, Cloud Foundry.
+The following is a sample configuration of a destination to SAP Cloud Transport Management to transport SAP Cloud Integration content in Cloud Foundry.
 
 In this example, SAP Content Agent service is used to export the integration content to `.mtar` files and to hand them over to SAP Cloud Transport Management.
 

@@ -92,7 +92,7 @@ To update your SAP Cloud Transport Management subscription service plan, proceed
 
 ## Procedure
 
-1.  In your subaccount in BTP cockpit, choose *Services* \> *Instances and Subscriptions*.
+1.  In your subaccount in cockpit, choose *Services* \> *Instances and Subscriptions*.
 
 2.  Select the arrow in the *Cloud Transport Management* row to display the application details.
 

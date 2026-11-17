@@ -2,7 +2,7 @@
 
 # Forward Transport Requests
 
-If the *Forward Mode* of a transport node is set to the value *Manual*, you can manually forward transport requests in this node to target transport nodes.
+If the *Forwarding Mode* of a transport node is set to the value *Manual*, you can manually forward transport requests in this node to target transport nodes.
 
 
 
@@ -10,10 +10,10 @@ If the *Forward Mode* of a transport node is set to the value *Manual*, you can 
 
 ## Prerequisites
 
--   You have one of the roles *Administrator* or *TransportOperator* assigned to your role. For more information, see [Security](../60-security/security-51939a4.md).
+-   You have one of the roles *Administrator* or *TransportOperator* assigned to your user. For more information, see [Security](../60-security/security-51939a4.md).
 
 -   You are in the import queue of the transport node where you want to forward transport requests. For more information, see [Prerequisites for Using the Import Queue](prerequisites-for-using-the-import-queue-dd661c7.md).
--   The *Forward Mode* of the transport node is set to the value *Manual*. For more information, see [Create Transport Nodes](../20-configure-landscape/create-transport-nodes-f71a4d5.md).
+-   The *Forwarding Mode* of the transport node is set to the value *Manual*. For more information, see [Create Transport Nodes](../20-configure-landscape/create-transport-nodes-f71a4d5.md).
 -   The archive that is attached to the transport request isn’t deleted.
 
     Forwarding transport requests is only possible as long as the archive exists. The default retention period of archives depends on the service plan that you use for SAP Cloud Transport Management. For more information, see [Storage in SAP Cloud Transport Management: What To Know](../50-administration/storage-in-sap-cloud-transport-management-what-to-know-e8d5187.md).
@@ -24,9 +24,9 @@ If the *Forward Mode* of a transport node is set to the value *Manual*, you can 
 
 ## Context
 
-If the forward mode of a transport node is *Manual*, no automatic forwarding takes place. Forwarding takes place into all target transport nodes according to the transport routes defined for the node where the import is started. You can manually select individual transport requests in the current import queue that you want to forward.
+If the forwarding mode of a transport node is *Manual*, no automatic forwarding takes place. Forwarding takes place into all target transport nodes according to the transport routes defined for the node where the import is started. You can manually select individual transport requests in the current import queue that you want to forward.
 
-For transport nodes of content type *BTP ABAP*: You can forward transport requests only according to the *Import upto* logic. This means the selected transport request is forwared along with all previous requests.
+For transport nodes of content type *BTP ABAP*: You can forward transport requests only according to the *Import upto* logic. This means the selected transport request is forwarded along with all previous requests.
 
 
 

@@ -115,7 +115,7 @@ In the example, the destination URL is incorrect because it points to the wrong 
 > ### Note:  
 > You can find the API endpoint in one of the following ways:
 > 
-> -   Use SAP BTP cockpit. In the *Subaccount Overview*, go to the *Cloud Foundry Environment* tab.
+> -   Use cockpit. In the *Subaccount Overview*, go to the *Cloud Foundry Environment* tab.
 > 
 >     ![](images/Get_API_Endpoint_481b65d.png)
 > 
@@ -206,7 +206,7 @@ Note that the user name configured in the destination starts with "ra".
 
 Check that the user used for the destination exists with the `SpaceDeveloper` role assigned in the target subaccount. You have the following options:
 
--   In SAP BTP cockpit, go to your subaccount, and choose: *Cloud Foundry* \> *Spaces* from the navigation on the left. Click on the space tile. Choose *Space Members* from the navigation.
+-   In cockpit, go to your subaccount, and choose: *Cloud Foundry* \> *Spaces* from the navigation on the left. Click on the space tile. Choose *Space Members* from the navigation.
 
     ![](images/No_User_5a91bd6.png)
 

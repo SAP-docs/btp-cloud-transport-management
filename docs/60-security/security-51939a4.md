@@ -34,7 +34,7 @@ Description
 </td>
 <td valign="top">
 
-Contains the overall administration authorization for all SAP Cloud Transport Management tasks. The *Administrator* has all authorizations of the other roles, as well as additional authorizations. In the import queue, the *Administrator* can add files to the import queue, remove files from the import queue, and reset the status of transport requests. If the *Forward Mode* of a transport node is set to the value *Manual*, the *Administrator* can forward all or selected transport requests to the target import queue.
+Contains the overall administration authorization for all SAP Cloud Transport Management tasks. The *Administrator* has all authorizations of the other roles, as well as additional authorizations. In the import queue, the *Administrator* can add files to the import queue, remove files from the import queue, and reset the status of transport requests. If the *Forward ing Mode* of a transport node is set to the value *Manual*, the *Administrator* can forward all or selected transport requests to the target import queue.
 
 </td>
 </tr>
@@ -140,7 +140,7 @@ Grants display authorization in SAP Cloud Transport Management. This role doesnâ
 </tr>
 </table>
 
-For more information about how to use SAP BTP Cockpit to create roles and role collections to which you can assign these role templates, see [Building Roles and Role Collections for Applications](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/eaa6a26291914b348e875a00b6beb729.html).
+For more information about how to use cockpit to create roles and role collections to which you can assign these role templates, see [Building Roles and Role Collections for Applications](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/eaa6a26291914b348e875a00b6beb729.html).
 
 
 
@@ -278,7 +278,7 @@ To do this, you create node-specific roles based on the role templates, and add 
 > 
 > If you donÂ´t add any attributes to a role, this allows unrestricted access to all nodes. If you assign both restricted and unrestricted roles to users, the restricted role takes effect.
 
-For more information about how to use SAP BTP Cockpit to create roles with attributes, see [Attributes](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/713f52ac36a041ef8fdc72560d6cfbcd.html).
+For more information about how to use cockpit to create roles with attributes, see [Attributes](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/713f52ac36a041ef8fdc72560d6cfbcd.html).
 
 
 
@@ -295,7 +295,7 @@ SAP Cloud Transport Management offers different instance plans with specific aut
 <tr>
 <th valign="top">
 
-Name in SAP BTP Cockpit
+Name in Cockpit 
 
 </th>
 <th valign="top">
@@ -407,8 +407,9 @@ The uploaded archives and MTA extension descriptors aren't encrypted by the pers
 -   **[Auditing and Logging Information](auditing-and-logging-information-9e3ee94.md "Here you can find a list of the security events that are logged by SAP Cloud Transport Management
         service.")**  
 Here you can find a list of the security events that are logged by SAP Cloud Transport Management service.
--   **[Data Protection and Privacy](data-protection-and-privacy-a2749d5.md "")**  
-
+-   **[Data Protection and Privacy](data-protection-and-privacy-a2749d5.md "Find out what personal data SAP Cloud Transport Management processes, how tenant data is encapsulated, and what options exist for viewing or
+		deleting personal data.")**  
+Find out what personal data SAP Cloud Transport Management processes, how tenant data is encapsulated, and what options exist for viewing or deleting personal data.
 -   **[Customer Data Export](customer-data-export-11365bf.md "Exporting transport-related action logs, MTA extension descriptors, and the current landscape configuration is possible at any time as
 		part of the user interface of SAP Cloud Transport Management service. Additionally, it is possible to request a
 		final customer data export as part of a decommissioning process.")**  

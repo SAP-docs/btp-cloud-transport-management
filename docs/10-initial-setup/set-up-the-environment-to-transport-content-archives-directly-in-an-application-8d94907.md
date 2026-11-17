@@ -12,9 +12,9 @@ The steps in the topics linked below outline the general steps for setting up SA
 > For the initial setup steps, see also the tutorial on SAP Tutorial Navigator: [Get Started with SAP Cloud Transport Management Service](https://developers.sap.com/tutorials/btp-transport-management-getting-started.html)
 
 > ### Note:  
-> Most of the steps described in the topics linked below can be done either using SAP BTP Cockpit or Cloud Foundry command line interface.
+> Most of the steps described in the topics linked below can be done either using cockpit or Cloud Foundry command line interface.
 > 
-> The topics describe the steps in SAP BTP Cockpit. For each step, they contain links to general documentation about the actions. There, you will also find information about how to perform the steps using the Cloud Foundry command line interface.
+> The topics describe the steps in cockpit. For each step, they contain links to general documentation about the actions. There, you will also find information about how to perform the steps using the Cloud Foundry command line interface.
 
 -   **[Configuring Entitlements to SAP Cloud Transport Management](configuring-entitlements-to-sap-cloud-transport-management-13894be.md "To define access of your subaccount to SAP Cloud Transport Management service, assign entitlements for the
 		subaccount in which you want to use the service.")**  

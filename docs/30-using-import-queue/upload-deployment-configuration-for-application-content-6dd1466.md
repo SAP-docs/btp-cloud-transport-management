@@ -12,15 +12,15 @@ If the deploying application supports a deployment configuration, you can upload
 
 -   To upload or delete deployment configurations, you need the *TransportOperator* role assigned. For more information, see [Security](../60-security/security-51939a4.md).
 -   The deployment tool or application supports deployment configurations. Consult the relevant documentation for more information.
--   You are in the import queue of a transport node for the Content Type *Application Content*. For more information, see [Prerequisites for Using the Import Queue](prerequisites-for-using-the-import-queue-dd661c7.md).
+-   You are in a transport node with the content type *Application Content*. For more information, see [Prerequisites for Using the Import Queue](prerequisites-for-using-the-import-queue-dd661c7.md).
 
 
 
 ## Context
 
-A deployment configuration is a JSON file that contains data to control aspects of the deployment process, such as target spaces, subfolders, or other deployment tool-specific settings. You can upload it for transport nodes for the Content Type *Application Content*. The supported configuration options and their structure are defined by the deployment tool.
+A deployment configuration is a JSON file that contains data to control aspects of the deployment process, such as target spaces, subfolders, or other deployment tool-specific settings. You can upload it for transport nodes with the content type *Application Content*. The supported configuration options and their structure are defined by the deployment tool.
 
-The deployment configuration is stored per transport node. It's passed to the deployment tool in every import triggered for that node, for as long as it remains configured. Only one deployment configuration can be active for a node at a time.
+The deployment configuration is stored per transport node. It's passed to the deployment tool in every import in that node, for as long as it remains configured. Only one deployment configuration can be active for a node at a time.
 
 Note the following:
 
@@ -36,24 +36,22 @@ Note the following:
 
 ## Procedure
 
-1.  Choose <span class="SAP-icons-V5"></span> Deployment Configuration in the header action bar.
+1.  In the transport node, choose the *Deployment Configuration* tab.
 
-    The *Deployment Configuration* dialog opens.
-
-2.  In the *Configuration File \(JSON\)* field, click in the *Upload \*.json file* field, and select a JSON file that contains the deployment configuration you want to use for deployment in the current transport node.
+2.  To upload a deployment configuration, in the *Configuration File \(JSON\)* field, choose the file picker icon, and select the JSON file that contains the deployment configuration you want to use for deployment in the current transport node.
 
     > ### Note:  
     > The file must be a valid JSON file.
 
     The content of the file is displayed in the *Configuration* preview area.
 
-    The *Description* field is automatically populated with the JSON file name.
+    The *Description* field is populated with the JSON file name.
 
-3.  Choose *Submit Configuration*.
+3.  Choose *Submit*.
 
     The *Description* field is updated with the timestamp of the submission.
 
-4.  In the *Deployment Configuration* dialog, you have the following additional options:
+4.  On the *Deployment Configuration* tab, you have the following additional options:
 
 
     <table>
@@ -77,7 +75,7 @@ Note the following:
     </td>
     <td valign="top">
     
-    Open the *Deployment Configuration* dialog, upload a new file, and choose *Submit Configuration*. The existing configuration is replaced immediately.
+    Select a new JSON file in the *Configuration File \(JSON\)* field, and choose *Submit*. The existing configuration is replaced.
     
     </td>
     </tr>
@@ -89,7 +87,7 @@ Note the following:
     </td>
     <td valign="top">
     
-    Open the *Deployment Configuration* dialog and choose *Delete Configuration*. The deletion is recorded as a transport action.
+    Choose *Remove*. In the *Delete Deployment Configuration* confirmation dialog, choose *OK*. The deletion is recorded as a transport action.
     
     </td>
     </tr>

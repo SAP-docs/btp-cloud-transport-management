@@ -13,7 +13,7 @@ SAP Cloud Transport Management service can be used to transport the following en
     > ### Restriction:  
     > Transporting MTAs without modules is not supported.
 
--   **BTP ABAP**: references to ABAP objects in a Git repository between different SAP BTP ABAP environment instances. A reference can consist of the name of the software component, the commit ID, the branch name, and the tag name. When a reference of type *BTP ABAP* is imported, the referenced content of the Git repository is pulled to the target instance.
+-   **BTP ABAP**: references to ABAP objects in a Git repository between different SAP Business AI Platform, ABAP environment instances. A reference can consist of the name of the software component, the commit ID, the branch name, and the tag name. When a reference of type *BTP ABAP* is imported, the referenced content of the Git repository is pulled to the target instance.
 -   **Application content** transported in an application-specific format between different cloud subaccounts and tenants
 
     In general, application content is packed in archive files, for example, `.zip` files, or `.rar` files. The archives can contain any kind of application-specific content. The application that has created such an archive file must provide a method to deploy the application-specific content into the target environment. This means, such an archive file can only be used for transport if the application-specific deployment service in the target environment is able to handle it. For more information, see the documentation of the individual applications.
@@ -38,7 +38,7 @@ The table contains the following information:
 
 -   **SAP BTP***Service / SAP Cloud Solution*: SAP BTP Service or SAP Cloud Solution in which content is developed.
 -   *Content*: Application-specific content and development artifacts to be transported.
--   *Environment*: SAP BTP environment where the content is created, either *SAP BTP ABAP environment*, *Cloud Foundry*, or *Neo*.
+-   *Environment*: SAP BTP environment where the content is created, either *SAP Business AI Platform, ABAP environment*, *Cloud Foundry*, or *Neo*.
 -   *Content Type*: Entity to transport that you can select when you create a new node in SAP Cloud Transport Management.
 -   *Design Time Integration*: Can the transport be triggered directly in the design time tool of the application where the content is produced?
 -   *Content Agent Service*: Is the integration with SAP Cloud Transport Management realized using SAP Content Agent service? \(Cloud Foundry only\)
@@ -108,7 +108,7 @@ More Information about the Integration
 <tr>
 <td valign="top">
 
-SAP BTP, Cloud Foundry Runtime
+Cloud Foundry Runtime on SAP Platform
 
 </td>
 <td valign="top">
@@ -155,7 +155,7 @@ Content is developed and transported as part of another application.
 
 Specific information: See the documentation of the application.
 
-General information: [Integration with Transport Management Tools](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/c8bee32a24a7430c8d1803fbc95f855c.html) in the SAP BTP, Cloud Foundry documentation
+General information: [Integration with Transport Management Tools](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/c8bee32a24a7430c8d1803fbc95f855c.html) in the Cloud Foundry documentation
 
 </td>
 </tr>
@@ -187,7 +187,7 @@ Yes
 </td>
 <td valign="top">
 
-Yes \(for import and export\)
+Yes \(for export and import\)
 
 </td>
 <td valign="top">
@@ -291,7 +291,7 @@ Yes
 </td>
 <td valign="top">
 
-Yes \(for content selection and deployment\)
+Yes \(for export and import\)
 
 </td>
 <td valign="top">
@@ -635,12 +635,12 @@ No
 <tr>
 <td valign="top">
 
-SAP BTP ABAP environment
+SAP Business AI Platform, ABAP environment
 
 </td>
 <td valign="top">
 
-References to SAP BTP ABAP environment content
+References to SAP Business AI Platform, ABAP environment content
 
 </td>
 <td valign="top">
@@ -650,7 +650,7 @@ BTP ABAP
 </td>
 <td valign="top">
 
-SAP BTP ABAP environment
+SAP Business AI Platform, ABAP environment
 
 </td>
 <td valign="top">
@@ -680,14 +680,14 @@ Export to SAP Cloud Transport Management takes place using the *Manage Software 
 </td>
 <td valign="top">
 
-[SAP BTP, ABAP Environment](10-initial-setup/integrating-sap-cloud-transport-management-with-other-sap-cloud-solutions-ddaa000.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__btp_abap)
+[SAP Business AI Platform, ABAP environment](10-initial-setup/integrating-sap-cloud-transport-management-with-other-sap-cloud-solutions-ddaa000.md#loioddaa000bc92c43d8bd09f4e2c8ca05eb__btp_abap)
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-SAP BTP, Cloud Foundry Runtime
+Cloud Foundry Runtime on SAP Platform
 
 </td>
 <td valign="top">
@@ -734,14 +734,14 @@ Content is developed and transported as part of another application.
 
 Specific information: See the documentation of the application.
 
-General information: [Integration with Transport Management Tools](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/c8bee32a24a7430c8d1803fbc95f855c.html) in the SAP BTP, Cloud Foundry documentation
+General information: [Integration with Transport Management Tools](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/c8bee32a24a7430c8d1803fbc95f855c.html) in the Cloud Foundry documentation
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-SAP BTP, Cloud Foundry Runtime
+Cloud Foundry Runtime on SAP Platform
 
 </td>
 <td valign="top">
@@ -788,7 +788,7 @@ Content is developed and transported as part of another application.
 
 Specific information: See the documentation of the application.
 
-General information: [Integration with Transport Management Tools](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/c8bee32a24a7430c8d1803fbc95f855c.html) in the SAP BTP, Cloud Foundry documentation
+General information: [Integration with Transport Management Tools](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/c8bee32a24a7430c8d1803fbc95f855c.html) in the Cloud Foundry documentation
 
 </td>
 </tr>
@@ -872,7 +872,7 @@ No
 </td>
 <td valign="top">
 
-Yes
+Yes \(for export and import\)
 
 </td>
 <td valign="top">
@@ -1236,7 +1236,7 @@ Yes
 </td>
 <td valign="top">
 
-Yes \(for content selection and deployment\)
+Yes \(for export and import\)
 
 </td>
 <td valign="top">
@@ -1340,7 +1340,7 @@ No
 </td>
 <td valign="top">
 
-Yes
+Yes \(only for export\)
 
 </td>
 <td valign="top">
@@ -1471,7 +1471,7 @@ The *Manage Business Content Packages* app is used to activate and transport in-
 <tr>
 <td valign="top">
 
-SAP BTP, Neo application runtime
+Neo application runtime
 
 </td>
 <td valign="top">
@@ -1518,14 +1518,14 @@ Content is developed and transported as part of another application.
 
 Specific information: See the documentation of the application.
 
-General information: [Integration with Transport Management Tools](https://help.sap.com/docs/BTP/ea72206b834e4ace9cd834feed6c0e09/905baea4d6c7404290bff6c042184b4e.html) in the SAP BTP, Neo documentation.
+General information: [Integration with Transport Management Tools](https://help.sap.com/docs/BTP/ea72206b834e4ace9cd834feed6c0e09/905baea4d6c7404290bff6c042184b4e.html) in the Neo documentation.
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-SAP BTP, Neo application runtime
+Neo application runtime
 
 </td>
 <td valign="top">
@@ -1572,14 +1572,14 @@ Content is developed and transported as part of another application.
 
 Specific information: See the documentation of the application.
 
-General information: [Integration with Transport Management Tools](https://help.sap.com/docs/BTP/ea72206b834e4ace9cd834feed6c0e09/905baea4d6c7404290bff6c042184b4e.html) in the SAP BTP, Neo documentation.
+General information: [Integration with Transport Management Tools](https://help.sap.com/docs/BTP/ea72206b834e4ace9cd834feed6c0e09/905baea4d6c7404290bff6c042184b4e.html) in the Neo documentation.
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-SAP BTP, Neo application runtime
+Neo application runtime
 
 </td>
 <td valign="top">
@@ -1626,14 +1626,14 @@ Content is developed and transported as part of another application.
 
 Specific information: See the documentation of the application.
 
-General information: [Integration with Transport Management Tools](https://help.sap.com/docs/BTP/ea72206b834e4ace9cd834feed6c0e09/905baea4d6c7404290bff6c042184b4e.html) in the SAP BTP, Neo documentation.
+General information: [Integration with Transport Management Tools](https://help.sap.com/docs/BTP/ea72206b834e4ace9cd834feed6c0e09/905baea4d6c7404290bff6c042184b4e.html) in the Neo documentation.
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-SAP BTP, Neo application runtime
+Neo application runtime
 
 </td>
 <td valign="top">
@@ -1680,14 +1680,14 @@ Content is developed and transported as part of another application.
 
 Specific information: See the documentation of the application.
 
-General information: [Integration with Transport Management Tools](https://help.sap.com/docs/BTP/ea72206b834e4ace9cd834feed6c0e09/905baea4d6c7404290bff6c042184b4e.html) in the SAP BTP, Neo documentation.
+General information: [Integration with Transport Management Tools](https://help.sap.com/docs/BTP/ea72206b834e4ace9cd834feed6c0e09/905baea4d6c7404290bff6c042184b4e.html) in the Neo documentation.
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-SAP BTP, Neo application runtime
+Neo application runtime
 
 </td>
 <td valign="top">
@@ -1734,7 +1734,7 @@ Content is developed and transported as part of another application.
 
 Specific information: See the documentation of the application.
 
-General information: [Integration with Transport Management Tools](https://help.sap.com/docs/BTP/ea72206b834e4ace9cd834feed6c0e09/905baea4d6c7404290bff6c042184b4e.html) in the SAP BTP, Neo documentation.
+General information: [Integration with Transport Management Tools](https://help.sap.com/docs/BTP/ea72206b834e4ace9cd834feed6c0e09/905baea4d6c7404290bff6c042184b4e.html) in the Neo documentation.
 
 </td>
 </tr>
@@ -1793,7 +1793,7 @@ No
 <tr>
 <td valign="top">
 
-SAP BTP, Neo application runtime
+Neo application runtime
 
 </td>
 <td valign="top">
@@ -1840,14 +1840,14 @@ Content is developed and transported as part of another application.
 
 Specific information: See the documentation of the application.
 
-General information: [Integration with Transport Management Tools](https://help.sap.com/docs/BTP/ea72206b834e4ace9cd834feed6c0e09/905baea4d6c7404290bff6c042184b4e.html) in the SAP BTP, Neo documentation.
+General information: [Integration with Transport Management Tools](https://help.sap.com/docs/BTP/ea72206b834e4ace9cd834feed6c0e09/905baea4d6c7404290bff6c042184b4e.html) in the Neo documentation.
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-SAP BTP, Neo application runtime
+Neo application runtime
 
 </td>
 <td valign="top">
@@ -1896,14 +1896,14 @@ Content is developed and transported as part of another application.
 
 Specific information: See the documentation of the application.
 
-General information: [Integration with Transport Management Tools](https://help.sap.com/docs/BTP/ea72206b834e4ace9cd834feed6c0e09/905baea4d6c7404290bff6c042184b4e.html) in the SAP BTP, Neo documentation.
+General information: [Integration with Transport Management Tools](https://help.sap.com/docs/BTP/ea72206b834e4ace9cd834feed6c0e09/905baea4d6c7404290bff6c042184b4e.html) in the Neo documentation.
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-SAP BTP, Neo application runtime
+Neo application runtime
 
 </td>
 <td valign="top">
@@ -1950,7 +1950,7 @@ Content is developed and transported as part of another application.
 
 Specific information: See the documentation of the application.
 
-General information: [Integration with Transport Management Tools](https://help.sap.com/docs/BTP/ea72206b834e4ace9cd834feed6c0e09/905baea4d6c7404290bff6c042184b4e.html) in the SAP BTP, Neo documentation.
+General information: [Integration with Transport Management Tools](https://help.sap.com/docs/BTP/ea72206b834e4ace9cd834feed6c0e09/905baea4d6c7404290bff6c042184b4e.html) in the Neo documentation.
 
 </td>
 </tr>

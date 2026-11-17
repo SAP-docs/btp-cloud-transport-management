@@ -8,7 +8,7 @@ Specify <code>https://<i class="varname">&lt;host&gt;</i>/sap/hana/xs/lm/slp/slp
 
 ## Procedure
 
-1.  In SAP BTP Cockpit of your subaccount, choose *Connectivity* \> *Destinations*.
+1.  In cockpit of your subaccount, choose *Connectivity* \> *Destinations*.
 
 2.  In the *Destinations* editor, choose *Create* \> *From Scratch* \> *Create*.
 
@@ -48,7 +48,7 @@ Specify <code>https://<i class="varname">&lt;host&gt;</i>/sap/hana/xs/lm/slp/slp
     </td>
     <td valign="top" rowspan="5">
     
-    -   SAP BTP, Neo: [Configure Destinations from the Cockpit](https://help.sap.com/docs/CP_CONNECTIVITY/b865ed651e414196b39f8922db2122c7/60735ad11d8a488c83537cdcfb257135.html)
+    -   Neo: [Configure Destinations from the Cockpit](https://help.sap.com/docs/CP_CONNECTIVITY/b865ed651e414196b39f8922db2122c7/60735ad11d8a488c83537cdcfb257135.html)
 
     -   [Create HTTP Destinations](https://help.sap.com/docs/CP_CONNECTIVITY/b865ed651e414196b39f8922db2122c7/1e110da0ddd8453aaf5aed2485d84f25.html)
 

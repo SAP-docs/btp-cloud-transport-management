@@ -10,7 +10,7 @@ To address the target end point of the deployment process of MTA Deployment on C
 
 ## Procedure
 
-1.  In SAP BTP Cockpit of your subaccount, choose *Connectivity* \> *Destinations*.
+1.  In cockpit of your subaccount, choose *Connectivity* \> *Destinations*.
 
 2.  In the *Destinations* editor, choose *Create* \> *From Scratch* \> *Create*.
 
@@ -50,7 +50,7 @@ To address the target end point of the deployment process of MTA Deployment on C
     </td>
     <td valign="top" rowspan="4">
     
-    SAP BTP, Cloud Foundry: [Using the Destinations Editor in the Cockpit](https://help.sap.com/docs/CP_CONNECTIVITY/cca91383641e40ffbe03bdc78f00f681/565fdb3dd19d4cda80864341dc5a0451.html)
+    Cloud Foundry: [Using the Destinations Editor in the Cockpit](https://help.sap.com/docs/CP_CONNECTIVITY/cca91383641e40ffbe03bdc78f00f681/565fdb3dd19d4cda80864341dc5a0451.html)
     
     </td>
     </tr>
@@ -100,13 +100,37 @@ To address the target end point of the deployment process of MTA Deployment on C
     
     Specify the URL to the SAP Cloud Deployment service as the deploy end point of the destination. To address the SAP Cloud Deployment service, you have the following options:
 
+    -   **Using the GUID of your space**
+
+        <code>https://deploy-service.cf.<i class="varname">&lt;domain&gt;</i>/slprot/<i class="varname">&lt;my-space-guid&gt;</i>/slp</code>
+
+        > ### Recommendation:  
+        > This is the recommended approach for the following reasons:
+        > 
+        > -   The GUID remains valid if the org or space is renamed later. Destinations that reference the GUID continue to function.
+        > -   Org and space names that contain special characters must be escaped for the destination to resolve correctly. Referencing the GUID avoids this requirement.
+
+        -   <code><i class="varname">&lt;domain&gt;</i></code>: Domain of your subaccount
+
+            The domain is derived from the Cloud Foundry API endpoint that you can find in the cockpit in the *Overview* of your subaccount.
+
+        -   <code><i class="varname">&lt;my-space-guid&gt;</i></code>: GUID of your space
+
+            To retrieve the GUID of your space, use the Cloud Foundry Command Line Interface \(cf CLI\). Log on to your org, and execute the following command: `cf space <my-space-name> --guid`.
+
+
+        > ### Example:  
+        > Sample URL for the Cloud Foundry API endpoint: `api.cf.eu10-004.hana.ondemand.com` and <code><i class="varname">&lt;my-space-guid&gt;</i></code>: `977a24d6-2eaf-432d-a3e1-5294451551a3`:
+        > 
+        > `https://deploy-service.cf.eu10-004.hana.ondemand.com/slprot/977a24d6-2eaf-432d-a3e1-5294451551a3/slp`
+
     -   **Using the names of your org and space**
 
         <code>https://deploy-service.cf.<i class="varname">&lt;domain&gt;</i>/slprot/<i class="varname">&lt;myorg&gt;</i>/<i class="varname">&lt;myspace&gt;</i>/slp</code>
 
         -   <code><i class="varname">&lt;domain&gt;</i></code>: Domain of your target subaccount
 
-            The domain is derived from the Cloud Foundry API endpoint that you can find in the SAP BTP Cockpit in the *Overview* of your subaccount.
+            The domain is derived from the Cloud Foundry API endpoint that you can find in the cockpit in the *Overview* of your subaccount.
 
         -   <code><i class="varname">&lt;myorg&gt;</i>/<i class="varname">&lt;myspace&gt;</i></code>: Names of your org and space
 
@@ -122,24 +146,6 @@ To address the target end point of the deployment process of MTA Deployment on C
         > -   Sample URL with URL encoding for <code><i class="varname">&lt;myorg&gt;</i></code>: `Example Company Test Org` and <code><i class="varname">&lt;myspace&gt;</i></code>: `Example Company Test Space`:
         > 
         >     `https://deploy-service.cf.eu10-004.hana.ondemand.com/slprot/Example%20Company%20Test%20Org/Example%20Company%20Test%20Space/slp`
-
-    -   **Using the GUID of your space**
-
-        <code>https://deploy-service.cf.<i class="varname">&lt;domain&gt;</i>/slprot/<i class="varname">&lt;my-space-guid&gt;</i>/slp</code>
-
-        -   <code><i class="varname">&lt;domain&gt;</i></code>: Domain of your subaccount
-
-            The domain is derived from the Cloud Foundry API endpoint that you can find in the SAP BTP Cockpit in the *Overview* of your subaccount.
-
-        -   <code><i class="varname">&lt;my-space-guid&gt;</i></code>: GUID of your space
-
-            To retrieve the GUID of your space, use the Cloud Foundry Command Line Interface \(cf CLI\). Log on to your org, and execute the following command: `cf space <my-space-name> --guid`.
-
-
-        > ### Example:  
-        > Sample URL for the Cloud Foundry API endpoint: `api.cf.eu10-004.hana.ondemand.com` and <code><i class="varname">&lt;my-space-guid&gt;</i></code>: `977a24d6-2eaf-432d-a3e1-5294451551a3`:
-        > 
-        > `https://deploy-service.cf.eu10-004.hana.ondemand.com/slprot/977a24d6-2eaf-432d-a3e1-5294451551a3/slp`
 
 
 
@@ -231,7 +237,7 @@ To address the target end point of the deployment process of MTA Deployment on C
 
     <code>https://login.cf.<i class="varname">&lt;domain&gt;</i></code>
 
-    The domain is derived from the Cloud Foundry API endpoint that you can find in the SAP BTP Cockpit in the *Overview* of your target subaccount. For the *Token Service URL*, replace `api` by `login`.
+    The domain is derived from the Cloud Foundry API endpoint that you can find in the cockpit in the *Overview* of your target subaccount. For the *Token Service URL*, replace `api` by `login`.
 
     > ### Example:  
     > For the Cloud Foundry API endpoint: `api.cf.eu10-004.hana.ondemand.com`, the *Token Service URL* is: `https://login.cf.eu10-004.hana.ondemand.com`.

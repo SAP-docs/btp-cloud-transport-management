@@ -14,12 +14,12 @@ In SAP Cloud Transport Management, transport routes are used to connect transpor
 
 -   You have one of the roles *Administrator* or *LandscapeOperator* assigned to your user. For more information, see [Security](../60-security/security-51939a4.md).
 
--   You have configured transport nodes. For more information, see [Create Transport Nodes](create-transport-nodes-f71a4d5.md).
+-   You've configured transport nodes. For more information, see [Create Transport Nodes](create-transport-nodes-f71a4d5.md).
 
 -   You are on one of the following screens in the SAP Cloud Transport Management UI:
-    -   On the *Landscape Visualization* screen, you have chosen <span class="SAP-icons-V5"></span> \(Create a Route\), or you have chosen <span class="SAP-icons-V5"></span> \(Create Route\) from the side menu of a selected transport node.
+    -   On the *Landscape Visualization* screen, you've chosen <span class="SAP-icons-V5"></span> \(Create a Route\), or you've chosen <span class="SAP-icons-V5"></span> \(Create Route\) from the side menu of a selected transport node.
     -   On the *Transport Landscape Wizard* screen, you create a transport route as part of the process.
-    -   On the *Transport Nodes* screen, you have chosen :heavy_plus_sign:.
+    -   On the *Transport Routes* screen, you've chosen *Create*.
 
 
 
@@ -28,7 +28,7 @@ In SAP Cloud Transport Management, transport routes are used to connect transpor
 
 ## Context
 
-You can use the same transport node as a source node for multiple transport routes. However, you can use the same transport node only once as a target node for a transport route.
+Use transport routes to connect source nodes with target nodes.
 
 
 
@@ -38,7 +38,9 @@ You can use the same transport node as a source node for multiple transport rout
 
 2.  **Optional:** Enter a description.
 
-3.  Choose the source and the target nodes from the existing transport nodes.
+3.  Select the source and the target nodes from the existing transport nodes.
+
+4.  Choose *Save*.
 
 
 
@@ -47,10 +49,24 @@ You can use the same transport node as a source node for multiple transport rout
 
 ## Results
 
-The transport route was created. You can edit transport nodes at a later point in time:
+The transport route was created.
 
--   On the *Transport Routes* screen, select the checkbox in front of the transport route name, and choose :pencil2:.
--   On the *Landscape Visualization* screen, select a transport route and click on the :pencil2: icon in the icon bar.
+You have the following options:
+
+-   Edit transport routes:
+
+    -   On the *Transport Routes* screen, select the checkbox in front of the transport route name, and choose *Edit*.
+    -   On the *Landscape Visualization* screen, select a transport route and choose the <span class="SAP-icons-V5"></span> \(Route Details\) icon from the side menu. On the popover, choose *Edit*.
+
+-   Delete transport routes:
+    -   On the *Transport Routes* screen, select the checkbox in front of the transport route name, and choose *Delete*.
+    -   On the *Landscape Visualization* screen, select a transport route and choose :wastebasket: from the side menu.
+
 
 You can check the details of all actions performed on transport routes in the [Landscape Action Logs](../landscape-action-logs-7b630db.md).
+
+-   **[Transport Routes](transport-routes-39b082d.md "In SAP Cloud Transport Management, transport routes
+		connect transport nodes and define the paths along which transport requests move through
+		your transport landscape.")**  
+In SAP Cloud Transport Management, transport routes connect transport nodes and define the paths along which transport requests move through your transport landscape.
 

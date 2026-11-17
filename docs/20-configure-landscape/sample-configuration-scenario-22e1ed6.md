@@ -42,7 +42,7 @@ Transport destinations to the TEST and PROD environments
 </td>
 <td valign="top">
 
-In the SAP BTP Cockpit of your subaccount in which you're subscribed to SAP Cloud Transport Management 
+In the cockpit of your subaccount in which you're subscribed to SAP Cloud Transport Management 
 
 </td>
 <td valign="top">

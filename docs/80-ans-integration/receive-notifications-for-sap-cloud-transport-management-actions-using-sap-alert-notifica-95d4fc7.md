@@ -2,7 +2,7 @@
 
 # Receive Notifications for SAP Cloud Transport Management Actions Using SAP Alert Notification Service
 
-You can configure SAP Alert Notification Service to send notifications for actions started in SAP Cloud Transport Management service.
+You can configure SAP Alert Notification service to send notifications for actions started in SAP Cloud Transport Management service.
 
 
 
@@ -24,7 +24,7 @@ You can configure SAP Alert Notification Service to send notifications for actio
 
 SAP Cloud Transport Management uses SAP Alert Notification service as a trusted internal service. This means that no destination configuration is required. As soon as a service instance of SAP Alert Notification service is available in a Cloud Foundry subaccount, you can create subscriptions for SAP Cloud Transport Management events in SAP Alert Notification service. SAP Alert Notification service supports different notification channels, such as e-mail or Slack. When setting up subscriptions you can use conditions to restrict notifications for specific transport nodes.
 
-For more information about SAP Alert Notification service, see [SAP Alert Notification Service for SAP BTP](https://help.sap.com/docs/ALERT_NOTIFICATION).
+For more information about SAP Alert Notification service, see [SAP Alert Notification Service](https://help.sap.com/docs/ALERT_NOTIFICATION).
 
 
 
@@ -32,7 +32,7 @@ For more information about SAP Alert Notification service, see [SAP Alert Notifi
 
 ## Procedure
 
-1.  In the Cloud Foundry space of a subaccount where you want to receive notifications for SAP Cloud Transport Management service events, in SAP BTP Cockpit, navigate to the *Service Instances* page, and create a service instance for SAP Alert Notification service as described under [Initial Setup](https://help.sap.com/docs/ALERT_NOTIFICATION/5967a369d4b74f7a9c2b91f5df8e6ab6/812b6e3ed8934648ad15780cd51721ef.html) in the SAP Alert Notification service documentation.
+1.  In the Cloud Foundry space of a subaccount where you want to receive notifications for SAP Cloud Transport Management service events, in cockpit, navigate to the *Service Instances* page, and create a service instance for SAP Alert Notification service as described under [Initial Setup](https://help.sap.com/docs/ALERT_NOTIFICATION/5967a369d4b74f7a9c2b91f5df8e6ab6/812b6e3ed8934648ad15780cd51721ef.html) in the SAP Alert Notification service documentation.
 
 2.  In SAP Alert Notification service, set up the way in which you want to receive notifications. To do this, create a subscription.
 
@@ -103,7 +103,7 @@ For more information about SAP Alert Notification service, see [SAP Alert Notifi
     
     For multiple transport nodes, you can either create multiple conditions or use an operand to match a selected name range.
 
-    For more information about creating subscriptions in SAP Alert Notification, see [Managing Subscriptions](https://help.sap.com/docs/ALERT_NOTIFICATION/5967a369d4b74f7a9c2b91f5df8e6ab6/07fd21e170c7452482c3532c5521bb90.html) in the SAP Alert Notification service documentation.
+    For more information about creating subscriptions in SAP Alert Notification service, see [Managing Subscriptions](https://help.sap.com/docs/ALERT_NOTIFICATION/5967a369d4b74f7a9c2b91f5df8e6ab6/07fd21e170c7452482c3532c5521bb90.html) in the SAP Alert Notification service documentation.
 
 3.  Repeat the previous steps in all subaccounts where you want to receive notifications for SAP Cloud Transport Management events.
 
@@ -118,13 +118,13 @@ When an action takes place in SAP Cloud Transport Management that matches the su
 
 Each notification contains a *resource name: SAP Cloud Transport Management Service* entry in the *Resource Details* section, and an *ans:eventScope: SUBACCOUNT* entry in the *Event Tags* section.
 
--   *TmsImportFinished*: When the *Forward Mode* of a transport node is set to *Manual*, the notification contains links that allow you to display the transport request, or to forward it or all transport requests in the import queue to the target nodes.
+-   *TmsImportFinished*: When the *Forwarding Mode* of a transport node is set to *Manual*, the notification contains links that allow you to display the transport request, or to forward it or all transport requests in the import queue to the target nodes.
 
 -   *TmsTransportRequestAdded*: The notification contains links that allow you to display the transport request or to start an import in the transport node. When you select a link, the import queue of the transport node opens with a confirmation prompt for the corresponding actions.
 
 
 > ### Example:  
-> 1.  In SAP Alert Notification Service, create a subscription with the name `TmsImport`. \(You can use any name.\)
+> 1.  In SAP Alert Notification service, create a subscription with the name `TmsImport`. \(You can use any name.\)
 > 
 > 2.  In the *Select Conditions* step, create the following conditions:
 >     -   Create a condition with the name `TmsImportStarted`. \(You can use any name.\) For the *Condition* fields, select `eventType` and the operand `Is Equal To`. Set the expected value to `TmsImportStarted`.
